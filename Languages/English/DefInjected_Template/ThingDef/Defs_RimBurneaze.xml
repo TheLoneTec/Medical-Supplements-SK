@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- RimBurnEaze -->
+  <MSRimBurnEaze.label>RimBurnEaze</MSRimBurnEaze.label>
+  <MSRimBurnEaze.description>RimBurnEaze is an antibiotic skin cream designed to help with burn injuries. It is capable of healing permanent burn scars. Healing effects last 2 days.</MSRimBurnEaze.description>
+  <MSRimBurnEaze.ingestible.ingestCommandString>Apply {0}</MSRimBurnEaze.ingestible.ingestCommandString>
+  <MSRimBurnEaze.ingestible.ingestReportString>Applying {0}.</MSRimBurnEaze.ingestible.ingestReportString>
+</LanguageData>

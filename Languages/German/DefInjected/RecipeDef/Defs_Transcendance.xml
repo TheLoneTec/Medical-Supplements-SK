@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Transcendence Vial -->
+  <MakeMSTranscendenceVial.label>Stelle Transzendenzfläschchen her</MakeMSTranscendenceVial.label>
+  <MakeMSTranscendenceVial.description>Stelle ein Transzendenzfläschchen her.</MakeMSTranscendenceVial.description>
+  <MakeMSTranscendenceVial.jobString>Stelle ein Transzendenzfläschchen her.</MakeMSTranscendenceVial.jobString>
+  <MakeBulkMSTranscendenceVial.label>Stelle Transzendenzfläschchen in Massen her</MakeBulkMSTranscendenceVial.label>
+  <MakeBulkMSTranscendenceVial.description>Stelle 5 Transzendenzfläschchen her.</MakeBulkMSTranscendenceVial.description>
+  <MakeBulkMSTranscendenceVial.jobString>Stelle Transzendenzfläschchen her.</MakeBulkMSTranscendenceVial.jobString>
+  <!-- Receptive -->
+  <MakeMSTranscendence_Receptive.label>Stelle Transzendenz (Empfänglich) her</MakeMSTranscendence_Receptive.label>
+  <MakeMSTranscendence_Receptive.description>Stelle eine Transzendenz (Empfänglich) her.</MakeMSTranscendence_Receptive.description>
+  <MakeMSTranscendence_Receptive.jobString>Stelle Transzendenz her.</MakeMSTranscendence_Receptive.jobString>
+  <!-- Inventive -->
+  <MakeMSTranscendence_Inventive.label>Stelle Transzendenz (Erfinderisch) her</MakeMSTranscendence_Inventive.label>
+  <MakeMSTranscendence_Inventive.description>Stelle eine Transzendenz (Erfinderisch) her.</MakeMSTranscendence_Inventive.description>
+  <MakeMSTranscendence_Inventive.jobString>Stelle Transzendenz her.</MakeMSTranscendence_Inventive.jobString>
+  <!-- Tactical -->
+  <MakeMSTranscendence_Tactical.label>Stelle Transzendenz (Taktisch) her</MakeMSTranscendence_Tactical.label>
+  <MakeMSTranscendence_Tactical.description>Stelle eine Transzendenz (Taktisch) her.</MakeMSTranscendence_Tactical.description>
+  <MakeMSTranscendence_Tactical.jobString>Stelle Transzendenz her.</MakeMSTranscendence_Tactical.jobString>
+  <!-- Practical -->
+  <MakeMSTranscendence_Practical.label>Stelle Transzendenz (Praktisch) her</MakeMSTranscendence_Practical.label>
+  <MakeMSTranscendence_Practical.description>Stelle eine Transzendenz (Praktisch) her.</MakeMSTranscendence_Practical.description>
+  <MakeMSTranscendence_Practical.jobString>Stelle Transzendenz her.</MakeMSTranscendence_Practical.jobString>
+  <!-- Analytical -->
+  <MakeMSTranscendence_Analytical.label>Stelle Transzendenz (Analytisch) her</MakeMSTranscendence_Analytical.label>
+  <MakeMSTranscendence_Analytical.description>Stelle eine Transzendenz (Analytisch)her.</MakeMSTranscendence_Analytical.description>
+  <MakeMSTranscendence_Analytical.jobString>Stelle Transzendenz her.</MakeMSTranscendence_Analytical.jobString>
+</LanguageData>

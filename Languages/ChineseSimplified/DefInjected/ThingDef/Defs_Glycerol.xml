@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSGlycerol.label>甘油</MSGlycerol.label>
+  <MSGlycerol.description>一种简单的多元醇类化合物（丙三醇）。它是一种无色、无特殊气味的粘稠液体，具有甜味。甘油无毒，可作前体化合物或者食品添加剂。</MSGlycerol.description>
+  <MSGlycerol.ingestible.ingestCommandString>喝 {0}</MSGlycerol.ingestible.ingestCommandString>
+  <MSGlycerol.ingestible.ingestReportString>正在喝 {0}.</MSGlycerol.ingestible.ingestReportString>
+</LanguageData>

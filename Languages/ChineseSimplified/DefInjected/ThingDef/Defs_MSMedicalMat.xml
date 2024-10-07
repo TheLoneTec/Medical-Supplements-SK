@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSMedicalMat.label>中级便携医疗毯</MSMedicalMat.label>
+  <MSMedicalMat.description>一张现代化医疗毯，可在野外作医疗用途。</MSMedicalMat.description>
+  <MSMedicalMatSpacer.label>高级便携医疗毯</MSMedicalMatSpacer.label>
+  <MSMedicalMatSpacer.description>一张使用了先进科技的便携式医疗毯，可在野外作医疗用途。</MSMedicalMatSpacer.description>
+  <MSMedicalMatUltra.label>闪耀世界便携医疗毯</MSMedicalMatUltra.label>
+  <MSMedicalMatUltra.description>一张使用了闪耀世界科技的便携式医疗毯，可在野外作医疗用途。</MSMedicalMatUltra.description>
+  <MSMedicalMatEarly.label>初级便携医疗毯</MSMedicalMatEarly.label>
+  <MSMedicalMatEarly.description>一张由浸满草药精华的绳索编织而成的简陋毯子，可在野外作医疗用途。</MSMedicalMatEarly.description>
+</LanguageData>

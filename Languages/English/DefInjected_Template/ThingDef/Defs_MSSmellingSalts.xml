@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSSmellSalts.label>Smelling Salt Capsule</MSSmellSalts.label>
+  <MSSmellSalts.description>Smelling salts, the common name for ammonia salts have strong stimulating properties. The effects are short lived.</MSSmellSalts.description>
+  <MSSmellSalts.ingestible.ingestCommandString>Take {0}</MSSmellSalts.ingestible.ingestCommandString>
+  <MSSmellSalts.ingestible.ingestReportString>Taking {0}.</MSSmellSalts.ingestible.ingestReportString>
+</LanguageData>

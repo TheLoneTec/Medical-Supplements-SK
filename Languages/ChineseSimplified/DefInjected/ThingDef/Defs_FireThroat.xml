@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSFireThroat.label>急支糖浆</MSFireThroat.label>
+  <MSFireThroat.description>一种平凡无奇却强力有效的流感预防药剂。每三天一服。</MSFireThroat.description>
+  <MSFireThroat.ingestible.ingestCommandString>服用 {0}</MSFireThroat.ingestible.ingestCommandString>
+  <MSFireThroat.ingestible.ingestReportString>正在服用 {0}.</MSFireThroat.ingestible.ingestReportString>
+</LanguageData>

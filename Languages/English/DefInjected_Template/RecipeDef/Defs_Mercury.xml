@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeMSMercurySalts.label>Make Mercury Salts</MakeMSMercurySalts.label>
+  <MakeMSMercurySalts.description>Make 5 Mercury Salts.</MakeMSMercurySalts.description>
+  <MakeMSMercurySalts.jobString>Making Mercury Salts.</MakeMSMercurySalts.jobString>
+  <MakeMSMercurySaltsBlocks.label>Make Mercury Salts (Blocks)</MakeMSMercurySaltsBlocks.label>
+  <MakeMSMercurySaltsBlocks.description>Make 5 Mercury Salts from stone blocks</MakeMSMercurySaltsBlocks.description>
+  <MakeMSMercurySaltsBlocks.jobString>Making Mercury Salts</MakeMSMercurySaltsBlocks.jobString>
+  <!-- EthylMercury -->
+  <MakeMSEthylMercury.label>Make Ethyl Mercury</MakeMSEthylMercury.label>
+  <MakeMSEthylMercury.description>Make 1 Ethyl Mercury</MakeMSEthylMercury.description>
+  <MakeMSEthylMercury.jobString>Making Ethyl Mercury.</MakeMSEthylMercury.jobString>
+</LanguageData>

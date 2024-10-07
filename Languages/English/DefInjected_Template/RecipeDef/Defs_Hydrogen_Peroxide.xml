@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeMSHydrogenPeroxide.label>Make Hydrogen Peroxide</MakeMSHydrogenPeroxide.label>
+  <MakeMSHydrogenPeroxide.description>Make 5 Hydrogen Peroxide.</MakeMSHydrogenPeroxide.description>
+  <MakeMSHydrogenPeroxide.jobString>Preparing Hydrogen Peroxide.</MakeMSHydrogenPeroxide.jobString>
+  <!-- Bulk -->
+  <MakeBulkMSHydrogenPeroxide.label>Make Hydrogen Peroxide in bulk</MakeBulkMSHydrogenPeroxide.label>
+  <MakeBulkMSHydrogenPeroxide.description>Make 25 Hydrogen Peroxide.</MakeBulkMSHydrogenPeroxide.description>
+  <MakeBulkMSHydrogenPeroxide.jobString>Preparing Hydrogen Peroxide.</MakeBulkMSHydrogenPeroxide.jobString>
+</LanguageData>

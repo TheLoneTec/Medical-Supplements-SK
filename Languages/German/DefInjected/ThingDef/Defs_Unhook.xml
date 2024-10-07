@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Unhook -->
+  <MSUnhook.label>Unhook</MSUnhook.label>
+  <MSUnhook.description>Unhook ist eine Droge, die bei der Reduzierung suchtbezogener Probleme hilfreich ist. Es besteht die Möglichkeit einer mentalen Abhängigkeit. Kann jeden zweiten Tag eingenommen werden.</MSUnhook.description>
+  <MSUnhook.ingestible.ingestCommandString>Nimm {0}</MSUnhook.ingestible.ingestCommandString>
+  <MSUnhook.ingestible.ingestReportString>Nimmt {0}.</MSUnhook.ingestible.ingestReportString>
+</LanguageData>

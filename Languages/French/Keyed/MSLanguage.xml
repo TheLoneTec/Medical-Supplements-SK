@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- MSExotic -->
+  <MSExotic.ReasonPrefix>Impossible d'utiliser Stim depuis</MSExotic.ReasonPrefix>
+  <MSExotic.NotHumanLike>{0} n'est pas humain.</MSExotic.NotHumanLike>
+  <MSExotic.NotMale>{0} n'est pas un homme.</MSExotic.NotMale>
+  <MSExotic.NotFemale>{0} n'est pas une femme.</MSExotic.NotFemale>
+  <MSExotic.AlreadyHasImmunity>{0} a déjà une super-immunité.</MSExotic.AlreadyHasImmunity>
+  <MSExotic.HasNoPsychSensitivity>{0} n'a pas de sensibilité psychique.</MSExotic.HasNoPsychSensitivity>
+  <MSExotic.AlreadyStimmed>{0} est déjà stimulé.</MSExotic.AlreadyStimmed>
+  <MSExotic.StimSelDoNothing>Ne rien faire</MSExotic.StimSelDoNothing>
+  <MSExotic.StimSelUseStim>Utilisez {0}</MSExotic.StimSelUseStim>
+  <MSExotic.StimUses>Utilisations {0} : [{1}]</MSExotic.StimUses>
+  <MSExotic.StimDesc>Equipé d'un {0}. Cliquez pour sélectionner l'utilisation.</MSExotic.StimDesc>
+  <MSExotic.TraitAdded>{0} a ajouté le trait de {1} grâce à {2}.</MSExotic.TraitAdded>
+  <MSExotic.TraitRemoved>Le trait de {0} de {1} a été supprimé par {2}.</MSExotic.TraitRemoved>
+  <MSExotic.TSkillBoost>Compétence : {1} pour {0} a été transcendé de {2} à {3}.</MSExotic.TSkillBoost>
+  <MSExotic.NoTSkillList>ERR : la liste de transcendance de {1} n'est pas définie.</MSExotic.NoTSkillList>
+  <MSExotic.WontLearnUsing>{0} n'apprendra rien en utilisant {1}</MSExotic.WontLearnUsing>
+  <MSExotic.PerpetuityDone>L'âge biologique de {0} a été modifié de {1} à {2} par Perpetuity.</MSExotic.PerpetuityDone>
+  <MSExotic.MedSupplyLabel>Fournitures médicales</MSExotic.MedSupplyLabel>
+  <MSExotic.MedSupplyEvent>Des fournitures médicales ont été déposées à l'endroit indiqué.</MSExotic.MedSupplyEvent>
+  <MSRegen.WoundHealed>Le {2} de {PAWN_labelShort} est guéri. Cause : {0}</MSRegen.WoundHealed>
+  <MSRegen.CureMsg>La maladie de {0} sur {1} a été guérie.</MSRegen.CureMsg>
+  <MSDrugMix.ErrorRCP>Erreur avec l'élément de valeur de la recette MSChemical Mixer : {0} ticks : {1} min : {2} max : {3}</MSDrugMix.ErrorRCP>
+  <MSDrugMix.ErrorRes>Erreur avec MSChemical Mixer : l'élément de recette {0} n'a pas été recherché.</MSDrugMix.ErrorRes>
+  <MSDrugMix.ChemSelectDesc>Sélectionnez le produit chimique à produire.</MSDrugMix.ChemSelectDesc>
+  <MSDrugMix.ChemSelect>Sélectionnez le produit chimique</MSDrugMix.ChemSelect>
+  <MSDrugMix.Production>Production</MSDrugMix.Production>
+  <MSDrugMix.ProductionDesc>Toggle Production</MSDrugMix.ProductionDesc>
+  <MSDrugMix.ProdLabelRange>(Minimum : {0}, Maximum : {1})</MSDrugMix.ProdLabelRange>
+  <MSDrugMix.ProdLabelERR>(ERR : No Valid Recipe)</MSDrugMix.ProdLabelERR>
+  <MSDrugMix.ProdNoChem>(Aucun produit chimique sélectionné)</MSDrugMix.ProdNoChem>
+  <MSDrugMix.ProdStopped>(Arrêté)</MSDrugMix.ProdStopped>
+  <MSDrugMix.StockLabel>(Limite : {0}, ({1}%)</MSDrugMix.StockLabel>
+  <MSDrugMix.StockLabelNL>( No Limit )</MSDrugMix.StockLabelNL>
+  <MSDrugMix.SelectStockLimit>Sélectionner la limite de stock</MSDrugMix.SelectStockLimit>
+  <MSDrugMix.StockNoLimit>Aucune limite</MSDrugMix.StockNoLimit>
+  <MSDrugsMix.SelNoChemical>Aucun produit chimique</MSDrugsMix.SelNoChemical>
+  <MSOpt.Name>Suppléments médicaux</MSOpt.Name>
+  <MSOpt.ModVersion>Version installée du module : {0}</MSOpt.ModVersion>
+  <MSOpt.RealisticBandages>Appliquer une utilisation réaliste du bandage :</MSOpt.RealisticBandages>
+  <MSOpt.AllowCollapseRocks>Permettre aux rochers effondrés de produire des fragments miniers :</MSOpt.AllowCollapseRocks>
+  <MSOpt.ResPct>Coût relatif de la recherche % :</MSOpt.ResPct>
+  <MSOpt.ResTip>Notez que ces changements ne prendront effet que lorsque RimWorld sera redémarré.</MSOpt.ResTip>
+  <MSOpt.ResWarn>(Attention : en augmentant le %, la recherche sera incomplète en utilisant la valeur précédente).</MSOpt.ResWarn>
+  <MSMineBits.Name>Suppléments médicaux : Bouts de mine</MSMineBits.Name>
+  <MSMineBits.AllowCollapseRocks>Permettre aux rochers effondrés de produire des fragments miniers :</MSMineBits.AllowCollapseRocks>
+</LanguageData>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Rimedicrem -->
+  <MSRimedicrem.label>Rimedicrem</MSRimedicrem.label>
+  <MSRimedicrem.description>Rimedicrem is a strong sterilizing agent with antibacterial properties that can be applied every 2 days. It provides an immunity from wounds getting infected and helps with already infected wounds.</MSRimedicrem.description>
+  <MSRimedicrem.ingestible.ingestCommandString>Apply {0}</MSRimedicrem.ingestible.ingestCommandString>
+  <MSRimedicrem.ingestible.ingestReportString>Applying {0}.</MSRimedicrem.ingestible.ingestReportString>
+</LanguageData>

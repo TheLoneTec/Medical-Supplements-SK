@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Opium Chemical and effects -->
+  <MSOpium_Tolerance.label>Opiumabhängigkeitstoleranz</MSOpium_Tolerance.label>
+  <MSOpium_Tolerance.description>Opiumabhängigkeitstoleranz.</MSOpium_Tolerance.description>
+  <MSOpium_Tolerance.stages.0.label>klein</MSOpium_Tolerance.stages.0.label>
+  <MSOpium_Tolerance.stages.1.label>klein</MSOpium_Tolerance.stages.1.label>
+  <MSOpium_Tolerance.stages.2.label>groß</MSOpium_Tolerance.stages.2.label>
+  <MSOpium_Addiction.label>Opiumabhängigkeit</MSOpium_Addiction.label>
+  <MSOpium_Addiction.description>Opiumabhängigkeit.</MSOpium_Addiction.description>
+  <MSOpium_Addiction.stages.1.label>Entzug</MSOpium_Addiction.stages.1.label>
+</LanguageData>

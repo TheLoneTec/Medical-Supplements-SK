@@ -1,0 +1,10 @@
+clientId: 529306098646122516
+sleep: 1
+fileSwitchResetsTimer: true
+details: Editing {}
+large_image: image_large
+small_image: image_{}
+bytes: bytes
+kilobytes: kilobytes
+megabytes: megabytes
+gigabytes: gigabytes

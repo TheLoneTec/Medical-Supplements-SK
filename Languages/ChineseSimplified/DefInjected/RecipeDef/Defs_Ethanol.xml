@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeMSEthanol.label>制造乙醇</MakeMSEthanol.label>
+  <MakeMSEthanol.description>制造五瓶乙醇.</MakeMSEthanol.description>
+  <MakeMSEthanol.jobString>正在制备乙醇.</MakeMSEthanol.jobString>
+  <!-- Bulk -->
+  <MakeBulkMSEthanol.label>批量制造乙醇</MakeBulkMSEthanol.label>
+  <MakeBulkMSEthanol.description>制造25瓶乙醇.</MakeBulkMSEthanol.description>
+  <MakeBulkMSEthanol.jobString>正在制备乙醇.</MakeBulkMSEthanol.jobString>
+</LanguageData>

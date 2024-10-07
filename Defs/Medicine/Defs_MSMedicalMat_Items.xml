@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Industrial -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>MSMedicalMatItem</defName>
+    <label>Rolled up medical mat</label>
+    <description>A rolled up portable mat that can be used for medical purposes in the field or as a useful caravan item.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/MSMedicalMatItem</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>5</stackLimit>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <MarketValue>262</MarketValue>
+      <Mass>2.0</Mass>
+      <Flammability>0.75</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+  </ThingDef>
+  <!-- Spacer -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>MSMedicalMatSpacerItem</defName>
+    <label>Rolled up medical mat (Spacer)</label>
+    <description>A rolled up advanced portable mat that can be used for medical purposes in the field or as a useful caravan item.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/MSMedicalMatSpacerItem</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>5</stackLimit>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <MarketValue>462</MarketValue>
+      <Mass>2.1</Mass>
+      <Flammability>0.75</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
+    </statBases>
+    <intricate>true</intricate>
+    <techLevel>Spacer</techLevel>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+  </ThingDef>
+  <!-- Ultra -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>MSMedicalMatUltraItem</defName>
+    <label>Rolled up medical mat (Ultra)</label>
+    <description>A rolled up high-tech portable mat that can be used for medical purposes in the field or as a useful caravan item.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/MSMedicalMatUltraItem</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>5</stackLimit>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <MarketValue>716</MarketValue>
+      <Mass>2.1</Mass>
+      <Flammability>0.75</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
+    </statBases>
+    <intricate>true</intricate>
+    <techLevel>Ultra</techLevel>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+  </ThingDef>
+  <!-- Early -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>MSMedicalMatEarlyItem</defName>
+    <label>Rolled up medical mat (early)</label>
+    <description>A rolled up portable mat made from herbal medicine impregnated rope that can be used for medical purposes in the field or as a useful caravan item.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/MSMedicalMatEarlyItem</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>5</stackLimit>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <MarketValue>270</MarketValue>
+      <Mass>2.3</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
+    </statBases>
+    <techLevel>Medieval</techLevel>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+  </ThingDef>
+</Defs>

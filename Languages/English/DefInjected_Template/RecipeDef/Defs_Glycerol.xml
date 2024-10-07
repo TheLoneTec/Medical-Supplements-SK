@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeGlycerol.label>Make Glycerol</MakeGlycerol.label>
+  <MakeGlycerol.description>Make 5 Glycerol.</MakeGlycerol.description>
+  <MakeGlycerol.jobString>Transetrificating Glycerol.</MakeGlycerol.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkGlycerol.label>Make Glycerol in bulk</MakeBulkGlycerol.label>
+  <MakeBulkGlycerol.description>Make 25 Glycerol.</MakeBulkGlycerol.description>
+  <MakeBulkGlycerol.jobString>Transetrificating Glycerol.</MakeBulkGlycerol.jobString>
+</LanguageData>

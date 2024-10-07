@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Contact lenses -->
+  <MSContacts.label>Kontaktlinsen</MSContacts.label>
+  <MSContacts.description>Weiche Einweg-Kontaktlinsen aus Polycarbonat, die das Sehvermögen für einen Zeitraum von bis zu zehn Tagen geringfügig verbessern können.</MSContacts.description>
+  <MSContacts.ingestible.ingestCommandString>Anwenden {0}</MSContacts.ingestible.ingestCommandString>
+  <MSContacts.ingestible.ingestReportString>Wende {0} an.</MSContacts.ingestible.ingestReportString>
+</LanguageData>

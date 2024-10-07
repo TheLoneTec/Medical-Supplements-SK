@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Mercury Salts -->
+  <MSMercurySalts.label>汞盐</MSMercurySalts.label>
+  <MSMercurySalts.description>一种含汞的朱红色的粉末状盐类，俗称朱砂. 一种前体化合物. (从石块中提炼而来).</MSMercurySalts.description>
+  <!-- EthylMercury -->
+  <MSEthylMercury.label>一乙汞</MSEthylMercury.label>
+  <MSEthylMercury.description>一乙汞是一种含有乙基（CH₃CH₂-）的阳离子基团，由二价汞中心原子连接一个乙基(CH3CH2-)形成的有机金属离子团,化学式为 C₂H₅Hg﹢. 一种前体化合物. (由朱砂和化合燃料反应生成).</MSEthylMercury.description>
+</LanguageData>

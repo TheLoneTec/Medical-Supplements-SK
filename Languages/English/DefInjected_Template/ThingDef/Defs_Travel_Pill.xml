@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Travel Pill -->
+  <MSTravelPill.label>Travel Pill</MSTravelPill.label>
+  <MSTravelPill.description>A travel pill that has mild effects to improve physical capabilities, slightly suppresses hunger, makes you feel less uneasy, but makes you tire slightly faster. Effects last for 5 days.</MSTravelPill.description>
+  <MSTravelPill.ingestible.ingestCommandString>Take {0}</MSTravelPill.ingestible.ingestCommandString>
+  <MSTravelPill.ingestible.ingestReportString>Taking {0}.</MSTravelPill.ingestible.ingestReportString>
+</LanguageData>

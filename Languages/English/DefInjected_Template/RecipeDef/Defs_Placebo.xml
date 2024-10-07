@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeMSPlacebo.label>Make Placebo</MakeMSPlacebo.label>
+  <MakeMSPlacebo.description>Make 1 Placebo</MakeMSPlacebo.description>
+  <MakeMSPlacebo.jobString>Making Placebo</MakeMSPlacebo.jobString>
+  <MakeBulkMSPlacebo.label>Make Placebo in bulk</MakeBulkMSPlacebo.label>
+  <MakeBulkMSPlacebo.description>Make 5 Placebo</MakeBulkMSPlacebo.description>
+  <MakeBulkMSPlacebo.jobString>Making Placebo</MakeBulkMSPlacebo.jobString>
+</LanguageData>

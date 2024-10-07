@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSRimpeptic.label>甲苯咪唑</MSRimpeptic.label>
+  <MSRimpeptic.description>甲苯咪唑可以对付食物中毒和肠道蠕虫病，也能使你的胃舒缓一些。它可以减轻食物中毒的症状，但并不能完全治愈。同时它能够有效缩短肠道蠕虫病的治疗周期，如果配合妥善的治疗，也有小概率使其痊愈。每天服用一小杯。</MSRimpeptic.description>
+  <MSRimpeptic.ingestible.ingestCommandString>服用 {0}</MSRimpeptic.ingestible.ingestCommandString>
+  <MSRimpeptic.ingestible.ingestReportString>正在服用 {0}.</MSRimpeptic.ingestible.ingestReportString>
+</LanguageData>

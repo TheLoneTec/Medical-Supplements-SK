@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- MSRimCodamol -->
+  <MSRimCodamol_High.label>RimCodamol</MSRimCodamol_High.label>
+  <MSRimCodamol_High.description>RimCodamol im Blutkreislauf.</MSRimCodamol_High.description>
+  <!-- MSMorphine -->
+  <MSMorphine_High.label>Morphium</MSMorphine_High.label>
+  <MSMorphine_High.description>Morphium im Blutkreislauf.</MSMorphine_High.description>
+  <!-- MSOpiumPipe -->
+  <MSOpiumPipe_High.label>Opiumpfeife</MSOpiumPipe_High.label>
+  <MSOpiumPipe_High.description>Opiump im Blutkreislauf.</MSOpiumPipe_High.description>
+</LanguageData>

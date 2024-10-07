@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSAntitox.label>抗毒素</MSAntitox.label>
+  <MSAntitox.description>用于对抗有毒尘埃的药物。每三天一服。</MSAntitox.description>
+  <MSAntitox.ingestible.ingestCommandString>服用 {0}</MSAntitox.ingestible.ingestCommandString>
+  <MSAntitox.ingestible.ingestReportString>正在服用 {0}.</MSAntitox.ingestible.ingestReportString>
+</LanguageData>

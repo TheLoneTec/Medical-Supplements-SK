@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== Drug Lab ================= -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThingDef[defName="DrugLab"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities[li = 'DrugCabinet']</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="DrugLab"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities</xpath>
+        <value>
+          <li>DrugCabinet</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!--  GhostGear -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Ghost Gear (Continued)</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationTest">
+          <xpath>/Defs/ThingDef[defName="GhostGearFab"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities[li = 'DrugCabinet']</xpath>
+          <success>Invert</success>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="GhostGearFab"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities</xpath>
+          <value>
+            <li>DrugCabinet</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <!--  VFE - PRD -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded - Production</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationTest">
+          <xpath>/Defs/ThingDef[defName="VFE_TableDrugLabElectric"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities[li = 'DrugCabinet']</xpath>
+          <success>Invert</success>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="VFE_TableDrugLabElectric"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities</xpath>
+          <value>
+            <li>DrugCabinet</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <!--  Deep Storage -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>LWM's Deep Storage</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/ThingDef[defName="DrugCabinet"]/inspectorTabs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="DrugCabinet"]/inspectorTabs</xpath>
+            <value>
+              <li>LWM.DeepStorage.ITab_DeepStorage_Inventory</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="DrugCabinet"]</xpath>
+            <value>
+              <inspectorTabs>
+                <li>LWM.DeepStorage.ITab_DeepStorage_Inventory</li>
+              </inspectorTabs>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="LWM_Medicine_Cabinet"]/building/fixedStorageSettings/filter/categories</xpath>
+          <value>
+            <li>MSManufactured</li>
+          </value>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/ThingDef[defName="DrugCabinet"]/comps</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="DrugCabinet"]/comps</xpath>
+            <value>
+              <li Class="LWM.DeepStorage.Properties">
+                <maxNumberStacks>5</maxNumberStacks>
+                <minTimeStoringTakes>200</minTimeStoringTakes>
+                <additionalTimeEachStack>20</additionalTimeEachStack>
+                <additionalTimeEachDef>20</additionalTimeEachDef>
+                <overlayType>SumOfAllItems</overlayType>
+                <!--TODO: SumOfItemsPerCell?-->
+              </li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="DrugCabinet"]</xpath>
+            <value>
+              <comps>
+                <li Class="LWM.DeepStorage.Properties">
+                  <maxNumberStacks>5</maxNumberStacks>
+                  <minTimeStoringTakes>200</minTimeStoringTakes>
+                  <additionalTimeEachStack>20</additionalTimeEachStack>
+                  <additionalTimeEachDef>20</additionalTimeEachDef>
+                  <overlayType>SumOfAllItems</overlayType>
+                  <!--TODO: SumOfItemsPerCell?-->
+                </li>
+              </comps>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

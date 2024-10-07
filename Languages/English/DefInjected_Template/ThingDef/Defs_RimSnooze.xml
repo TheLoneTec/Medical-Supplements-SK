@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- RimSnooze -->
+  <MSRimSnooze.label>RimSnooze</MSRimSnooze.label>
+  <MSRimSnooze.description>RimSnooze is a mild to medium sedative that has a calming effect, it is designed to help with sleep disorders. Effects last about half a day.</MSRimSnooze.description>
+  <MSRimSnooze.ingestible.ingestCommandString>Take {0}</MSRimSnooze.ingestible.ingestCommandString>
+  <MSRimSnooze.ingestible.ingestReportString>Taking {0}.</MSRimSnooze.ingestible.ingestReportString>
+</LanguageData>

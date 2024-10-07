@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeMSRimCodamol.label>Make RimCodamol</MakeMSRimCodamol.label>
+  <MakeMSRimCodamol.description>Make 1 RimCodamol</MakeMSRimCodamol.description>
+  <MakeMSRimCodamol.jobString>Making RimCodamol.</MakeMSRimCodamol.jobString>
+  <MakeBulkMSRimCodamol.label>Make RimCodamol in bulk</MakeBulkMSRimCodamol.label>
+  <MakeBulkMSRimCodamol.description>Make 5 RimCodamol</MakeBulkMSRimCodamol.description>
+  <MakeBulkMSRimCodamol.jobString>Making RimCodamol.</MakeBulkMSRimCodamol.jobString>
+  <MakeMSMorphine.label>Make Morphine</MakeMSMorphine.label>
+  <MakeMSMorphine.description>Make 1 morphine injection</MakeMSMorphine.description>
+  <MakeMSMorphine.jobString>Making morphine.</MakeMSMorphine.jobString>
+  <MakeMSOpiumPipe.label>Make Opium pipe</MakeMSOpiumPipe.label>
+  <MakeMSOpiumPipe.description>Make 1 opium pipe</MakeMSOpiumPipe.description>
+  <MakeMSOpiumPipe.jobString>Making opium pipes.</MakeMSOpiumPipe.jobString>
+</LanguageData>

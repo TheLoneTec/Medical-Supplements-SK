@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Make_MSAntinites.label>制作抗 纳米机械 针剂</Make_MSAntinites.label>
+  <Make_MSAntinites.description>制作一份抗 纳米机械 针剂。</Make_MSAntinites.description>
+  <Make_MSAntinites.jobString>正在制作抗 纳米机械 针剂。</Make_MSAntinites.jobString>
+  <Make_Metasis.label>制作梅达西尔针剂</Make_Metasis.label>
+  <Make_Metasis.description>制作一份梅达西尔针剂。</Make_Metasis.description>
+  <Make_Metasis.jobString>正在制作梅达西尔针剂。</Make_Metasis.jobString>
+  <Make_MSAspirin.label>制作阿司匹林</Make_MSAspirin.label>
+  <Make_MSAspirin.description>制作一份阿司匹林。</Make_MSAspirin.description>
+  <Make_MSAspirin.jobString>正在制作阿司匹林。</Make_MSAspirin.jobString>
+  <Make_FireThroat.label>制作急支糖浆</Make_FireThroat.label>
+  <Make_FireThroat.description>制作一瓶急支糖浆。</Make_FireThroat.description>
+  <Make_FireThroat.jobString>正在制作急支糖浆。</Make_FireThroat.jobString>
+  <Make_MSInhaler.label>制作舒利迭</Make_MSInhaler.label>
+  <Make_MSInhaler.description>制作一份舒利迭。</Make_MSInhaler.description>
+  <Make_MSInhaler.jobString>正在制作舒利迭。</Make_MSInhaler.jobString>
+  <Make_MSRimProPlus.label>制作RimProPlus</Make_MSRimProPlus.label>
+  <Make_MSRimProPlus.description>制作一份RimProPlus。</Make_MSRimProPlus.description>
+  <Make_MSRimProPlus.jobString>正在制作RimProPlus。</Make_MSRimProPlus.jobString>
+  <Make_MSRimzac.label>制作百忧解</Make_MSRimzac.label>
+  <Make_MSRimzac.description>制作一份百忧解。</Make_MSRimzac.description>
+  <Make_MSRimzac.jobString>正在制作百忧解。</Make_MSRimzac.jobString>
+</LanguageData>

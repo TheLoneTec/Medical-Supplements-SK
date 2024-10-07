@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Cotton Bandages -->
+  <MakeMSBandage.label>Make bandages (cotton)</MakeMSBandage.label>
+  <MakeMSBandage.description>Make 10 bandages (cotton).</MakeMSBandage.description>
+  <MakeMSBandage.jobString>Crafting bandages.</MakeMSBandage.jobString>
+  <!-- Antisceptic Bandages -->
+  <MakeMSASBandage.label>Make bandages (antisceptic)</MakeMSASBandage.label>
+  <MakeMSASBandage.description>Make 10 bandages (antisceptic).</MakeMSASBandage.description>
+  <MakeMSASBandage.jobString>Crafting bandages.</MakeMSASBandage.jobString>
+  <!-- Metasis Bandages -->
+  <MakeMSNanoBandage.label>Make bandages (Nanotech)</MakeMSNanoBandage.label>
+  <MakeMSNanoBandage.description>Make 10 bandages (Nanotech).</MakeMSNanoBandage.description>
+  <MakeMSNanoBandage.jobString>Crafting bandages.</MakeMSNanoBandage.jobString>
+</LanguageData>

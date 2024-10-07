@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSSmellSalts.label>Riechsalzkapsel</MSSmellSalts.label>
+  <MSSmellSalts.description>Riechende Salze, die gebräuchliche Bezeichnung für Ammoniaksalze, haben stark stimulierende Eigenschaften. Die Auswirkungen sind nur von kurzer Dauer.</MSSmellSalts.description>
+  <MSSmellSalts.ingestible.ingestCommandString>Nimm {0}</MSSmellSalts.ingestible.ingestCommandString>
+  <MSSmellSalts.ingestible.ingestReportString>Nimmt {0}.</MSSmellSalts.ingestible.ingestReportString>
+</LanguageData>

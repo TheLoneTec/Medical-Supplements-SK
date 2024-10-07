@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- RimSnooze -->
+  <MSRimSnooze.label>瑞舒眠</MSRimSnooze.label>
+  <MSRimSnooze.description>瑞舒眠是一种轻度镇定剂，有着较好的镇静效果, 广泛应用于睡眠障碍的治疗中.药效可持续约12小时.</MSRimSnooze.description>
+  <MSRimSnooze.ingestible.ingestCommandString>服用{0}</MSRimSnooze.ingestible.ingestCommandString>
+  <MSRimSnooze.ingestible.ingestReportString>正在服用{0}.</MSRimSnooze.ingestible.ingestReportString>
+</LanguageData>

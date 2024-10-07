@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeNeutroFromGlycerol.label>从甘油中提炼中性胺</MakeNeutroFromGlycerol.label>
+  <MakeNeutroFromGlycerol.description>从甘油中提炼中性胺。</MakeNeutroFromGlycerol.description>
+  <MakeNeutroFromGlycerol.jobString>正在从甘油中提炼中性胺。</MakeNeutroFromGlycerol.jobString>
+  <MakeBulkNeutroFromGlycerol.label>批量从甘油中提炼中性胺</MakeBulkNeutroFromGlycerol.label>
+  <MakeBulkNeutroFromGlycerol.description>批量从甘油中提炼中性胺。</MakeBulkNeutroFromGlycerol.description>
+  <MakeBulkNeutroFromGlycerol.jobString>正在批量从甘油中提炼中性胺。</MakeBulkNeutroFromGlycerol.jobString>
+  <MakeFineMealGlycerol.label>给简单食物增加风味</MakeFineMealGlycerol.label>
+  <MakeFineMealGlycerol.description>用甘油给简单食物增加风味。</MakeFineMealGlycerol.description>
+  <MakeFineMealGlycerol.jobString>正在用甘油给简单食物增加风味。</MakeFineMealGlycerol.jobString>
+  <MakeBulkFineMealGlycerol.label>批量给简单食物增加风味</MakeBulkFineMealGlycerol.label>
+  <MakeBulkFineMealGlycerol.description>批量用甘油给简单食物增加风味。</MakeBulkFineMealGlycerol.description>
+  <MakeBulkFineMealGlycerol.jobString>正在批量用甘油给简单食物增加风味。</MakeBulkFineMealGlycerol.jobString>
+</LanguageData>

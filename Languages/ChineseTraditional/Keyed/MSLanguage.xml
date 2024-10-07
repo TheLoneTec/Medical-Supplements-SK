@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- MSExotic -->
+  <MSExotic.ReasonPrefix>Failed to use Stim since </MSExotic.ReasonPrefix>
+  <MSExotic.NotHumanLike>{0} is not humanlike.</MSExotic.NotHumanLike>
+  <MSExotic.NotMale>{0} is not male.</MSExotic.NotMale>
+  <MSExotic.NotFemale>{0} is not female.</MSExotic.NotFemale>
+  <MSExotic.AlreadyHasImmunity>{0} already has super-immunity.</MSExotic.AlreadyHasImmunity>
+  <MSExotic.HasNoPsychSensitivity>{0} doesn't have psychic sensitivity.</MSExotic.HasNoPsychSensitivity>
+  <MSExotic.AlreadyStimmed>{0} is already stimmed.</MSExotic.AlreadyStimmed>
+  <MSExotic.StimSelDoNothing>Do Nothing</MSExotic.StimSelDoNothing>
+  <MSExotic.StimSelUseStim>Use {0}</MSExotic.StimSelUseStim>
+  <MSExotic.StimUses>{0} Uses:[{1}]</MSExotic.StimUses>
+  <MSExotic.StimDesc>Equipped with a {0}. Click to select use.</MSExotic.StimDesc>
+  <MSExotic.TraitAdded>{0} has added the trait of {1} due to {2}.</MSExotic.TraitAdded>
+  <MSExotic.TraitRemoved>{0}'s trait of {1} has been removed by {2}.</MSExotic.TraitRemoved>
+  <MSExotic.TSkillBoost>Skill: {1} for {0} has been transcended from {2} to {3}.</MSExotic.TSkillBoost>
+  <MSExotic.NoTSkillList>ERR: {1}'s transcendence listing is not defined.</MSExotic.NoTSkillList>
+  <MSExotic.WontLearnUsing>{0} wont learn anything using {1}</MSExotic.WontLearnUsing>
+  <MSExotic.PerpetuityDone>{0}'s biological age has been changed from {1} to {2} by Perpetuity.</MSExotic.PerpetuityDone>
+  <!-- MSRegen -->
+  <MSRegen.WoundHealed>{PAWN_labelShort}'s {2} has healed. Cause: {0}</MSRegen.WoundHealed>
+  <MSRegen.CureMsg>{0}'s condition of {1} has been cured.</MSRegen.CureMsg>
+  <!-- MSDrugMix -->
+  <MSDrugMix.ErrorRCP>Error with MSChemical Mixer recipe value item: {0} ticks: {1} min: {2} max: {3}</MSDrugMix.ErrorRCP>
+  <MSDrugMix.ErrorRes>Error with MSChemical Mixer: recipe item {0} not researched.</MSDrugMix.ErrorRes>
+  <MSDrugMix.ChemSelectDesc>Select chemical to produce.</MSDrugMix.ChemSelectDesc>
+  <MSDrugMix.ChemSelect>Select Chemical</MSDrugMix.ChemSelect>
+  <MSDrugMix.Production>Production</MSDrugMix.Production>
+  <MSDrugMix.ProductionDesc>Toggle Production</MSDrugMix.ProductionDesc>
+  <MSDrugMix.ProdLabelRange>(Minimum: {0}, Maximum: {1})</MSDrugMix.ProdLabelRange>
+  <MSDrugMix.ProdLabelERR>(ERR: No Valid Recipe)</MSDrugMix.ProdLabelERR>
+  <MSDrugMix.ProdNoChem>(No Chemical Selected)</MSDrugMix.ProdNoChem>
+  <MSDrugMix.ProdStopped>(Stopped)</MSDrugMix.ProdStopped>
+  <MSDrugMix.StockLabel>(Limit:{0}, ({1}%)</MSDrugMix.StockLabel>
+  <MSDrugMix.StockLabelNL>( No Limit )</MSDrugMix.StockLabelNL>
+  <MSDrugMix.SelectStockLimit>Select stock limit</MSDrugMix.SelectStockLimit>
+  <MSDrugMix.StockNoLimit>No Limit</MSDrugMix.StockNoLimit>
+  <MSDrugsMix.SelNoChemical>No Chemical</MSDrugsMix.SelNoChemical>
+  <!--  MSOptions -->
+  <MSOpt.Name>Medical Supplements</MSOpt.Name>
+  <MSOpt.ResPct>Relative cost for research %:</MSOpt.ResPct>
+  <MSOpt.ResTip>Note these changes will only take effect when RimWorld is restarted.</MSOpt.ResTip>
+  <MSOpt.ResWarn>(Warning: increasing the % will mean research will become incomplete using the previous value.)</MSOpt.ResWarn>
+  <!--  MSMineBits -->
+  <MSMineBits.Name>Medical Supplements: Mining Bits</MSMineBits.Name>
+  <MSMineBits.AllowCollapseRocks>Allow Collapsed rocks to produce mining bits:</MSMineBits.AllowCollapseRocks>
+</LanguageData>

@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Opium Poppy -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>SeedsPlease</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <SeedsPlease.SeedDef ParentName="SeedBase">
+              <defName>Seed_MSOpiumPoppy</defName>
+              <label>opium poppy seeds</label>
+              <sources>
+                <li>Plant_MSOpiumPoppy</li>
+              </sources>
+            </SeedsPlease.SeedDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef ParentName="ExtractSeed">
+              <defName>ExtractSeed_MSOpiumPoppy</defName>
+              <label>extract opium poppy seeds</label>
+              <description>Extract seeds from opium poppy.</description>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>MSOPSeedPod</li>
+                    </thingDefs>
+                  </filter>
+                  <count>7</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>MSOPSeedPod</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <Seed_MSOpiumPoppy>3</Seed_MSOpiumPoppy>
+              </products>
+            </RecipeDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <SeedsPlease.SeedDef ParentName="SeedBase">
+              <defName>Seed_MSPerrywinkle</defName>
+              <label>Perrywinkle seeds</label>
+              <sources>
+                <li>Plant_MSPerrywinkle</li>
+              </sources>
+            </SeedsPlease.SeedDef>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef ParentName="ExtractSeed">
+              <defName>ExtractSeed_MSPerryWinkle</defName>
+              <label>extract perrywinkle seeds</label>
+              <description>Extract seeds perrywinkle.</description>
+              <ingredients>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>MSPerrywinkleLeaves</li>
+                    </thingDefs>
+                  </filter>
+                  <count>5</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <thingDefs>
+                  <li>MSPerrywinkleLeaves</li>
+                </thingDefs>
+              </fixedIngredientFilter>
+              <products>
+                <Seed_MSPerrywinkle>3</Seed_MSPerrywinkle>
+              </products>
+            </RecipeDef>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

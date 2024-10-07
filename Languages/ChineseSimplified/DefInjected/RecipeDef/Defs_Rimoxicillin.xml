@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeRimoxicillin.label>制作瑞莫西林</MakeRimoxicillin.label>
+  <MakeRimoxicillin.description>制作一份瑞莫西林。</MakeRimoxicillin.description>
+  <MakeRimoxicillin.jobString>正在制作瑞莫西林。</MakeRimoxicillin.jobString>
+  <MakeBulkRimoxicillin.label>批量制作瑞莫西林</MakeBulkRimoxicillin.label>
+  <MakeBulkRimoxicillin.description>制作五份瑞莫西林。</MakeBulkRimoxicillin.description>
+  <MakeBulkRimoxicillin.jobString>正在批量制作瑞莫西林。</MakeBulkRimoxicillin.jobString>
+</LanguageData>

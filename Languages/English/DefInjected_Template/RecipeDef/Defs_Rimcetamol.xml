@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipe -->
+  <MakeRimcetamol.label>Make Rimcetamol</MakeRimcetamol.label>
+  <MakeRimcetamol.description>Make 2 Rimcetamol tablets.</MakeRimcetamol.description>
+  <MakeRimcetamol.jobString>Making Rimcetamol.</MakeRimcetamol.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkRimcetamol.label>Make Rimcetamol in bulk</MakeBulkRimcetamol.label>
+  <MakeBulkRimcetamol.description>Make 10 Rimcetamol tablets.</MakeBulkRimcetamol.description>
+  <MakeBulkRimcetamol.jobString>Making Rimcetamol.</MakeBulkRimcetamol.jobString>
+</LanguageData>

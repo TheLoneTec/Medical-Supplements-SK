@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Drug Cabinet -->
+  <DrugCabinet.label>Medizinschrank</DrugCabinet.label>
+  <DrugCabinet.description>Ein kleiner Schrank zur Aufbewahrung von Drogen oder Medizin. Beinhaltet einen kleinen Sauberkeitsschub und einen Produktionsschub für Laborbänke.</DrugCabinet.description>
+  <DrugCabinet_Blueprint.label>Medizinschrank(Entwurf)</DrugCabinet_Blueprint.label>
+  <DrugCabinet_Blueprint_Install.label>Medizinschrank (Entwurf)</DrugCabinet_Blueprint_Install.label>
+  <DrugCabinet_Frame.label>Medizinschrank (im Bau)</DrugCabinet_Frame.label>
+  <DrugCabinet_Frame.description>Ein kleiner Schrank zur Aufbewahrung von Drogen oder Medizin. Beinhaltet einen kleinen Sauberkeitsschub und einen Produktionsschub für Laborbänke.</DrugCabinet_Frame.description>
+</LanguageData>

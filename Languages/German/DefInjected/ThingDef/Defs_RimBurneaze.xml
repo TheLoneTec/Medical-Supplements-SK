@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- RimBurnEaze -->
+  <MSRimBurnEaze.label>RimBurnEaze</MSRimBurnEaze.label>
+  <MSRimBurnEaze.description>RimBurnEaze ist eine antibiotische Hautcreme, die bei Verbrennungen hilft. Es ist in der Lage, bleibende Verbrennungsnarben zu heilen. Heilwirkungen dauern 2 Tage.</MSRimBurnEaze.description>
+  <MSRimBurnEaze.ingestible.ingestCommandString>Auftragen {0}</MSRimBurnEaze.ingestible.ingestCommandString>
+  <MSRimBurnEaze.ingestible.ingestReportString>trage {0} auf.</MSRimBurnEaze.ingestible.ingestReportString>
+</LanguageData>

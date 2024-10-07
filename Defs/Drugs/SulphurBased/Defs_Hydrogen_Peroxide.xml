@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- =========== Hydrogen Peroxide ==================== -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>MSHydrogenPeroxide</defName>
+    <label>Hydrogen Peroxide</label>
+    <description>Hydrogen peroxide in its pure form, it is a pale blue, clear liquid, slightly more viscous than water. Hydrogen peroxide is the simplest peroxide (a compound with an oxygen–oxygen single bond). It is used as an oxidizer, bleaching agent and antiseptic. It is a reactive oxygen species and has been used as a propellant in rocketry. (Made with Chemfuel, Neutroamine and Sulphuric Acid).</description>
+    <graphicData>
+      <texPath>Things/Item/MSHydrogenPeroxide/MSHydrogenPeroxide</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <!-- <drawSize>0.90</drawSize> -->
+    </graphicData>
+    <stackLimit>150</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>5</MarketValue>
+      <Mass>0.05</Mass>
+      <Flammability>1.2</Flammability>
+      <DeteriorationRate>1.5</DeteriorationRate>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <thingCategories>
+      <li>MSManufactured</li>
+    </thingCategories>
+    <tickerType>Normal</tickerType>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>1.1</explosiveRadius>
+        <explosiveDamageType>Flame</explosiveDamageType>
+        <explosiveExpandPerStackcount>0.025</explosiveExpandPerStackcount>
+        <startWickOnDamageTaken>
+          <li>Flame</li>
+        </startWickOnDamageTaken>
+        <startWickHitPointsPercent>0.25</startWickHitPointsPercent>
+        <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
+        <preExplosionSpawnChance>0.90</preExplosionSpawnChance>
+        <wickTicks>
+          <min>80</min>
+          <max>160</max>
+        </wickTicks>
+      </li>
+    </comps>
+  </ThingDef>
+  <!-- ============= Recipes ===================== -->
+<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+    <defName>MakeMSHydrogenPeroxide</defName>
+    <label>Make Hydrogen Peroxide</label>
+    <description>Make 5 Hydrogen Peroxide.</description>
+    <jobString>Preparing Hydrogen Peroxide.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>625</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Neutroamine</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSSulphuricAcid</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Chemfuel</li>
+        <li>Neutroamine</li>
+        <li>MSSulphuricAcid</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSHydrogenPeroxide>5</MSHydrogenPeroxide>
+    </products>
+    <recipeUsers>
+      <li>BiofuelRefinery</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>6</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>BiofuelRefining</researchPrerequisite>
+  </RecipeDef>
+  <!-- Bulk -->
+<RecipeDef Class="UniversalFermenterSK.RecipeDef_UF">
+    <defName>MakeBulkMSHydrogenPeroxide</defName>
+    <label>Make Hydrogen Peroxide in bulk</label>
+    <description>Make 25 Hydrogen Peroxide.</description>
+    <jobString>Preparing Hydrogen Peroxide.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>3125</workAmount>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Neutroamine</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSSulphuricAcid</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Chemfuel</li>
+        <li>Neutroamine</li>
+        <li>MSSulphuricAcid</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSHydrogenPeroxide>25</MSHydrogenPeroxide>
+    </products>
+    <recipeUsers>
+      <li>BiofuelRefinery</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>7</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>BiofuelRefining</researchPrerequisite>
+  </RecipeDef>
+</Defs>

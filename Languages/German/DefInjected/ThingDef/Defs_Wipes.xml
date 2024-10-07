@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Antibacterial Wipes -->
+  <MSWipes.label>Antibakterielle Tücher</MSWipes.label>
+  <MSWipes.description>Die Tücher können zur allgemeinen Hygiene und insbesondere zur Unterstützung der Chirurgen bei ihren Eingriffen verwendet werden. Die Wirkung hält nur einen halben Tag an.</MSWipes.description>
+  <MSWipes.ingestible.ingestCommandString>Benutze {0}</MSWipes.ingestible.ingestCommandString>
+  <MSWipes.ingestible.ingestReportString>Benutzt {0}.</MSWipes.ingestible.ingestReportString>
+</LanguageData>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Opium Poppy -->
+  <Plant_MSOpiumPoppy.label>Schlafmohn</Plant_MSOpiumPoppy.label>
+  <Plant_MSOpiumPoppy.description>Eine Blütenpflanzenart aus der Familie der Papaveraceae. Es ist die Pflanzenart, aus der Opium und Mohn gewonnen werden.</Plant_MSOpiumPoppy.description>
+  <!-- Seed Pods -->
+  <MSOPSeedPod.label>Mohnsamenschale</MSOPSeedPod.label>
+  <MSOPSeedPod.description>Samenhülsen von der Schlafmohnblume. Diese Schoten können verwendet werden, um Mohn oder Opiumlatex zu extrahieren.</MSOPSeedPod.description>
+  <!-- Latex -->
+  <MSOpiumLatex.label>Opium-Latex</MSOpiumLatex.label>
+  <MSOpiumLatex.description>Der aus Opiumsamenschale hergestellte Latex enthält eine Klasse natürlich vorkommender Alkaloide, die als Opiate bezeichnet werden.</MSOpiumLatex.description>
+  <!-- Seeds -->
+  <MSPoppySeeds.label>Mohnsamen</MSPoppySeeds.label>
+  <MSPoppySeeds.description>Diese winzigen nierenförmigen Samen wurden aus den getrockneten Samenkapseln des Schlafmohns geerntet. Die Samen können als Zutat in vielen Lebensmitteln ganz oder gemahlen verwendet werden.</MSPoppySeeds.description>
+</LanguageData>

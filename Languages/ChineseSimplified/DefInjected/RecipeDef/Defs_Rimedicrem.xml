@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeRimedicrem.label>制作百多邦</MakeRimedicrem.label>
+  <MakeRimedicrem.description>制作一份百多邦。</MakeRimedicrem.description>
+  <MakeRimedicrem.jobString>正在制作百多邦。</MakeRimedicrem.jobString>
+  <MakeBulkRimedicrem.label>批量制作百多邦</MakeBulkRimedicrem.label>
+  <MakeBulkRimedicrem.description>制作五份百多邦。</MakeBulkRimedicrem.description>
+  <MakeBulkRimedicrem.jobString>正在批量制作百多邦。</MakeBulkRimedicrem.jobString>
+</LanguageData>

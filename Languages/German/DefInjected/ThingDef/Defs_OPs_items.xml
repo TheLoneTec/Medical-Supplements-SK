@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Artery Blockage - Stent -->
+  <MSStent.label>Medizinischer Stent</MSStent.label>
+  <MSStent.description>Ein medizinischer Stent, mit dem Arterien verbreitert und arterielle Verstopfungen beseitigt werden.</MSStent.description>
+  <!-- Bad Back -->
+  <MSBackDisc.label>Künstliche Bandscheibe</MSBackDisc.label>
+  <MSBackDisc.description>Eine Künstliche Bandscheibe die bei Rückenproblemen hilft.</MSBackDisc.description>
+  <!-- Cataract Removal -->
+  <MSAdvSurgeryTools.label>Fortschrittliche Chirurgie-Werkzeuge</MSAdvSurgeryTools.label>
+  <MSAdvSurgeryTools.description>Eine Sammlung von Präzisionswerkzeugen und -materialien für die erweiterte und komplexe Chirurgie.</MSAdvSurgeryTools.description>
+</LanguageData>

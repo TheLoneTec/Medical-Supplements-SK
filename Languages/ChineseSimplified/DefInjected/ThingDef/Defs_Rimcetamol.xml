@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Rimcetamol -->
+  <MSRimcetamol.label>瑞西他明</MSRimcetamol.label>
+  <MSRimcetamol.description>一种轻度镇痛药. 每天一服.</MSRimcetamol.description>
+  <MSRimcetamol.ingestible.ingestCommandString>服用{0}</MSRimcetamol.ingestible.ingestCommandString>
+  <MSRimcetamol.ingestible.ingestReportString>正在服用{0}.</MSRimcetamol.ingestible.ingestReportString>
+</LanguageData>

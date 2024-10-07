@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Ethanol -->
+  <MSEthanol.label>合成乙醇</MSEthanol.label>
+  <MSEthanol.description>乙醇是一种无色透明的易燃液体，有着轻微的特征气味. 它具有一定的神经活性，也是酒精饮料中给人欣快感的主要元素. 可以作为前体来制备多种化合物. 过量服用会导致酒精中毒，若是长期服用还有一定的致瘾性. (用硫酸将化合燃料内的大分子烷烃转化为乙醇).</MSEthanol.description>
+  <MSEthanol.tools.0.label>瓶</MSEthanol.tools.0.label>
+  <MSEthanol.tools.1.label>颈</MSEthanol.tools.1.label>
+  <MSEthanol.ingestible.ingestCommandString>喝{0}</MSEthanol.ingestible.ingestCommandString>
+  <MSEthanol.ingestible.ingestReportString>正在喝{0}.</MSEthanol.ingestible.ingestReportString>
+</LanguageData>

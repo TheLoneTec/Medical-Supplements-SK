@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeMSWipes.label>制作消毒棉片</MakeMSWipes.label>
+  <MakeMSWipes.description>制作五份消毒棉片。</MakeMSWipes.description>
+  <MakeMSWipes.jobString>正在制作消毒棉片。</MakeMSWipes.jobString>
+  <MakeBulkMSWipes.label>批量制作消毒棉片</MakeBulkMSWipes.label>
+  <MakeBulkMSWipes.description>制作二十五份消毒棉片。</MakeBulkMSWipes.description>
+  <MakeBulkMSWipes.jobString>正在批量制作消毒棉片。</MakeBulkMSWipes.jobString>
+</LanguageData>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSInhaler.label>舒利迭</MSInhaler.label>
+  <MSInhaler.description>一种预防哮喘的吸入剂，也能在发作时减轻症状。</MSInhaler.description>
+  <MSInhaler.ingestible.ingestCommandString>使用 {0}</MSInhaler.ingestible.ingestCommandString>
+  <MSInhaler.ingestible.ingestReportString>正在使用 {0}.</MSInhaler.ingestible.ingestReportString>
+</LanguageData>

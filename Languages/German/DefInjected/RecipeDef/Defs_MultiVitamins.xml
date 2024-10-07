@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Bulk Berry Recipe -->
+  <MakeMSMultiVitamins.label>Stelle Vitaminpräparat her</MakeMSMultiVitamins.label>
+  <MakeMSMultiVitamins.description>Stelle 5 Vitaminpräparate her.</MakeMSMultiVitamins.description>
+  <MakeMSMultiVitamins.jobString>Stelle Vitaminpräparat her.</MakeMSMultiVitamins.jobString>
+  <MakeBulkMSMultiVitamins.label>Stelle Vitaminpräparate in Massen her</MakeBulkMSMultiVitamins.label>
+  <MakeBulkMSMultiVitamins.description>Stelle 25 Vitaminpräparate her.</MakeBulkMSMultiVitamins.description>
+  <MakeBulkMSMultiVitamins.jobString>Stelle Vitaminpräparat her.</MakeBulkMSMultiVitamins.jobString>
+</LanguageData>

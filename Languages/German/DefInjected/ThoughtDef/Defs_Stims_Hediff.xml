@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSBattleStim_Thought.stages.0.label>Battle stimmed</MSBattleStim_Thought.stages.0.label>
+  <MSBattleStim_Thought.stages.0.description>Extremely Invigorated</MSBattleStim_Thought.stages.0.description>
+  <MSBattleStimLow_Thought.stages.0.label>Battle stim regression</MSBattleStimLow_Thought.stages.0.label>
+  <MSBattleStimLow_Thought.stages.0.description>Feeling bad due to stim regression effects</MSBattleStimLow_Thought.stages.0.description>
+</LanguageData>

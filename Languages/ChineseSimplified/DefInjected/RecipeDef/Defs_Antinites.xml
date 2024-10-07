@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAntinitesVial.label>制作抗 纳米机械 液</MakeAntinitesVial.label>
+  <MakeAntinitesVial.description>制作一份抗 纳米机械 液。</MakeAntinitesVial.description>
+  <MakeAntinitesVial.jobString>正在制作抗 纳米机械 液。</MakeAntinitesVial.jobString>
+  <MakeBulkAntinitesVial.label>批量制作抗 纳米机械 液</MakeBulkAntinitesVial.label>
+  <MakeBulkAntinitesVial.description>制作五份抗 纳米机械 液。</MakeBulkAntinitesVial.description>
+  <MakeBulkAntinitesVial.jobString>正在批量制作抗 纳米机械 液。</MakeBulkAntinitesVial.jobString>
+  <MakeBulkAntinites.label>批量制作抗 纳米机械 针剂</MakeBulkAntinites.label>
+  <MakeBulkAntinites.description>制作五份抗 纳米机械 针剂。</MakeBulkAntinites.description>
+  <MakeBulkAntinites.jobString>正在批量制作抗 纳米机械 针剂。</MakeBulkAntinites.jobString>
+</LanguageData>

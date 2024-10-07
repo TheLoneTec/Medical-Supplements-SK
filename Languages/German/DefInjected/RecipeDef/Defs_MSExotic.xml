@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Immunisation -->
+  <MakeMSImmunisation.label>Stelle Impfspritze her</MakeMSImmunisation.label>
+  <MakeMSImmunisation.description>Stelle eine Impfspritze her.</MakeMSImmunisation.description>
+  <MakeMSImmunisation.jobString>Stelle Impfspritze her.</MakeMSImmunisation.jobString>
+  <Inject_MSImmunisation.label>Injiziere Impfung</Inject_MSImmunisation.label>
+  <Inject_MSImmunisation.description>Verabreiche Patienten eine Impfung.</Inject_MSImmunisation.description>
+  <Inject_MSImmunisation.jobString>Injiziere Impfung.</Inject_MSImmunisation.jobString>
+  <!-- Cerebrax -->
+  <MakeMSCerebrax.label>Stelle Cerebraxspritze her</MakeMSCerebrax.label>
+  <MakeMSCerebrax.description>Stelle eine Cerebraxspritze her.</MakeMSCerebrax.description>
+  <MakeMSCerebrax.jobString>Stelle Cerebraxspritze her.</MakeMSCerebrax.jobString>
+  <Inject_MSCerebrax.label>Injiziere Cerebrax</Inject_MSCerebrax.label>
+  <Inject_MSCerebrax.description>Verabreiche Patienten Cerebrax.</Inject_MSCerebrax.description>
+  <Inject_MSCerebrax.jobString>Injiziere Cerebrax.</Inject_MSCerebrax.jobString>
+  <!-- Condom -->
+  <MakeMSCondom.label>Stelle Kondome her</MakeMSCondom.label>
+  <MakeMSCondom.description>Stelle 5 Kondome her.</MakeMSCondom.description>
+  <MakeMSCondom.jobString>Stelle Kondome her.</MakeMSCondom.jobString>
+</LanguageData>

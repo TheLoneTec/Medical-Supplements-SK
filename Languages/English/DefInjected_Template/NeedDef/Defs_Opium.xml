@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Opium Chemical and effects -->
+  <Chemical_MSOpium.label>Opium dependancy</Chemical_MSOpium.label>
+  <Chemical_MSOpium.description>Because of a opium dependancy, this person needs to regularly consume the drug to avoid withdrawal symptoms.</Chemical_MSOpium.description>
+</LanguageData>

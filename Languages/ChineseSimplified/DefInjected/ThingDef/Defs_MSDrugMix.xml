@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Building -->
+  <MSDrugMixer.label>药物化学混合器</MSDrugMixer.label>
+  <MSDrugMixer.description>用来制作药物前体物质的机器:\n\n\n中性胺: 化合燃料和甘油.\n\n甘油: 化合燃料和酒精(啤酒或合成乙醇).\n\n苯酚: 化合燃料.\n\n锂盐: 石块, 化合燃料和（苯酚或硫酸）.
+		\n鸦片膏: 罂粟荚果.\n\n硫: 石块.\n\n硫酸: 硫.\n\n乙醇: 化合燃料和硫酸.\n\n过氧化氢: 化合燃料, 中性胺和硫酸.
+		\n汞盐: 石块\n\n一乙汞: 化合燃料和汞盐.</MSDrugMixer.description>
+  <MSDrugMixer_Blueprint.label>药物化学混合器(蓝图)</MSDrugMixer_Blueprint.label>
+  <MSDrugMixer_Frame.label>药物化学混合器(建造中)</MSDrugMixer_Frame.label>
+  <MSDrugMixer_Frame.description>用来制作药物前体物质的机器:\n\n\n中性胺: 化合燃料和甘油.\n\n甘油: 化合燃料和酒精(啤酒或者合成乙醇).\n\n苯酚: 化合燃料.\n\n锂盐: 石块, 化合燃料和（苯酚或硫酸）.
+		\n鸦片膏: 罂粟荚果.\n\n硫: 石块.\n\n硫酸: 硫.\n\n乙醇: 化合燃料和硫酸.\n\n过氧化氢: 化合燃料, 中性胺和硫酸.
+		\n汞盐: 石块\n\n一乙汞: 化合燃料和汞盐.</MSDrugMixer_Frame.description>
+  <MSDrugMixInput.label>药物化学混合器投料口</MSDrugMixInput.label>
+  <MSDrugMixInput.description>提供在生产过程中，投入所需原料的入口.</MSDrugMixInput.description>
+  <MSDrugMixInput_Blueprint.label>药物化学混合器投料口(蓝图)</MSDrugMixInput_Blueprint.label>
+  <MSDrugMixInput_Blueprint_Install.label>药物化学混合器投料口(蓝图)</MSDrugMixInput_Blueprint_Install.label>
+  <MSDrugMixInput_Frame.label>药物化学混合器投料口(建造中)</MSDrugMixInput_Frame.label>
+  <MSDrugMixInput_Frame.description>在生产过程中，从这里投入所需原料.</MSDrugMixInput_Frame.description>
+  <MSDrugMixOutput.label>药物化学混合器出货口</MSDrugMixOutput.label>
+  <MSDrugMixOutput.description>给混合器内的成品提供出口.</MSDrugMixOutput.description>
+  <MSDrugMixOutput_Blueprint.label>药物化学混合器出货口(蓝图)</MSDrugMixOutput_Blueprint.label>
+  <MSDrugMixOutput_Blueprint_Install.label>药物化学混合器出货口(蓝图)</MSDrugMixOutput_Blueprint_Install.label>
+  <MSDrugMixOutput_Frame.label>药物化学混合器出货口(建造中)</MSDrugMixOutput_Frame.label>
+  <MSDrugMixOutput_Frame.description>混合器中的产物从这里产出.</MSDrugMixOutput_Frame.description>
+</LanguageData>

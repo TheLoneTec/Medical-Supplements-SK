@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSRimCodamol.label>可达莫</MSRimCodamol.label>
+  <MSRimCodamol.description>一种较弱的阿片类镇痛药，效果可以持续一整天。有潜在的致瘾性，尤其是短时间内大量服用时。</MSRimCodamol.description>
+  <MSRimCodamol.ingestible.ingestCommandString>服用 {0}</MSRimCodamol.ingestible.ingestCommandString>
+  <MSRimCodamol.ingestible.ingestReportString>正在服用 {0}.</MSRimCodamol.ingestible.ingestReportString>
+  <MSMorphine.label>吗啡</MSMorphine.label>
+  <MSMorphine.description>一种强力的阿片类镇痛剂，能够持续12小时.具有致瘾性。</MSMorphine.description>
+  <MSMorphine.ingestible.ingestCommandString>服用 {0}</MSMorphine.ingestible.ingestCommandString>
+  <MSMorphine.ingestible.ingestReportString>正在服用 {0}.</MSMorphine.ingestible.ingestReportString>
+  <MSOpiumPipe.label>鸦片烟</MSOpiumPipe.label>
+  <MSOpiumPipe.description>一种早期的、狂放式的强力镇痛药，药效持续12小时。具有强烈的致瘾性。</MSOpiumPipe.description>
+  <MSOpiumPipe.ingestible.ingestCommandString>吸 {0}</MSOpiumPipe.ingestible.ingestCommandString>
+  <MSOpiumPipe.ingestible.ingestReportString>正在吸 {0}.</MSOpiumPipe.ingestible.ingestReportString>
+</LanguageData>

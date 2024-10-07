@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeMSHydrochloricAcid.label>Make Hydrochloric Acid</MakeMSHydrochloricAcid.label>
+  <MakeMSHydrochloricAcid.description>Make 10 Hydrochloric Acid.</MakeMSHydrochloricAcid.description>
+  <MakeMSHydrochloricAcid.jobString>Preparing Hydrochloric Acid.</MakeMSHydrochloricAcid.jobString>
+</LanguageData>

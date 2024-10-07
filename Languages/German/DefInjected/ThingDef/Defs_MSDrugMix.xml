@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Building -->
+  <MSDrugMixer.label>Arzneimittelchemikalienmischer</MSDrugMixer.label>
+  <MSDrugMixer.description>Maschine zur Herstellung von Wirkstoffvorläuferelementen:\n\n\nNeutroamin: Chemotreibstoff und Glycerin.\n\nGlycerin: Chemotreibstoff und (Bier oder Ethanol).\n\nPhenol: Chemotreibstoff. \n\nLithiumsalze: Steinbrocken, Chemotreibstoff und (Phenol oder Schwefelsäure).
+		\nOpiumlatex: Mohnsamenschale.\n\nSchwefelsäure: Schwefel.\n\nEthanol: Chemietreibstoff und Schwefelsäure.\n \nWasserstoffperoxid: Chemietreibstoff, Neutroamin und Schwefelsäure.
+		\nQuecksilbersalze: Steinbrocken\n\nEthylquecksilber: Chemischer Brennstoff und Quecksilbersalze.</MSDrugMixer.description>
+  <MSDrugMixer_Blueprint.label>Arzneimittelchemikalienmischer (Entwurf)</MSDrugMixer_Blueprint.label>
+  <MSDrugMixer_Frame.label>Arzneimittelchemikalienmischer (im Bau)</MSDrugMixer_Frame.label>
+  <MSDrugMixer_Frame.description>Maschine zur Herstellung von Wirkstoffvorläuferelementen:\n\n\nNeutroamin: Chemotreibstoff und Glycerin.\n\nGlycerin: Chemotreibstoff und (Bier oder Ethanol).\n\nPhenol: Chemotreibstoff. \n\nLithiumsalze: Steinbrocken, Chemotreibstoff und (Phenol oder Schwefelsäure).
+		\nOpiumlatex: Mohnsamenschale.\n\nSchwefelsäure: Schwefelsäure.\n\nEthanol: Chemietreibstoff und Schwefelsäure.\n \nWasserstoffperoxid: Chemietreibstoff, Neutroamin und Schwefelsäure.
+		\nQuecksilbersalze: Steinbrocken\n\nEthylquecksilber: Chemischer Brennstoff und Quecksilbersalze.</MSDrugMixer_Frame.description>
+  <MSDrugMixInput.label>Arzneimittelchemikalienmischer Einwurfbehälter</MSDrugMixInput.label>
+  <MSDrugMixInput.description>Enthält Eingaberessourcen zur Verwendung durch den Mischer für Arzneimittelchemikalien während der Produktion.</MSDrugMixInput.description>
+  <MSDrugMixInput_Blueprint.label>Arzneimittelchemikalienmischer Einwurfbehälter (Entwurf)</MSDrugMixInput_Blueprint.label>
+  <MSDrugMixInput_Blueprint_Install.label>Arzneimittelchemikalienmischer Einwurfbehälter (Entwurf)</MSDrugMixInput_Blueprint_Install.label>
+  <MSDrugMixInput_Frame.label>Arzneimittelchemikalienmischer Einwurfbehälter (im Bau)</MSDrugMixInput_Frame.label>
+  <MSDrugMixInput_Frame.description>Enthält Eingaberessourcen zur Verwendung durch den Mischer für Arzneimittelchemikalien während der Produktion.</MSDrugMixInput_Frame.description>
+  <MSDrugMixOutput.label>Arzneimittelchemikalienmischer Auswurfbehälter</MSDrugMixOutput.label>
+  <MSDrugMixOutput.description>Enthält Ausgangsprodukte aus dem Arzneimittelchemikalienmischer.</MSDrugMixOutput.description>
+  <MSDrugMixOutput_Blueprint.label>Arzneimittelchemikalienmischer Auswurfbehälter (Entwurf)</MSDrugMixOutput_Blueprint.label>
+  <MSDrugMixOutput_Blueprint_Install.label>Arzneimittelchemikalienmischer Auswurfbehälter (Entwurf)</MSDrugMixOutput_Blueprint_Install.label>
+  <MSDrugMixOutput_Frame.label>Arzneimittelchemikalienmischer Auswurfbehälter (im Bau)</MSDrugMixOutput_Frame.label>
+  <MSDrugMixOutput_Frame.description>Enthält Ausgangsprodukte aus dem Arzneimittelchemikalienmischer.</MSDrugMixOutput_Frame.description>
+</LanguageData>

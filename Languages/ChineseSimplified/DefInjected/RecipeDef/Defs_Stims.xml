@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- BattleStim注射液 -->
+  <MakeMSBattleStimVial.label>制作战意刺激注射液</MakeMSBattleStimVial.label>
+  <MakeMSBattleStimVial.description>制作1支战意刺激注射液.</MakeMSBattleStimVial.description>
+  <MakeMSBattleStimVial.jobString>正在制作战意刺激注射液.</MakeMSBattleStimVial.jobString>
+  <MakeBulkMSBattleStimVial.label>批量制作战意刺激注射液</MakeBulkMSBattleStimVial.label>
+  <MakeBulkMSBattleStimVial.description>制作5支战意刺激注射液.</MakeBulkMSBattleStimVial.description>
+  <MakeBulkMSBattleStimVial.jobString>正在制作战意刺激注射液.</MakeBulkMSBattleStimVial.jobString>
+  <!-- BattleStim -->
+  <MakeMSBattleStim.label>制作战意刺激针剂</MakeMSBattleStim.label>
+  <MakeMSBattleStim.description>将战意刺激注射液装入注射器，组成一支直接可用的针剂</MakeMSBattleStim.description>
+  <MakeMSBattleStim.jobString>正在制作战意刺激针剂</MakeMSBattleStim.jobString>
+  <MakeBulkMSBattleStim.label>批量制作战意刺激针剂</MakeBulkMSBattleStim.label>
+  <MakeBulkMSBattleStim.description>制作5支战意刺激针剂</MakeBulkMSBattleStim.description>
+  <MakeBulkMSBattleStim.jobString>正在制作战意刺激针剂</MakeBulkMSBattleStim.jobString>
+</LanguageData>

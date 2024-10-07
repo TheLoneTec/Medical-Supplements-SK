@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeAntitoxin.label>Stelle Antitox her</MakeAntitoxin.label>
+  <MakeAntitoxin.description>Stelle Antitoxtabletten her.</MakeAntitoxin.description>
+  <MakeAntitoxin.jobString>Stelle Antitox her.</MakeAntitoxin.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkAntitoxin.label>Stelle Antitoxtabletten in Massen her</MakeBulkAntitoxin.label>
+  <MakeBulkAntitoxin.description>Stelle 5 Antitoxtabletten her.</MakeBulkAntitoxin.description>
+  <MakeBulkAntitoxin.jobString>Stelle Antitoxtabletten her.</MakeBulkAntitoxin.jobString>
+</LanguageData>

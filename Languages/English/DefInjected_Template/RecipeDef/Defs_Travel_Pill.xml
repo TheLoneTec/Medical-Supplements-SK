@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeMSTravelPills.label>Make Travel pills</MakeMSTravelPills.label>
+  <MakeMSTravelPills.description>Make 5 Travel tablets.</MakeMSTravelPills.description>
+  <MakeMSTravelPills.jobString>Making Travel Pills</MakeMSTravelPills.jobString>
+  <MakeBulkMSTravelPills.label>Make Travel pills in bulk</MakeBulkMSTravelPills.label>
+  <MakeBulkMSTravelPills.description>Make 10 Travel tablets.</MakeBulkMSTravelPills.description>
+  <MakeBulkMSTravelPills.jobString>Making Travel Pills</MakeBulkMSTravelPills.jobString>
+</LanguageData>

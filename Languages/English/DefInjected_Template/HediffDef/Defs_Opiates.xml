@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- MSRimCodamol -->
+  <MSRimCodamol_High.label>RimCodamol</MSRimCodamol_High.label>
+  <MSRimCodamol_High.description>RimCodamol effect</MSRimCodamol_High.description>
+  <!-- MSMorphine -->
+  <MSMorphine_High.label>Morphine</MSMorphine_High.label>
+  <MSMorphine_High.description>Morphine effect</MSMorphine_High.description>
+  <!-- MSOpiumPipe -->
+  <MSOpiumPipe_High.label>Opium Pipe</MSOpiumPipe_High.label>
+  <MSOpiumPipe_High.description>Opium pipe effect</MSOpiumPipe_High.description>
+</LanguageData>

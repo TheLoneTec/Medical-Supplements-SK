@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Immunisation -->
+  <MakeMSImmunisation.label>制作免疫注射剂</MakeMSImmunisation.label>
+  <MakeMSImmunisation.description>制作一支免疫注射剂</MakeMSImmunisation.description>
+  <MakeMSImmunisation.jobString>正在制作免疫注射剂.</MakeMSImmunisation.jobString>
+  <!-- Cerebrax -->
+  <MakeMSCerebrax.label>制作脑阻断剂</MakeMSCerebrax.label>
+  <MakeMSCerebrax.description>制作一支脑阻断剂</MakeMSCerebrax.description>
+  <MakeMSCerebrax.jobString>正在制作脑阻断剂.</MakeMSCerebrax.jobString>
+  <!-- Condom -->
+  <MakeMSCondom.label>制作避孕套</MakeMSCondom.label>
+  <MakeMSCondom.description>制作5只避孕套</MakeMSCondom.description>
+  <MakeMSCondom.jobString>正在制作避孕套.</MakeMSCondom.jobString>
+</LanguageData>

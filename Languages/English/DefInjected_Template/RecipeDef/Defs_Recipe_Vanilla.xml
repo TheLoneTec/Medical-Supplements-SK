@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSBulkMedicine.label>Make Medicine in bulk</MSBulkMedicine.label>
+  <MSBulkMedicine.description>Make 5 Medicine.</MSBulkMedicine.description>
+  <MSBulkMedicine.jobString>Crafting Medicine.</MSBulkMedicine.jobString>
+  <!-- Ultra medicine -->
+  <MakeMSUltraMedicine.label>Make Ultratech medicine</MakeMSUltraMedicine.label>
+  <MakeMSUltraMedicine.description>Make 1 Ultratech medicine</MakeMSUltraMedicine.description>
+  <MakeMSUltraMedicine.jobString>Making Ultratech Medicine.</MakeMSUltraMedicine.jobString>
+  <!-- Healer Mech Serum -->
+  <MakeMSHealerMechSerum.label>Make Healer Mech Serum</MakeMSHealerMechSerum.label>
+  <MakeMSHealerMechSerum.description>Make 1 healer mech serum</MakeMSHealerMechSerum.description>
+  <MakeMSHealerMechSerum.jobString>Making healer mech serum.</MakeMSHealerMechSerum.jobString>
+  <!-- Ressurector Mech Serum -->
+  <MakeMSRessurectorMechSerum.label>Make Ressurector Mech Serum</MakeMSRessurectorMechSerum.label>
+  <MakeMSRessurectorMechSerum.description>Make 1 ressurector mech serum</MakeMSRessurectorMechSerum.description>
+  <MakeMSRessurectorMechSerum.jobString>Making ressurector mech serum.</MakeMSRessurectorMechSerum.jobString>
+  <!-- Changed to be individual skills as of V1.1 -->
+  <MakeMSNTMechSerum.jobString>Making Neurotrainer mech serum.</MakeMSNTMechSerum.jobString>
+  <MakeMSNTMechSerumShooting.label>Make Neurotrainer (Shooting)</MakeMSNTMechSerumShooting.label>
+  <MakeMSNTMechSerumShooting.description>Make 1 Neurotrainer (Shooting)</MakeMSNTMechSerumShooting.description>
+  <MakeMSNTMechSerumShooting.jobString>Making Neurotrainer mech serum.</MakeMSNTMechSerumShooting.jobString>
+  <MakeMSNTMechSerumMelee.label>Make Neurotrainer (Melee)</MakeMSNTMechSerumMelee.label>
+  <MakeMSNTMechSerumMelee.description>Make 1 Neurotrainer (Melee)</MakeMSNTMechSerumMelee.description>
+  <MakeMSNTMechSerumMelee.jobString>Making Neurotrainer mech serum.</MakeMSNTMechSerumMelee.jobString>
+  <MakeMSNTMechSerumConstruction.label>Make Neurotrainer (Construction)</MakeMSNTMechSerumConstruction.label>
+  <MakeMSNTMechSerumConstruction.description>Make 1 Neurotrainer (Construction)</MakeMSNTMechSerumConstruction.description>
+  <MakeMSNTMechSerumConstruction.jobString>Making Neurotrainer mech serum.</MakeMSNTMechSerumConstruction.jobString>
+  <MakeMSNTMechSerumPlants.label>Make Neurotrainer (Plants)</MakeMSNTMechSerumPlants.label>
+  <MakeMSNTMechSerumPlants.description>Make 1 Neurotrainer (Plants)</MakeMSNTMechSerumPlants.description>
+  <MakeMSNTMechSerumPlants.jobString>Making Neurotrainer mech serum.</MakeMSNTMechSerumPlants.jobString>
+  <MakeMSNTMechSerumIntellectual.label>Make Neurotrainer (Intellectual)</MakeMSNTMechSerumIntellectual.label>
+  <MakeMSNTMechSerumIntellectual.description>Make 1 Neurotrainer (Intellectual)</MakeMSNTMechSerumIntellectual.description>
+  <MakeMSNTMechSerumIntellectual.jobString>Making Neurotrainer mech serum.</MakeMSNTMechSerumIntellectual.jobString>
+  <MakeMSNTMechSerumMining.label>Make Neurotrainer (Mining)</MakeMSNTMechSerumMining.label>
+  <MakeMSNTMechSerumMining.description>Make 1 Neurotrainer (Mining)</MakeMSNTMechSerumMining.description>
+  <MakeMSNTMechSerumMining.jobString>Making Neurotrainer mech serum.</MakeMSNTMechSerumMining.jobString>
+  <MakeMSNTMechSerumSocial.label>Make Neurotrainer (Social)</MakeMSNTMechSerumSocial.label>
+  <MakeMSNTMechSerumSocial.description>Make 1 Neurotrainer (Social)</MakeMSNTMechSerumSocial.description>
+  <MakeMSNTMechSerumSocial.jobString>Making Neurotrainer mech serum.</MakeMSNTMechSerumSocial.jobString>
+  <MakeMSNTMechSerumAnimals.label>Make Neurotrainer (Animals)</MakeMSNTMechSerumAnimals.label>
+  <MakeMSNTMechSerumAnimals.description>Make 1 Neurotrainer (Animals)</MakeMSNTMechSerumAnimals.description>
+  <MakeMSNTMechSerumAnimals.jobString>Making Neurotrainer mech serum.</MakeMSNTMechSerumAnimals.jobString>
+  <MakeMSNTMechSerumCooking.label>Make Neurotrainer (Cooking)</MakeMSNTMechSerumCooking.label>
+  <MakeMSNTMechSerumCooking.description>Make 1 Neurotrainer (Cooking)</MakeMSNTMechSerumCooking.description>
+  <MakeMSNTMechSerumCooking.jobString>Making Neurotrainer mech serum.</MakeMSNTMechSerumCooking.jobString>
+  <MakeMSNTMechSerumMedicine.label>Make Neurotrainer (Medicine)</MakeMSNTMechSerumMedicine.label>
+  <MakeMSNTMechSerumMedicine.description>Make 1 Neurotrainer (Medicine)</MakeMSNTMechSerumMedicine.description>
+  <MakeMSNTMechSerumMedicine.jobString>Making Neurotrainer mech serum.</MakeMSNTMechSerumMedicine.jobString>
+  <MakeMSNTMechSerumArtistic.label>Make Neurotrainer (Artistic)</MakeMSNTMechSerumArtistic.label>
+  <MakeMSNTMechSerumArtistic.description>Make 1 Neurotrainer (Artistic)</MakeMSNTMechSerumArtistic.description>
+  <MakeMSNTMechSerumArtistic.jobString>Making Neurotrainer mech serum.</MakeMSNTMechSerumArtistic.jobString>
+  <MakeMSNTMechSerumCrafting.label>Make Neurotrainer (Crafting)</MakeMSNTMechSerumCrafting.label>
+  <MakeMSNTMechSerumCrafting.description>Make 1 Neurotrainer (Crafting)</MakeMSNTMechSerumCrafting.description>
+  <MakeMSNTMechSerumCrafting.jobString>Making Neurotrainer mech serum.</MakeMSNTMechSerumCrafting.jobString>
+</LanguageData>

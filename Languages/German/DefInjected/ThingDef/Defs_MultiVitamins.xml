@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Multi Vitamins -->
+  <MSMultiVitamins.label>Vitaminpräparat</MSMultiVitamins.label>
+  <MSMultiVitamins.description>Eine Pille, die jeden zweiten Tag eingenommen wird, um die Immunität etwas zu stärken und die Vermeidung von Lebensmittelvergiftungen und Darmwürmern beinhaltet.</MSMultiVitamins.description>
+  <MSMultiVitamins.ingestible.ingestCommandString>Nimm {0}</MSMultiVitamins.ingestible.ingestCommandString>
+  <MSMultiVitamins.ingestible.ingestReportString>Nimmt {0}.</MSMultiVitamins.ingestible.ingestReportString>
+</LanguageData>

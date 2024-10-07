@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeRimpeptic.label>制作甲苯咪唑</MakeRimpeptic.label>
+  <MakeRimpeptic.description>制作五份甲苯咪唑。</MakeRimpeptic.description>
+  <MakeRimpeptic.jobString>正在制作甲苯咪唑。</MakeRimpeptic.jobString>
+  <MakeBulkRimpeptic.label>批量制作甲苯咪唑</MakeBulkRimpeptic.label>
+  <MakeBulkRimpeptic.description>制作二十五份甲苯咪唑。</MakeBulkRimpeptic.description>
+  <MakeBulkRimpeptic.jobString>正在批量制作甲苯咪唑。</MakeBulkRimpeptic.jobString>
+</LanguageData>

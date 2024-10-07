@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSBattleStim_High.label>BattleStim</MSBattleStim_High.label>
+  <MSBattleStim_High.description>BattleStim effect</MSBattleStim_High.description>
+  <MSBattleStim_Low.label>BattleStim Regression</MSBattleStim_Low.label>
+  <MSBattleStim_Low.description>BattleStim Regression effect</MSBattleStim_Low.description>
+</LanguageData>

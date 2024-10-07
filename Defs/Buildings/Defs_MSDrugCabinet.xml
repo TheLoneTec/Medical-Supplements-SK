@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ================== Drug Cabinet =============================== -->
+  <ThingDef ParentName="FurnitureWithQualityBase" Name="MSDrugCabinetBase">
+    <defName>DrugCabinet</defName>
+    <label>Drug Cabinet</label>
+    <description>A small cabinet to store drugs. Includes a small cleanliness boost and a production boost to drug lab benches.</description>
+    <surfaceType>Item</surfaceType>
+    <graphicData>
+      <texPath>Things/Building/Misc/DrugCabinet/DrugCabinet</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shadowData>
+        <volume>(0.3, 0.6, 0.3)</volume>
+      </shadowData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+      <Mass>5</Mass>
+      <Flammability>1.0</Flammability>
+      <Beauty>2</Beauty>
+      <Cleanliness>0.05</Cleanliness>
+    </statBases>
+    <pathCost>60</pathCost>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.5</fillPercent>
+    <canOverlapZones>false</canOverlapZones>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <costStuffCount>35</costStuffCount>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <researchPrerequisites Inherit="false">
+      <li>ComplexFurniture</li>
+      <li>DrugProduction</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <WorkTableWorkSpeedFactor>0.10</WorkTableWorkSpeedFactor>
+        </statOffsets>
+        <maxSimultaneous>2</maxSimultaneous>
+      </li>
+    </comps>
+    <staticSunShadowHeight>0</staticSunShadowHeight>
+    <castEdgeShadows>false</castEdgeShadows>
+    <thingCategories>
+      <li>BuildingsMisc</li>
+    </thingCategories>
+    <designationCategory>Misc</designationCategory>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingClass>Building_Storage</thingClass>
+    <building>
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+      </defaultStorageSettings>
+      <fixedStorageSettings>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+            <li>Drugs</li>
+            <li>MSDrugs</li>
+            <li>MSInjectStim</li>
+            <li>MSManufactured</li>
+          </categories>
+          <thingDefs>
+            <li>Neutroamine</li>
+          </thingDefs>
+        </filter>
+      </fixedStorageSettings>
+    </building>
+    <inspectorTabs>
+      <li>ITab_Storage</li>
+    </inspectorTabs>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+  </ThingDef>
+  <!--  Refrigerated instead -->
+  <ThingDef ParentName="MSDrugCabinetBase">
+    <defName>DrugCabinetFridge</defName>
+    <label>Drug Cabinet (w Fridge)</label>
+    <description>A small cabinet to store drugs. Includes a small cleanliness boost and a production boost to drug lab benches. This fridge model also includes refridgeration capabilities.</description>
+    <graphicData>
+      <texPath>Things/Building/Misc/DrugCabinetFridge/DrugCabinetFridge</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shadowData>
+        <volume>(0.3, 0.6, 0.3)</volume>
+      </shadowData>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>90</MaxHitPoints>
+      <WorkToBuild>1200</WorkToBuild>
+      <Mass>6</Mass>
+      <Flammability>0.5</Flammability>
+      <Beauty>2</Beauty>
+      <Cleanliness>0.05</Cleanliness>
+    </statBases>
+    <costStuffCount>35</costStuffCount>
+    <costList>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <researchPrerequisites Inherit="false">
+      <li>ComplexFurniture</li>
+      <li>DrugProduction</li>
+      <li>AirConditioning</li>
+    </researchPrerequisites>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>75</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="CompProperties_Glower">
+        <glowRadius>2.5</glowRadius>
+        <glowColor>(89,188,255,0)</glowColor>
+      </li>
+    </comps>
+    <tickerType>Rare</tickerType>
+    <building Inherit="false">
+      <preventDeteriorationOnTop>true</preventDeteriorationOnTop>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+      </defaultStorageSettings>
+      <fixedStorageSettings>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+            <li>Drugs</li>
+            <li>MSDrugs</li>
+            <li>MSInjectStim</li>
+            <li>MSManufactured</li>
+          </categories>
+          <thingDefs>
+            <li>Neutroamine</li>
+            <li>MSOPSeedPod</li>
+            <li>MSPerrywinkleLeaves</li>
+            <li>Milk</li>
+            <li>InsectJelly</li>
+            <li>PsychoidLeaves</li>
+            <li>SmokeleafLeaves</li>
+            <li>RawBerries</li>
+            <li>RawAgave</li>
+            <li>RawFungus</li>
+            <li>Chocolate</li>
+          </thingDefs>
+        </filter>
+      </fixedStorageSettings>
+    </building>
+    <inspectorTabs Inherit="false">
+      <li>ITab_Storage</li>
+    </inspectorTabs>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+  </ThingDef>
+</Defs>

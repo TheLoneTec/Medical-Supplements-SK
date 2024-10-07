@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Travel Pill -->
+  <MSTravelPill.label>Reise-Tablette</MSTravelPill.label>
+  <MSTravelPill.description>Eine Reise-Pille, die milde Effekte zur Verbesserung der körperlichen Leistungsfähigkeit hat, den Hunger ein wenig unterdrückt und die allgemeine Stimmung ein wenig verbessert, jedoch etwas schneller zur Ermüdung führt. Die Wirkung hält 5 Tage an.</MSTravelPill.description>
+  <MSTravelPill.ingestible.ingestCommandString>Nimm {0}</MSTravelPill.ingestible.ingestCommandString>
+  <MSTravelPill.ingestible.ingestReportString>Nimmt {0}.</MSTravelPill.ingestible.ingestReportString>
+</LanguageData>

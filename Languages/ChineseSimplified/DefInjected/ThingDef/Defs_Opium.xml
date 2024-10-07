@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Plant_MSOpiumPoppy.label>罂粟</Plant_MSOpiumPoppy.label>
+  <Plant_MSOpiumPoppy.description>一种罂粟科有花植物。这种植物能够产出罂粟籽和鸦片。</Plant_MSOpiumPoppy.description>
+  <MSOPSeedPod.label>罂粟果</MSOPSeedPod.label>
+  <MSOPSeedPod.description>罂粟的果荚。这些果荚能够用来提取罂粟籽和鸦片膏。</MSOPSeedPod.description>
+  <MSOpiumLatex.label>鸦片膏</MSOpiumLatex.label>
+  <MSOpiumLatex.description>由罂粟果产出的膏状物，含有一类被称为鸦片剂的生物碱。</MSOpiumLatex.description>
+  <MSPoppySeeds.label>罂粟籽</MSPoppySeeds.label>
+  <MSPoppySeeds.description>从干燥罂粟果里收获的小小的肾形种子，可以磨碎或者直接使用在很多食品中。</MSPoppySeeds.description>
+</LanguageData>

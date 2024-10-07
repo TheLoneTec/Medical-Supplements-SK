@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Drug Cabinet -->
+  <DrugCabinet.label>Drug Cabinet</DrugCabinet.label>
+  <DrugCabinet.description>A small cabinet to store drugs. Includes a small cleanliness boost and a production boost to drug lab benches.</DrugCabinet.description>
+  <!-- Refrigerated instead -->
+  <DrugCabinetFridge.label>Drug Cabinet (w Fridge)</DrugCabinetFridge.label>
+  <DrugCabinetFridge.description>A small cabinet to store drugs. Includes a small cleanliness boost and a production boost to drug lab benches. This fridge model also includes refridgeration capabilities.</DrugCabinetFridge.description>
+</LanguageData>

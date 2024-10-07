@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Make_MSAspirin.label>Stelle Aspirin her</Make_MSAspirin.label>
+  <Make_MSAspirin.description>Stelle Aspirin her.</Make_MSAspirin.description>
+  <Make_MSAspirin.jobString>Stelle Aspirin her.</Make_MSAspirin.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkAspirin.label>Stelle Aspirin in Massen her</MakeBulkAspirin.label>
+  <MakeBulkAspirin.description>Stelle 5 Aspirintabletten her.</MakeBulkAspirin.description>
+  <MakeBulkAspirin.jobString>Stelle Aspirin her.</MakeBulkAspirin.jobString>
+</LanguageData>

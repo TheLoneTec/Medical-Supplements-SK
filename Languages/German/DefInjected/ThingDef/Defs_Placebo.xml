@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Placebo -->
+  <MSPlacebo.label>Placebo</MSPlacebo.label>
+  <MSPlacebo.description>Placebo ist ein Medikament, das verwendet wird, um Menschen mit chemischen Anfällen anzulocken, da sie versuchen werden, dieses Medikament anstelle anderer wirksamer Medikamente zu verwenden. Es hat eine milde beruhigende Wirkung, die etwa einen Tag anhält und beim Gebrauch eine mentale Abhängigkeit hervorrufen kann.</MSPlacebo.description>
+  <MSPlacebo.ingestible.ingestCommandString>Nimm {0}</MSPlacebo.ingestible.ingestCommandString>
+  <MSPlacebo.ingestible.ingestReportString>Nimmt {0}.</MSPlacebo.ingestible.ingestReportString>
+</LanguageData>

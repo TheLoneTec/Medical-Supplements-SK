@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSMultiVitamins.label>Vitaminpräparate</MSMultiVitamins.label>
+  <MSMultiVitamins.description>Gewährt die Fähigkeit, Multivitamine herzustellen. Eine Pille, die jeden zweiten Tag eingenommen wird und zur leichten Stärkung der Immunität verwendet wird und die die Vermeidung von Lebensmittelvergiftungen und Darmwürmern einschließt.</MSMultiVitamins.description>
+  <MSMetasis.label>Metasis</MSMetasis.label>
+  <MSMetasis.description>Gewährt die Fähigkeit, Metasis herzustellen. Veredelt aus Luciferium verbessert diese modifizierte Zubereitung von Mechaniten die Körperfunktionen in jeder Hinsicht. Entfernt die Sucht-Eigenschaften von Luciferium als Teil des Raffinationsprozesses, beseitigt jedoch auch einige der anderen Vorteile. Wird alle 7 Tage  eingenommen.</MSMetasis.description>
+  <MSAntinites.label>Antinites</MSAntinites.label>
+  <MSAntinites.description>Gewährt die Fähigkeit, Antinites herzustellen. Veredelt aus Luciferium kann diese modifizierte Zusammensetzung von Mechaniten verwendet werden, um andere unerwünschte Mechaniten im Körper anzugreifen. Phenol und Rauchblatt werden zu dieser Mischung hinzugefügt, um einen toxischen Effekt gegen unerwünschte Nanite im System zu erzielen. Infolgedessen kann die Erfahrung, obwohl sie nur von kurzer Dauer ist, für etwa einen halben Tag ziemlich schmerzhaft sein. Es ist ratsam, vor oder unmittelbar nach der Injektion eine Schmerzlinderung vorzunehmen.</MSAntinites.description>
+  <MSRimoxicillin.label>Rimoxicillin</MSRimoxicillin.label>
+  <MSRimoxicillin.description>Gewährt die Fähigkeit, Rimoxicillin herzustellen. Ein halbsynthetisches Breitbandantibiotikum, das etwa einen halben Tag hält.</MSRimoxicillin.description>
+  <MSProphylactics.label>Prophylaktika</MSProphylactics.label>
+  <MSProphylactics.description>Gewährt die Fähigkeit, prophylatisch zu wirken. Verschiedene Hilfsmittel helfen dabei, Schwangerschaften und sexuell übertragbare Infektionen und Krankheiten zu vermeiden</MSProphylactics.description>
+  <MSAndrogen.label>Androgene</MSAndrogen.label>
+  <MSAndrogen.description>Gewährt die Fähigkeit, Androgen herzustellen. Synthetisches Androgen als mildes Steroidhormon. Kann eine ungewöhnlichere Nebenwirkung vorübergehender und potenziell unerwünschter Haarwuchs für Frauen herbeiführen. Die Wirkung hält 3 Tage an.</MSAndrogen.description>
+  <MSRimpeptic.label>Rimpeptic</MSRimpeptic.label>
+  <MSRimpeptic.description>Gewährt die Fähigkeit, Rimpeptiker herzustellen. Rimpeptic ist ein Medikament, das als Reaktion auf Lebensmittelvergiftungen oder Darmwürmer angewendet wird und dabei hilft, den Magen zu beruhigen. Es kann helfen, die Auswirkungen von Lebensmittelvergiftungen ein wenig zu lindern, stoppt aber den Prozess nicht. Bei Darmwürmern kann es jedoch dazu beitragen, die mit dieser Krankheit verbundene Dauer zu verkürzen. Es besteht auch das Potenzial (wenn auch geringfügig) für dieses Medikament diese Krankheit vollständig zu heilen sogar, wenn die Tendenzqualität hoch genug ist. Täglich als Reaktion auf die Beschwerden einzunehmen.</MSRimpeptic.description>
+  <MSGlycerol.label>Glycerin</MSGlycerol.label>
+  <MSGlycerol.description>Gewährt die Fähigkeit, Glycerin herzustellen. Glycerin ist eine einfache Polyolverbindung. Es ist eine farblose, geruchlose, viskose Flüssigkeit, die süß schmeckt und ungiftig ist. Es ist ein chemischer Vorläufer und ein Lebensmittelzusatzstoff.</MSGlycerol.description>
+  <MSFireThroat.label>FireThroat</MSFireThroat.label>
+  <MSFireThroat.description>Gewährt die Fähigkeit, FireThroat herzustellen. Eine ziemlich starke und nicht schmeckende Grippevorbeugungstinktur. Wird alle 3 Tage eingenommen.</MSFireThroat.description>
+  <MSInhaler.label>Asthma-Inhalator</MSInhaler.label>
+  <MSInhaler.description>Gewährt die Fähigkeit, Inhalatoren herzustellen. Ein Inhalator, der Immunität gegen Asthma bietet, verbessert auch die Erholungszeit bei schwierigen Bedingungen. Täglich anwenden.</MSInhaler.description>
+  <MSRimProPlus.label>RimProPlus</MSRimProPlus.label>
+  <MSRimProPlus.description>Gewährt die Möglichkeit, RimProPlus herzustellen. Eine hochsüße Pille, die einen Tag lang hält, die Ruhebedürfnisse reduziert und Schlafkrankheiten vorbeugt.</MSRimProPlus.description>
+  <MSAspirin.label>Aspirin</MSAspirin.label>
+  <MSAspirin.description>Gewährt die Fähigkeit, Aspirin herzustellen. Ein mildes Schmerzmittel, das verwendet werden kann, um den Prozess der Arterienblockierung zu verhindern. Wird alle 2 Tage eingenommen.</MSAspirin.description>
+  <MSRimzac.label>Rimzac</MSRimzac.label>
+  <MSRimzac.description>Gewährt die Fähigkeit, Rimzac herzustellen. Ein Antidepressivum. Verfeinert aus Ambrosia, um die süchtig machenden Nebenwirkungen zu beseitigen. Hält 2 Tage an.</MSRimzac.description>
+  <MSAntitox.label>Antitox</MSAntitox.label>
+  <MSAntitox.description>Gewährt die Fähigkeit, Antitox herzustellen. Pillen die gegen Vergiftungen helfen. Wird alle 3 Tage eingenommen.</MSAntitox.description>
+  <MSPhenol.label>Phenol</MSPhenol.label>
+  <MSPhenol.description>Gewährt die Fähigkeit, Phenol herzustellen. Phenol ist eine aromatische organische Verbindung, die leicht sauer ist und aufgrund ihrer Neigung zu Verätzungen besondere Sorgfalt erfordert. Wird als Vorläuferchemikalie zur Bildung anderer Gegenstände verwendet.</MSPhenol.description>
+  <MSWipes.label>Antibakterielle Tücher</MSWipes.label>
+  <MSWipes.description>Gewährt die Fähigkeit, antibakterielle Tücher herzustellen. Tücher können zur allgemeinen Hygiene und insbesondere zur Unterstützung der Chirurgen bei ihren Eingriffen verwendet werden. Die Wirkung hält nur einen halben Tag an.</MSWipes.description>
+  <MSContacts.label>Kontaktlinsen</MSContacts.label>
+  <MSContacts.description>Gewährt die Fähigkeit,  Kontaktlinsen herzustellen. Weiche Einweg-Kontaktlinsen aus Polycarbonat, die das Sehvermögen für einen Zeitraum von bis zu zehn Tagen geringfügig verbessern können.</MSContacts.description>
+  <MSRimtarol.label>Rimtarol</MSRimtarol.label>
+  <MSRimtarol.description>Gewährt die Fähigkeit, Rimtarol herzustellen. Rimtarol ist ein schmerzlinderndes Gel, das bei der Anwendung die Schmerzen lindern kann. Es kann auch eine Immunität gegen Muskelparasiten bieten und im Falle einer Erkrankung dazu beitragen, die Zeit zu verkürzen, die für die Behandlung der Krankheit aufgewendet wird. Wird alle 3 Tage angewendet.</MSRimtarol.description>
+  <MSRimedicrem.label>Rimedicrem</MSRimedicrem.label>
+  <MSRimedicrem.description>Gewährt die Fähigkeit, Rimedicrem herzustellen. Rimedicrem ist ein starkes Sterilisationsmittel mit antibakteriellen Eigenschaften, das alle 2 Tage angewendet werden kann. Es bietet eine Immunität gegen infizierte Wunden und hilft bei bereits infizierten Wunden.</MSRimedicrem.description>
+  <MSRimBurnEaze.label>RimBurnEaze</MSRimBurnEaze.label>
+  <MSRimBurnEaze.description>Gewährt die Fähigkeit, RimBurnEaze zu erstellen. RimBurnEaze ist eine antibiotische Hautcreme, die bei Verbrennungen hilft. Es ist in der Lage, bleibende Verbrennungsnarben zu heilen. Heilwirkungen dauern 3 Tage.</MSRimBurnEaze.description>
+  <MSLithiumSalts.label>Lithiumsalze</MSLithiumSalts.label>
+  <MSLithiumSalts.description>Gewährt die Fähigkeit, Lithiumsalze herzustellen. Ein weißes pulverförmiges Salz, das auch als Lithiumcarbonat bezeichnet wird und eine anorganische Verbindung ist. Eine Vorläuferchemikalie.</MSLithiumSalts.description>
+  <MSClarity.label>Klarheit</MSClarity.label>
+  <MSClarity.description>Gewährt die Fähigkeit, Klarheit herzustellen. Klarheit ist ein Antipsychotikum und Nootropikum. Nehmen Sie alle 5 Tage eine Dosis.</MSClarity.description>
+  <MSPlacebo.label>Placebo</MSPlacebo.label>
+  <MSPlacebo.description>Gewährt die Fähigkeit, ein Placebo herzustellen. Placebo ist ein Medikament, das verwendet wird, um Menschen mit chemischen Anfällen anzulocken, da sie versuchen werden, dieses Medikament anstelle anderer wirksamer Medikamente zu verwenden. Es hat eine milde beruhigende Wirkung, die etwa einen Tag anhält und beim Gebrauch eine mentale Abhängigkeit hervorrufen kann.</MSPlacebo.description>
+  <MSTravelPill.label>Reise-Tabletten</MSTravelPill.label>
+  <MSTravelPill.description>Gewährt die Fähigkeit, Reisetabletten herzustellen. Eine Reise-Pille, die milde Effekte zur Verbesserung der körperlichen Leistungsfähigkeit hat, den Hunger ein wenig unterdrückt und die allgemeine Stimmung ein wenig verbessert, jedoch etwas schneller zur Ermüdung führt. Die Wirkung hält 5 Tage an.</MSTravelPill.description>
+  <!-- Opium based drugs -->
+  <MSOpiumPoppy.label>Schlafmohn</MSOpiumPoppy.label>
+  <MSOpiumPoppy.description>Gewährt die Fähigkeit, Schlafmohn anzubauen. Eine Blütenpflanzenart aus der Familie der Papaveraceae. Es ist die Pflanzenart, aus der Opium und Mohn gewonnen werden.</MSOpiumPoppy.description>
+  <MSOpium.label>Opium</MSOpium.label>
+  <MSOpium.description>Gewährt die Fähigkeit, rohes Opium zu extrahieren und zuzubereiten. Das aus Schlafmohnschoten hergestellte Latex enthält eine Klasse natürlich vorkommender Alkaloide, die als Opiate bezeichnet werden.</MSOpium.description>
+  <MSRimCodamol.label>RimCodamol</MSRimCodamol.label>
+  <MSRimCodamol.description>Gewährt die Fähigkeit, RimCodamol herzustellen. Ein mildes Opiat-Schmerzmittel, das ungefähr einen Tag anhält. Kann potenziell süchtig machen (meistens, wenn in kurzer Zeit zu viel eingenommen wird).</MSRimCodamol.description>
+  <MSMorphine.label>Morphium</MSMorphine.label>
+  <MSMorphine.description>Gewährt die Fähigkeit, Morphin herzustellen. Ein starkes Opiat-Schmerzmittel, das etwa einen halben Tag anhält. Kann süchtig machen.</MSMorphine.description>
+  <!-- Vinca based -->
+  <MSPerrywinkle.label>Catharanthe</MSPerrywinkle.label>
+  <MSPerrywinkle.description>Gewährt die Fähigkeit, Catharanthe anzubauen. Eine Pflanze mit Alkaloiden, die bei der Synthese von Chemotherapeutika nützlich sind.</MSPerrywinkle.description>
+  <MSVinca.label>Vinca-Alkaloide</MSVinca.label>
+  <MSVinca.description>Gewährt die Fähigkeit, Vinca-Alkaloide zu synthetisieren. Eine Vorläuferchemikalie, die in Chemotherapeutika verwendet wird.</MSVinca.description>
+  <MSVinacol.label>Vinacol</MSVinacol.label>
+  <MSVinacol.description>Gewährt die Fähigkeit, Vinacol herzustellen. Ein Medikament, das in der Chemotherapie eingesetzt wird.</MSVinacol.description>
+</LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSMedicalMat.label>Medizinische Matten</MSMedicalMat.label>
+  <MSMedicalMat.description>Gewährt die Fähigkeit, medizinische Matten herzustellen. Eine zusammengerollte, tragbare Matte, die für medizinische Zwecke auf dem Feld oder auf Reisen verwendet werden kann.</MSMedicalMat.description>
+  <MSMedicalMatSpacer.label>Fortgeschrittene medizinische Matten</MSMedicalMatSpacer.label>
+  <MSMedicalMatSpacer.description>Gewährt die Fähigkeit, fortgeschrittene medizinische Matten herzustellen. Eine aufgerollte, fortschrittliche, tragbare Matte, die für medizinische Zwecke auf dem Feld oder auf Reisen verwendet werden kann.</MSMedicalMatSpacer.description>
+  <MSMedicalMatUltra.label>Ultratech medizinische Matten</MSMedicalMatUltra.label>
+  <MSMedicalMatUltra.description>Gewährt die Fähigkeit, Ultratech medizinische Matten herzustellen. Eine aufgerollte Hightech-Matte, die für medizinische Zwecke auf dem Feld oder auf Reisen verwendet werden kann.</MSMedicalMatUltra.description>
+  <MSMedicalMatEarly.label>Frühe medizinische Matten</MSMedicalMatEarly.label>
+  <MSMedicalMatEarly.description>Gewährt die Fähigkeit, frühe medizinische Matten herzustellen. Eine aufgerollte, tragbare Matte aus mit Kräutermedizin imprägniertem Seil, die für medizinische Zwecke auf dem Feld oder auf Reisen verwendet werden kann</MSMedicalMatEarly.description>
+</LanguageData>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Mental Dependancy -->
+  <Chemical_MSMental.label>Mentale Abhängigkeit</Chemical_MSMental.label>
+  <Chemical_MSMental.description>Aufgrund einer Mentalen Abhängigkeit muss diese Person das Medikament regelmäßig konsumieren, um Entzugssymptome zu vermeiden.</Chemical_MSMental.description>
+</LanguageData>

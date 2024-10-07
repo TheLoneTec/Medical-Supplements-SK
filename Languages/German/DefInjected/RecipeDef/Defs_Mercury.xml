@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeMSMercurySalts.label>Stelle Quecksilbersalze her</MakeMSMercurySalts.label>
+  <MakeMSMercurySalts.description>Stelle 5 Quecksilbersalze her.</MakeMSMercurySalts.description>
+  <MakeMSMercurySalts.jobString>Stelle Quecksilbersalze her.</MakeMSMercurySalts.jobString>
+  <!-- EthylMercury -->
+  <MakeMSEthylMercury.label>Stelle Ethylquecksilber her</MakeMSEthylMercury.label>
+  <MakeMSEthylMercury.description>Stelle ein Ethylquecksilber her.</MakeMSEthylMercury.description>
+  <MakeMSEthylMercury.jobString>Stelle Ethylquecksilber her.</MakeMSEthylMercury.jobString>
+</LanguageData>

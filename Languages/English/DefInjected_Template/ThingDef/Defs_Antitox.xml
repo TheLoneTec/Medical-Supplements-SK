@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Antitox -->
+  <MSAntitox.label>Antitox</MSAntitox.label>
+  <MSAntitox.description>Antitoxin pills. Taken every 3 days.</MSAntitox.description>
+  <MSAntitox.ingestible.ingestCommandString>Take {0}</MSAntitox.ingestible.ingestCommandString>
+  <MSAntitox.ingestible.ingestReportString>Taking {0}.</MSAntitox.ingestible.ingestReportString>
+</LanguageData>

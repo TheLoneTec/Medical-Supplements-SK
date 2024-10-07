@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Scrubnites -->
+  <MSScrubnites.label>Scrubnites Injection</MSScrubnites.label>
+  <MSScrubnites.description>Scrubnites are a modified version of Antinites that specifically remove the effects of addictions. It effects last for 3 days and the pain levels associated with the treatment are somewhat reduced in comparison to Antinites.</MSScrubnites.description>
+  <MSScrubnites.ingestible.ingestCommandString>Inject {0}</MSScrubnites.ingestible.ingestCommandString>
+  <MSScrubnites.ingestible.ingestReportString>Injecting {0}.</MSScrubnites.ingestible.ingestReportString>
+</LanguageData>

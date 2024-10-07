@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Administer_MSAndrogen.label>施用康复龙</Administer_MSAndrogen.label>
+  <Administer_MSAndrogen.jobString>正在施用康复龙。</Administer_MSAndrogen.jobString>
+  <Administer__MSAntinites.label>注射抗 纳米机械 针剂</Administer__MSAntinites.label>
+  <Administer__MSAntinites.jobString>正在注射抗 纳米机械 针剂。</Administer__MSAntinites.jobString>
+  <Administer__Metasis.label>注射梅达西尔针剂</Administer__Metasis.label>
+  <Administer__Metasis.jobString>正在注射梅达西尔针剂。</Administer__Metasis.jobString>
+  <Administer__MSAspirin.label>施用阿司匹林</Administer__MSAspirin.label>
+  <Administer__MSAspirin.jobString>正在施用阿司匹林。</Administer__MSAspirin.jobString>
+  <Administer__FireThroat.label>施用急支糖浆</Administer__FireThroat.label>
+  <Administer__FireThroat.jobString>正在施用急支糖浆。</Administer__FireThroat.jobString>
+  <Administer__MSInhaler.label>施用舒利迭</Administer__MSInhaler.label>
+  <Administer__MSInhaler.jobString>正在施用舒利迭。</Administer__MSInhaler.jobString>
+  <Administer__MSRimProPlus.label>施用RimProPlus</Administer__MSRimProPlus.label>
+  <Administer__MSRimProPlus.jobString>正在施用RimProPlus。</Administer__MSRimProPlus.jobString>
+  <Administer__MSRimzac.label>施用百忧解</Administer__MSRimzac.label>
+  <Administer__MSRimzac.jobString>正在施用百忧解。</Administer__MSRimzac.jobString>
+  <Administer_Antitoxin.label>施用抗毒素</Administer_Antitoxin.label>
+  <Administer_Antitoxin.jobString>正在施用抗毒素。</Administer_Antitoxin.jobString>
+  <Administer_Aspirin.label>施用阿司匹林</Administer_Aspirin.label>
+  <Administer_Aspirin.jobString>正在施用阿司匹林。</Administer_Aspirin.jobString>
+  <Administer_MSBandage.label>施用无菌绷带</Administer_MSBandage.label>
+  <Administer_MSBandage.jobString>正在施用无菌绷带。</Administer_MSBandage.jobString>
+  <Administer_MSASBandage.label>施用抗菌绷带</Administer_MSASBandage.label>
+  <Administer_MSASBandage.jobString>正在施用抗菌绷带。</Administer_MSASBandage.jobString>
+  <Administer_MSNanoBandage.label>施用纳米绷带</Administer_MSNanoBandage.label>
+  <Administer_MSNanoBandage.jobString>正在施用纳米绷带。</Administer_MSNanoBandage.jobString>
+  <Administer_MSClarity.label>施用心清明</Administer_MSClarity.label>
+  <Administer_MSClarity.jobString>正在施用心清明。</Administer_MSClarity.jobString>
+  <Administer_MSContacts.label>帮他带隐形眼镜</Administer_MSContacts.label>
+  <Administer_MSContacts.jobString>正在帮他戴隐形眼镜。</Administer_MSContacts.jobString>
+  <Administer_MSMultiVitamins.label>施用复合维生素</Administer_MSMultiVitamins.label>
+  <Administer_MSMultiVitamins.jobString>正在施用复合维生素。</Administer_MSMultiVitamins.jobString>
+  <Administer_MSRimCodamol.label>施用可达莫</Administer_MSRimCodamol.label>
+  <Administer_MSRimCodamol.jobString>正在施用可达莫。</Administer_MSRimCodamol.jobString>
+  <Administer_MSMorphine.label>施用吗啡</Administer_MSMorphine.label>
+  <Administer_MSMorphine.jobString>正在施用吗啡。</Administer_MSMorphine.jobString>
+  <Administer_MSOpiumPipe.label>施用鸦片烟</Administer_MSOpiumPipe.label>
+  <Administer_MSOpiumPipe.jobString>正在施用鸦片烟。</Administer_MSOpiumPipe.jobString>
+  <Administer_MSPlacebo.label>施用安慰丸</Administer_MSPlacebo.label>
+  <Administer_MSPlacebo.jobString>正在施用安慰丸。</Administer_MSPlacebo.jobString>
+  <Administer_Rimedicrem.label>施用百多邦</Administer_Rimedicrem.label>
+  <Administer_Rimedicrem.jobString>正在施用百多邦。</Administer_Rimedicrem.jobString>
+  <Administer_Rimoxicillin.label>施用瑞莫西林</Administer_Rimoxicillin.label>
+  <Administer_Rimoxicillin.jobString>正在施用瑞莫西林。</Administer_Rimoxicillin.jobString>
+  <Administer_Rimpeptic.label>施用甲苯咪唑</Administer_Rimpeptic.label>
+  <Administer_Rimpeptic.jobString>正在施用甲苯咪唑。</Administer_Rimpeptic.jobString>
+  <Administer_Rimtarol.label>施用酒石醇凝胶</Administer_Rimtarol.label>
+  <Administer_Rimtarol.jobString>正在施用酒石醇凝胶。</Administer_Rimtarol.jobString>
+  <Administer_MSWipes.label>施用消毒棉片</Administer_MSWipes.label>
+  <Administer_MSWipes.jobString>正在施用消毒棉片。</Administer_MSWipes.jobString>
+</LanguageData>

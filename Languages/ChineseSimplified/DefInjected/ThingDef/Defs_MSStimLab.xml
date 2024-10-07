@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSStimLab.label>刺激剂研究台</MSStimLab.label>
+  <MSStimLab.description>用于生产各种刺激剂和高级药物的试验台，包含一套精密衡具、各式容器、几个恒温加热器和一个微型放射仓.</MSStimLab.description>
+  <MSStimLab_Blueprint.label>刺激剂研究台(蓝图)</MSStimLab_Blueprint.label>
+  <MSStimLab_Blueprint_Install.label>刺激剂研究台(蓝图)</MSStimLab_Blueprint_Install.label>
+  <MSStimLab_Frame.label>刺激剂研究台(建造中)</MSStimLab_Frame.label>
+  <MSStimLab_Frame.description>用于生产各种刺激剂和高级药物的试验台，包含一套精密衡具、各式容器、几个恒温加热器和一个微型放射仓.</MSStimLab_Frame.description>
+</LanguageData>

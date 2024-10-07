@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSRimtarol.label>酒石醇凝胶</MSRimtarol.label>
+  <MSRimtarol.description>酒石醇凝胶能够帮助缓解疼痛,也能够提高对于肌肉寄生虫的免疫力,缩短治疗周期.三天涂抹一次.</MSRimtarol.description>
+  <MSRimtarol.ingestible.ingestCommandString>涂 {0}</MSRimtarol.ingestible.ingestCommandString>
+  <MSRimtarol.ingestible.ingestReportString>正在涂 {0}.</MSRimtarol.ingestible.ingestReportString>
+</LanguageData>

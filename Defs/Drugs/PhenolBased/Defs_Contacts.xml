@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- =========== Contact lenses ==================== -->
+  <ThingDef ParentName="MSDrugCreamBase">
+    <defName>MSContacts</defName>
+    <label>Contact Lenses</label>
+    <description>Soft polycarbonate disposable contact lenses that can improve vision slightly for a period of up to ten days.</description>
+    <graphicData>
+      <texPath>Things/Item/MSContacts/MSContacts</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>500</WorkToMake>
+      <MarketValue>28</MarketValue>
+      <Mass>0.02</Mass>
+    </statBases>
+    <stackLimit>20</stackLimit>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>HedMSContacts</hediffDef>
+          <severity>10.0</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1612</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.01</min>
+          <max>0.03</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>HedMSContacts</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>Contact Lenses</label>
+    <description>Contact lenses effect</description>
+    <defaultLabelColor>(0.35, 0.58, 0.93)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>10.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.95</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <statOffsets>
+          <!-- <ShootingAccuracy>+0.01</ShootingAccuracy> -->
+          <AccuracyTouch>+0.03</AccuracyTouch>
+          <AccuracyShort>+0.02</AccuracyShort>
+          <AccuracyMedium>+0.02</AccuracyMedium>
+          <AccuracyLong>+0.02</AccuracyLong>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>0.10</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <!-- Recipes -->
+  <RecipeDef>
+    <defName>MakeMSContacts</defName>
+    <label>Make contact lenses</label>
+    <description>Make contact lenses</description>
+    <jobString>Making contact lenses</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>500</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSPhenol</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MSPhenol</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSContacts>1</MSContacts>
+    </products>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>9</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>MSContacts</researchPrerequisite>
+  </RecipeDef>
+</Defs>

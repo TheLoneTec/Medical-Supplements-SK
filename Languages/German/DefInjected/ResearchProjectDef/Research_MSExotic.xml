@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSMercury.label>Quecksilberverbindungen</MSMercury.label>
+  <MSMercury.description>Ermöglicht die Herstellung von Quecksilberverbindungen.</MSMercury.description>
+  <MSImmunisation.label>Impfungen</MSImmunisation.label>
+  <MSImmunisation.description>Gewährt die Fähigkeit, Impfungen durchzuführen. Anwendungen, die das Immunsystem stärken können.</MSImmunisation.description>
+  <MSCerebrax.label>Cerebrax</MSCerebrax.label>
+  <MSCerebrax.description>Gewährt die Fähigkeit, Cerebrax herzustellen. Medikament zur Beseitigung der psychischen Anfälligkeit.</MSCerebrax.description>
+</LanguageData>

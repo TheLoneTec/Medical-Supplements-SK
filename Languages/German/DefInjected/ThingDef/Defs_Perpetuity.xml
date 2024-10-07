@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Perpetuity Vial -->
+  <MSPerpetuity_Vial.label>Perpetuityfläschchen</MSPerpetuity_Vial.label>
+  <MSPerpetuity_Vial.description>Fläschchen mit Perpetuity-Chemikalien. Im Stimlabor zuzubereiten.</MSPerpetuity_Vial.description>
+  <!-- Perpetuity -->
+  <MSPerpetuity.label>Perpetuity</MSPerpetuity.label>
+  <MSPerpetuity.description>Eine Dosis von selbst injizierten Mechaniten, die den Benutzer verjüngen sollen. Das Elixier des Lebens aus der Legende.</MSPerpetuity.description>
+  <MSPerpetuity.comps.3.useLabel>Benutze Perpetuity</MSPerpetuity.comps.3.useLabel>
+</LanguageData>

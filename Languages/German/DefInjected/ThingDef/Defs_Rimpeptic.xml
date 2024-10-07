@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Rimpeptic -->
+  <MSRimpeptic.label>Rimpeptic</MSRimpeptic.label>
+  <MSRimpeptic.description>Rimpeptic ist ein Medikament, das als Reaktion auf Lebensmittelvergiftungen oder Darmwürmer angewendet wird und dabei hilft, den Magen zu beruhigen. Es kann helfen, die Auswirkungen von Lebensmittelvergiftungen ein wenig zu lindern, stoppt aber den Prozess nicht. Bei Darmwürmern kann es jedoch dazu beitragen, die mit dieser Krankheit verbundene Dauer zu verkürzen. Es besteht auch das Potenzial (wenn auch geringfügig) für dieses Medikament diese Krankheit sogar zu heilen, wenn die Tendenzqualität hoch genug ist. Täglich als Reaktion auf die Umstände eingenommen.</MSRimpeptic.description>
+  <MSRimpeptic.ingestible.ingestCommandString>Trinke {0}</MSRimpeptic.ingestible.ingestCommandString>
+  <MSRimpeptic.ingestible.ingestReportString>Trinkt {0}.</MSRimpeptic.ingestible.ingestReportString>
+</LanguageData>

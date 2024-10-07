@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Antinites Vial -->
+  <MSAntinites_Vial.label>Antinitesfläschchen</MSAntinites_Vial.label>
+  <MSAntinites_Vial.description>Antiniteschemiekalie. Mit einer Spritze kombinieren, um Antinitesspritzen herzustellen.</MSAntinites_Vial.description>
+  <!-- Antinites -->
+  <MSAntinites.label>Antinitessprize</MSAntinites.label>
+  <MSAntinites.description>Veredelt aus Luciferium kann diese modifizierte Zusammensetzung von Mechaniten verwendet werden, um andere unerwünschte Mechaniten im Körper anzugreifen. Phenol und Rauchblätter werden zu dieser Mischung hinzugefügt, um einen toxischen Effekt gegen unerwünschte Nanite im System zu erzielen. Infolgedessen kann die Erfahrung, obwohl sie nur von kurzer Dauer ist, für etwa einen halben Tag ziemlich schmerzhaft sein. Es ist ratsam, vor oder unmittelbar nach der Injektion eine Schmerzlinderung vorzunehmen.</MSAntinites.description>
+  <MSAntinites.ingestible.ingestCommandString>Injiziere {0}</MSAntinites.ingestible.ingestCommandString>
+  <MSAntinites.ingestible.ingestReportString>Injiziert {0}.</MSAntinites.ingestible.ingestReportString>
+</LanguageData>

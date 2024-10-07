@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Industrial -->
+  <MSMedicalMat.label>Medizinische Matte</MSMedicalMat.label>
+  <MSMedicalMat.description>Eine tragbare Matte, die für medizinische Zwecke vor Ort verwendet werden kann.</MSMedicalMat.description>
+  <MSMedicalMat_Blueprint.label>Medizinische Matte (Entwurf)</MSMedicalMat_Blueprint.label>
+  <MSMedicalMat_Blueprint_Install.label>Medizinische Matte (Entwurf)</MSMedicalMat_Blueprint_Install.label>
+  <MSMedicalMat_Frame.label>Medizinische Matte (im Bau)</MSMedicalMat_Frame.label>
+  <MSMedicalMat_Frame.description>Eine tragbare Matte, die für medizinische Zwecke vor Ort verwendet werden kann.</MSMedicalMat_Frame.description>
+  <!-- Spacer -->
+  <MSMedicalMatSpacer.label>Medizinische Matte (Fortschrittlich)</MSMedicalMatSpacer.label>
+  <MSMedicalMatSpacer.description>Eine Fortgeschrittene tragbare Matte, die für medizinische Zwecke im Feld verwendet werden kann.</MSMedicalMatSpacer.description>
+  <MSMedicalMatSpacer_Blueprint.label>Medizinische Matte (Fortschrittlich) (Entwurf)</MSMedicalMatSpacer_Blueprint.label>
+  <MSMedicalMatSpacer_Blueprint_Install.label>Medizinische Matte (Fortschrittlich) (Entwurf)</MSMedicalMatSpacer_Blueprint_Install.label>
+  <MSMedicalMatSpacer_Frame.label>Medizinische Matte (Fortschrittlich) (im Bau)</MSMedicalMatSpacer_Frame.label>
+  <MSMedicalMatSpacer_Frame.description>Eine Fortgeschrittene tragbare Matte, die für medizinische Zwecke im Feld verwendet werden kann.</MSMedicalMatSpacer_Frame.description>
+  <!-- Ultra -->
+  <MSMedicalMatUltra.label>Medizinische Matte (Ultra Tech)</MSMedicalMatUltra.label>
+  <MSMedicalMatUltra.description>Eine extrem fortschrittliche, tragbare Matte, die für medizinische Zwecke im Feld verwendet werden kann.</MSMedicalMatUltra.description>
+  <MSMedicalMatUltra_Blueprint.label>Medizinische Matte (Ultra Tech) (Entwurf)</MSMedicalMatUltra_Blueprint.label>
+  <MSMedicalMatUltra_Blueprint_Install.label>Medizinische Matte (Ultra Tech) (Entwurf)</MSMedicalMatUltra_Blueprint_Install.label>
+  <MSMedicalMatUltra_Frame.label>Medizinische Matte (Ultra Tech) (im Bau)</MSMedicalMatUltra_Frame.label>
+  <MSMedicalMatUltra_Frame.description>Eine extrem fortschrittliche, tragbare Matte, die für medizinische Zwecke im Feld verwendet werden kann.</MSMedicalMatUltra_Frame.description>
+  <!-- Early -->
+  <MSMedicalMatEarly.label>Medizinische Matte (Simpel)</MSMedicalMatEarly.label>
+  <MSMedicalMatEarly.description>Eine tragbare Matte, die für medizinische Zwecke vor Ort verwendet werden kann.</MSMedicalMatEarly.description>
+  <MSMedicalMatEarly_Blueprint.label>Medizinische Matte (Simpel) (Entwurf)</MSMedicalMatEarly_Blueprint.label>
+  <MSMedicalMatEarly_Blueprint_Install.label>Medizinische Matte (Simpel) (Entwurf)</MSMedicalMatEarly_Blueprint_Install.label>
+  <MSMedicalMatEarly_Frame.label>Medizinische Matte (Simpel) (im Bau)</MSMedicalMatEarly_Frame.label>
+  <MSMedicalMatEarly_Frame.description>Eine tragbare Matte, die für medizinische Zwecke vor Ort verwendet werden kann.</MSMedicalMatEarly_Frame.description>
+</LanguageData>

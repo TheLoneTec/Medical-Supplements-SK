@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes Antinites Vial -->
+  <MakeAntinitesVial.label>Stelle Antinitesfläschchen her</MakeAntinitesVial.label>
+  <MakeAntinitesVial.description>Stelle Antinitesfläschchen her.</MakeAntinitesVial.description>
+  <MakeAntinitesVial.jobString>Stelle Antinitesfläschchen her.</MakeAntinitesVial.jobString>
+  <MakeBulkAntinitesVial.label>Stelle Antinitesfläschchen in Massen her</MakeBulkAntinitesVial.label>
+  <MakeBulkAntinitesVial.description>Stelle 5 Antinitesfläschchen her.</MakeBulkAntinitesVial.description>
+  <MakeBulkAntinitesVial.jobString>Stelle Antinitesfläschchen her.</MakeBulkAntinitesVial.jobString>
+  <Make_MSAntinites.label>Stelle Antinitesspritze her</Make_MSAntinites.label>
+  <Make_MSAntinites.description>Stelle Antinitesspritze her.</Make_MSAntinites.description>
+  <Make_MSAntinites.jobString>Stelle Antinitesspritze her.</Make_MSAntinites.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkAntinites.label>Stelle Antinitesspritzen in Massen her</MakeBulkAntinites.label>
+  <MakeBulkAntinites.description>Stelle 5 Antinitesspritzen her.</MakeBulkAntinites.description>
+  <MakeBulkAntinites.jobString>Stelle Antinitesspritze her.</MakeBulkAntinites.jobString>
+</LanguageData>

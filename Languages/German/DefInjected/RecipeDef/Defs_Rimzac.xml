@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Make_MSRimzac.label>Stelle Rimzac her</Make_MSRimzac.label>
+  <Make_MSRimzac.description>Stelle Rimzac her.</Make_MSRimzac.description>
+  <Make_MSRimzac.jobString>Stelle Rimzac her.</Make_MSRimzac.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkRimzac.label>Stelle Rimzac in Massen her</MakeBulkRimzac.label>
+  <MakeBulkRimzac.description>Stelle 5 Rimzactabletten her.</MakeBulkRimzac.description>
+  <MakeBulkRimzac.jobString>Stelle Rimzac her.</MakeBulkRimzac.jobString>
+</LanguageData>

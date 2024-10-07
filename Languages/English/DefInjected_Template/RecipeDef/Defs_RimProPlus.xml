@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeBulkMSRimProPlus.label>Make RimProPlus in bulk</MakeBulkMSRimProPlus.label>
+  <MakeBulkMSRimProPlus.description>Make 5 RimProPlus tablets.</MakeBulkMSRimProPlus.description>
+  <MakeBulkMSRimProPlus.jobString>Making RimProPlus.</MakeBulkMSRimProPlus.jobString>
+</LanguageData>

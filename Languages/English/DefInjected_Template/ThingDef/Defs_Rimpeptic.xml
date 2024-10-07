@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Rimpeptic -->
+  <MSRimpeptic.label>Rimpeptic</MSRimpeptic.label>
+  <MSRimpeptic.description>Rimpeptic is a drug designed to be taken in response to aquiring food poisoning or gut worms and helps to settle the stomach. It can help to alleviate the effects of food poisoning a little but won't stop the process, for Gut worms however, it can help reduce the tended duration associated with this illness, there is also the potential (if slight) for this drug to even cure this illness if the tend quality is high enough. Taken daily in response to conditions.</MSRimpeptic.description>
+  <MSRimpeptic.ingestible.ingestCommandString>Drink {0}</MSRimpeptic.ingestible.ingestCommandString>
+  <MSRimpeptic.ingestible.ingestReportString>Drinking {0}.</MSRimpeptic.ingestible.ingestReportString>
+</LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeMSVinacol.label>Stelle Vinacol her</MakeMSVinacol.label>
+  <MakeMSVinacol.description>Stelle eine Vinacoltablette her.</MakeMSVinacol.description>
+  <MakeMSVinacol.jobString>Stelle Vinacol her.</MakeMSVinacol.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkMSVinacol.label>Stelle Vinacol in Massen her</MakeBulkMSVinacol.label>
+  <MakeBulkMSVinacol.description>Stelle 5 Vinacoltabletten her.</MakeBulkMSVinacol.description>
+  <MakeBulkMSVinacol.jobString>Stelle Vinacol her.</MakeBulkMSVinacol.jobString>
+</LanguageData>

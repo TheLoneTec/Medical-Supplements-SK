@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Generic -->
+  <MSDrugMixer.label>Drug Mixer</MSDrugMixer.label>
+  <MSDrugMixer.description>Grants the ability to build the drug mixer. An automated mixing machine to make precursor chemicals.</MSDrugMixer.description>
+  <MSMultiVitamins.label>Multi-Vitamins</MSMultiVitamins.label>
+  <MSMultiVitamins.description>Grants the ability to make Multi-Vitamins. A pill taken every other day and used for slightly boosting immunity and includes the avoidance of food poisoning and gut worms.</MSMultiVitamins.description>
+  <MSMetasis.label>Metasis</MSMetasis.label>
+  <MSMetasis.description>Grants the ability to make Metasis. Refined from Luciferium this modified concoction of mechanites improve the body's functioning in all respects. Removes the addiction properties of Luciferium as part of the refining process but also removes some of the other benefits. Taken every 7 days.</MSMetasis.description>
+  <MSAntinites.label>Antinites</MSAntinites.label>
+  <MSAntinites.description>Grants the ability to make Antinites. Refined from Luciferium this modified concoction of mechanites can be used to attack other unwanted mechanites in the body. Phenol and Smokeleaf are added into this mix to create a toxic effect targeting unwanted nanites in the system. As a result the experience though short lived, for about half a day, can be quite painful. It would be wise to take some form of pain relief prior to or just after using the injection.</MSAntinites.description>
+  <!-- Glycerol and Phenol based -->
+  <MSRimoxicillin.label>Rimoxicillin</MSRimoxicillin.label>
+  <MSRimoxicillin.description>Grants the ability to make Rimoxicillin. A semi-synthetic broad spectrum antibiotic that last for about half a day.</MSRimoxicillin.description>
+  <MSProphylactics.label>Prophylactics</MSProphylactics.label>
+  <MSProphylactics.description>Grants the ability to make prophylatics. Various devices helpful to avoid pregnancy and sexual transmitted infections and diseases.</MSProphylactics.description>
+  <MSAndrogen.label>Androgen</MSAndrogen.label>
+  <MSAndrogen.description>Grants the ability to make Androgen. Synthetic androgen used as a mild steroid hormone. Can make a person more tempremental and also potential unwanted hair growth for women as a more uncommon side effect. Effects last for 3 days.</MSAndrogen.description>
+  <MSRimpeptic.label>Rimpeptic</MSRimpeptic.label>
+  <MSRimpeptic.description>Grants the ability to make Rimpeptic. Rimpeptic is a drug designed to be taken in response to aquiring food poisoning or gut worms and helps to settle the stomach. It can help to alleviate the effects of food poisoning a little but won't stop the process, for Gut worms however, it can help reduce the tended duration associated with this illness, there is also the potential (if slight) for this drug to even cure this illness if the tend quality is high enough. Taken daily in response to conditions.</MSRimpeptic.description>
+  <!-- Glycerol based -->
+  <MSGlycerol.label>Glycerol</MSGlycerol.label>
+  <MSGlycerol.description>Grants the ability to make glycerol. Glycerol is a simple polyol compound. It is a colorless, odorless, viscous liquid that is sweet-tasting and non-toxic. It is a precursor chemical and food additive.</MSGlycerol.description>
+  <MSFireThroat.label>FireThroat</MSFireThroat.label>
+  <MSFireThroat.description>Grants the ability to make FireThroat. A rather strong and unpalletabe flu prevention tincture. Taken every 3 days.</MSFireThroat.description>
+  <MSInhaler.label>Asthma Inhaler</MSInhaler.label>
+  <MSInhaler.description>Grants the ability to make inhalers. An inhaler to provide immunity from Asthma, also improves recovery time to tended conditions. Taken daily.</MSInhaler.description>
+  <MSRimProPlus.label>RimProPlus</MSRimProPlus.label>
+  <MSRimProPlus.description>Grants the ability to make RimProPlus. A highly sweetend pill that lasts for a day that reduces rest needs and prevents sleeping sickness.</MSRimProPlus.description>
+  <MSAspirin.label>Aspirin</MSAspirin.label>
+  <MSAspirin.description>Grants the ability to make Aspirin. A mild pain medication that can be used to prevent the process of blocking of the arteries. Taken every 2 days.</MSAspirin.description>
+  <MSRimzac.label>Rimzac</MSRimzac.label>
+  <MSRimzac.description>Grants the ability to make Rimzac. An antidepressant medication. Refined from ambrosia to remove the addictive side effects and lasts 2 days.</MSRimzac.description>
+  <MSAntitox.label>Antitox</MSAntitox.label>
+  <MSAntitox.description>Grants the ability to make Antitox. Antitoxin pills. Taken every 3 days.</MSAntitox.description>
+  <!-- Phenol based -->
+  <MSPhenol.label>Phenol</MSPhenol.label>
+  <MSPhenol.description>Grants the ability to make phenol. Phenol is an aromatic organic compound that is mildly acidic and requires careful handling due to its propensity to cause chemical burns. Used as a precursor chemical to form other items.</MSPhenol.description>
+  <MSWipes.label>Antibacterial Wipes</MSWipes.label>
+  <MSWipes.description>Grants the ability to make antibacterial wipes. Wipes can be used for general hygiene and more specifically for helping surgeons with their procedures. Effects only last for half a day.</MSWipes.description>
+  <MSContacts.label>Contact Lenses</MSContacts.label>
+  <MSContacts.description>Grants the ability to make contact lenses. Soft polycarbonate disposable contact lenses that can improve vision slightly for a period of up to ten days.</MSContacts.description>
+  <MSRimtarol.label>Rimtarol</MSRimtarol.label>
+  <MSRimtarol.description>Grants the ability to make Rimtarol. Rimtarol is a pain relief gel that can help to reduce pain levels when applied. It can also provide immunity to muscle parasites and in the case of a contracted illness can help to reduce the time spent whilst being tended for the condition. Applied every 3 days.</MSRimtarol.description>
+  <MSRimedicrem.label>Rimedicrem</MSRimedicrem.label>
+  <MSRimedicrem.description>Grants the ability to make Rimedicrem. Rimedicrem is a strong sterilizing agent with antibacterial properties that can be applied every 2 days. It provides an immunity from wounds getting infected and helps with already infected wounds.</MSRimedicrem.description>
+  <MSRimBurnEaze.label>RimBurnEaze</MSRimBurnEaze.label>
+  <MSRimBurnEaze.description>Grants the ability to make RimBurnEaze. RimBurnEaze is an antibiotic skin cream design to help with burn injuries. It is capable of healing permanent burn scars. Healing effects last 3 days.</MSRimBurnEaze.description>
+  <!-- Lithium based Drugs -->
+  <MSLithiumSalts.label>Lithium Salts</MSLithiumSalts.label>
+  <MSLithiumSalts.description>Grants the ability to make lithium salts. A white powdery salt otherwise known as Lithium Carbonate which is an inorganic compound. A precursor chemical.</MSLithiumSalts.description>
+  <MSClarity.label>Clarity</MSClarity.label>
+  <MSClarity.description>Grants the ability to make Clarity. Clarity is an antipsychotic and nootropic drug. Take every 5 days.</MSClarity.description>
+  <MSPlacebo.label>Placebo</MSPlacebo.label>
+  <MSPlacebo.description>Grants the ability to make Placebo. Placebo is a drug used to attract people on chemical binges as they will attempt to use this drug instead of other effective drugs. It has a mild sedative effect that lasts about a day and can create a mental dependancy with use.</MSPlacebo.description>
+  <MSTravelPill.label>Travel Pills</MSTravelPill.label>
+  <MSTravelPill.description>Grants the ability to make Travel Pills. A travel pill that has mild effects to improve physical capabilities, slightly suppresses hunger, makes you feel less uneasy, but makes you tire slightly faster. Effects last for 5 days.</MSTravelPill.description>
+  <!-- Opium based drugs -->
+  <MSOpiumPoppy.label>Opium Poppy</MSOpiumPoppy.label>
+  <MSOpiumPoppy.description>Grants the ability to cultivate the Opium Poppy. A species of flowering plant in the family Papaveraceae. It is the species of plant from which opium and poppy seeds are derived</MSOpiumPoppy.description>
+  <MSOpium.label>Opium</MSOpium.label>
+  <MSOpium.description>Grants the ability to extract and prepare raw opium. Latex produced by opium poppy seed pods, it contains a class of naturally occurring alkaloids known as opiates.</MSOpium.description>
+  <MSRimCodamol.label>RimCodamol</MSRimCodamol.label>
+  <MSRimCodamol.description>Grants the ability to make RimCodamol. A mild opiate pain medication that lasts about a day. Can be potentially addictive (mostly if taken too much in a short space of time).</MSRimCodamol.description>
+  <MSMorphine.label>Morphine</MSMorphine.label>
+  <MSMorphine.description>Grants the ability to make Morphine. A potent opiate pain medication that lasts about a half a day. Can be addictive.</MSMorphine.description>
+  <!-- Vinca based -->
+  <MSPerrywinkle.label>Perrywinkle</MSPerrywinkle.label>
+  <MSPerrywinkle.description>Grants the ability to cultivate the Perrywinkle. A plant having alkaloids useful in synthesising chemotherapy drugs</MSPerrywinkle.description>
+  <MSVinca.label>Vinca Alkaloids</MSVinca.label>
+  <MSVinca.description>Grants the ability to synthesise Vinca alkaloids. A precursor chemical used in chemotherapy drugs.</MSVinca.description>
+  <MSVinacol.label>Vinacol</MSVinacol.label>
+  <MSVinacol.description>Grants the ability to make Vinacol. A drug used in chemotherapy treatment.</MSVinacol.description>
+</LanguageData>

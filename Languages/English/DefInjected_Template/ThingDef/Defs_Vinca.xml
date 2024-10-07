@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Plant -->
+  <Plant_MSPerrywinkle.label>Perrywinkle</Plant_MSPerrywinkle.label>
+  <Plant_MSPerrywinkle.description>Catharanthus roseus, commonly known as bright eyes, Cape periwinkle, graveyard plant, old maid, pink periwinkle, rose periwinkle, is a species of flowering plant in the dogbane family Apocynaceae. It is grown as an ornamental and medicinal plant, used to treat cancer.</Plant_MSPerrywinkle.description>
+  <MSPerrywinkleLeaves.label>Perrywinkle Leaves</MSPerrywinkleLeaves.label>
+  <MSPerrywinkleLeaves.description>The perrywinkle leaves can be used to extract vinca alkaloids, a precursor to some chemotherapy treatments</MSPerrywinkleLeaves.description>
+  <MSVincaAlkaloid.label>Vinka Alkaloid</MSVincaAlkaloid.label>
+  <MSVincaAlkaloid.description>Vinca alkaloids are a set of anti-mitotic and anti-microtubule alkaloid agents originally derived from the periwinkle plant: Catharanthus roseus (basionym Vinca rosea) and other vinca plants. They block beta-tubulin polymerization in a dividing cell. This is a precursor chemical used in chemotherapy drugs.</MSVincaAlkaloid.description>
+</LanguageData>

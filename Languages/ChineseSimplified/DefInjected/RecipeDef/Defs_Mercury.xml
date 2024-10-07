@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeMSMercurySalts.label>制备汞盐</MakeMSMercurySalts.label>
+  <MakeMSMercurySalts.description>制备5份汞盐.</MakeMSMercurySalts.description>
+  <MakeMSMercurySalts.jobString>正在制备汞盐.</MakeMSMercurySalts.jobString>
+  <!-- EthylMercury -->
+  <MakeMSEthylMercury.label>制备一乙汞</MakeMSEthylMercury.label>
+  <MakeMSEthylMercury.description>制备1份一乙汞</MakeMSEthylMercury.description>
+  <MakeMSEthylMercury.jobString>正在制备家一乙汞.</MakeMSEthylMercury.jobString>
+</LanguageData>

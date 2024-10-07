@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Latex -->
+  <ExtractMSOpiumLatex.label>Extrahiere Opium-Latex</ExtractMSOpiumLatex.label>
+  <ExtractMSOpiumLatex.description>Mohnsamenschale zu Latex verarbeiten.</ExtractMSOpiumLatex.description>
+  <ExtractMSOpiumLatex.jobString>Verarbeitung von Mohnsamenschale.</ExtractMSOpiumLatex.jobString>
+  <!-- Seeds -->
+  <ExtractMSPoppySeeds.label>Extrahieren Mohnsamen</ExtractMSPoppySeeds.label>
+  <ExtractMSPoppySeeds.description>Extrahiere Mohnsamen aus Mohnsamenschale.</ExtractMSPoppySeeds.description>
+  <ExtractMSPoppySeeds.jobString>Verarbeitung von Mohnamenschale.</ExtractMSPoppySeeds.jobString>
+</LanguageData>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Make_MSRimProPlus.label>Stelle RimProPlus her</Make_MSRimProPlus.label>
+  <Make_MSRimProPlus.description>Stelle RimProPlustabletten her.</Make_MSRimProPlus.description>
+  <Make_MSRimProPlus.jobString>Stelle RimProPlus her.</Make_MSRimProPlus.jobString>
+  <!-- Recipes -->
+  <MakeBulkMSRimProPlus.label>Stelle RimProPlus in Massen her</MakeBulkMSRimProPlus.label>
+  <MakeBulkMSRimProPlus.description>Stelle 5 RimProPlustabletten her.</MakeBulkMSRimProPlus.description>
+  <MakeBulkMSRimProPlus.jobString>Stelle RimProPlus her.</MakeBulkMSRimProPlus.jobString>
+</LanguageData>

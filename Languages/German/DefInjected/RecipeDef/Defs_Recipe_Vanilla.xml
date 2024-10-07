@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSBulkMedicine.label>Stelle Medizin in Massen her</MSBulkMedicine.label>
+  <MSBulkMedicine.description>Stelle 5 Medizin her.</MSBulkMedicine.description>
+  <MSBulkMedicine.jobString>Stelle Medizin her.</MSBulkMedicine.jobString>
+  <!-- Ultra medicine -->
+  <MakeMSUltraMedicine.label>Stelle Ultratech Medizin her</MakeMSUltraMedicine.label>
+  <MakeMSUltraMedicine.description>Stelle Ultratech Medizin her.</MakeMSUltraMedicine.description>
+  <MakeMSUltraMedicine.jobString>Stelle Ultratech Medizin her.</MakeMSUltraMedicine.jobString>
+  <!-- Healer Mech Serum -->
+  <MakeMSHealerMechSerum.label>Stelle Heiler-Naniten her</MakeMSHealerMechSerum.label>
+  <MakeMSHealerMechSerum.description>Stelle Heiler-Naniten her.</MakeMSHealerMechSerum.description>
+  <MakeMSHealerMechSerum.jobString>Stelle Heiler-Naniten her.</MakeMSHealerMechSerum.jobString>
+  <!-- Ressurector Mech Serum -->
+  <MakeMSRessurectorMechSerum.label>Stelle Reanimierer-Naniten her</MakeMSRessurectorMechSerum.label>
+  <MakeMSRessurectorMechSerum.description>Stelle Reanimierer-Naniten her.</MakeMSRessurectorMechSerum.description>
+  <MakeMSRessurectorMechSerum.jobString>Stelle Reanimierer-Naniten her.</MakeMSRessurectorMechSerum.jobString>
+  <!-- Neurotrainer -->
+  <MakeMSNTMechSerumShooting.label>Stelle Neurotrainer (Fernkampf) her</MakeMSNTMechSerumShooting.label>
+  <MakeMSNTMechSerumShooting.description>Stelle ein Neurotrainer (Fernkampf) her.</MakeMSNTMechSerumShooting.description>
+  <MakeMSNTMechSerumShooting.jobString>Stelle Neurotrainer (Fernkampf) her.</MakeMSNTMechSerumShooting.jobString>
+  <MakeMSNTMechSerumMelee.label>Stelle Neurotrainer (Nahkampf) her</MakeMSNTMechSerumMelee.label>
+  <MakeMSNTMechSerumMelee.description>Stelle ein Neurotrainer (Nahkampf) her.</MakeMSNTMechSerumMelee.description>
+  <MakeMSNTMechSerumMelee.jobString>Stelle Neurotrainer (Nahkampf) her.</MakeMSNTMechSerumMelee.jobString>
+  <MakeMSNTMechSerumConstruction.label>Stelle Neurotrainer (Konstruktion) her</MakeMSNTMechSerumConstruction.label>
+  <MakeMSNTMechSerumConstruction.description>Stelle ein Neurotrainer (Konstruktion) her.</MakeMSNTMechSerumConstruction.description>
+  <MakeMSNTMechSerumConstruction.jobString>Stelle Neurotrainer (Konstruktion) her.</MakeMSNTMechSerumConstruction.jobString>
+  <MakeMSNTMechSerumPlants.label>Stelle Neurotrainer (Pflanzen) her</MakeMSNTMechSerumPlants.label>
+  <MakeMSNTMechSerumPlants.description>Stelle ein Neurotrainer (Pflanzen) her.</MakeMSNTMechSerumPlants.description>
+  <MakeMSNTMechSerumPlants.jobString>Stelle Neurotrainer (Pflanzen) her.</MakeMSNTMechSerumPlants.jobString>
+  <MakeMSNTMechSerumIntellectual.label>Stelle Neurotrainer (Geistig) her</MakeMSNTMechSerumIntellectual.label>
+  <MakeMSNTMechSerumIntellectual.description>Stelle ein Neurotrainer (Geistig) her.</MakeMSNTMechSerumIntellectual.description>
+  <MakeMSNTMechSerumIntellectual.jobString>Stelle Neurotrainer (Geistig) her.</MakeMSNTMechSerumIntellectual.jobString>
+  <MakeMSNTMechSerumMining.label>Stelle Neurotrainer (Bergbau) her</MakeMSNTMechSerumMining.label>
+  <MakeMSNTMechSerumMining.description>Stelle ein Neurotrainer (Bergbau) her.</MakeMSNTMechSerumMining.description>
+  <MakeMSNTMechSerumMining.jobString>Stelle Neurotrainer (Bergbau) her.</MakeMSNTMechSerumMining.jobString>
+  <MakeMSNTMechSerumSocial.label>Stelle Neurotrainer (Sozial) her</MakeMSNTMechSerumSocial.label>
+  <MakeMSNTMechSerumSocial.description>Stelle ein Neurotrainer (Sozial) her.</MakeMSNTMechSerumSocial.description>
+  <MakeMSNTMechSerumSocial.jobString>Stelle Neurotrainer (Sozial) her.</MakeMSNTMechSerumSocial.jobString>
+  <MakeMSNTMechSerumAnimals.label>Stelle Neurotrainer (Tiere) her</MakeMSNTMechSerumAnimals.label>
+  <MakeMSNTMechSerumAnimals.description>Stelle ein Neurotrainer (Tiere) her.</MakeMSNTMechSerumAnimals.description>
+  <MakeMSNTMechSerumAnimals.jobString>Stelle Neurotrainer (Tiere) her.</MakeMSNTMechSerumAnimals.jobString>
+  <MakeMSNTMechSerumCooking.label>Stelle Neurotrainer (Kochen) her</MakeMSNTMechSerumCooking.label>
+  <MakeMSNTMechSerumCooking.description>Stelle ein Neurotrainer (Kochen) her.</MakeMSNTMechSerumCooking.description>
+  <MakeMSNTMechSerumCooking.jobString>Stelle Neurotrainer(Kochen) her.</MakeMSNTMechSerumCooking.jobString>
+  <MakeMSNTMechSerumMedicine.label>Stelle Neurotrainer (Medizin) her</MakeMSNTMechSerumMedicine.label>
+  <MakeMSNTMechSerumMedicine.description>Stelle ein Neurotrainer (Medizin) her.</MakeMSNTMechSerumMedicine.description>
+  <MakeMSNTMechSerumMedicine.jobString>Stelle Neurotrainer (Medizin) her.</MakeMSNTMechSerumMedicine.jobString>
+  <MakeMSNTMechSerumArtistic.label>Stelle Neurotrainer (Kunst) her</MakeMSNTMechSerumArtistic.label>
+  <MakeMSNTMechSerumArtistic.description>Stelle ein Neurotrainer (Kunst) her.</MakeMSNTMechSerumArtistic.description>
+  <MakeMSNTMechSerumArtistic.jobString>Stelle Neurotrainer (Kunst) her.</MakeMSNTMechSerumArtistic.jobString>
+  <MakeMSNTMechSerumCrafting.label>Stelle Neurotrainer (Handwerk) her</MakeMSNTMechSerumCrafting.label>
+  <MakeMSNTMechSerumCrafting.description>Stelle ein Neurotrainer (Handwerk) her.</MakeMSNTMechSerumCrafting.description>
+  <MakeMSNTMechSerumCrafting.jobString>Stelle Neurotrainer (Handwerk) her.</MakeMSNTMechSerumCrafting.jobString>
+</LanguageData>

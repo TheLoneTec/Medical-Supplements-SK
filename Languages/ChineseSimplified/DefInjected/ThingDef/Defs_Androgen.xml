@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSAndrogen.label>康复龙</MSAndrogen.label>
+  <MSAndrogen.description>一种合成雄激素，属弱效类固醇激素。可以提高身体机能，偶见女性体毛异常增多。一服可持续三天时间。</MSAndrogen.description>
+  <MSAndrogen.ingestible.ingestCommandString>服用 {0}</MSAndrogen.ingestible.ingestCommandString>
+  <MSAndrogen.ingestible.ingestReportString>正在服用 {0}.</MSAndrogen.ingestible.ingestReportString>
+</LanguageData>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSBattleStim_Thought.stages.0.label>战意激发</MSBattleStim_Thought.stages.0.label>
+  <MSBattleStim_Thought.stages.0.description>活力四射</MSBattleStim_Thought.stages.0.description>
+  <MSBattleStimLow_Thought.stages.0.label>战意激发衰退</MSBattleStimLow_Thought.stages.0.label>
+  <MSBattleStimLow_Thought.stages.0.description>刺激效果结束后非常不适</MSBattleStimLow_Thought.stages.0.description>
+</LanguageData>

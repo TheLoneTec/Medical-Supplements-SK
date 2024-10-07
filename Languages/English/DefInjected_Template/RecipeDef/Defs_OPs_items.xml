@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Artery Blockage - Stent -->
+  <MakeMSStent.label>Make medical stent</MakeMSStent.label>
+  <MakeMSStent.description>Make a medical stent.</MakeMSStent.description>
+  <MakeMSStent.jobString>Making a medical stent.</MakeMSStent.jobString>
+  <MSArterialStent.label>install arterial Stent</MSArterialStent.label>
+  <MSArterialStent.description>Install and aterial stent to remove an arterial blockage.</MSArterialStent.description>
+  <MSArterialStent.jobString>Installing Stent.</MSArterialStent.jobString>
+  <MSArterialStent.successfullyRemovedHediffMessage>{0} has successfully installed a stent to remove {1}'s arterial blockage.</MSArterialStent.successfullyRemovedHediffMessage>
+  <!-- Bad Back -->
+  <MakeMSBackDisc.label>Make artifical back disc</MakeMSBackDisc.label>
+  <MakeMSBackDisc.description>Make an artificial intervertebral disc.</MakeMSBackDisc.description>
+  <MakeMSBackDisc.jobString>Making a back disc.</MakeMSBackDisc.jobString>
+  <MSBadBackDiscs.label>add artificial back discs</MSBadBackDiscs.label>
+  <MSBadBackDiscs.description>add artificial back discs.</MSBadBackDiscs.description>
+  <MSBadBackDiscs.jobString>installing back discs.</MSBadBackDiscs.jobString>
+  <MSBadBackDiscs.successfullyRemovedHediffMessage>{0} has successfully installed new back discs for {1}.</MSBadBackDiscs.successfullyRemovedHediffMessage>
+  <!-- Cataract Removal -->
+  <MakeMSAdvSurgeryTools.label>Make advanced surgery tools</MakeMSAdvSurgeryTools.label>
+  <MakeMSAdvSurgeryTools.description>Make an advanced surgery toolset.</MakeMSAdvSurgeryTools.description>
+  <MakeMSAdvSurgeryTools.jobString>Making an advanced surgery toolset.</MakeMSAdvSurgeryTools.jobString>
+  <MSCataractRemoval.label>remove cataract</MSCataractRemoval.label>
+  <MSCataractRemoval.description>remove cataract.</MSCataractRemoval.description>
+  <MSCataractRemoval.jobString>Removing cataract.</MSCataractRemoval.jobString>
+  <MSCataractRemoval.successfullyRemovedHediffMessage>{0} has successfully removed a cataract for {1}.</MSCataractRemoval.successfullyRemovedHediffMessage>
+</LanguageData>

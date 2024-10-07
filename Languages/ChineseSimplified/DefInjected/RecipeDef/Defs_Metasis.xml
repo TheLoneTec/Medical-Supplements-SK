@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeMetasisVial.label>制作梅达西尔助剂</MakeMetasisVial.label>
+  <MakeMetasisVial.description>制作一份梅达西尔助剂。</MakeMetasisVial.description>
+  <MakeMetasisVial.jobString>正在制作梅达西尔助剂。</MakeMetasisVial.jobString>
+  <MakeBulkMetasisVial.label>批量制作梅达西尔助剂</MakeBulkMetasisVial.label>
+  <MakeBulkMetasisVial.description>制作五份梅达西尔助剂。</MakeBulkMetasisVial.description>
+  <MakeBulkMetasisVial.jobString>正在批量制作梅达西尔助剂。</MakeBulkMetasisVial.jobString>
+  <MakeMSInjectorUnit.label>制作注射器</MakeMSInjectorUnit.label>
+  <MakeMSInjectorUnit.description>制作一支注射器。</MakeMSInjectorUnit.description>
+  <MakeMSInjectorUnit.jobString>正在制作注射器。</MakeMSInjectorUnit.jobString>
+  <MakeBulkMSInjectorUnit.label>批量制作注射器</MakeBulkMSInjectorUnit.label>
+  <MakeBulkMSInjectorUnit.description>制作五支注射器。</MakeBulkMSInjectorUnit.description>
+  <MakeBulkMSInjectorUnit.jobString>正在批量制作注射器。</MakeBulkMSInjectorUnit.jobString>
+  <MakeBulkMetasis.label>批量制作梅达西尔针剂</MakeBulkMetasis.label>
+  <MakeBulkMetasis.description>制作五份梅达西尔针剂。</MakeBulkMetasis.description>
+  <MakeBulkMetasis.jobString>正在批量制作梅达西尔针剂。</MakeBulkMetasis.jobString>
+</LanguageData>

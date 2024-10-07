@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipe -->
+  <MakeRimcetamol.label>制作瑞西他明</MakeRimcetamol.label>
+  <MakeRimcetamol.description>制作两片2瑞西他明.</MakeRimcetamol.description>
+  <MakeRimcetamol.jobString>正在制作瑞西他明.</MakeRimcetamol.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkRimcetamol.label>瑞西他明</MakeBulkRimcetamol.label>
+  <MakeBulkRimcetamol.description>制作10片瑞西他明.</MakeBulkRimcetamol.description>
+  <MakeBulkRimcetamol.jobString>正在制作瑞西他明.</MakeBulkRimcetamol.jobString>
+</LanguageData>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>MSMercury</defName>
+    <label>Mercury Compounds</label>
+    <description>Grants the ability to make mercury compounds.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>BiofuelRefining</li>
+      <li>DrugProduction</li>
+    </prerequisites>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>0.85</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MSImmunisation</defName>
+    <label>Immunisation</label>
+    <description>Grants the ability to make immunisations. Drugs that are capable of boosting immune systems.</description>
+    <baseCost>400</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MSMercury</li>
+      <li>MSRimoxicillin</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>3.55</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MSCerebrax</defName>
+    <label>Cerebrax</label>
+    <description>Grants the ability to make Cerebrax. Drug capable of removing psychic susceptability.</description>
+    <baseCost>600</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>MSClarity</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>5.55</researchViewY>
+  </ResearchProjectDef>
+</Defs>

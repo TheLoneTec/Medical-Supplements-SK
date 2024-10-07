@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Ethanol -->
+  <MSEthanol.label>Ethanol (Synthetic)</MSEthanol.label>
+  <MSEthanol.description>Ethanol is a volatile, flammable, colorless liquid with a slight characteristic odor. It is a psychoactive substance and is the principal type of alcohol found in alcoholic drinks. Used as a precursor chemical to form other items. Excessive consumption can lead to alcohol blackouts and, over time, addiction. (Made with Chemfuel and Sulphuric Acid).</MSEthanol.description>
+  <MSEthanol.tools.0.label>bottle</MSEthanol.tools.0.label>
+  <MSEthanol.tools.1.label>neck</MSEthanol.tools.1.label>
+  <MSEthanol.ingestible.ingestCommandString>Drink {0}</MSEthanol.ingestible.ingestCommandString>
+  <MSEthanol.ingestible.ingestReportString>Drinking {0}.</MSEthanol.ingestible.ingestReportString>
+</LanguageData>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSBandage.label>无菌绷带</MSBandage.label>
+  <MSBandage.description>由无菌棉布纺成的一卷绷带。可用于伤口的处理，但远不如药物来得有效。</MSBandage.description>
+  <MSBandage.ingestible.ingestCommandString>使用 {0} 包扎</MSBandage.ingestible.ingestCommandString>
+  <MSBandage.ingestible.ingestReportString>正在使用 {0} 包扎</MSBandage.ingestible.ingestReportString>
+  <MSASBandage.label>抗菌绷带</MSASBandage.label>
+  <MSASBandage.description>一卷由浸透了银盐溶液的合成纤维制成的绷带，能够杀灭伤口上的部分细菌，但效果依然略逊于药物。</MSASBandage.description>
+  <MSASBandage.ingestible.ingestCommandString>使用 {0} 包扎</MSASBandage.ingestible.ingestCommandString>
+  <MSASBandage.ingestible.ingestReportString>正在使用 {0} 包扎.</MSASBandage.ingestible.ingestReportString>
+  <MSNanoBandage.label>纳米绷带</MSNanoBandage.label>
+  <MSNanoBandage.description>浸满了提纯梅达西尔助剂的超织物绷带，处理伤口比常规药品效果要好。</MSNanoBandage.description>
+  <MSNanoBandage.ingestible.ingestCommandString>使用 {0} 包扎</MSNanoBandage.ingestible.ingestCommandString>
+  <MSNanoBandage.ingestible.ingestReportString>正在使用 {0} 包扎.</MSNanoBandage.ingestible.ingestReportString>
+</LanguageData>

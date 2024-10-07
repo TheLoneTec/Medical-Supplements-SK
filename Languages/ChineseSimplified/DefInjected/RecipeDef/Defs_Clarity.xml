@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeMSClarity.label>制作心清明</MakeMSClarity.label>
+  <MakeMSClarity.description>制作一份心清明。</MakeMSClarity.description>
+  <MakeMSClarity.jobString>正在制作心清明。</MakeMSClarity.jobString>
+  <MakeBulkMSClarity.label>批量制作心清明</MakeBulkMSClarity.label>
+  <MakeBulkMSClarity.description>制作五份心清明。</MakeBulkMSClarity.description>
+  <MakeBulkMSClarity.jobString>正在批量制作心清明。</MakeBulkMSClarity.jobString>
+</LanguageData>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Placebo -->
+  <MSPlacebo_High.label>Placebo</MSPlacebo_High.label>
+  <MSPlacebo_High.description>Placebos im Blutkreislauf.</MSPlacebo_High.description>
+  <!-- Mental Dependancy -->
+  <MSMental_Tolerance.label>Toleranz gegenüber mentaler Abhängigkeit</MSMental_Tolerance.label>
+  <MSMental_Tolerance.stages.0.label>klein</MSMental_Tolerance.stages.0.label>
+  <MSMental_Tolerance.stages.1.label>klein</MSMental_Tolerance.stages.1.label>
+  <MSMental_Tolerance.stages.2.label>groß</MSMental_Tolerance.stages.2.label>
+  <MSMental_Addiction.label>Mentale Abhängigkeit</MSMental_Addiction.label>
+  <MSMental_Addiction.stages.1.label>Entzug</MSMental_Addiction.stages.1.label>
+</LanguageData>

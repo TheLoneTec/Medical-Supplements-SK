@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- 超凡Vial -->
+  <MSTranscendence_Vial.label>超凡药液</MSTranscendence_Vial.label>
+  <MSTranscendence_Vial.description>由复杂物质组成的药液，被称为“超凡”. 在刺激剂研究台制备使用.</MSTranscendence_Vial.description>
+  <!-- Receptive -->
+  <MSTranscendence_Receptive.label>超凡(通晓)</MSTranscendence_Receptive.label>
+  <MSTranscendence_Receptive.description>一剂自注射的纳米机械液，能够提升人在某些方面的能力. 通晓能够提高你的社交和驯兽技能.</MSTranscendence_Receptive.description>
+  <MSTranscendence_Receptive.comps.3.useLabel>注射超凡(通晓)</MSTranscendence_Receptive.comps.3.useLabel>
+  <!-- Inventive -->
+  <MSTranscendence_Inventive.label>超凡(灵创)</MSTranscendence_Inventive.label>
+  <MSTranscendence_Inventive.description>一剂自注射的纳米机械液，能够提升人在某些方面的能力. 灵创能够提高你的艺术、烹饪和种植技能.</MSTranscendence_Inventive.description>
+  <MSTranscendence_Inventive.comps.3.useLabel>注射超凡(灵创)</MSTranscendence_Inventive.comps.3.useLabel>
+  <!-- Tactical -->
+  <MSTranscendence_Tactical.label>超凡(神兵)</MSTranscendence_Tactical.label>
+  <MSTranscendence_Tactical.description>一剂自注射的纳米机械液，能够提升人在某些方面的能力.神兵能够提升你的射击和格斗技能.</MSTranscendence_Tactical.description>
+  <MSTranscendence_Tactical.comps.3.useLabel>注射超凡(神兵)</MSTranscendence_Tactical.comps.3.useLabel>
+  <!-- Practical -->
+  <MSTranscendence_Practical.label>超凡(天工)</MSTranscendence_Practical.label>
+  <MSTranscendence_Practical.description>一剂自注射的纳米机械液，能够提升人在某些方面的能力. 天工能够提高你的建造、手工和采矿技能.</MSTranscendence_Practical.description>
+  <MSTranscendence_Practical.comps.3.useLabel>注射超凡(天工)</MSTranscendence_Practical.comps.3.useLabel>
+  <!-- Analytical -->
+  <MSTranscendence_Analytical.label>超凡(洞悉)</MSTranscendence_Analytical.label>
+  <MSTranscendence_Analytical.description>一剂自注射的纳米机械液，能够提升人在某些方面的能力. 洞悉能够提升你的智力和医疗技能.</MSTranscendence_Analytical.description>
+  <MSTranscendence_Analytical.comps.3.useLabel>注射超凡(洞悉)</MSTranscendence_Analytical.comps.3.useLabel>
+</LanguageData>

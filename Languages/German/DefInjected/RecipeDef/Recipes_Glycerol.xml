@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Neutroamine -->
+  <MakeNeutroFromGlycerol.label>Stelle Neutroamin her</MakeNeutroFromGlycerol.label>
+  <MakeNeutroFromGlycerol.description>Stelle 5 Neutroamin her..</MakeNeutroFromGlycerol.description>
+  <MakeNeutroFromGlycerol.jobString>Filtere Neutroamin.</MakeNeutroFromGlycerol.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkNeutroFromGlycerol.label>Stelle Neutroamin in Massen her</MakeBulkNeutroFromGlycerol.label>
+  <MakeBulkNeutroFromGlycerol.description>Stelle 25 Neutroamin her.</MakeBulkNeutroFromGlycerol.description>
+  <MakeBulkNeutroFromGlycerol.jobString>Filtere Neutroamin.</MakeBulkNeutroFromGlycerol.jobString>
+  <!-- Improve Simple Meal -->
+  <MakeFineMealGlycerol.label>Verbessere Einfache Mahlzeit</MakeFineMealGlycerol.label>
+  <MakeFineMealGlycerol.description>Verbessere eine einfache Mahlzeit mit Glycerin.</MakeFineMealGlycerol.description>
+  <MakeFineMealGlycerol.jobString>Koche eine einfache Mahlzeit mit Glycerin.</MakeFineMealGlycerol.jobString>
+  <!-- Bulk -->
+  <MakeBulkFineMealGlycerol.label>Verbessere Einfache Mahlzeiten</MakeBulkFineMealGlycerol.label>
+  <MakeBulkFineMealGlycerol.description>Verbessere 5 Einfache Mahlzeiten mit Glycerin.</MakeBulkFineMealGlycerol.description>
+  <MakeBulkFineMealGlycerol.jobString>Verbessere Einfache Mahlzeit mit Glycerin.</MakeBulkFineMealGlycerol.jobString>
+</LanguageData>

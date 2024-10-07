@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeMSSulphur.label>制备硫磺</MakeMSSulphur.label>
+  <MakeMSSulphur.description>制备50份硫磺.</MakeMSSulphur.description>
+  <MakeMSSulphur.jobString>正在制作硫磺.</MakeMSSulphur.jobString>
+</LanguageData>

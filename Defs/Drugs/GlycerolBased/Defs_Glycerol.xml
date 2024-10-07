@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- =========== Glycerol ==================== -->
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>MSGlycerol</defName>
+    <label>Glycerol</label>
+    <description>Glycerol is a simple polyol compound. It is a colorless, odorless, viscous liquid that is sweet-tasting and non-toxic. It is a precursor chemical and food additive. (Made from chemfuel with beer or ethanol)</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Item/MSGlycerol</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>17</MarketValue>
+      <Nutrition>0.03</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.00</FoodPoisonChanceFixedHuman>
+      <MaxHitPoints>75</MaxHitPoints>
+      <Flammability>1.2</Flammability>
+      <DeteriorationRate>2</DeteriorationRate>
+      <Mass>0.05</Mass>
+    </statBases>
+    <ingestible>
+      <preferability>RawBad</preferability>
+      <foodType>VegetableOrFruit</foodType>
+      <optimalityOffsetFeedingAnimals>-50</optimalityOffsetFeedingAnimals>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>120</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <thingCategories Inherit="false">
+      <li>PlantFoodRaw</li>
+      <li>MSManufactured</li>
+    </thingCategories>
+  </ThingDef>
+  <!-- ============= Recipes ===================== -->
+  <RecipeDef>
+    <defName>MakeGlycerol</defName>
+    <label>Make Glycerol</label>
+    <description>Make 5 Glycerol.</description>
+    <jobString>Transetrificating Glycerol.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>700</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Beer</li>
+            <li>MSEthanol</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Chemfuel</li>
+        <li>Beer</li>
+        <li>MSEthanol</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSGlycerol>5</MSGlycerol>
+    </products>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>4</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>MSGlycerol</researchPrerequisite>
+  </RecipeDef>
+  <!-- ===== Bulk Recipe ===== -->
+  <RecipeDef>
+    <defName>MakeBulkGlycerol</defName>
+    <label>Make Glycerol in bulk</label>
+    <description>Make 25 Glycerol.</description>
+    <jobString>Transetrificating Glycerol.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>3500</workAmount>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Beer</li>
+            <li>MSEthanol</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Chemfuel</li>
+        <li>Beer</li>
+        <li>MSEthanol</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSGlycerol>25</MSGlycerol>
+    </products>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>5</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>MSGlycerol</researchPrerequisite>
+  </RecipeDef>
+</Defs>

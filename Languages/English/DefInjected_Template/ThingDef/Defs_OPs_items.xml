@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Artery Blockage - Stent -->
+  <MSStent.label>Medical Stent</MSStent.label>
+  <MSStent.description>A medical stent used to widen artieries and remove arterial blockages.</MSStent.description>
+  <!-- Bad Back -->
+  <MSBackDisc.label>Artificial back disc</MSBackDisc.label>
+  <MSBackDisc.description>An artificial intervertebral disc used to help with back conditions</MSBackDisc.description>
+  <!-- Cataract Removal -->
+  <MSAdvSurgeryTools.label>Advanced Surgery Tools</MSAdvSurgeryTools.label>
+  <MSAdvSurgeryTools.description>A collection of precision tools and materials used for obscure and complex surgery</MSAdvSurgeryTools.description>
+</LanguageData>

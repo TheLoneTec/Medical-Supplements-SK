@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakePhenol.label>制备苯酚溶液</MakePhenol.label>
+  <MakePhenol.description>制备五份苯酚溶液。</MakePhenol.description>
+  <MakePhenol.jobString>正在制备苯酚溶液。</MakePhenol.jobString>
+  <MakeBulkPhenol.label>批量制备苯酚溶液</MakeBulkPhenol.label>
+  <MakeBulkPhenol.description>制备二十五份苯酚溶液。</MakeBulkPhenol.description>
+  <MakeBulkPhenol.jobString>正在批量制备苯酚溶液。</MakeBulkPhenol.jobString>
+</LanguageData>

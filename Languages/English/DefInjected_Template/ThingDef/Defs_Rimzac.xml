@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Rimzac -->
+  <MSRimzac.label>Rimzac</MSRimzac.label>
+  <MSRimzac.description>An antidepressant medication. Refined from ambrosia to remove the addictive side effects and lasts 2 days.</MSRimzac.description>
+  <MSRimzac.ingestible.ingestCommandString>Take {0}</MSRimzac.ingestible.ingestCommandString>
+  <MSRimzac.ingestible.ingestReportString>Taking {0}.</MSRimzac.ingestible.ingestReportString>
+</LanguageData>

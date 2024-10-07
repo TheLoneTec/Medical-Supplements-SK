@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSRimoxicillin.label>瑞莫西林</MSRimoxicillin.label>
+  <MSRimoxicillin.description>一种半合成的广谱抗生素，有效浓度可持续约12小时。</MSRimoxicillin.description>
+  <MSRimoxicillin.ingestible.ingestCommandString>服用 {0}</MSRimoxicillin.ingestible.ingestCommandString>
+  <MSRimoxicillin.ingestible.ingestReportString>正在服用 {0}.</MSRimoxicillin.ingestible.ingestReportString>
+</LanguageData>

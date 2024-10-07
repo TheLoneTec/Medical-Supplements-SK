@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Bases -->
+  <ThingDef Name="MSDrugBase" ParentName="DrugBase" Abstract="True">
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <chairSearchRadius>0</chairSearchRadius>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <preferability>NeverForNutrition</preferability>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.18,0,0)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+    </ingestible>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <thingCategories Inherit="false">
+      <li>MSDrugs</li>
+    </thingCategories>
+  </ThingDef>
+  <ThingDef Name="MSDrugPillBase" ParentName="MSDrugBase" Abstract="True">
+    <ingestible>
+      <foodType>Processed</foodType>
+      <baseIngestTicks>80</baseIngestTicks>
+      <ingestSound>Ingest_Pill</ingestSound>
+      <ingestCommandString>Take {0}</ingestCommandString>
+      <ingestReportString>Taking {0}.</ingestReportString>
+    </ingestible>
+  </ThingDef>
+  <ThingDef Name="MSDrugCreamBase" ParentName="MSDrugBase" Abstract="True">
+    <ingestible>
+      <foodType>Processed, Fluid</foodType>
+      <baseIngestTicks>100</baseIngestTicks>
+      <ingestSound>RawMeat_Eat</ingestSound>
+      <ingestCommandString>Apply {0}</ingestCommandString>
+      <ingestReportString>Applying {0}.</ingestReportString>
+    </ingestible>
+  </ThingDef>
+  <ThingDef Name="MSDrugFluidBase" ParentName="MSDrugBase" Abstract="True">
+    <ingestible>
+      <foodType>Processed, Fluid</foodType>
+      <baseIngestTicks>70</baseIngestTicks>
+      <ingestSound>Ingest_Drink</ingestSound>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+    </ingestible>
+  </ThingDef>
+  <ThingDef Name="MSDrugInjectBase" ParentName="MSDrugBase" Abstract="True">
+    <thingCategories Inherit="false">
+      <li>MSInjectStim</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>Processed, Fluid</foodType>
+      <baseIngestTicks>50</baseIngestTicks>
+      <ingestSound>Ingest_Inject</ingestSound>
+      <ingestCommandString>Inject {0}</ingestCommandString>
+      <ingestReportString>Injecting {0}.</ingestReportString>
+    </ingestible>
+  </ThingDef>
+</Defs>

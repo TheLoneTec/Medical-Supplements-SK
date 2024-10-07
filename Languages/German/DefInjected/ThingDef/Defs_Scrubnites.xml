@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Scrubnites -->
+  <MSScrubnites.label>Scrubnitesspritze</MSScrubnites.label>
+  <MSScrubnites.description>Scrubnites sind eine modifizierte Version von Antinites, die speziell die Auswirkungen von Süchten beseitigt. Die Wirkung hält 3 Tage an und die mit der Behandlung verbundenen Schmerzen sind im Vergleich zu Antinites etwas geringer.</MSScrubnites.description>
+  <MSScrubnites.ingestible.ingestCommandString>Injiziere {0}</MSScrubnites.ingestible.ingestCommandString>
+  <MSScrubnites.ingestible.ingestReportString>Injiziert {0}.</MSScrubnites.ingestible.ingestReportString>
+</LanguageData>

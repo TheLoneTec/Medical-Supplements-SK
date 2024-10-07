@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Categories -->
+  <ThingCategoryDef>
+    <defName>MSDrugs</defName>
+    <label>Medical Supplements</label>
+    <parent>Drugs</parent>
+    <iconPath>UI/Icons/ThingCategories/Drugs</iconPath>
+    <resourceReadoutRoot>true</resourceReadoutRoot>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>MSInjectStim</defName>
+    <label>Injections and Stims</label>
+    <parent>MSDrugs</parent>
+    <iconPath>UI/Icons/ThingCategories/Drugs</iconPath>
+    <resourceReadoutRoot>true</resourceReadoutRoot>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>MSManufactured</defName>
+    <label>Medical Supplements Resources</label>
+    <parent>Manufactured</parent>
+    <iconPath>UI/Icons/ThingCategories/Manufactured</iconPath>
+    <resourceReadoutRoot>true</resourceReadoutRoot>
+  </ThingCategoryDef>
+</Defs>

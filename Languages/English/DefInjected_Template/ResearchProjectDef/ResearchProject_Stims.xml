@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Projects -->
+  <MSBattleStims.label>Battle Stims</MSBattleStims.label>
+  <MSBattleStims.description>Grants the ability to make battle stims. Harnesses Metasis with other drugs under radioactive conditions to make battle stimulents that also have regenerative properties. There can be some nasty side effects of chemical damage to the liver or kidney aswell as a regression period to their use.</MSBattleStims.description>
+  <MSTranscendence.label>Transcendence</MSTranscendence.label>
+  <MSTranscendence.description>Grants the ability to make Transcendence; mechanite neural trainers with more characterised skill sets.</MSTranscendence.description>
+</LanguageData>

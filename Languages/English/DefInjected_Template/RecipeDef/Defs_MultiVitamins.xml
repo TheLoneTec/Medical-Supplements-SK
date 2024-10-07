@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Bulk Berry Recipe -->
+  <MakeMSMultiVitamins.label>Make Multi-Vitamins</MakeMSMultiVitamins.label>
+  <MakeMSMultiVitamins.description>Make 5 Multi-Vitamins.</MakeMSMultiVitamins.description>
+  <MakeMSMultiVitamins.jobString>Making Multi-Vitamins.</MakeMSMultiVitamins.jobString>
+  <MakeBulkMSMultiVitamins.label>Make Multi-Vitamins in Bulk</MakeBulkMSMultiVitamins.label>
+  <MakeBulkMSMultiVitamins.description>Make 25 Multi-Vitamins</MakeBulkMSMultiVitamins.description>
+  <MakeBulkMSMultiVitamins.jobString>Making Multi-Vitamins</MakeBulkMSMultiVitamins.jobString>
+</LanguageData>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Perpetuity Vial -->
+  <MSPerpetuity_Vial.label>Perpetuity Vial</MSPerpetuity_Vial.label>
+  <MSPerpetuity_Vial.description>Vial of Perpetuity chemicals. To be prepared in the Stimlab.</MSPerpetuity_Vial.description>
+  <!-- Perpetuity -->
+  <MSPerpetuity.label>Perpetuity</MSPerpetuity.label>
+  <MSPerpetuity.description>A dose of self injected mechanites designed to rejuvinate the user. The Elixir of Life from legend.</MSPerpetuity.description>
+  <MSPerpetuity.comps.2.useLabel>Use Perpetuity</MSPerpetuity.comps.2.useLabel>
+</LanguageData>

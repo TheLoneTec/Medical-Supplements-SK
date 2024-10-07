@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Projects -->
+  <MSBattleStims.label>战役激发剂</MSBattleStims.label>
+  <MSBattleStims.description>使你掌握如何制造战意激发剂. 它是利用化学助剂和其他药物在放射性环境下制成的，能够提高士兵们在战场上的表现和机体的再生能力. 但是这种合剂也有一些令人厌恶的副作用，比如对肝脏和肾脏造成化学损伤，同时，药剂的作用也存在一个刺激峰值后的衰落期.</MSBattleStims.description>
+  <MSTranscendence.label>超凡合剂</MSTranscendence.label>
+  <MSTranscendence.description>使你掌握如何制造超凡系列药剂，一种内置了预设纳米机械的神经训练液，能提高人物的技能等级.</MSTranscendence.description>
+</LanguageData>

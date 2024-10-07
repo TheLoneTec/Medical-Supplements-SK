@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Artery Blockage - Stent -->
+  <MSStent.label>医用支架</MSStent.label>
+  <MSStent.description>一种医用的微型血管支架，能够拓宽血管来解决血栓淤塞的问题.</MSStent.description>
+  <!-- Bad Back -->
+  <MSBackDisc.label>人工椎间盘</MSBackDisc.label>
+  <MSBackDisc.description>一片人工制造的椎间盘，能够解决一些脊椎病变</MSBackDisc.description>
+  <!-- Cataract Removal -->
+  <MSAdvSurgeryTools.label>精密手术器械</MSAdvSurgeryTools.label>
+  <MSAdvSurgeryTools.description>一整套非常精密的手术器械，用于各种复杂困难的手术。</MSAdvSurgeryTools.description>
+</LanguageData>

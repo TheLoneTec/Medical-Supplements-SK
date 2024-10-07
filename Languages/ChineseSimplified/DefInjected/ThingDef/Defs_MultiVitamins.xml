@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSMultiVitamins.label>复合维生素</MSMultiVitamins.label>
+  <MSMultiVitamins.description>能够略微提高免疫力和对消化道疾病的抵抗力（肠道蠕虫、食物中毒）。</MSMultiVitamins.description>
+  <MSMultiVitamins.ingestible.ingestCommandString>服用 {0}</MSMultiVitamins.ingestible.ingestCommandString>
+  <MSMultiVitamins.ingestible.ingestReportString>正在服用 {0}.</MSMultiVitamins.ingestible.ingestReportString>
+</LanguageData>

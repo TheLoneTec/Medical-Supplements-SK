@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Clarity -->
+  <MSClarity.label>Klarheit</MSClarity.label>
+  <MSClarity.description>Klarheit ist ein Antipsychotikum und Nootropikum. Wird alle 5 Tage eingenommen.</MSClarity.description>
+  <MSClarity.ingestible.ingestCommandString>Nimm {0}</MSClarity.ingestible.ingestCommandString>
+  <MSClarity.ingestible.ingestReportString>Nimmt {0}.</MSClarity.ingestible.ingestReportString>
+</LanguageData>

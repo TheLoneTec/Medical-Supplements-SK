@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSClarity.label>心清明</MSClarity.label>
+  <MSClarity.description>一种用于治疗精神病或者健脑的药物。可以预防阿尔茨海默病和痴呆症。每五天一服。</MSClarity.description>
+  <MSClarity.ingestible.ingestCommandString>服用 {0}</MSClarity.ingestible.ingestCommandString>
+  <MSClarity.ingestible.ingestReportString>正在服用 {0}.</MSClarity.ingestible.ingestReportString>
+</LanguageData>

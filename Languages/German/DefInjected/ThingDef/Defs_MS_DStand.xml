@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MS_DStand.label>Desinfektionsmittelständer</MS_DStand.label>
+  <MS_DStand.description>Hilft beim sterilisieren der Umgebung.</MS_DStand.description>
+  <MS_DStand_Blueprint.label>Desinfektionsmittelständer (Entwurf)</MS_DStand_Blueprint.label>
+  <MS_DStand_Blueprint_Install.label>Desinfektionsmittelständer (Entwurf)</MS_DStand_Blueprint_Install.label>
+  <MS_DStand_Frame.label>Desinfektionsmittelständer (im Bau)</MS_DStand_Frame.label>
+  <MS_DStand_Frame.description>Hilft beim sterilisieren der Umgebung.</MS_DStand_Frame.description>
+</LanguageData>

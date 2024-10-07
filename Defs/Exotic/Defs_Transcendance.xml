@@ -1,0 +1,574 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Transcendance -->
+  <!-- Transcendence Vial -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>MSTranscendence_Vial</defName>
+    <label>Transcendence Vial</label>
+    <description>Vial of Transcendence chemicals. To be prepared in the Stimlab.</description>
+    <techLevel>Ultra</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Resource/MSTranscendence_Vial</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>150</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>367.4</MarketValue>
+      <!-- M 254 x 1, C 37.8 x 3 -->
+      <Mass>0.1</Mass>
+      <Flammability>0.7</Flammability>
+      <DeteriorationRate>3.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>MSManufactured</li>
+    </thingCategories>
+    <tradeability>None</tradeability>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeMSTranscendenceVial</defName>
+    <label>Make Transcendence Vial</label>
+    <description>Make 1 Transcendence Vial.</description>
+    <jobString>Making a Transcendence Vial.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <workAmount>400</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSMetasis_Vial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSClarity</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MSMetasis_Vial</li>
+        <li>MSClarity</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSTranscendence_Vial>1</MSTranscendence_Vial>
+    </products>
+    <recipeUsers>
+      <li>MSStimLab</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>12</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>MSTranscendence</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>MakeBulkMSTranscendenceVial</defName>
+    <label>Make Transcendence Vials in bulk</label>
+    <description>Make 5 Transcendence Vials.</description>
+    <jobString>Making Transcendence Vials.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <workAmount>2000</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSMetasis_Vial</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSClarity</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MSMetasis_Vial</li>
+        <li>MSClarity</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSTranscendence_Vial>5</MSTranscendence_Vial>
+    </products>
+    <recipeUsers>
+      <li>MSStimLab</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>13</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>MSTranscendence</researchPrerequisite>
+  </RecipeDef>
+  <!-- Transcendence -->
+  <ThingDef ParentName="MSExoticBase" Name="MSTranscendenceBase" Abstract="true">
+    <description>A dose of self injected mechanites designed to boost battlefield potential and healing. Harnesses Metasis with other drugs under radioactive conditions that allow for regenerative properties and battle readiness. There is the possibility of side effects involving damage to the liver or kidney, aswell as a potential regression period to their use. Effects last half a day.</description>
+    <techLevel>Ultra</techLevel>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <generateCommonality>0.00003</generateCommonality>
+    <category>Item</category>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <thingCategories Inherit="false">
+      <li>MSInjectStim</li>
+    </thingCategories>
+    <tradeability>None</tradeability>
+  </ThingDef>
+  <!-- Receptive -->
+  <ThingDef ParentName="MSTranscendenceBase">
+    <defName>MSTranscendence_Receptive</defName>
+    <label>Transcendence (Receptive)</label>
+    <description>A dose of self injected mechanites designed to boost capabilities of a specific quality. Receptive can boost Animal and Social skills.</description>
+    <graphicData>
+      <texPath>Things/Item/MSExotic/MSTranscendence_Receptive/MSTranscendence_Receptive</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>750</WorkToMake>
+      <MarketValue>767.4</MarketValue>
+      <!-- 367.4, 30, 340 = 737.4  (+ unq)-->
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Use Transcendence (Receptive)</useLabel>
+        <useDuration>300</useDuration>
+      </li>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeMSTranscendence_Receptive</defName>
+    <label>Make Transcendence (Receptive)</label>
+    <description>Make 1 Transcendence (Receptive)</description>
+    <jobString>Making Transcendence</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workSkill>Intellectual</workSkill>
+    <workAmount>750</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSTranscendence_Vial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Uranium</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSInjector_Unit</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Ambrosia</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MSTranscendence_Vial</li>
+        <li>Uranium</li>
+        <li>MSInjector_Unit</li>
+        <li>Ambrosia</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSTranscendence_Receptive>1</MSTranscendence_Receptive>
+    </products>
+    <skillRequirements>
+      <Crafting>8</Crafting>
+      <Intellectual>12</Intellectual>
+    </skillRequirements>
+    <recipeUsers>
+      <li>MSStimLab</li>
+    </recipeUsers>
+    <researchPrerequisite>MSTranscendence</researchPrerequisite>
+  </RecipeDef>
+  <!-- Inventive -->
+  <ThingDef ParentName="MSTranscendenceBase">
+    <defName>MSTranscendence_Inventive</defName>
+    <label>Transcendence (Inventive)</label>
+    <description>A dose of self injected mechanites designed to boost capabilities of a specific quality. Inventive can boost Artistic, Cooking and Plant skills.</description>
+    <graphicData>
+      <texPath>Things/Item/MSExotic/MSTranscendence_Inventive/MSTranscendence_Inventive</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>750</WorkToMake>
+      <MarketValue>769.4</MarketValue>
+      <!-- 367.4, 30, 340 = 737.4  (+ unq)-->
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Use Transcendence (Inventive)</useLabel>
+        <useDuration>300</useDuration>
+      </li>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeMSTranscendence_Inventive</defName>
+    <label>Make Transcendence (Inventive)</label>
+    <description>Make 1 Transcendence (Inventive)</description>
+    <jobString>Making Transcendence</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workSkill>Intellectual</workSkill>
+    <workAmount>750</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSTranscendence_Vial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Uranium</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSInjector_Unit</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SmokeleafLeaves</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MSTranscendence_Vial</li>
+        <li>Uranium</li>
+        <li>MSInjector_Unit</li>
+        <li>SmokeleafLeaves</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSTranscendence_Inventive>1</MSTranscendence_Inventive>
+    </products>
+    <skillRequirements>
+      <Crafting>8</Crafting>
+      <Intellectual>12</Intellectual>
+    </skillRequirements>
+    <recipeUsers>
+      <li>MSStimLab</li>
+    </recipeUsers>
+    <researchPrerequisite>MSTranscendence</researchPrerequisite>
+  </RecipeDef>
+  <!-- Tactical -->
+  <ThingDef ParentName="MSTranscendenceBase">
+    <defName>MSTranscendence_Tactical</defName>
+    <label>Transcendence (Tactical)</label>
+    <description>A dose of self injected mechanites designed to boost capabilities of a specific quality. Tactical can boost Shooting and Melee skills.</description>
+    <graphicData>
+      <texPath>Things/Item/MSExotic/MSTranscendence_Tactical/MSTranscendence_Tactical</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>750</WorkToMake>
+      <MarketValue>765.9</MarketValue>
+      <!-- 367.4, 30, 340 = 737.4  (+ unq)-->
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Use Transcendence (Tactical)</useLabel>
+        <useDuration>300</useDuration>
+      </li>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeMSTranscendence_Tactical</defName>
+    <label>Make Transcendence (Tactical)</label>
+    <description>Make 1 Transcendence (Tactical)</description>
+    <jobString>Making Transcendence</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workSkill>Intellectual</workSkill>
+    <workAmount>750</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSTranscendence_Vial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Uranium</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSInjector_Unit</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MSTranscendence_Vial</li>
+        <li>Uranium</li>
+        <li>MSInjector_Unit</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSTranscendence_Tactical>1</MSTranscendence_Tactical>
+    </products>
+    <skillRequirements>
+      <Crafting>8</Crafting>
+      <Intellectual>12</Intellectual>
+    </skillRequirements>
+    <recipeUsers>
+      <li>MSStimLab</li>
+    </recipeUsers>
+    <researchPrerequisite>MSTranscendence</researchPrerequisite>
+  </RecipeDef>
+  <!-- Practical -->
+  <ThingDef ParentName="MSTranscendenceBase">
+    <defName>MSTranscendence_Practical</defName>
+    <label>Transcendence (Practical)</label>
+    <description>A dose of self injected mechanites designed to boost capabilities of a specific quality. Practical can boost Construction, Crating and Mining skills.</description>
+    <graphicData>
+      <texPath>Things/Item/MSExotic/MSTranscendence_Practical/MSTranscendence_Practical</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>750</WorkToMake>
+      <MarketValue>767.3</MarketValue>
+      <!-- 367.4, 30, 340 = 737.4  (+ unq)-->
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Use Transcendence (Practical)</useLabel>
+        <useDuration>300</useDuration>
+      </li>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeMSTranscendence_Practical</defName>
+    <label>Make Transcendence (Practical)</label>
+    <description>Make 1 Transcendence (Practical)</description>
+    <jobString>Making Transcendence</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workSkill>Intellectual</workSkill>
+    <workAmount>750</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSTranscendence_Vial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Uranium</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSInjector_Unit</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>13</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MSTranscendence_Vial</li>
+        <li>Uranium</li>
+        <li>MSInjector_Unit</li>
+        <li>Chemfuel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSTranscendence_Practical>1</MSTranscendence_Practical>
+    </products>
+    <skillRequirements>
+      <Crafting>8</Crafting>
+      <Intellectual>12</Intellectual>
+    </skillRequirements>
+    <recipeUsers>
+      <li>MSStimLab</li>
+    </recipeUsers>
+    <researchPrerequisite>MSTranscendence</researchPrerequisite>
+  </RecipeDef>
+  <!-- Analytical -->
+  <ThingDef ParentName="MSTranscendenceBase">
+    <defName>MSTranscendence_Analytical</defName>
+    <label>Transcendence (Analytical)</label>
+    <description>A dose of self injected mechanites designed to boost capabilities of a specific quality. Analytical can boost Intellectual and Medicine skills.</description>
+    <graphicData>
+      <texPath>Things/Item/MSExotic/MSTranscendence_Analytical/MSTranscendence_Analytical</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>750</WorkToMake>
+      <MarketValue>767.4</MarketValue>
+      <!-- 367.4, 30, 340 = 737.4  (+ unq)-->
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Use Transcendence (Analytical)</useLabel>
+        <useDuration>300</useDuration>
+      </li>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeMSTranscendence_Analytical</defName>
+    <label>Make Transcendence (Analytical)</label>
+    <description>Make 1 Transcendence (Analytical)</description>
+    <jobString>Making Transcendence</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workSkill>Intellectual</workSkill>
+    <workAmount>750</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSTranscendence_Vial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Uranium</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSInjector_Unit</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Neutroamine</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MSTranscendence_Vial</li>
+        <li>Uranium</li>
+        <li>MSInjector_Unit</li>
+        <li>Neutroamine</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSTranscendence_Analytical>1</MSTranscendence_Analytical>
+    </products>
+    <skillRequirements>
+      <Crafting>8</Crafting>
+      <Intellectual>12</Intellectual>
+    </skillRequirements>
+    <recipeUsers>
+      <li>MSStimLab</li>
+    </recipeUsers>
+    <researchPrerequisite>MSTranscendence</researchPrerequisite>
+  </RecipeDef>
+</Defs>

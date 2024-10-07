@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- MSMorphine -->
+  <MSMorphine_Thought.stages.0.label>Morphium</MSMorphine_Thought.stages.0.label>
+  <MSMorphine_Thought.stages.0.description>Fühle mich richtig groovig</MSMorphine_Thought.stages.0.description>
+  <!-- MSOpiumPipe -->
+  <MSOpiumPipe_Thought.stages.0.label>Opiumpfeife</MSOpiumPipe_Thought.stages.0.label>
+  <MSOpiumPipe_Thought.stages.0.description>Fühle mich durch das Opium extrem beruhigt</MSOpiumPipe_Thought.stages.0.description>
+</LanguageData>

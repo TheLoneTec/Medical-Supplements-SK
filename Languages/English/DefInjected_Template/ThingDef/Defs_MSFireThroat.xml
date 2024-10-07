@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- FireThroat -->
+  <MSFireThroat.label>Firethroat</MSFireThroat.label>
+  <MSFireThroat.description>A rather strong and unpalletabe flu prevention tincture. Taken every 3 days.</MSFireThroat.description>
+  <MSFireThroat.ingestible.ingestCommandString>Drink {0}</MSFireThroat.ingestible.ingestCommandString>
+  <MSFireThroat.ingestible.ingestReportString>Drinking {0}.</MSFireThroat.ingestible.ingestReportString>
+</LanguageData>

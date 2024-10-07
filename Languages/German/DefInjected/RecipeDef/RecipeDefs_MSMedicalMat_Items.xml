@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Industrial -->
+  <MakeMsMedicalMat.label>Stelle Medizinische Matte her</MakeMsMedicalMat.label>
+  <MakeMsMedicalMat.description>Stelle Medizinische Matte her.</MakeMsMedicalMat.description>
+  <MakeMsMedicalMat.jobString>Stelle Medizinische Matte her.</MakeMsMedicalMat.jobString>
+  <!-- Spacer -->
+  <MakeMsMedicalMatSpacer.label>Stelle Medizinische Matte (Fortschrittlich) her</MakeMsMedicalMatSpacer.label>
+  <MakeMsMedicalMatSpacer.description>Stelle Medizinische Matte (Fortschrittlich) her.</MakeMsMedicalMatSpacer.description>
+  <MakeMsMedicalMatSpacer.jobString>Stelle Medizinische Matte (Fortschrittlich) her.</MakeMsMedicalMatSpacer.jobString>
+  <!-- Ultra -->
+  <MakeMsMedicalMatUltra.label>Stelle Medizinische Matte (Ultra) her.</MakeMsMedicalMatUltra.label>
+  <MakeMsMedicalMatUltra.description>Stelle Medizinische Matte (Ultra) her.</MakeMsMedicalMatUltra.description>
+  <MakeMsMedicalMatUltra.jobString>Stelle Medizinische Matte her(Ultra) her.</MakeMsMedicalMatUltra.jobString>
+  <!-- Early -->
+  <MakeMsMedicalMatEarly.label>Stelle Medizinische Matte (Simpel) her.</MakeMsMedicalMatEarly.label>
+  <MakeMsMedicalMatEarly.description>Stelle Medizinische Matte (Simpel) her.</MakeMsMedicalMatEarly.description>
+  <MakeMsMedicalMatEarly.jobString>Stelle Medizinische Matte (Simpel) her.</MakeMsMedicalMatEarly.jobString>
+  <!-- Industrial -->
+  <MakeMSMedicalMatPackup.label>Medizinische Matte verpacken</MakeMSMedicalMatPackup.label>
+  <MakeMSMedicalMatPackup.description>Packe eine gebrauchte medizinische Matte wieder in eine Tasche</MakeMSMedicalMatPackup.description>
+  <MakeMSMedicalMatPackup.jobString>Packe Medizinische Matte ein.</MakeMSMedicalMatPackup.jobString>
+  <!-- Spacer -->
+  <MakeMSMedicalMatSpacerPackup.label>Medizinische Matte(Fortschrittlich) verpacken</MakeMSMedicalMatSpacerPackup.label>
+  <MakeMSMedicalMatSpacerPackup.description>Packe Medizinische Matte (Fortschrittlich) ein.</MakeMSMedicalMatSpacerPackup.description>
+  <MakeMSMedicalMatSpacerPackup.jobString>Packe Medizinische Matte ein.</MakeMSMedicalMatSpacerPackup.jobString>
+  <!-- Ultra -->
+  <MakeMSMedicalMatUltraPackup.label>Medizinische Matte verpackt (Ultra) verpacken</MakeMSMedicalMatUltraPackup.label>
+  <MakeMSMedicalMatUltraPackup.description>Packe Medizinische Matte (Ultra) ein.</MakeMSMedicalMatUltraPackup.description>
+  <MakeMSMedicalMatUltraPackup.jobString>Packe Medizinische Matte ein.</MakeMSMedicalMatUltraPackup.jobString>
+  <!-- Early -->
+  <MakeMSMedicalMatEarlyPackup.label>Medizinische Matte verpackt (Simpel)verpacken </MakeMSMedicalMatEarlyPackup.label>
+  <MakeMSMedicalMatEarlyPackup.description>Packe Medizinische Matte (Simpel) ein.</MakeMSMedicalMatEarlyPackup.description>
+  <MakeMSMedicalMatEarlyPackup.jobString>Packe Medizinische Matte ein.</MakeMSMedicalMatEarlyPackup.jobString>
+</LanguageData>

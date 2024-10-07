@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- BattleStim Vial -->
+  <MakeMSBattleStimVial.label>Make Battle Stim Vial</MakeMSBattleStimVial.label>
+  <MakeMSBattleStimVial.description>Make 1 Battle Stim Vial.</MakeMSBattleStimVial.description>
+  <MakeMSBattleStimVial.jobString>Making a Battle Stim Vial.</MakeMSBattleStimVial.jobString>
+  <MakeBulkMSBattleStimVial.label>Make Battle Stim Vials in bulk</MakeBulkMSBattleStimVial.label>
+  <MakeBulkMSBattleStimVial.description>Make 5 Battle Stim Vials.</MakeBulkMSBattleStimVial.description>
+  <MakeBulkMSBattleStimVial.jobString>Making Battle Stim Vials.</MakeBulkMSBattleStimVial.jobString>
+  <!-- BattleStim -->
+  <MakeMSBattleStim.label>Make Battle Stim</MakeMSBattleStim.label>
+  <MakeMSBattleStim.description>Make 1 Battle Stim</MakeMSBattleStim.description>
+  <MakeMSBattleStim.jobString>Making Battle Stims</MakeMSBattleStim.jobString>
+  <MakeBulkMSBattleStim.label>Make Battle Stims in bulk</MakeBulkMSBattleStim.label>
+  <MakeBulkMSBattleStim.description>Make 5 Battle Stims</MakeBulkMSBattleStim.description>
+  <MakeBulkMSBattleStim.jobString>Making Battle Stims</MakeBulkMSBattleStim.jobString>
+</LanguageData>

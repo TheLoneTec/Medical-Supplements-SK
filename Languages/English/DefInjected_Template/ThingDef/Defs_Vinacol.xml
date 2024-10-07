@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Vinacol -->
+  <MSVinacol.label>Vinacol</MSVinacol.label>
+  <MSVinacol.description>Vinacol pills. A chemotherapy drug taken every 4 days.</MSVinacol.description>
+  <MSVinacol.ingestible.ingestCommandString>Take {0}</MSVinacol.ingestible.ingestCommandString>
+  <MSVinacol.ingestible.ingestReportString>Taking {0}.</MSVinacol.ingestible.ingestReportString>
+</LanguageData>

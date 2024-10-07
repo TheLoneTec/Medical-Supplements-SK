@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeGlycerol.label>制作甘油</MakeGlycerol.label>
+  <MakeGlycerol.description>制作一份甘油。</MakeGlycerol.description>
+  <MakeGlycerol.jobString>正在制作甘油。</MakeGlycerol.jobString>
+  <MakeBulkGlycerol.label>批量制作甘油</MakeBulkGlycerol.label>
+  <MakeBulkGlycerol.description>制作五份甘油。</MakeBulkGlycerol.description>
+  <MakeBulkGlycerol.jobString>正在批量制作甘油。</MakeBulkGlycerol.jobString>
+</LanguageData>

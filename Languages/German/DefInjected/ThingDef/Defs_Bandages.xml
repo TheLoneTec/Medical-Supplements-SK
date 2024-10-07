@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Cotton Bandages -->
+  <MSBandage.label>Sterile Baumwollbandagen</MSBandage.label>
+  <MSBandage.description>Eine Bandage aus steriler Baumwolle. Sie kann verwendet werden, um ähnlich wie Medizin Wunden zu versorgen, ist aber weniger wirksam.</MSBandage.description>
+  <!-- Antisceptic Bandages -->
+  <MSASBandage.label>Antiseptische Bandagen</MSASBandage.label>
+  <MSASBandage.description>Eine antisceptische Bandage aus mit einer Silberlösung imprägniertem Syngarn. Sie kann verwendet werden, um ähnlich wie Medizin Wunden zu versorgen, ist aber etwas weniger wirksam.</MSASBandage.description>
+  <!-- Metasis Bandages -->
+  <MSNanoBandage.label>Nanotech Bandagen</MSNanoBandage.label>
+  <MSNanoBandage.description>Hyperweave Bandage mit verfeinerter Metasis imprägniert. Sie kann verwendet werden, um ähnlich wie in der Medizin Wunden zu versorgen, ist aber wirksamer.</MSNanoBandage.description>
+</LanguageData>

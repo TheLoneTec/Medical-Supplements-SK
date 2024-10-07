@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Industrial -->
+  <MSMedicalMat.label>Medical Mat</MSMedicalMat.label>
+  <MSMedicalMat.description>A portable mat that can be used for medical purposes in the field.</MSMedicalMat.description>
+  <!-- Spacer -->
+  <MSMedicalMatSpacer.label>Medical Mat (Spacer Tech)</MSMedicalMatSpacer.label>
+  <MSMedicalMatSpacer.description>An advanced portable mat that can be used for medical purposes in the field.</MSMedicalMatSpacer.description>
+  <!-- Ultra -->
+  <MSMedicalMatUltra.label>Medical Mat (Ultra Tech)</MSMedicalMatUltra.label>
+  <MSMedicalMatUltra.description>An extremely advanced portable mat that can be used for medical purposes in the field.</MSMedicalMatUltra.description>
+  <!-- Early -->
+  <MSMedicalMatEarly.label>Medical Mat (early)</MSMedicalMatEarly.label>
+  <MSMedicalMatEarly.description>A portable mat that can be used for medical purposes in the field.</MSMedicalMatEarly.description>
+</LanguageData>

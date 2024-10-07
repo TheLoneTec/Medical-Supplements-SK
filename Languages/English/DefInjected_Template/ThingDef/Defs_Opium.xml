@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Opium Poppy -->
+  <Plant_MSOpiumPoppy.label>Opium Poppy</Plant_MSOpiumPoppy.label>
+  <Plant_MSOpiumPoppy.description>A species of flowering plant in the family Papaveraceae. It is the species of plant from which opium and poppy seeds are derived</Plant_MSOpiumPoppy.description>
+  <!-- Seed Pods -->
+  <MSOPSeedPod.label>Opium Seed Pod</MSOPSeedPod.label>
+  <MSOPSeedPod.description>Seed pods from the opium poppy flower. These pods can be used to extract poppy seeds or opium latex.</MSOPSeedPod.description>
+  <!-- Latex -->
+  <MSOpiumLatex.label>Opium Latex</MSOpiumLatex.label>
+  <MSOpiumLatex.description>Latex produced by opium poppy seed pods, it contains a class of naturally occurring alkaloids known as opiates.</MSOpiumLatex.description>
+  <!-- Seeds -->
+  <MSPoppySeeds.label>Poppy Seeds</MSPoppySeeds.label>
+  <MSPoppySeeds.description>These tiny kidney-shaped seeds have been harvested from the dried seed pods of the opium poppy. The seeds can be used whole or ground into meal as an ingredient in many foods.</MSPoppySeeds.description>
+</LanguageData>

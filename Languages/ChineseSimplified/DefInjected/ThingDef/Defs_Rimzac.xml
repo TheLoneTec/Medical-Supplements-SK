@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSRimzac.label>百忧解</MSRimzac.label>
+  <MSRimzac.description>一种抗抑郁药物。从仙馐果中提炼得来却不具有成瘾性。每两天一服。</MSRimzac.description>
+  <MSRimzac.ingestible.ingestCommandString>服用 {0}</MSRimzac.ingestible.ingestCommandString>
+  <MSRimzac.ingestible.ingestReportString>正在服用 {0}.</MSRimzac.ingestible.ingestReportString>
+</LanguageData>

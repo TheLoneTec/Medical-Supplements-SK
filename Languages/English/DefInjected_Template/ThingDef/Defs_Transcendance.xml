@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Transcendence Vial -->
+  <MSTranscendence_Vial.label>Transcendence Vial</MSTranscendence_Vial.label>
+  <MSTranscendence_Vial.description>Vial of Transcendence chemicals. To be prepared in the Stimlab.</MSTranscendence_Vial.description>
+  <!-- Receptive -->
+  <MSTranscendence_Receptive.label>Transcendence (Receptive)</MSTranscendence_Receptive.label>
+  <MSTranscendence_Receptive.description>A dose of self injected mechanites designed to boost capabilities of a specific quality. Receptive can boost Animal and Social skills.</MSTranscendence_Receptive.description>
+  <MSTranscendence_Receptive.comps.2.useLabel>Use Transcendence (Receptive)</MSTranscendence_Receptive.comps.2.useLabel>
+  <!-- Inventive -->
+  <MSTranscendence_Inventive.label>Transcendence (Inventive)</MSTranscendence_Inventive.label>
+  <MSTranscendence_Inventive.description>A dose of self injected mechanites designed to boost capabilities of a specific quality. Inventive can boost Artistic, Cooking and Plant skills.</MSTranscendence_Inventive.description>
+  <MSTranscendence_Inventive.comps.2.useLabel>Use Transcendence (Inventive)</MSTranscendence_Inventive.comps.2.useLabel>
+  <!-- Tactical -->
+  <MSTranscendence_Tactical.label>Transcendence (Tactical)</MSTranscendence_Tactical.label>
+  <MSTranscendence_Tactical.description>A dose of self injected mechanites designed to boost capabilities of a specific quality. Tactical can boost Shooting and Melee skills.</MSTranscendence_Tactical.description>
+  <MSTranscendence_Tactical.comps.2.useLabel>Use Transcendence (Tactical)</MSTranscendence_Tactical.comps.2.useLabel>
+  <!-- Practical -->
+  <MSTranscendence_Practical.label>Transcendence (Practical)</MSTranscendence_Practical.label>
+  <MSTranscendence_Practical.description>A dose of self injected mechanites designed to boost capabilities of a specific quality. Practical can boost Construction, Crating and Mining skills.</MSTranscendence_Practical.description>
+  <MSTranscendence_Practical.comps.2.useLabel>Use Transcendence (Practical)</MSTranscendence_Practical.comps.2.useLabel>
+  <!-- Analytical -->
+  <MSTranscendence_Analytical.label>Transcendence (Analytical)</MSTranscendence_Analytical.label>
+  <MSTranscendence_Analytical.description>A dose of self injected mechanites designed to boost capabilities of a specific quality. Analytical can boost Intellectual and Medicine skills.</MSTranscendence_Analytical.description>
+  <MSTranscendence_Analytical.comps.2.useLabel>Use Transcendence (Analytical)</MSTranscendence_Analytical.comps.2.useLabel>
+</LanguageData>

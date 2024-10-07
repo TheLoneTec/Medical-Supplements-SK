@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Artery Blockage - Stent -->
+  <MakeMSStent.label>制作血管支架</MakeMSStent.label>
+  <MakeMSStent.description>制作一副血管支架.</MakeMSStent.description>
+  <MakeMSStent.jobString>正在制作血管支架.</MakeMSStent.jobString>
+  <MSArterialStent.label>植入动脉支架</MSArterialStent.label>
+  <MSArterialStent.description>通过在动脉中安装支架来解决动脉栓塞引起的病症.</MSArterialStent.description>
+  <MSArterialStent.jobString>正在植入动脉支架.</MSArterialStent.jobString>
+  <MSArterialStent.successfullyRemovedHediffMessage>{0} 已经成功地通过植入支架来治疗{1}的动脉栓塞.</MSArterialStent.successfullyRemovedHediffMessage>
+  <!-- Bad Back -->
+  <MakeMSBackDisc.label>制作人工椎间盘</MakeMSBackDisc.label>
+  <MakeMSBackDisc.description>制作一节人工椎间盘.</MakeMSBackDisc.description>
+  <MakeMSBackDisc.jobString>正在制作椎间盘.</MakeMSBackDisc.jobString>
+  <MSBadBackDiscs.label>植入人工椎间盘</MSBadBackDiscs.label>
+  <MSBadBackDiscs.description>给患者植入人工制造的椎间盘.</MSBadBackDiscs.description>
+  <MSBadBackDiscs.jobString>正在植入人工椎间盘.</MSBadBackDiscs.jobString>
+  <MSBadBackDiscs.successfullyRemovedHediffMessage>{0}已经成功地为{1}植入新的椎间盘.</MSBadBackDiscs.successfullyRemovedHediffMessage>
+  <!-- Cataract Removal -->
+  <MakeMSAdvSurgeryTools.label>制造高级手术工具</MakeMSAdvSurgeryTools.label>
+  <MakeMSAdvSurgeryTools.description>制作一套精密的手术工具.</MakeMSAdvSurgeryTools.description>
+  <MakeMSAdvSurgeryTools.jobString>正在制造高级手术工具.</MakeMSAdvSurgeryTools.jobString>
+  <MSCataractRemoval.label>移除白内障</MSCataractRemoval.label>
+  <MSCataractRemoval.description>通过精密手术来移除患者眼内的白内障.</MSCataractRemoval.description>
+  <MSCataractRemoval.jobString>正在移除白内障.</MSCataractRemoval.jobString>
+  <MSCataractRemoval.successfullyRemovedHediffMessage>{0}已经成功地切除了{1}眼内的白内障.</MSCataractRemoval.successfullyRemovedHediffMessage>
+</LanguageData>

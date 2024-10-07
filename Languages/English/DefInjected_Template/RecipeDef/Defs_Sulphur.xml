@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeMSSulphur.label>Make Sulphur</MakeMSSulphur.label>
+  <MakeMSSulphur.description>Make 50 Sulphur.</MakeMSSulphur.description>
+  <MakeMSSulphur.jobString>Making Sulphur.</MakeMSSulphur.jobString>
+  <MakeMSSulphurBlocks.label>Make Sulphur (Blocks)</MakeMSSulphurBlocks.label>
+  <MakeMSSulphurBlocks.description>Make 50 Sulphur from blocks</MakeMSSulphurBlocks.description>
+  <MakeMSSulphurBlocks.jobString>Making Sulphur</MakeMSSulphurBlocks.jobString>
+</LanguageData>

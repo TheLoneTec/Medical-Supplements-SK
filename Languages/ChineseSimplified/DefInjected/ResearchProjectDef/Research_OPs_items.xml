@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- OPs Items -->
+  <MSSurgeryItemsIndustrial.label>医用手术器具</MSSurgeryItemsIndustrial.label>
+  <MSSurgeryItemsIndustrial.description>使你掌握如何制造专业的手术器械.</MSSurgeryItemsIndustrial.description>
+  <MSSurgeryItemsSpacer.label>高级医用手术器具</MSSurgeryItemsSpacer.label>
+  <MSSurgeryItemsSpacer.description>使你掌握如何制造精密的手术器械.</MSSurgeryItemsSpacer.description>
+</LanguageData>

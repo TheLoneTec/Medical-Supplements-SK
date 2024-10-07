@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeMSUnhook.label>Stelle Unhook her</MakeMSUnhook.label>
+  <MakeMSUnhook.description>Stelle ein Unhook her.</MakeMSUnhook.description>
+  <MakeMSUnhook.jobString>Stelle Unhook her.</MakeMSUnhook.jobString>
+  <MakeBulkMSUnhook.label>Stelle Unhook in Massen her</MakeBulkMSUnhook.label>
+  <MakeBulkMSUnhook.description>Stelle Unhook in Massen her.</MakeBulkMSUnhook.description>
+  <MakeBulkMSUnhook.jobString>Stelle Unhook her.</MakeBulkMSUnhook.jobString>
+</LanguageData>

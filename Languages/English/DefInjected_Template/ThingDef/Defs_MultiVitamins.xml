@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Multi Vitamins -->
+  <MSMultiVitamins.label>Multi-Vitamins</MSMultiVitamins.label>
+  <MSMultiVitamins.description>A pill taken every other day and used for slightly boosting immunity and includes the avoidance of food poisoning and gut worms.</MSMultiVitamins.description>
+  <MSMultiVitamins.ingestible.ingestCommandString>Take {0}</MSMultiVitamins.ingestible.ingestCommandString>
+  <MSMultiVitamins.ingestible.ingestReportString>Taking {0}.</MSMultiVitamins.ingestible.ingestReportString>
+</LanguageData>

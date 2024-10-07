@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeRimtarol.label>Make Rimtarol</MakeRimtarol.label>
+  <MakeRimtarol.description>Make Rimtarol.</MakeRimtarol.description>
+  <MakeRimtarol.jobString>Making Rimtarol</MakeRimtarol.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkRimtarol.label>Make Rimtarol in Bulk</MakeBulkRimtarol.label>
+  <MakeBulkRimtarol.description>Make 5 Rimtarol.</MakeBulkRimtarol.description>
+  <MakeBulkRimtarol.jobString>Making Rimtarol</MakeBulkRimtarol.jobString>
+</LanguageData>

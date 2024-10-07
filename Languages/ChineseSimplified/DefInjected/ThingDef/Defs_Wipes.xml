@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSWipes.label>消毒棉片</MSWipes.label>
+  <MSWipes.description>消毒棉片广泛应用于需要消毒的场合,尤其是在进行外科手术的时候.效果只能持续半天.</MSWipes.description>
+  <MSWipes.ingestible.ingestCommandString>使用 {0}</MSWipes.ingestible.ingestCommandString>
+  <MSWipes.ingestible.ingestReportString>正在使用 {0}.</MSWipes.ingestible.ingestReportString>
+</LanguageData>

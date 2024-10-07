@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeMSHydrogenPeroxide.label>制备过氧化氢</MakeMSHydrogenPeroxide.label>
+  <MakeMSHydrogenPeroxide.description>制备5份过氧化氢.</MakeMSHydrogenPeroxide.description>
+  <MakeMSHydrogenPeroxide.jobString>正在制备过氧化氢.</MakeMSHydrogenPeroxide.jobString>
+  <!-- Bulk -->
+  <MakeBulkMSHydrogenPeroxide.label>批量制备过氧化氢</MakeBulkMSHydrogenPeroxide.label>
+  <MakeBulkMSHydrogenPeroxide.description>制备25份过氧化氢.</MakeBulkMSHydrogenPeroxide.description>
+  <MakeBulkMSHydrogenPeroxide.jobString>正在制备过氧化氢.</MakeBulkMSHydrogenPeroxide.jobString>
+</LanguageData>

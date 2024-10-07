@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <RecipeDef>
+    <defName>MSBulkMedicine</defName>
+    <label>Make Medicine in bulk</label>
+    <description>Make 5 Medicine.</description>
+    <jobString>Crafting Medicine.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workSkill>Intellectual</workSkill>
+    <workAmount>3000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MedicineHerbal</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Neutroamine</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cloth</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MedicineHerbal</li>
+        <li>Neutroamine</li>
+        <li>Cloth</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MedicineIndustrial>5</MedicineIndustrial>
+    </products>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+      <Intellectual>5</Intellectual>
+    </skillRequirements>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+    <researchPrerequisite>MedicineProduction</researchPrerequisite>
+  </RecipeDef>
+  <!-- Ultra medicine -->
+  <RecipeDef>
+    <defName>MakeMSUltraMedicine</defName>
+    <label>Make Ultratech medicine</label>
+    <description>Make 1 Ultratech medicine</description>
+    <jobString>Making Ultratech Medicine.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workSkill>Intellectual</workSkill>
+    <workAmount>2000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MedicineIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Neutroamine</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Hyperweave</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MedicineIndustrial</li>
+        <li>Neutroamine</li>
+        <li>Plasteel</li>
+        <li>Hyperweave</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MedicineUltratech>1</MedicineUltratech>
+    </products>
+    <skillRequirements>
+      <Crafting>10</Crafting>
+      <Intellectual>12</Intellectual>
+    </skillRequirements>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+    <researchPrerequisite>MSMedicineUltra</researchPrerequisite>
+  </RecipeDef>
+  <!-- Healer Mech Serum -->
+  <RecipeDef>
+    <defName>MakeMSHealerMechSerum</defName>
+    <label>Make Healer Mech Serum</label>
+    <description>Make 1 healer mech serum</description>
+    <jobString>Making healer mech serum.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workSkill>Intellectual</workSkill>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSInjector_Unit</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSMetasis_Vial</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MSInjector_Unit</li>
+        <li>ComponentSpacer</li>
+        <li>MSMetasis_Vial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MechSerumHealer>1</MechSerumHealer>
+    </products>
+    <skillRequirements>
+      <Intellectual>12</Intellectual>
+    </skillRequirements>
+    <recipeUsers>
+      <li>DrugLab</li>
+      <li>MSStimLab</li>
+    </recipeUsers>
+    <researchPrerequisite>MSHealerMechSerum</researchPrerequisite>
+  </RecipeDef>
+  <!-- Ressurector Mech Serum -->
+  <RecipeDef>
+    <defName>MakeMSRessurectorMechSerum</defName>
+    <label>Make Ressurector Mech Serum</label>
+    <description>Make 1 ressurector mech serum</description>
+    <jobString>Making ressurector mech serum.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workSkill>Intellectual</workSkill>
+    <workAmount>2000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSInjector_Unit</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Uranium</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSMetasis_Vial</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MSInjector_Unit</li>
+        <li>ComponentSpacer</li>
+        <li>Uranium</li>
+        <li>MSMetasis_Vial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MechSerumResurrector>1</MechSerumResurrector>
+    </products>
+    <skillRequirements>
+      <Intellectual>15</Intellectual>
+    </skillRequirements>
+    <recipeUsers>
+      <li>DrugLab</li>
+      <li>MSStimLab</li>
+    </recipeUsers>
+    <researchPrerequisite>MSRessurectMechSerum</researchPrerequisite>
+  </RecipeDef>
+  <!-- Neurotrainer -->
+  <!--  Changed to be individual skills as of V1.1 -->
+  <RecipeDef Name="BaseMSNTMechSerum" Abstract="True">
+    <defName>MakeMSNTMechSerum</defName>
+    <jobString>Making Neurotrainer mech serum.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workSkill>Intellectual</workSkill>
+    <workAmount>2000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSInjector_Unit</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSClarity</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Uranium</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSMetasis_Vial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MSInjector_Unit</li>
+        <li>MSClarity</li>
+        <li>Uranium</li>
+        <li>MSMetasis_Vial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <skillRequirements>
+      <Intellectual>13</Intellectual>
+    </skillRequirements>
+    <recipeUsers>
+      <li>MSStimLab</li>
+    </recipeUsers>
+    <researchPrerequisite>MSNeuroMechSerum</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="BaseMSNTMechSerum">
+    <defName>MakeMSNTMechSerumShooting</defName>
+    <label>Make Neurotrainer (Shooting)</label>
+    <description>Make 1 Neurotrainer (Shooting)</description>
+    <products>
+      <Neurotrainer_Shooting>1</Neurotrainer_Shooting>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="BaseMSNTMechSerum">
+    <defName>MakeMSNTMechSerumMelee</defName>
+    <label>Make Neurotrainer (Melee)</label>
+    <description>Make 1 Neurotrainer (Melee)</description>
+    <products>
+      <Neurotrainer_Melee>1</Neurotrainer_Melee>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="BaseMSNTMechSerum">
+    <defName>MakeMSNTMechSerumConstruction</defName>
+    <label>Make Neurotrainer (Construction)</label>
+    <description>Make 1 Neurotrainer (Construction)</description>
+    <products>
+      <Neurotrainer_Construction>1</Neurotrainer_Construction>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="BaseMSNTMechSerum">
+    <defName>MakeMSNTMechSerumPlants</defName>
+    <label>Make Neurotrainer (Plants)</label>
+    <description>Make 1 Neurotrainer (Plants)</description>
+    <products>
+      <Neurotrainer_Plants>1</Neurotrainer_Plants>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="BaseMSNTMechSerum">
+    <defName>MakeMSNTMechSerumIntellectual</defName>
+    <label>Make Neurotrainer (Intellectual)</label>
+    <description>Make 1 Neurotrainer (Intellectual)</description>
+    <products>
+      <Neurotrainer_Intellectual>1</Neurotrainer_Intellectual>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="BaseMSNTMechSerum">
+    <defName>MakeMSNTMechSerumMining</defName>
+    <label>Make Neurotrainer (Mining)</label>
+    <description>Make 1 Neurotrainer (Mining)</description>
+    <products>
+      <Neurotrainer_Mining>1</Neurotrainer_Mining>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="BaseMSNTMechSerum">
+    <defName>MakeMSNTMechSerumSocial</defName>
+    <label>Make Neurotrainer (Social)</label>
+    <description>Make 1 Neurotrainer (Social)</description>
+    <products>
+      <Neurotrainer_Social>1</Neurotrainer_Social>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="BaseMSNTMechSerum">
+    <defName>MakeMSNTMechSerumAnimals</defName>
+    <label>Make Neurotrainer (Animals)</label>
+    <description>Make 1 Neurotrainer (Animals)</description>
+    <products>
+      <Neurotrainer_Animals>1</Neurotrainer_Animals>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="BaseMSNTMechSerum">
+    <defName>MakeMSNTMechSerumCooking</defName>
+    <label>Make Neurotrainer (Cooking)</label>
+    <description>Make 1 Neurotrainer (Cooking)</description>
+    <products>
+      <Neurotrainer_Cooking>1</Neurotrainer_Cooking>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="BaseMSNTMechSerum">
+    <defName>MakeMSNTMechSerumMedicine</defName>
+    <label>Make Neurotrainer (Medicine)</label>
+    <description>Make 1 Neurotrainer (Medicine)</description>
+    <products>
+      <Neurotrainer_Medicine>1</Neurotrainer_Medicine>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="BaseMSNTMechSerum">
+    <defName>MakeMSNTMechSerumArtistic</defName>
+    <label>Make Neurotrainer (Artistic)</label>
+    <description>Make 1 Neurotrainer (Artistic)</description>
+    <products>
+      <Neurotrainer_Artistic>1</Neurotrainer_Artistic>
+    </products>
+  </RecipeDef>
+  <RecipeDef ParentName="BaseMSNTMechSerum">
+    <defName>MakeMSNTMechSerumCrafting</defName>
+    <label>Make Neurotrainer (Crafting)</label>
+    <description>Make 1 Neurotrainer (Crafting)</description>
+    <products>
+      <Neurotrainer_Crafting>1</Neurotrainer_Crafting>
+    </products>
+  </RecipeDef>
+</Defs>

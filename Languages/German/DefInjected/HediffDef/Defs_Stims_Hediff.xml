@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSBattleStim_High.label>KampfStim</MSBattleStim_High.label>
+  <MSBattleStim_High.description>KampfStim im Blutkreislauf.</MSBattleStim_High.description>
+  <MSBattleStim_Low.label>KampfStim-Regression</MSBattleStim_Low.label>
+  <MSBattleStim_Low.description>KampfStim-Regression im Gange.</MSBattleStim_Low.description>
+</LanguageData>

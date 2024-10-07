@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Placebo -->
+  <MSPlacebo_Thought.stages.0.label>Placebo-Sedierungseffekt</MSPlacebo_Thought.stages.0.label>
+  <MSPlacebo_Thought.stages.0.description>Placebo bietet eine milde Betäubung der Realität.</MSPlacebo_Thought.stages.0.description>
+  <!-- Mental Dependancy -->
+  <MSMentalWithdrawal.stages.1.label>Entzug mentale Abhängigkeit</MSMentalWithdrawal.stages.1.label>
+  <MSMentalWithdrawal.stages.1.description>Ich bin gereizt.</MSMentalWithdrawal.stages.1.description>
+</LanguageData>

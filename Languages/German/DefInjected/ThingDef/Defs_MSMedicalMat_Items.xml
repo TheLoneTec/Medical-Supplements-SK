@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Industrial -->
+  <MSMedicalMatItem.label>Medizinische Matte aufgerollt</MSMedicalMatItem.label>
+  <MSMedicalMatItem.description>Eine zusammengerollte, tragbare Matte, die für medizinische Zwecke auf dem Feld oder für die Reise verwendet werden kann.</MSMedicalMatItem.description>
+  <!-- Spacer -->
+  <MSMedicalMatSpacerItem.label>Medizinische Matte aufgerollt (Fortschrittlich)</MSMedicalMatSpacerItem.label>
+  <MSMedicalMatSpacerItem.description>Eine zusammengerollte, tragbare Matte, die für medizinische Zwecke auf dem Feld oder für die Reise verwendet werden kann.</MSMedicalMatSpacerItem.description>
+  <!-- Ultra -->
+  <MSMedicalMatUltraItem.label>Medizinische Matte aufgerollt (High-Tech)</MSMedicalMatUltraItem.label>
+  <MSMedicalMatUltraItem.description>Eine zusammengerollte, tragbare Matte, die für medizinische Zwecke auf dem Feld oder für die Reise verwendet werden kann.</MSMedicalMatUltraItem.description>
+  <!-- Early -->
+  <MSMedicalMatEarlyItem.label>Medizinische Matte aufgerollt (Simpel)</MSMedicalMatEarlyItem.label>
+  <MSMedicalMatEarlyItem.description>Eine zusammengerollte, tragbare Matte, die für medizinische Zwecke auf dem Feld oder für die Reise verwendet werden kann.</MSMedicalMatEarlyItem.description>
+</LanguageData>

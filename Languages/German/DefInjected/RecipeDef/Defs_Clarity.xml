@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeMSClarity.label>Stelle Klarheit her</MakeMSClarity.label>
+  <MakeMSClarity.description>Stelle 1 Klarheit her.</MakeMSClarity.description>
+  <MakeMSClarity.jobString>Stelle Klarheit her.</MakeMSClarity.jobString>
+  <MakeBulkMSClarity.label>Stelle Klarheit in Massen her</MakeBulkMSClarity.label>
+  <MakeBulkMSClarity.description>Stelle 5 Klarheit her.</MakeBulkMSClarity.description>
+  <MakeBulkMSClarity.jobString>Stelle Klarheit her.</MakeBulkMSClarity.jobString>
+</LanguageData>

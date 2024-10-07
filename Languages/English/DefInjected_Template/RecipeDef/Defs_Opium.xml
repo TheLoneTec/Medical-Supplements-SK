@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Latex -->
+  <ExtractMSOpiumLatex.label>Extract opium latex</ExtractMSOpiumLatex.label>
+  <ExtractMSOpiumLatex.description>Process opium poppy seed pods into latex.</ExtractMSOpiumLatex.description>
+  <ExtractMSOpiumLatex.jobString>processing opium poppy seed pods.</ExtractMSOpiumLatex.jobString>
+  <!-- Seeds -->
+  <ExtractMSPoppySeeds.label>Extract poppy seeds</ExtractMSPoppySeeds.label>
+  <ExtractMSPoppySeeds.description>Extract poppy seeds from opium poppy seed pods.</ExtractMSPoppySeeds.description>
+  <ExtractMSPoppySeeds.jobString>processing opium poppy seed pods.</ExtractMSPoppySeeds.jobString>
+</LanguageData>

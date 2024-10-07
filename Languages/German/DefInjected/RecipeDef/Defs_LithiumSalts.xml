@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeLithiumSalts.label>Stelle Lithiumsalze her</MakeLithiumSalts.label>
+  <MakeLithiumSalts.description>Stelle 50 Lithiumsalze her.</MakeLithiumSalts.description>
+  <MakeLithiumSalts.jobString>Stelle Lithiumsalze her.</MakeLithiumSalts.jobString>
+</LanguageData>

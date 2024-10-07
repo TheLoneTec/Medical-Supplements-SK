@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeBulkInhalers.label>批量制作舒利迭</MakeBulkInhalers.label>
+  <MakeBulkInhalers.description>制作五份舒利迭。</MakeBulkInhalers.description>
+  <MakeBulkInhalers.jobString>正在批量制作舒利迭。</MakeBulkInhalers.jobString>
+</LanguageData>

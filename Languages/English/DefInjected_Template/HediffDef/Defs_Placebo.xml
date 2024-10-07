@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Placebo -->
+  <MSPlacebo_High.label>Placebo</MSPlacebo_High.label>
+  <MSPlacebo_High.description>Placebo effect</MSPlacebo_High.description>
+  <!-- Mental Dependancy -->
+  <MSMental_Tolerance.label>mental dependency tolerance</MSMental_Tolerance.label>
+  <MSMental_Tolerance.description>mental dependancy tolerance</MSMental_Tolerance.description>
+  <MSMental_Addiction.label>mental dependency</MSMental_Addiction.label>
+  <MSMental_Addiction.description>mental dependancy addiction effect</MSMental_Addiction.description>
+  <MSMental_Addiction.stages.1.label>withdrawal</MSMental_Addiction.stages.1.label>
+</LanguageData>

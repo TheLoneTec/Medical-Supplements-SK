@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSMedicalMatItem.label>中级便携医疗毯</MSMedicalMatItem.label>
+  <MSMedicalMatItem.description>一张现代化医疗毯，能卷起来带走，在正规军队和贸易车队中广受好评。</MSMedicalMatItem.description>
+  <MSMedicalMatSpacerItem.label>初级便携医疗毯</MSMedicalMatSpacerItem.label>
+  <MSMedicalMatSpacerItem.description>一张由浸满草药精华的绳索编织而成的简陋毯子，部落会使用它来治疗受伤的勇士和不堪重负的商队。</MSMedicalMatSpacerItem.description>
+  <MSMedicalMatUltraItem.label>闪耀世界便携医疗毯</MSMedicalMatUltraItem.label>
+  <MSMedicalMatUltraItem.description>一张使用了先进科技的便携式医疗毯，在太空战舰和星际商船上普遍应用。</MSMedicalMatUltraItem.description>
+  <MSMedicalMatEarlyItem.label>初级便携医疗毯</MSMedicalMatEarlyItem.label>
+  <MSMedicalMatEarlyItem.description>一张由浸满草药精华的绳索编织而成的简陋毯子，部落会使用它来治疗受伤的勇士和不堪重负的商队。</MSMedicalMatEarlyItem.description>
+</LanguageData>

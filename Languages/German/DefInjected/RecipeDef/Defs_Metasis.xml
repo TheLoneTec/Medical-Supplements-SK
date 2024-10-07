@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes Metasis Vial -->
+  <MakeMetasisVial.label>Stelle Metasisfläschchen her</MakeMetasisVial.label>
+  <MakeMetasisVial.description>Stelle 1 Metasisfläschen her.</MakeMetasisVial.description>
+  <MakeMetasisVial.jobString>Stelle Metasisfläschen her.</MakeMetasisVial.jobString>
+  <MakeBulkMetasisVial.label>Stelle Metasisfläschchen in  Massen her</MakeBulkMetasisVial.label>
+  <MakeBulkMetasisVial.description>Stelle 5 Metasisfläschen her.</MakeBulkMetasisVial.description>
+  <MakeBulkMetasisVial.jobString>Stelle Metasisfläschchen her.</MakeBulkMetasisVial.jobString>
+  <!-- Recipes Injector Unit -->
+  <MakeMSInjectorUnit.label>Stelle Spritze her</MakeMSInjectorUnit.label>
+  <MakeMSInjectorUnit.description>Stelle eine Spritze her.</MakeMSInjectorUnit.description>
+  <MakeMSInjectorUnit.jobString>Stelle Spritze her.</MakeMSInjectorUnit.jobString>
+  <MakeBulkMSInjectorUnit.label>Stelle Spritzen in Massen her</MakeBulkMSInjectorUnit.label>
+  <MakeBulkMSInjectorUnit.description>Stelle 5 Spritzen her.</MakeBulkMSInjectorUnit.description>
+  <MakeBulkMSInjectorUnit.jobString>Stelle Spritze her.</MakeBulkMSInjectorUnit.jobString>
+  <Make_MSMetasis.label>Stelle Metasisspritze her</Make_MSMetasis.label>
+  <Make_MSMetasis.description>Stelle Metasisspritze her.</Make_MSMetasis.description>
+  <Make_MSMetasis.jobString>Stelle Metasisspritze her.</Make_MSMetasis.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkMetasis.label>Stelle Metasisspritzen in Massen her</MakeBulkMetasis.label>
+  <MakeBulkMetasis.description>Stelle 5 Metasisspritzen her.</MakeBulkMetasis.description>
+  <MakeBulkMetasis.jobString>Stelle Metasisspritze her.</MakeBulkMetasis.jobString>
+</LanguageData>

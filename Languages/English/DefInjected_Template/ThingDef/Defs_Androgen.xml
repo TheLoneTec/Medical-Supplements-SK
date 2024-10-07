@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Androgen -->
+  <MSAndrogen.label>Androgen</MSAndrogen.label>
+  <MSAndrogen.description>Synthetic androgen used as a mild steroid hormone. Can make a person more tempremental and also potential unwanted hair growth for women as a more uncommon side effect. Effects last for 3 days.</MSAndrogen.description>
+  <MSAndrogen.ingestible.ingestCommandString>Take {0}</MSAndrogen.ingestible.ingestCommandString>
+  <MSAndrogen.ingestible.ingestReportString>Taking {0}.</MSAndrogen.ingestible.ingestReportString>
+</LanguageData>

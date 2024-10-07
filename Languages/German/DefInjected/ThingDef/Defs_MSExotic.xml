@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Immunisation -->
+  <MSImmunisation.label>Impfspritze</MSImmunisation.label>
+  <MSImmunisation.description>Eine Dosis selbst injizierter Chemikalien, die das Immunsystem dauerhaft stimulieren sollen.</MSImmunisation.description>
+  <MSImmunisation.comps.3.useLabel>Verwenden Sie eine Impfinjektion.</MSImmunisation.comps.3.useLabel>
+  <!-- Cerebrax -->
+  <MSCerebrax.label>Cerebraxspritze</MSCerebrax.label>
+  <MSCerebrax.description>Eine Dosis selbst injizierter Chemikalien, die entwickelt wurde, um die psychische Anfälligkeit dauerhaft zu beseitigen.</MSCerebrax.description>
+  <MSCerebrax.comps.3.useLabel>Verwenden Sie die Cerebrax-Injektion.</MSCerebrax.comps.3.useLabel>
+  <!-- Condom -->
+  <MSCondom.label>Kondom</MSCondom.label>
+  <MSCondom.description>Ein Kondom ist eine hüllenförmige Barriere, die beim Geschlechtsverkehr eingesetzt wird, um die Wahrscheinlichkeit einer Schwangerschaft oder einer sexuell übertragbaren Infektion (STI) zu verringern. Diese Version ist eine Unisex-Version.</MSCondom.description>
+  <MSCondom.comps.3.useLabel>Benutze Kondom</MSCondom.comps.3.useLabel>
+</LanguageData>

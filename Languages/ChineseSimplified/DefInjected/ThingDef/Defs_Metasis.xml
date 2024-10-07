@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSMetasis_Vial.label>梅达西尔助剂</MSMetasis_Vial.label>
+  <MSMetasis_Vial.description>一种化学助剂。配合注射器来制作梅达西尔注射剂。</MSMetasis_Vial.description>
+  <MSInjector_Unit.label>注射器</MSInjector_Unit.label>
+  <MSInjector_Unit.description>一种基础机械注射液，需要配合其他机械化合物来使用。</MSInjector_Unit.description>
+  <MSMetasis.label>梅达西尔针剂</MSMetasis.label>
+  <MSMetasis.description>这种从路西法合剂中提取的纳米机械制剂能够全面增强体质。通过提纯去除了路西法合剂的致瘾性，却也使得药效不如从前那么强力。每七天一剂。</MSMetasis.description>
+  <MSMetasis.ingestible.ingestCommandString>注射 {0}</MSMetasis.ingestible.ingestCommandString>
+  <MSMetasis.ingestible.ingestReportString>正在注射 {0}.</MSMetasis.ingestible.ingestReportString>
+</LanguageData>

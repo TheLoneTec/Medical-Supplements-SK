@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Medical Mats -->
+  <!-- Industrial -->
+  <ThingDef ParentName="BedWithQualityBase">
+    <defName>MSMedicalMat</defName>
+    <label>Medical Mat</label>
+    <description>A portable mat that can be used for medical purposes in the field.</description>
+    <graphicData>
+      <texPath>Things/Building/Furniture/MSMedicalMat/MSMedicalMat</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1,2)</drawSize>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <castEdgeShadows>True</castEdgeShadows>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Flammability>0.75</Flammability>
+      <Mass>2.0</Mass>
+      <BedRestEffectiveness>0.90</BedRestEffectiveness>
+      <ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
+      <MedicalTendQualityOffset>0.15</MedicalTendQualityOffset>
+      <SurgerySuccessChanceFactor>1.05</SurgerySuccessChanceFactor>
+      <Comfort>0.78</Comfort>
+      <WorkToBuild>30</WorkToBuild>
+      <MarketValue>262</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>MS_DStand</li>
+          <li>VitalsMonitor</li>
+          <li>Dresser</li>
+          <li>EndTable</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <size>(1,2)</size>
+    <costList>
+      <MSMedicalMatItem>1</MSMedicalMatItem>
+    </costList>
+    <building>
+      <bed_showSleeperBody>false</bed_showSleeperBody>
+      <bed_healPerDay>9</bed_healPerDay>
+      <bed_caravansCanUse>true</bed_caravansCanUse>
+      <bed_defaultMedical>true</bed_defaultMedical>
+    </building>
+    <techLevel>Industrial</techLevel>
+    <pathCost>5</pathCost>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <resourcesFractionWhenDeconstructed>1.0</resourcesFractionWhenDeconstructed>
+    <passability>Standable</passability>
+    <designationHotKey>Misc2</designationHotKey>
+    <researchPrerequisites>
+      <li>MSMedicalMat</li>
+    </researchPrerequisites>
+    <thingCategories Inherit="false">
+      <li>BuildingsMisc</li>
+    </thingCategories>
+    <designationCategory>Misc</designationCategory>
+  </ThingDef>
+  <!-- Spacer -->
+  <ThingDef ParentName="BedWithQualityBase">
+    <defName>MSMedicalMatSpacer</defName>
+    <label>Medical Mat (Spacer Tech)</label>
+    <description>An advanced portable mat that can be used for medical purposes in the field.</description>
+    <graphicData>
+      <texPath>Things/Building/Furniture/MSMedicalMatSpacer/MSMedicalMatSpacer</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1,2)</drawSize>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <castEdgeShadows>True</castEdgeShadows>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Flammability>0.75</Flammability>
+      <Mass>2.1</Mass>
+      <BedRestEffectiveness>0.92</BedRestEffectiveness>
+      <ImmunityGainSpeedFactor>1.2</ImmunityGainSpeedFactor>
+      <MedicalTendQualityOffset>0.17</MedicalTendQualityOffset>
+      <SurgerySuccessChanceFactor>1.10</SurgerySuccessChanceFactor>
+      <Comfort>0.78</Comfort>
+      <WorkToBuild>32</WorkToBuild>
+      <MarketValue>462</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>MS_DStand</li>
+          <li>VitalsMonitor</li>
+          <li>Dresser</li>
+          <li>EndTable</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <size>(1,2)</size>
+    <costList>
+      <MSMedicalMatSpacerItem>1</MSMedicalMatSpacerItem>
+    </costList>
+    <building>
+      <bed_showSleeperBody>false</bed_showSleeperBody>
+      <bed_healPerDay>12</bed_healPerDay>
+      <bed_caravansCanUse>true</bed_caravansCanUse>
+      <bed_defaultMedical>true</bed_defaultMedical>
+    </building>
+    <techLevel>Spacer</techLevel>
+    <pathCost>5</pathCost>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <resourcesFractionWhenDeconstructed>1.0</resourcesFractionWhenDeconstructed>
+    <passability>Standable</passability>
+    <designationHotKey>Misc2</designationHotKey>
+    <researchPrerequisites>
+      <li>MSMedicalMatSpacer</li>
+    </researchPrerequisites>
+    <thingCategories Inherit="false">
+      <li>BuildingsMisc</li>
+    </thingCategories>
+    <designationCategory>Misc</designationCategory>
+  </ThingDef>
+  <!-- Ultra -->
+  <ThingDef ParentName="BedWithQualityBase">
+    <defName>MSMedicalMatUltra</defName>
+    <label>Medical Mat (Ultra Tech)</label>
+    <description>An extremely advanced portable mat that can be used for medical purposes in the field.</description>
+    <graphicData>
+      <texPath>Things/Building/Furniture/MSMedicalMatUltra/MSMedicalMatUltra</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1,2)</drawSize>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <castEdgeShadows>True</castEdgeShadows>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Flammability>0.75</Flammability>
+      <Mass>2.1</Mass>
+      <BedRestEffectiveness>0.95</BedRestEffectiveness>
+      <ImmunityGainSpeedFactor>1.3</ImmunityGainSpeedFactor>
+      <MedicalTendQualityOffset>0.20</MedicalTendQualityOffset>
+      <SurgerySuccessChanceFactor>1.15</SurgerySuccessChanceFactor>
+      <Comfort>0.79</Comfort>
+      <WorkToBuild>35</WorkToBuild>
+      <MarketValue>716</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>MS_DStand</li>
+          <li>VitalsMonitor</li>
+          <li>Dresser</li>
+          <li>EndTable</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <size>(1,2)</size>
+    <costList>
+      <MSMedicalMatUltraItem>1</MSMedicalMatUltraItem>
+    </costList>
+    <building>
+      <bed_showSleeperBody>false</bed_showSleeperBody>
+      <bed_healPerDay>15</bed_healPerDay>
+      <bed_caravansCanUse>true</bed_caravansCanUse>
+      <bed_defaultMedical>true</bed_defaultMedical>
+    </building>
+    <techLevel>Ultra</techLevel>
+    <pathCost>5</pathCost>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <resourcesFractionWhenDeconstructed>1.0</resourcesFractionWhenDeconstructed>
+    <passability>Standable</passability>
+    <designationHotKey>Misc2</designationHotKey>
+    <researchPrerequisites>
+      <li>MSMedicalMatUltra</li>
+    </researchPrerequisites>
+    <thingCategories Inherit="false">
+      <li>BuildingsMisc</li>
+    </thingCategories>
+    <designationCategory>Misc</designationCategory>
+  </ThingDef>
+  <!-- Early -->
+  <ThingDef ParentName="BedWithQualityBase">
+    <defName>MSMedicalMatEarly</defName>
+    <label>Medical Mat (early)</label>
+    <description>A portable mat that can be used for medical purposes in the field.</description>
+    <graphicData>
+      <texPath>Things/Building/Furniture/MSMedicalMatEarly/MSMedicalMatEarly</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(1,2)</drawSize>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <castEdgeShadows>True</castEdgeShadows>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Mass>2.3</Mass>
+      <BedRestEffectiveness>0.70</BedRestEffectiveness>
+      <ImmunityGainSpeedFactor>1.1</ImmunityGainSpeedFactor>
+      <MedicalTendQualityOffset>0.10</MedicalTendQualityOffset>
+      <SurgerySuccessChanceFactor>1.00</SurgerySuccessChanceFactor>
+      <Comfort>0.70</Comfort>
+      <WorkToBuild>30</WorkToBuild>
+      <MarketValue>270</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>MS_DStand</li>
+          <li>VitalsMonitor</li>
+          <li>Dresser</li>
+          <li>EndTable</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <size>(1,2)</size>
+    <costList>
+      <MSMedicalMatEarlyItem>1</MSMedicalMatEarlyItem>
+    </costList>
+    <building>
+      <bed_showSleeperBody>true</bed_showSleeperBody>
+      <bed_healPerDay>8</bed_healPerDay>
+      <bed_caravansCanUse>true</bed_caravansCanUse>
+      <bed_defaultMedical>true</bed_defaultMedical>
+    </building>
+    <techLevel>Medieval</techLevel>
+    <pathCost>5</pathCost>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <resourcesFractionWhenDeconstructed>1.0</resourcesFractionWhenDeconstructed>
+    <passability>Standable</passability>
+    <designationHotKey>Misc2</designationHotKey>
+    <researchPrerequisites>
+      <li>MSMedicalMatEarly</li>
+    </researchPrerequisites>
+    <thingCategories Inherit="false">
+      <li>BuildingsMisc</li>
+    </thingCategories>
+    <designationCategory>Misc</designationCategory>
+  </ThingDef>
+</Defs>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Metasis Vial -->
+  <MSMetasis_Vial.label>Metasisfläschchen</MSMetasis_Vial.label>
+  <MSMetasis_Vial.description>Metasis Chemikalie. Mit einer Spritze kombinieren, um Metasisspritze herzustellen.</MSMetasis_Vial.description>
+  <!-- Injector Unit -->
+  <MSInjector_Unit.label>Spritze</MSInjector_Unit.label>
+  <MSInjector_Unit.description>Eine Basis-Mechanite-bereite Einspritzeinheit. Zur Verwendung mit Mechanite-Chemikalien kombinieren.</MSInjector_Unit.description>
+  <!-- Metasis -->
+  <MSMetasis.label>Metasisspritze</MSMetasis.label>
+  <MSMetasis.description>Veredelt aus Luciferium verbessert diese modifizierte Zubereitung von Mechaniten die Körperfunktionen in jeder Hinsicht. Entfernt die Sucht-Eigenschaften von Luciferium als Teil des Raffinationsprozesses, beseitigt jedoch auch einige der anderen Vorteile. Wird alle 7 Tage eingenommen.</MSMetasis.description>
+  <MSMetasis.ingestible.ingestCommandString>Injiziere {0}</MSMetasis.ingestible.ingestCommandString>
+  <MSMetasis.ingestible.ingestReportString>Injiziert{0}.</MSMetasis.ingestible.ingestReportString>
+</LanguageData>

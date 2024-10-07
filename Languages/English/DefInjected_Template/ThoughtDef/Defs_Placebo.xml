@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Placebo -->
+  <MSPlacebo_Thought.stages.0.label>Placebo sedation effect</MSPlacebo_Thought.stages.0.label>
+  <MSPlacebo_Thought.stages.0.description>Placebo provides a mild numbing to reality.</MSPlacebo_Thought.stages.0.description>
+  <!-- Mental Dependancy -->
+  <MSMentalWithdrawal.stages.1.label>mental dependency withdrawal</MSMentalWithdrawal.stages.1.label>
+  <MSMentalWithdrawal.stages.1.description>I'm irritable.</MSMentalWithdrawal.stages.1.description>
+</LanguageData>

@@ -1,0 +1,68 @@
+# Changelog for MedicalSupplements
+
+1.4.4 - Fixed the Destroy Self-change in 1.4
+
+
+1.4.3 - Fixed the issue, thank you BaalEvan for the input!
+
+
+1.4.2 - Temporary tend-removal until I find what causes issues
+
+
+1.4.1 - Mod updated for 1.4 and passed autotests..
+Used DeepL to update translations for ChineseSimplified, French, German, Russian
+
+
+1.3.2 - Added missing Hot Meals def for Metasis Injection
+
+
+1.3.1 - Added override for Hot Meals-sorting, thanks Lurmey!
+
+
+1.0.15.0 - Mod updated for 1.3 and passed autotests
+
+
+1.0.14.0 - Now sorting the chemical mixers menu alphabetically
+
+
+1.0.13.0 - Fixed typo in drug description
+
+
+1.0.12.0 - RimProPlus does now not require table to eat, also fixed some spelling errors
+
+
+1.0.11.0 - German translation updated, via Erdnussbrot
+
+
+1.0.10.0 - Fixed a patch-reference for RimPlas
+
+
+1.0.9.0 - Updated RimFridge-reference and added patch for Sparkling Worlds
+
+
+1.0.8.0 - Updated the research-tree to be more readable in vanilla
+
+
+1.0.7.0 - Correct mod structure
+
+
+1.0.6.0 - The battle-stims should not be possible to trigger on non-colonists anymore
+
+
+1.0.5.0 - Simplified load-order as the patches has been sorted out
+
+
+1.0.4.0 - Fixed patches and load-order for Apothecary
+
+
+1.0.3.0 - Multiplayer fixed, thank you @notfood
+
+
+1.0.2.0 - Fixed patches and load-order
+
+
+1.0.1.0 - Replaced CompTended with CompTended_NewTemp, thanks @NotFood!
+
+
+1.0.0.0 - First publish
+

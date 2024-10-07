@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Perpetuity Vial -->
+  <MakeMSPerpetuityVial.label>制作“永恒”注射液</MakeMSPerpetuityVial.label>
+  <MakeMSPerpetuityVial.description>配制一支“永恒”注射液.</MakeMSPerpetuityVial.description>
+  <MakeMSPerpetuityVial.jobString>正在配制“永恒”注射液.</MakeMSPerpetuityVial.jobString>
+  <!-- Recipe -->
+  <MakeMSPerpetuity.label>制作“永恒”针剂</MakeMSPerpetuity.label>
+  <MakeMSPerpetuity.description>制作一支“永恒”针剂</MakeMSPerpetuity.description>
+  <MakeMSPerpetuity.jobString>正在制作“永恒”针剂</MakeMSPerpetuity.jobString>
+</LanguageData>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeMSRimSnooze.label>制作瑞舒眠</MakeMSRimSnooze.label>
+  <MakeMSRimSnooze.description>制作1片瑞舒眠</MakeMSRimSnooze.description>
+  <MakeMSRimSnooze.jobString>正在制作瑞舒眠</MakeMSRimSnooze.jobString>
+  <MakeBulkMSRimSnooze.label>批量制作瑞舒眠</MakeBulkMSRimSnooze.label>
+  <MakeBulkMSRimSnooze.description>制作5片瑞舒眠</MakeBulkMSRimSnooze.description>
+  <MakeBulkMSRimSnooze.jobString>正在制作瑞舒眠</MakeBulkMSRimSnooze.jobString>
+</LanguageData>

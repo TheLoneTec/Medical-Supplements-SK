@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- OPs Items -->
+  <MSSurgeryItemsIndustrial.label>Medizinische Chirugie Artikel</MSSurgeryItemsIndustrial.label>
+  <MSSurgeryItemsIndustrial.description>Gewährt die Fähigkeit, Gegenstände für die medizinische Chirurgie herzustellen.</MSSurgeryItemsIndustrial.description>
+  <MSSurgeryItemsSpacer.label>Fortschrittlche Medizinische Chirugie Artikel</MSSurgeryItemsSpacer.label>
+  <MSSurgeryItemsSpacer.description>Gewährt die Fähigkeit, Gegenstände für die fortschrittliche medizinische Chirurgie herzustellen.</MSSurgeryItemsSpacer.description>
+</LanguageData>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Plant -->
+  <Plant_MSPerrywinkle.label>Catharanthe</Plant_MSPerrywinkle.label>
+  <Plant_MSPerrywinkle.description>Catharanthus roseus, allgemein bekannt als helle Augen, Kap-Immergrün, Friedhofspflanze, alte Magd, rosa Immergrün, Rosen-Immergrün, ist eine Art blühende Pflanze in der Dogbane-Familie Apocynaceae. Es wird als Zier- und Heilpflanze zur Krebsbehandlung angebaut..</Plant_MSPerrywinkle.description>
+  <MSPerrywinkleLeaves.label>Catharantheblätter</MSPerrywinkleLeaves.label>
+  <MSPerrywinkleLeaves.description>Die Catharanthe-Blätter können zur Extraktion von Vinca-Alkaloiden verwendet werden, einem Vorläufer einiger chemotherapeutischer Behandlungen.</MSPerrywinkleLeaves.description>
+  <MSVincaAlkaloid.label>Vinka-Alkaloide</MSVincaAlkaloid.label>
+  <MSVincaAlkaloid.description>Vinca-Alkaloide sind eine Reihe von Antimitotika und Antimikrotubuli-Alkaloid-Wirkstoffen, die ursprünglich aus der Immergrün-Pflanze gewonnen wurden: Catharanthus roseus (Basionym Vinca rosea) und andere Vinca-Pflanzen. Sie blockieren die Beta-Tubulin-Polymerisation in einer sich teilenden Zelle. Dies ist eine Vorläuferchemikalie, die in Chemotherapeutika verwendet wird.</MSVincaAlkaloid.description>
+</LanguageData>

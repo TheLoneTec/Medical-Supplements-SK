@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeMSMultiVitamins.label>制作复合维生素</MakeMSMultiVitamins.label>
+  <MakeMSMultiVitamins.description>制作一份复合维生素。</MakeMSMultiVitamins.description>
+  <MakeMSMultiVitamins.jobString>正在制作复合维生素。</MakeMSMultiVitamins.jobString>
+  <MakeBulkMSMultiVitamins.label>批量制作复合维生素</MakeBulkMSMultiVitamins.label>
+  <MakeBulkMSMultiVitamins.description>制作五份复合维生素。</MakeBulkMSMultiVitamins.description>
+  <MakeBulkMSMultiVitamins.jobString>正在批量制作复合维生素。</MakeBulkMSMultiVitamins.jobString>
+</LanguageData>

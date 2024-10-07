@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!--  Anti BloodRot -->
+  <!--
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationConditional">
+		<xpath>/Defs/HediffDef[defName="BloodRot"]</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs</xpath>
+				<RecipeDef ParentName="SurgeryFlesh">
+    				<defName>MSMetasisCureBloodRot</defName>
+    				<label>cure blood rot (metasis)</label>
+    				<description>This special medical operation cures blood rot by an injection of Metasis.</description>
+	    			<workerClass>Recipe_RemoveHediff</workerClass>
+    				<jobString>Curing blood rot.</jobString>
+    				<workAmount>2000</workAmount>
+    				<hideBodyPartNames>true</hideBodyPartNames>
+    				<isViolation>false</isViolation>
+	    			<targetsBodyPart>false</targetsBodyPart>
+    				<removesHediff>BloodRot</removesHediff>
+    				<successfullyRemovedHediffMessage>{0} has successfully cured {1}'s blood rot.</successfullyRemovedHediffMessage>
+    				<skillRequirements>
+      					<Medicine>5</Medicine>
+	    			</skillRequirements>
+    				<ingredients>
+      					<li>
+        					<filter>
+          						<thingDefs>
+            						<li>MSMetasis</li>
+          						</thingDefs>
+	        				</filter>
+    	    				<count>1</count>
+      					</li>
+    				</ingredients>
+    				<fixedIngredientFilter>
+      					<thingDefs>
+        					<li>MSMetasis</li>
+      					</thingDefs>
+    				</fixedIngredientFilter>
+  				</RecipeDef>
+		</match>
+		</li>
+		</operations>
+	</Operation>
+	-->
+</Patch>

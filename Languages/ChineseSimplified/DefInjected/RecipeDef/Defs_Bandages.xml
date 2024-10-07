@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeMSBandage.label>制作无菌绷带</MakeMSBandage.label>
+  <MakeMSBandage.description>制作五条无菌绷带。</MakeMSBandage.description>
+  <MakeMSBandage.jobString>正在制作无菌绷带。</MakeMSBandage.jobString>
+  <MakeMSASBandage.label>制作抗菌绷带</MakeMSASBandage.label>
+  <MakeMSASBandage.description>制作五条抗菌绷带。</MakeMSASBandage.description>
+  <MakeMSASBandage.jobString>正在制作抗菌绷带。</MakeMSASBandage.jobString>
+  <MakeMSNanoBandage.label>制作纳米绷带</MakeMSNanoBandage.label>
+  <MakeMSNanoBandage.description>制作一份纳米绷带。</MakeMSNanoBandage.description>
+  <MakeMSNanoBandage.jobString>正在制作纳米绷带。</MakeMSNanoBandage.jobString>
+</LanguageData>

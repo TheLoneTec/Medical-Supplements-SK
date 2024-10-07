@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- BattleStim Vial -->
+  <MSBattleStim_Vial.label>Battle Stim Vial</MSBattleStim_Vial.label>
+  <MSBattleStim_Vial.description>Vial of Battle Stim chemicals. To be prepared in the Stimlab.</MSBattleStim_Vial.description>
+  <!-- BattleStim -->
+  <MSBattleStim.label>Battle Stim</MSBattleStim.label>
+  <MSBattleStim.description>A dose of self injected mechanites designed to boost battlefield potential and healing. Harnesses Metasis with other drugs under radioactive conditions that allow for regenerative properties and battle readiness. There is the possibility of side effects involving damage to the liver or kidney, aswell as a potential regression period to their use. Effects last half a day.</MSBattleStim.description>
+  <MSBattleStim.comps.2.useLabel>Use Battle Stim</MSBattleStim.comps.2.useLabel>
+  <!-- Utility Belt -->
+  <MSBattleStimBelt.label>Battle Stim Utility</MSBattleStimBelt.label>
+  <MSBattleStimBelt.description>A battle stim attachable to any belt or the waist area as a utility item</MSBattleStimBelt.description>
+</LanguageData>

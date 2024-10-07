@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Rimtarol -->
+  <MSRimtarol.label>Rimtarol</MSRimtarol.label>
+  <MSRimtarol.description>Rimtarol ist ein schmerzlinderndes Gel, das bei der Anwendung die Schmerzen lindern kann. Es kann auch eine Immunität gegen Muskelparasiten bieten und im Falle einer Erkrankung dazu beitragen, die Zeit zu verkürzen, die für die Behandlung der Krankheit aufgewendet wird. Wird alle 3 Tage angewendet.</MSRimtarol.description>
+  <MSRimtarol.ingestible.ingestCommandString>Auftragen {0}</MSRimtarol.ingestible.ingestCommandString>
+  <MSRimtarol.ingestible.ingestReportString>Trage {0} auf.</MSRimtarol.ingestible.ingestReportString>
+</LanguageData>

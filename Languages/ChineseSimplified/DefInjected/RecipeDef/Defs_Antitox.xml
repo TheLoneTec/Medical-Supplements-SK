@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAntitoxin.label>制作抗毒素</MakeAntitoxin.label>
+  <MakeAntitoxin.description>制作一份抗毒素。</MakeAntitoxin.description>
+  <MakeAntitoxin.jobString>正在制作抗毒素。</MakeAntitoxin.jobString>
+  <MakeBulkAntitoxin.label>批量制作抗毒素</MakeBulkAntitoxin.label>
+  <MakeBulkAntitoxin.description>制作五份抗毒素。</MakeBulkAntitoxin.description>
+  <MakeBulkAntitoxin.jobString>正在批量制作抗毒素。</MakeBulkAntitoxin.jobString>
+</LanguageData>

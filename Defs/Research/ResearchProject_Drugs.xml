@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Research Tabs -->
+  <ResearchTabDef>
+    <defName>MedicalSuppTab</defName>
+    <label>Medical Supplements</label>
+  </ResearchTabDef>
+  <!-- Generic -->
+  <ResearchProjectDef>
+    <defName>MSDrugMixer</defName>
+    <label>Drug Mixer</label>
+    <description>Grants the ability to build the drug mixer. An automated mixing machine to make precursor chemicals.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>DrugProduction</li>
+      <li>BiofuelRefining</li>
+      <li>Brewing</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>4.90</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MSMultiVitamins</defName>
+    <label>Multi-Vitamins</label>
+    <description>Grants the ability to make Multi-Vitamins. A pill taken every other day and used for slightly boosting immunity and includes the avoidance of food poisoning and gut worms.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>DrugProduction</li>
+    </prerequisites>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>5.60</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MSMetasis</defName>
+    <label>Metasis</label>
+    <description>Grants the ability to make Metasis. Refined from Luciferium this modified concoction of mechanites improve the body's functioning in all respects. Removes the addiction properties of Luciferium as part of the refining process but also removes some of the other benefits. Taken every 7 days.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>MSGlycerol</li>
+      <li>MedicineProduction</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.90</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MSAntinites</defName>
+    <label>Antinites</label>
+    <description>Grants the ability to make Antinites. Refined from Luciferium this modified concoction of mechanites can be used to attack other unwanted mechanites in the body. Phenol and Smokeleaf are added into this mix to create a toxic effect targeting unwanted nanites in the system. As a result the experience though short lived, for about half a day, can be quite painful. It would be wise to take some form of pain relief prior to or just after using the injection.</description>
+    <baseCost>1500</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>MSPhenol</li>
+      <li>MSMetasis</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>3.10</researchViewY>
+  </ResearchProjectDef>
+  <!-- Glycerol and Phenol based -->
+  <ResearchProjectDef>
+    <defName>MSRimoxicillin</defName>
+    <label>Rimoxicillin</label>
+    <description>Grants the ability to make Rimoxicillin. A semi-synthetic broad spectrum antibiotic that last for about half a day.</description>
+    <baseCost>400</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MSGlycerol</li>
+      <li>MSPhenol</li>
+    </prerequisites>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>3.80</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MSProphylactics</defName>
+    <label>Prophylactics</label>
+    <description>Grants the ability to make prophylatics. Various devices helpful to avoid pregnancy and sexual transmitted infections and diseases.</description>
+    <baseCost>200</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MSGlycerol</li>
+      <li>MSPhenol</li>
+    </prerequisites>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>5.20</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MSAndrogen</defName>
+    <label>Androgen</label>
+    <description>Grants the ability to make Androgen. Synthetic androgen used as a mild steroid hormone. Can make a person more tempremental and also potential unwanted hair growth for women as a more uncommon side effect. Effects last for 3 days.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MSGlycerol</li>
+      <li>MSPhenol</li>
+    </prerequisites>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>3.85</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MSRimpeptic</defName>
+    <label>Rimpeptic</label>
+    <description>Grants the ability to make Rimpeptic. Rimpeptic is a drug designed to be taken in response to aquiring food poisoning or gut worms and helps to settle the stomach. It can help to alleviate the effects of food poisoning a little but won't stop the process, for Gut worms however, it can help reduce the tended duration associated with this illness, there is also the potential (if slight) for this drug to even cure this illness if the tend quality is high enough. Taken daily in response to conditions.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MSGlycerol</li>
+      <li>MSPhenol</li>
+    </prerequisites>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>3.15</researchViewY>
+  </ResearchProjectDef>
+  <!-- Glycerol based -->
+  <ResearchProjectDef>
+    <defName>MSGlycerol</defName>
+    <label>Glycerol</label>
+    <description>Grants the ability to make glycerol. Glycerol is a simple polyol compound. It is a colorless, odorless, viscous liquid that is sweet-tasting and non-toxic. It is a precursor chemical and food additive.</description>
+    <baseCost>200</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>DrugProduction</li>
+      <li>BiofuelRefining</li>
+      <li>Brewing</li>
+    </prerequisites>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>6.30</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MSFireThroat</defName>
+    <label>Firethroat</label>
+    <description>Grants the ability to make Firethroat. A rather strong and unpalatable flu prevention tincture. Taken every 3 days.</description>
+    <baseCost>400</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MSGlycerol</li>
+    </prerequisites>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>1.75</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MSInhaler</defName>
+    <label>Asthma Inhaler</label>
+    <description>Grants the ability to make inhalers. An inhaler to provide immunity from Asthma, also improves recovery time to tended conditions. Taken daily.</description>
+    <baseCost>450</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MSGlycerol</li>
+    </prerequisites>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>3.10</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MSRimProPlus</defName>
+    <label>RimProPlus</label>
+    <description>Grants the ability to make RimProPlus. A highly sweetend pill that lasts for a day that reduces rest needs and prevents sleeping sickness.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Cocoa</li>
+      <li>MSGlycerol</li>
+    </prerequisites>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>5.20</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MSAspirin</defName>
+    <label>Aspirin</label>
+    <description>Grants the ability to make Aspirin. A mild pain medication that can be used to prevent the process of blocking of the arteries. Taken every 2 days.</description>
+    <baseCost>300</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MSGlycerol</li>
+    </prerequisites>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>4.50</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MSRimzac</defName>
+    <label>Rimzac</label>
+    <description>Grants the ability to make Rimzac. An antidepressant medication. Refined from ambrosia to remove the addictive side effects and lasts 2 days.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MSGlycerol</li>
+    </prerequisites>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>2.15</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MSAntitox</defName>
+    <label>Antitox</label>
+    <description>Grants the ability to make Antitox. Antitoxin pills. Taken every 3 days.</description>
+    <baseCost>400</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MSGlycerol</li>
+    </prerequisites>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>6.50</researchViewY>
+  </ResearchProjectDef>
+  <!-- Phenol based -->
+  <ResearchProjectDef>
+    <defName>MSPhenol</defName>
+    <label>Phenol</label>
+    <description>Grants the ability to make phenol. Phenol is an aromatic organic compound that is mildly acidic and requires careful handling due to its propensity to cause chemical burns. Used as a precursor chemical to form other items.</description>
+    <baseCost>200</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>DrugProduction</li>
+      <li>BiofuelRefining</li>
+    </prerequisites>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>4.15</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MSWipes</defName>
+    <label>Antibacterial Wipes</label>
+    <description>Grants the ability to make antibacterial wipes. Wipes can be used for general hygiene and more specifically for helping surgeons with their procedures. Effects only last for half a day.</description>
+    <baseCost>200</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MSPhenol</li>
+    </prerequisites>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>4.20</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MSContacts</defName>
+    <label>Contact Lenses</label>
+    <description>Grants the ability to make contact lenses. Soft polycarbonate disposable contact lenses that can improve vision slightly for a period of up to ten days.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MSPhenol</li>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>1.10</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MSRimtarol</defName>
+    <label>Rimtarol</label>
+    <description>Grants the ability to make Rimtarol. Rimtarol is a pain relief gel that can help to reduce pain levels when applied. It can also provide immunity to muscle parasites and in the case of a contracted illness can help to reduce the time spent whilst being tended for the condition. Applied every 3 days.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MSPhenol</li>
+    </prerequisites>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>4.55</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MSRimedicrem</defName>
+    <label>Rimedicrem</label>
+    <description>Grants the ability to make Rimedicrem. Rimedicrem is a strong sterilizing agent with antibacterial properties that can be applied every 2 days. It provides an immunity from wounds getting infected and helps with already infected wounds.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MSPhenol</li>
+    </prerequisites>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>4.90</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MSRimBurnEaze</defName>
+    <label>RimBurnEaze</label>
+    <description>Grants the ability to make RimBurnEaze. RimBurnEaze is an antibiotic skin cream design to help with burn injuries. It is capable of healing permanent burn scars. Healing effects last 3 days.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MSPhenol</li>
+      <li>MSMercury</li>
+    </prerequisites>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>1.55</researchViewY>
+  </ResearchProjectDef>
+  <!-- Lithium based Drugs -->
+  <ResearchProjectDef>
+    <defName>MSLithiumSalts</defName>
+    <label>Lithium Salts</label>
+    <description>Grants the ability to make lithium salts. A white powdery salt otherwise known as Lithium Carbonate which is an inorganic compound. A precursor chemical.</description>
+    <baseCost>250</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MSPhenol</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>5.80</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MSClarity</defName>
+    <label>Clarity</label>
+    <description>Grants the ability to make Clarity. Clarity is an antipsychotic and nootropic drug. Take every 5 days.</description>
+    <baseCost>700</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MSGlycerol</li>
+      <li>MSLithiumSalts</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>5.85</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MSPlacebo</defName>
+    <label>Placebo</label>
+    <description>Grants the ability to make Placebo. Placebo is a drug used to attract people on chemical binges as they will attempt to use this drug instead of other effective drugs. It has a mild sedative effect that lasts about a day and can create a mental dependancy with use.</description>
+    <baseCost>250</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MSGlycerol</li>
+      <li>MSLithiumSalts</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>6.20</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MSTravelPill</defName>
+    <label>Travel Pills</label>
+    <description>Grants the ability to make Travel Pills. A travel pill that has mild effects to improve physical capabilities, slightly suppresses hunger, makes you feel less uneasy, but makes you tire slightly faster. Effects last for 5 days.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MSGlycerol</li>
+      <li>MSLithiumSalts</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>5.55</researchViewY>
+  </ResearchProjectDef>
+  <!-- Opium based drugs -->
+  <ResearchProjectDef>
+    <defName>MSOpiumPoppy</defName>
+    <label>Opium Poppy</label>
+    <description>Grants the ability to cultivate the Opium Poppy. A species of flowering plant in the family Papaveraceae. It is the species of plant from which opium and poppy seeds are derived</description>
+    <baseCost>300</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>2.20</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MSOpium</defName>
+    <label>Opium</label>
+    <description>Grants the ability to extract and prepare raw opium. Latex produced by opium poppy seed pods, it contains a class of naturally occurring alkaloids known as opiates.</description>
+    <baseCost>400</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <prerequisites>
+      <li>MSOpiumPoppy</li>
+    </prerequisites>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>2.40</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MSRimCodamol</defName>
+    <label>RimCodamol</label>
+    <description>Grants the ability to make RimCodamol. A mild opiate pain medication that lasts about a day. Can be potentially addictive (mostly if taken too much in a short space of time).</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MSOpium</li>
+      <li>DrugProduction</li>
+    </prerequisites>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>0.25</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MSMorphine</defName>
+    <label>Morphine</label>
+    <description>Grants the ability to make Morphine. A potent opiate pain medication that lasts about a half a day. Can be addictive.</description>
+    <baseCost>750</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MSOpium</li>
+      <li>DrugProduction</li>
+    </prerequisites>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>0.95</researchViewY>
+  </ResearchProjectDef>
+  <!--  Vinca based -->
+  <ResearchProjectDef>
+    <defName>MSPerrywinkle</defName>
+    <label>Perrywinkle</label>
+    <description>Grants the ability to cultivate the Perrywinkle. A plant having alkaloids useful in synthesising chemotherapy drugs</description>
+    <baseCost>250</baseCost>
+    <techLevel>Medieval</techLevel>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>3.45</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MSVinca</defName>
+    <label>Vinca Alkaloids</label>
+    <description>Grants the ability to synthesise Vinca alkaloids. A precursor chemical used in chemotherapy drugs.</description>
+    <baseCost>300</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MSPhenol</li>
+      <li>MSPerrywinkle</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>2.85</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MSVinacol</defName>
+    <label>Vinacol</label>
+    <description>Grants the ability to make Vinacol. A drug used in chemotherapy treatment.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>MSVinca</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>2.50</researchViewY>
+  </ResearchProjectDef>
+</Defs>

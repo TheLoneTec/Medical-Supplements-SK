@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Immunisation -->
+  <MSImmunisation.label>Immunisation Injection</MSImmunisation.label>
+  <MSImmunisation.description>A dose of self injected chemicals designed to permanently stimulate the immunity system.</MSImmunisation.description>
+  <MSImmunisation.comps.2.useLabel>Use immunisation injection</MSImmunisation.comps.2.useLabel>
+  <!-- Cerebrax -->
+  <MSCerebrax.label>Cerebrax Injection</MSCerebrax.label>
+  <MSCerebrax.description>A dose of self injected chemicals designed to permanently remove psychic susceptability.</MSCerebrax.description>
+  <MSCerebrax.comps.2.useLabel>Use Cerebrax injection</MSCerebrax.comps.2.useLabel>
+  <!-- Condom -->
+  <MSCondom.label>Condom</MSCondom.label>
+  <MSCondom.description>A condom is a sheath-shaped barrier device, used during sexual intercourse to reduce the probability of pregnancy or a sexually transmitted infection (STI). This version is a unisex version.</MSCondom.description>
+  <MSCondom.comps.2.useLabel>Use Condom</MSCondom.comps.2.useLabel>
+</LanguageData>

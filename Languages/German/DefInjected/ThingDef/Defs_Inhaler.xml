@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Inhaler -->
+  <MSInhaler.label>Asthma-Inhalator</MSInhaler.label>
+  <MSInhaler.description>Ein Inhalator, der eine Immunität gegen Asthma mit zusätzlichen Antihistaminika bietet, verbessert auch die Erholungszeit unter bestimmten Bedingungen. Tägliche Anwendung.</MSInhaler.description>
+  <MSInhaler.ingestible.ingestCommandString>Inhaliere {0}</MSInhaler.ingestible.ingestCommandString>
+  <MSInhaler.ingestible.ingestReportString>Inhaliert {0}.</MSInhaler.ingestible.ingestReportString>
+</LanguageData>

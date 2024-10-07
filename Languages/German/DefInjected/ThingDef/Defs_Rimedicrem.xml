@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Rimedicrem -->
+  <MSRimedicrem.label>Rimedicrem</MSRimedicrem.label>
+  <MSRimedicrem.description>Rimedicrem ist ein starkes Sterilisationsmittel mit antibakteriellen Eigenschaften, das alle 2 Tage angewendet werden kann. Es bietet eine Immunität gegen infizierte Wunden und hilft bei bereits infizierten Wunden.</MSRimedicrem.description>
+  <MSRimedicrem.ingestible.ingestCommandString>Auftragen {0}</MSRimedicrem.ingestible.ingestCommandString>
+  <MSRimedicrem.ingestible.ingestReportString>Trage {0} auf.</MSRimedicrem.ingestible.ingestReportString>
+</LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeMSSulphuricAcid.label>Make Sulphuric Acid</MakeMSSulphuricAcid.label>
+  <MakeMSSulphuricAcid.description>Make 5 Sulphuric Acid.</MakeMSSulphuricAcid.description>
+  <MakeMSSulphuricAcid.jobString>Preparing Sulphuric Acid.</MakeMSSulphuricAcid.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkMSSulphuricAcid.label>Make Sulphuric Acid in bulk</MakeBulkMSSulphuricAcid.label>
+  <MakeBulkMSSulphuricAcid.description>Make 25 Sulphuric Acid.</MakeBulkMSSulphuricAcid.description>
+  <MakeBulkMSSulphuricAcid.jobString>Preparing Sulphuric Acid.</MakeBulkMSSulphuricAcid.jobString>
+</LanguageData>

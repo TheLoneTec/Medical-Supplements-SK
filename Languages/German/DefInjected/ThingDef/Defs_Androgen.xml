@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Androgen -->
+  <MSAndrogen.label>Androgene</MSAndrogen.label>
+  <MSAndrogen.description>Synthetisches Androgen als mildes Steroidhormon. Kann ungewöhnlichere Nebenwirkung hervorrufen und zu vorübergehender unerwünschter Haarwuchs für Frauen führen. Die Wirkung hält 3 Tage an</MSAndrogen.description>
+  <MSAndrogen.ingestible.ingestCommandString>&gt;Nimm {0}</MSAndrogen.ingestible.ingestCommandString>
+  <MSAndrogen.ingestible.ingestReportString>Nimmt {0}.</MSAndrogen.ingestible.ingestReportString>
+</LanguageData>

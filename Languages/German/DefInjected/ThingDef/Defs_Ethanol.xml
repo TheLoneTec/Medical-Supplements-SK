@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Ethanol -->
+  <MSEthanol.label>Ethanol (Synthetik)</MSEthanol.label>
+  <MSEthanol.description>Ethanol ist eine flüchtige, leicht entzündliche, farblose Flüssigkeit mit einem charakteristischen Geruch. Es ist eine psychoaktive Substanz und die Hauptart von Alkohol in alkoholischen Getränken. Wird als Vorläuferchemikalie zur Bildung anderer Gegenstände verwendet. Übermäßiger Konsum kann zu Alkoholausfällen und im Laufe der Zeit zu Sucht führen.(Hergestellt aus Chemotreibstoff und Schwefelsäure).</MSEthanol.description>
+  <MSEthanol.tools.0.label>Falschen</MSEthanol.tools.0.label>
+  <MSEthanol.tools.1.label>Hals</MSEthanol.tools.1.label>
+  <MSEthanol.ingestible.ingestCommandString>Trinke {0}</MSEthanol.ingestible.ingestCommandString>
+  <MSEthanol.ingestible.ingestReportString>Trinkt {0}.</MSEthanol.ingestible.ingestReportString>
+</LanguageData>

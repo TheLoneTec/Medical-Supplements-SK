@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeRimpeptic.label>Stelle Rimpeptic her</MakeRimpeptic.label>
+  <MakeRimpeptic.description>Stelle 5 Rimpeptic her.</MakeRimpeptic.description>
+  <MakeRimpeptic.jobString>Stelle Rimpeptic her.</MakeRimpeptic.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkRimpeptic.label>Stelle Rimpeptic in Massen her</MakeBulkRimpeptic.label>
+  <MakeBulkRimpeptic.description>Stelle 25 Rimpeptic her.</MakeBulkRimpeptic.description>
+  <MakeBulkRimpeptic.jobString>Stelle Rimpeptic her.</MakeBulkRimpeptic.jobString>
+</LanguageData>

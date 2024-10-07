@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- VFE MM -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Furniture Expanded - Medical Module</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="MSMedicalMat" or defName="MSMedicalMatSpacer" or defName="MSMedicalMatUltra"
+					or defName="MSMedicalMatEarly"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities</xpath>
+          <value>
+            <li>Facility_VitalsCentre</li>
+            <li>Facility_IVDrip</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Facility_IVDrip"]/comps/li[@Class='CompProperties_Facility']/statOffsets/ImmunityGainSpeedFactor</xpath>
+          <value>
+            <ImmunityGainSpeedFactor>0.1</ImmunityGainSpeedFactor>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="Facility_IVDrip"]/comps/li[@Class='CompProperties_Facility']/maxSimultaneous</xpath>
+          <value>
+            <maxSimultaneous>2</maxSimultaneous>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

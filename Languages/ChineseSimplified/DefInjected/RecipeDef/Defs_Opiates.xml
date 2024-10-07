@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeMSRimCodamol.label>制作可达莫</MakeMSRimCodamol.label>
+  <MakeMSRimCodamol.description>制作一份可达莫。</MakeMSRimCodamol.description>
+  <MakeMSRimCodamol.jobString>正在制作可达莫。</MakeMSRimCodamol.jobString>
+  <MakeBulkMSRimCodamol.label>批量制作可达莫</MakeBulkMSRimCodamol.label>
+  <MakeBulkMSRimCodamol.description>制作五份可达莫。</MakeBulkMSRimCodamol.description>
+  <MakeBulkMSRimCodamol.jobString>正在批量制作可达莫。</MakeBulkMSRimCodamol.jobString>
+  <MakeMSMorphine.label>制作吗啡</MakeMSMorphine.label>
+  <MakeMSMorphine.description>制作一份吗啡。</MakeMSMorphine.description>
+  <MakeMSMorphine.jobString>正在制作吗啡。</MakeMSMorphine.jobString>
+  <MakeBulkMSMorphine.label>批量制作吗啡</MakeBulkMSMorphine.label>
+  <MakeBulkMSMorphine.description>制作五份吗啡。</MakeBulkMSMorphine.description>
+  <MakeBulkMSMorphine.jobString>正在批量制作吗啡。</MakeBulkMSMorphine.jobString>
+  <MakeMSOpiumPipe.label>制作鸦片烟</MakeMSOpiumPipe.label>
+  <MakeMSOpiumPipe.description>制作一管鸦片烟。</MakeMSOpiumPipe.description>
+  <MakeMSOpiumPipe.jobString>正在制作鸦片烟。</MakeMSOpiumPipe.jobString>
+</LanguageData>

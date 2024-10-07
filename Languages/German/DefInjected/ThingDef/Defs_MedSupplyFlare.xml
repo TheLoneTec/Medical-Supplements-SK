@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Beacon Component -->
+  <MSGPSBeaconMeds.label>GPS Leuchtfeuer (medizinisch)</MSGPSBeaconMeds.label>
+  <MSGPSBeaconMeds.description>Ein GPS-Leuchtfeuer für medizinische Versorgung. Eine Einmalkomponente, die ein Funk-Burst-Signal sendet, um Lieferungen an einen bestimmten Ort anzufordern..</MSGPSBeaconMeds.description>
+  <!-- Medical Supply Flare -->
+  <MSMedSupplyFlare.label>Medizinische Versorgungsfackel</MSMedSupplyFlare.label>
+  <MSMedSupplyFlare.description>Einweg-Trägerrakete, die Markierungsgas zum Anfordern von medizinischem Material verwendet.</MSMedSupplyFlare.description>
+  <MSMedSupplyFlare.verbs.0.label>Markierungsfackel für medizinische Versorgung</MSMedSupplyFlare.verbs.0.label>
+  <Grenade_MSMedSupplyFlare.label>Markierungsfackel für medizinische Versorgung</Grenade_MSMedSupplyFlare.label>
+  <!-- Gas : Thing -->
+  <Gas_MSFlareMark.label>Markierungsgas für die medizinische Versorgung</Gas_MSFlareMark.label>
+</LanguageData>

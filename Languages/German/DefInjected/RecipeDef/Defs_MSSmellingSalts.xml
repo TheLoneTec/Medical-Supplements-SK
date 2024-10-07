@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeMSSmellSalts.label>Stelle Riechsalzkapseln her</MakeMSSmellSalts.label>
+  <MakeMSSmellSalts.description>Stelle 3 Riechsalzkapseln her.</MakeMSSmellSalts.description>
+  <MakeMSSmellSalts.jobString>Stelle Riechsalzkapseln her.</MakeMSSmellSalts.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkMSSmellSalts.label>Stelle Riechsalzkapseln in Massen her</MakeBulkMSSmellSalts.label>
+  <MakeBulkMSSmellSalts.description>Stelle 15 Riechsalzkapseln her.</MakeBulkMSSmellSalts.description>
+  <MakeBulkMSSmellSalts.jobString>Stelle Riechsalzkapseln her.</MakeBulkMSSmellSalts.jobString>
+</LanguageData>

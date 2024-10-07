@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeMSRimBurnEaze.label>Make RimBurnEaze</MakeMSRimBurnEaze.label>
+  <MakeMSRimBurnEaze.description>Make RimBurnEaze.</MakeMSRimBurnEaze.description>
+  <MakeMSRimBurnEaze.jobString>Making RimBurnEaze</MakeMSRimBurnEaze.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkMSRimBurnEaze.label>Make RimBurnEaze in bulk</MakeBulkMSRimBurnEaze.label>
+  <MakeBulkMSRimBurnEaze.description>Make 5 RimBurnEaze.</MakeBulkMSRimBurnEaze.description>
+  <MakeBulkMSRimBurnEaze.jobString>Making RimBurnEaze</MakeBulkMSRimBurnEaze.jobString>
+</LanguageData>

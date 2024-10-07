@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Aspirin -->
+  <MSAspirin.label>Aspirin</MSAspirin.label>
+  <MSAspirin.description>Ein mildes Schmerzmittel, das verwendet werden kann, um den Prozess der Arterienblockierung zu verhindern. Wird alle 2 Tage eingenommen.</MSAspirin.description>
+  <MSAspirin.ingestible.ingestCommandString>Nimm {0}</MSAspirin.ingestible.ingestCommandString>
+  <MSAspirin.ingestible.ingestReportString>Nimmt {0}.</MSAspirin.ingestible.ingestReportString>
+</LanguageData>

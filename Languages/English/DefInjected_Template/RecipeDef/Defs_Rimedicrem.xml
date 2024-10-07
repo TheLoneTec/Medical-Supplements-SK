@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeRimedicrem.label>Make Rimedicrem</MakeRimedicrem.label>
+  <MakeRimedicrem.description>Make Rimedicrem.</MakeRimedicrem.description>
+  <MakeRimedicrem.jobString>Making Rimedicrem</MakeRimedicrem.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkRimedicrem.label>Make Rimedicrem in bulk</MakeBulkRimedicrem.label>
+  <MakeBulkRimedicrem.description>Make 5 Rimedicrem.</MakeBulkRimedicrem.description>
+  <MakeBulkRimedicrem.jobString>Making Rimedicrem</MakeBulkRimedicrem.jobString>
+</LanguageData>

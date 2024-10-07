@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Antibacterial Wipes -->
+  <MSWipes.label>Antibacterial Wipes</MSWipes.label>
+  <MSWipes.description>Wipes can be used for general hygiene and more specifically for helping surgeons with their procedures. Effects only last for half a day.</MSWipes.description>
+  <MSWipes.ingestible.ingestCommandString>Apply {0}</MSWipes.ingestible.ingestCommandString>
+  <MSWipes.ingestible.ingestReportString>Applying {0}.</MSWipes.ingestible.ingestReportString>
+</LanguageData>

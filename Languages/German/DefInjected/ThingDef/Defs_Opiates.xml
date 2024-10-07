@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- MSRimCodamol -->
+  <MSRimCodamol.label>RimCodamol</MSRimCodamol.label>
+  <MSRimCodamol.description>Ein mildes Opiat-Schmerzmittel, das ungefähr einen Tag anhält. Kann potenziell süchtig machen (meistens, wenn in kurzer Zeit zu viel eingenommen wird).</MSRimCodamol.description>
+  <MSRimCodamol.ingestible.ingestCommandString>Nimm {0}</MSRimCodamol.ingestible.ingestCommandString>
+  <MSRimCodamol.ingestible.ingestReportString>Nimmt {0}.</MSRimCodamol.ingestible.ingestReportString>
+  <!-- MSMorphine -->
+  <MSMorphine.label>Morphium</MSMorphine.label>
+  <MSMorphine.description>Ein starkes Opiat-Schmerzmittel, das etwa einen halben Tag anhält. Kann süchtig machen.</MSMorphine.description>
+  <MSMorphine.ingestible.ingestCommandString>Injiziere {0}</MSMorphine.ingestible.ingestCommandString>
+  <MSMorphine.ingestible.ingestReportString>Injiziert {0}.</MSMorphine.ingestible.ingestReportString>
+  <!-- MSOpiumPipe -->
+  <MSOpiumPipe.label>Opiumpfeife</MSOpiumPipe.label>
+  <MSOpiumPipe.description>Ein frühes und rohes, wenn auch noch starkes Opiat-Schmerzmittel, das etwa einen halben Tag anhält. Kann süchtig machen.</MSOpiumPipe.description>
+  <MSOpiumPipe.ingestible.ingestCommandString>Rauche {0}</MSOpiumPipe.ingestible.ingestCommandString>
+  <MSOpiumPipe.ingestible.ingestReportString>Raucht {0}.</MSOpiumPipe.ingestible.ingestReportString>
+  <MSOpiumPipe.ingestible.ingestReportStringEat>Raucht {0}.</MSOpiumPipe.ingestible.ingestReportStringEat>
+</LanguageData>

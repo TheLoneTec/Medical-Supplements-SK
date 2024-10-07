@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Transcendence注射液 -->
+  <MakeMSTranscendenceVial.label>制备超凡注射液</MakeMSTranscendenceVial.label>
+  <MakeMSTranscendenceVial.description>制备1支超凡注射液.</MakeMSTranscendenceVial.description>
+  <MakeMSTranscendenceVial.jobString>正在制作超凡注射液.</MakeMSTranscendenceVial.jobString>
+  <MakeBulkMSTranscendenceVial.label>批量制备超凡注射液</MakeBulkMSTranscendenceVial.label>
+  <MakeBulkMSTranscendenceVial.description>制备5支超凡注射液.</MakeBulkMSTranscendenceVial.description>
+  <MakeBulkMSTranscendenceVial.jobString>正在制作超凡注射液.</MakeBulkMSTranscendenceVial.jobString>
+  <!-- Receptive -->
+  <MakeMSTranscendence_Receptive.label>制备超凡针剂(通晓)</MakeMSTranscendence_Receptive.label>
+  <MakeMSTranscendence_Receptive.description>制备1支超凡(通晓)</MakeMSTranscendence_Receptive.description>
+  <MakeMSTranscendence_Receptive.jobString>正在制作超凡针剂</MakeMSTranscendence_Receptive.jobString>
+  <!-- Inventive -->
+  <MakeMSTranscendence_Inventive.label>制备 超凡(灵创)</MakeMSTranscendence_Inventive.label>
+  <MakeMSTranscendence_Inventive.description>制备1支超凡(灵创)</MakeMSTranscendence_Inventive.description>
+  <MakeMSTranscendence_Inventive.jobString>正在制作超凡针剂</MakeMSTranscendence_Inventive.jobString>
+  <!-- Tactical -->
+  <MakeMSTranscendence_Tactical.label>制备超凡(神兵)</MakeMSTranscendence_Tactical.label>
+  <MakeMSTranscendence_Tactical.description>制备1支超凡(神兵)</MakeMSTranscendence_Tactical.description>
+  <MakeMSTranscendence_Tactical.jobString>正在制作超凡针剂</MakeMSTranscendence_Tactical.jobString>
+  <!-- Practical -->
+  <MakeMSTranscendence_Practical.label>制备超凡(天工)</MakeMSTranscendence_Practical.label>
+  <MakeMSTranscendence_Practical.description>制备1支超凡 (天工)</MakeMSTranscendence_Practical.description>
+  <MakeMSTranscendence_Practical.jobString>正在制作超凡针剂</MakeMSTranscendence_Practical.jobString>
+  <!-- Analytical -->
+  <MakeMSTranscendence_Analytical.label>制备超凡(洞悉)</MakeMSTranscendence_Analytical.label>
+  <MakeMSTranscendence_Analytical.description>制备1支超凡(洞悉)</MakeMSTranscendence_Analytical.description>
+  <MakeMSTranscendence_Analytical.jobString>正在制作超凡针剂</MakeMSTranscendence_Analytical.jobString>
+</LanguageData>

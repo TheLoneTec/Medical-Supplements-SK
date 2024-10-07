@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Artery Blockage - Stent -->
+  <MakeMSStent.label>Stelle medizinischen Stent her</MakeMSStent.label>
+  <MakeMSStent.description>Stelle einen medizinischen Stent her.</MakeMSStent.description>
+  <MakeMSStent.jobString>Stelle medizinischen Stent her.</MakeMSStent.jobString>
+  <MSArterialStent.label>Installiere arteriellen Stent</MSArterialStent.label>
+  <MSArterialStent.description>Installieren Sie einen ateriellen Stent, um eine arterielle Blockade zu beseitigen.</MSArterialStent.description>
+  <MSArterialStent.jobString>Installiere Stent.</MSArterialStent.jobString>
+  <MSArterialStent.successfullyRemovedHediffMessage>{0} hat erfolgreich einen Stent installiert und damit {1}'s arterielle Blockade beseitigt.</MSArterialStent.successfullyRemovedHediffMessage>
+  <!-- Bad Back -->
+  <MakeMSBackDisc.label>Stelle künstliche Bandscheibe her</MakeMSBackDisc.label>
+  <MakeMSBackDisc.description>Stelle eine künstliche Bandscheibe her.</MakeMSBackDisc.description>
+  <MakeMSBackDisc.jobString>Stelle Bandscheibe her.</MakeMSBackDisc.jobString>
+  <MSBadBackDiscs.label>Füge künstliche Bandscheibe hinzu</MSBadBackDiscs.label>
+  <MSBadBackDiscs.description>Füge eine künstliche hinzu.</MSBadBackDiscs.description>
+  <MSBadBackDiscs.jobString>Installiere künstliche Bandscheibe.</MSBadBackDiscs.jobString>
+  <MSBadBackDiscs.successfullyRemovedHediffMessage>{0} hat erfolgreich neue Bandscheibe für {1} installiert.</MSBadBackDiscs.successfullyRemovedHediffMessage>
+  <!-- Cataract Removal -->
+  <MakeMSAdvSurgeryTools.label>Stelle fortschrittliche Chirurgie-Werkzeuge her</MakeMSAdvSurgeryTools.label>
+  <MakeMSAdvSurgeryTools.description>Stelle ein fortschrittliches Chirurgie-Werkzeug her.</MakeMSAdvSurgeryTools.description>
+  <MakeMSAdvSurgeryTools.jobString>Stelle fortschrittliches Chirurgie-Werkzeug her.</MakeMSAdvSurgeryTools.jobString>
+  <MSCataractRemoval.label>Entferne Grauer Star</MSCataractRemoval.label>
+  <MSCataractRemoval.description>Entferne Grauer Star.</MSCataractRemoval.description>
+  <MSCataractRemoval.jobString>Entfernt Grauer Star.</MSCataractRemoval.jobString>
+  <MSCataractRemoval.successfullyRemovedHediffMessage>{0} hat erfolgreich den Grauer Star von {1} entfernt.</MSCataractRemoval.successfullyRemovedHediffMessage>
+</LanguageData>

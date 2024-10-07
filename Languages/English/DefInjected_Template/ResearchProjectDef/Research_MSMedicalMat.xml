@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSMedicalMat.label>Medical Mats</MSMedicalMat.label>
+  <MSMedicalMat.description>Grants the ability to make Medical Mats. A rolled up portable mat that can be used for medical purposes in the field or as a useful caravan item.</MSMedicalMat.description>
+  <MSMedicalMatSpacer.label>Advanced Medical Mats</MSMedicalMatSpacer.label>
+  <MSMedicalMatSpacer.description>Grants the ability to make Advanced Medical Mats. A rolled up advanced portable mat that can be used for medical purposes in the field or as a useful caravan item.</MSMedicalMatSpacer.description>
+  <MSMedicalMatUltra.label>Ultra Medical Mats</MSMedicalMatUltra.label>
+  <MSMedicalMatUltra.description>Grants the ability to make Ultratech Medical Mats. A rolled up high-tech portable mat that can be used for medical purposes in the field or as a useful caravan item.</MSMedicalMatUltra.description>
+  <MSMedicalMatEarly.label>Early Medical Mats</MSMedicalMatEarly.label>
+  <MSMedicalMatEarly.description>Grants the ability to make early Medical Mats. A rolled up portable mat made from herbal medicine impregnated rope that can be used for medical purposes in the field or as a useful caravan item.</MSMedicalMatEarly.description>
+</LanguageData>

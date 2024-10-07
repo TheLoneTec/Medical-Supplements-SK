@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeMSAndrogen.label>制作康复龙</MakeMSAndrogen.label>
+  <MakeMSAndrogen.description>制作一份康复龙。</MakeMSAndrogen.description>
+  <MakeMSAndrogen.jobString>正在制作康复龙。</MakeMSAndrogen.jobString>
+  <MakeBulkMSAndrogen.label>批量制作康复龙</MakeBulkMSAndrogen.label>
+  <MakeBulkMSAndrogen.description>制作五份康复龙。</MakeBulkMSAndrogen.description>
+  <MakeBulkMSAndrogen.jobString>正在批量制作康复龙。</MakeBulkMSAndrogen.jobString>
+</LanguageData>

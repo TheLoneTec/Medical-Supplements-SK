@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeMSSulphuricAcid.label>制备硫酸</MakeMSSulphuricAcid.label>
+  <MakeMSSulphuricAcid.description>制备5瓶硫酸.</MakeMSSulphuricAcid.description>
+  <MakeMSSulphuricAcid.jobString>正在制备硫酸.</MakeMSSulphuricAcid.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkMSSulphuricAcid.label>批量制备硫酸</MakeBulkMSSulphuricAcid.label>
+  <MakeBulkMSSulphuricAcid.description>制备25瓶硫酸.</MakeBulkMSSulphuricAcid.description>
+  <MakeBulkMSSulphuricAcid.jobString>正在制备硫酸.</MakeBulkMSSulphuricAcid.jobString>
+</LanguageData>

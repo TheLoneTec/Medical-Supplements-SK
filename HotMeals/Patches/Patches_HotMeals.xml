@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="AssignMealTemp">
+    <Meals>
+		<li>
+			<name>Androgen</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>Antinites Vial</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>Metasis Vial</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>Multi-Vitamins</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>Rimoxicillin</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>Scrubnites Injection</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>Travel Pill</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>Antitox</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>Glycerol</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>Asthma(antihistamine) Inhaler</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>Aspirin</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>Firethroat</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>Smelling Salt Capsule</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>RimProPlus</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>Rimzac</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>Clarity</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>Lithium Salts</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>Placebo</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>RimSnooze</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>Unhook</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>RimCodamol</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>Morphine</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>Opium pipe</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>Opium Poppy</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>Contact Lenses</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>RimBurnEaze</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>Phenol</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>Rimcetamol</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>Rimedicrem</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>Rimpeptic</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>Rimtarol</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>Antibacterial Wipes</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>Ethanol (Synthetic)</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>Hydrochloric Acid</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>Hydrogen Peroxide</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>Sulphur</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>Sulphuric Acid</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>Vinacol</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>Vinka Alkaloid</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>Metasis Injection</name>
+			<type>None</type>
+		</li>
+		<li>
+			<name>Antinites Injection</name>
+			<type>None</type>
+		</li>
+    </Meals>
+  </Operation>
+</Patch>

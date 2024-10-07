@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeMSPlacebo.label>制作安慰丸</MakeMSPlacebo.label>
+  <MakeMSPlacebo.description>制作一份安慰丸。</MakeMSPlacebo.description>
+  <MakeMSPlacebo.jobString>正在制作安慰丸。</MakeMSPlacebo.jobString>
+  <MakeBulkMSPlacebo.label>批量制作安慰丸</MakeBulkMSPlacebo.label>
+  <MakeBulkMSPlacebo.description>制作五份安慰丸。</MakeBulkMSPlacebo.description>
+  <MakeBulkMSPlacebo.jobString>正在批量制作安慰丸。</MakeBulkMSPlacebo.jobString>
+</LanguageData>

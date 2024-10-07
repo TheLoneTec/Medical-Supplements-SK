@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- MSExotic -->
+  <MSExotic.ReasonPrefix>无法使用刺激剂，因为</MSExotic.ReasonPrefix>
+  <MSExotic.NotHumanLike>{0}不是类人生物.</MSExotic.NotHumanLike>
+  <MSExotic.NotMale>{0}不是男性.</MSExotic.NotMale>
+  <MSExotic.NotFemale>{0}不是女性.</MSExotic.NotFemale>
+  <MSExotic.AlreadyHasImmunity>{0}已经具有超免疫力.</MSExotic.AlreadyHasImmunity>
+  <MSExotic.HasNoPsychSensitivity>{0}没有心灵敏感度.</MSExotic.HasNoPsychSensitivity>
+  <MSExotic.AlreadyStimmed>{0}已经接受刺激.</MSExotic.AlreadyStimmed>
+  <MSExotic.StimSelDoNothing>什么也不做</MSExotic.StimSelDoNothing>
+  <MSExotic.StimSelUseStim>施用{0}</MSExotic.StimSelUseStim>
+  <MSExotic.StimUses>{0}施用:[{1}]</MSExotic.StimUses>
+  <MSExotic.StimDesc>装备了{0}. 点击选择用途.</MSExotic.StimDesc>
+  <MSExotic.TraitAdded>{0}已经通过使用 {2}获得了{1}特性.</MSExotic.TraitAdded>
+  <MSExotic.TraitRemoved>{0}的{1} 特性已经被{2}移除.</MSExotic.TraitRemoved>
+  <MSExotic.TSkillBoost>{0}的{1}技能已经从的{2}提高到{3}.</MSExotic.TSkillBoost>
+  <MSExotic.NoTSkillList>错误: {1}的能力列表尚未定义.</MSExotic.NoTSkillList>
+  <MSExotic.WontLearnUsing>{0}无法通过{1}学到任何东西</MSExotic.WontLearnUsing>
+  <MSExotic.PerpetuityDone>{0}'的生物年龄已经被永恒药剂从{1}变为{2}.</MSExotic.PerpetuityDone>
+  <!-- MSRegen -->
+  <MSRegen.WoundHealed>{PAWN_labelShort}'的{2}已经被{0}治愈</MSRegen.WoundHealed>
+  <!-- MSDrugMix -->
+  <MSDrugMix.ErrorRCP>化学药物混合器错误: {0}勾选: {1} 最少: {2} 最多: {3}</MSDrugMix.ErrorRCP>
+  <MSDrugMix.ErrorRes>化学药物混合器错误:尚未掌握{0}的生产方法.</MSDrugMix.ErrorRes>
+  <MSDrugMix.ChemSelectDesc>选择要生产的化学品.</MSDrugMix.ChemSelectDesc>
+  <MSDrugMix.ChemSelect>选择配方</MSDrugMix.ChemSelect>
+  <MSDrugMix.Production>生产</MSDrugMix.Production>
+  <MSDrugMix.ProductionDesc>开关生产</MSDrugMix.ProductionDesc>
+  <MSDrugMix.ProdLabelRange>(最少: {0}, 最多: {1})</MSDrugMix.ProdLabelRange>
+  <MSDrugMix.ProdLabelERR>(错误: 无效配方)</MSDrugMix.ProdLabelERR>
+  <MSDrugMix.ProdNoChem>(未选择配方)</MSDrugMix.ProdNoChem>
+  <MSDrugMix.ProdStopped>(停止)</MSDrugMix.ProdStopped>
+  <MSDrugMix.StockLabel>(限制:{0}, ({1}%)</MSDrugMix.StockLabel>
+  <MSDrugMix.StockLabelNL>( 无限制 )</MSDrugMix.StockLabelNL>
+  <MSDrugMix.SelectStockLimit>选择配方限制</MSDrugMix.SelectStockLimit>
+  <MSDrugMix.StockNoLimit>无限制</MSDrugMix.StockNoLimit>
+  <MSDrugsMix.SelNoChemical>无配方</MSDrugsMix.SelNoChemical>
+</LanguageData>

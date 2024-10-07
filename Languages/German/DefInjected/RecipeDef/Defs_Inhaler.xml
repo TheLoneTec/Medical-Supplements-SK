@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Make_MSInhaler.label>Stelle Asthma-Inhalator her</Make_MSInhaler.label>
+  <Make_MSInhaler.description>Stelle Asthma-Inhalator her.</Make_MSInhaler.description>
+  <Make_MSInhaler.jobString>Stelle Asthma-Inhalator her.</Make_MSInhaler.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkInhalers.label>Stelle Asthma-Inhalatoren in Massen her</MakeBulkInhalers.label>
+  <MakeBulkInhalers.description>Stelle 5 Asthma-Inhalatoren her.</MakeBulkInhalers.description>
+  <MakeBulkInhalers.jobString>Stelle Asthma-Inhalatoren her.</MakeBulkInhalers.jobString>
+</LanguageData>

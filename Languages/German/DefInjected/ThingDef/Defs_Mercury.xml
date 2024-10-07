@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Mercury Salts -->
+  <MSMercurySalts.label>Quecksilbersalze</MSMercurySalts.label>
+  <MSMercurySalts.description>Ein zinnoberrotes pulverförmiges Salz, auch bekannt als Cinnibar, das Quecksilber enthält. Eine Vorläuferchemikalie. (Hergestellt aus Steinbrocken).</MSMercurySalts.description>
+  <!-- EthylMercury -->
+  <MSEthylMercury.label>Ethylquecksilber</MSEthylMercury.label>
+  <MSEthylMercury.description>Ethylquecksilber ist ein Kation, das aus einer organischen CH3CH2-Spezies (einer Ethylgruppe) zusammengesetzt ist, die an ein Quecksilber (II) -Zentrum gebunden ist, wodurch es zu einem metallorganischen Kation wird. Die chemische Formel lautet C2H5Hg +. Eine Vorläuferchemikalie. (Hergestellt aus Chemotreibstoff und Quecksilbersalzen).</MSEthylMercury.description>
+</LanguageData>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ====== Modify Food Poisoning mechanics for MS Vitamins ==================== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>Defs/ThingDef[@Name="MealBase"]/comps/li[@Class='CompProperties_FoodPoisonable']</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[@Name="MealBase"]/comps/li[@Class='CompProperties_FoodPoisonable']</xpath>
+        <value>
+          <li Class="MSVitamins.MSCompProperties_FoodPoisonable" />
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>Defs/ThingDef[defName="Pemmican"]/comps/li[@Class='CompProperties_FoodPoisonable']</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Pemmican"]/comps/li[@Class='CompProperties_FoodPoisonable']</xpath>
+        <value>
+          <li Class="MSVitamins.MSCompProperties_FoodPoisonable" />
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

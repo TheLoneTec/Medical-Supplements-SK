@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- OPs Items -->
+  <MSSurgeryItemsIndustrial.label>Medical surgery items</MSSurgeryItemsIndustrial.label>
+  <MSSurgeryItemsIndustrial.description>Grants the ability to make medical surgery items.</MSSurgeryItemsIndustrial.description>
+  <MSSurgeryItemsSpacer.label>Advanced medical surgery items</MSSurgeryItemsSpacer.label>
+  <MSSurgeryItemsSpacer.description>Grants the ability to make advanced medical surgery items.</MSSurgeryItemsSpacer.description>
+</LanguageData>

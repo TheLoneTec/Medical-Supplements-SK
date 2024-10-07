@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Rimcetamol -->
+  <MSRimcetamol.label>Rimcetamol</MSRimcetamol.label>
+  <MSRimcetamol.description>Ein mildes bis mittelschweres Schmerzmittel. Die Wirkung hält einen Tag an.</MSRimcetamol.description>
+  <MSRimcetamol.ingestible.ingestCommandString>Nimm {0}</MSRimcetamol.ingestible.ingestCommandString>
+  <MSRimcetamol.ingestible.ingestReportString>Nimmt {0}.</MSRimcetamol.ingestible.ingestReportString>
+</LanguageData>

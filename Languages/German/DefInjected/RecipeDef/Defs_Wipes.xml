@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeMSWipes.label>Stelle Antibakterielle Tücher her</MakeMSWipes.label>
+  <MakeMSWipes.description>Stelle 5 Antibakterielle Tücher her.</MakeMSWipes.description>
+  <MakeMSWipes.jobString>Stelle Antibakterielle Tücher her.</MakeMSWipes.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkMSWipes.label>Stelle Antibakterielle Tücher in Massen her</MakeBulkMSWipes.label>
+  <MakeBulkMSWipes.description>Stelle 25 Antibakterielle Tücher her.</MakeBulkMSWipes.description>
+  <MakeBulkMSWipes.jobString>Stelle Antibakterielle Tücher her.</MakeBulkMSWipes.jobString>
+</LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSMedicalMat.label>中级医疗毯</MSMedicalMat.label>
+  <MSMedicalMat.description>解锁制造中级医疗毯。</MSMedicalMat.description>
+  <MSMedicalMatSpacer.label>高级医疗毯</MSMedicalMatSpacer.label>
+  <MSMedicalMatSpacer.description>解锁制造高级医疗毯。</MSMedicalMatSpacer.description>
+  <MSMedicalMatUltra.label>闪耀世界医疗毯</MSMedicalMatUltra.label>
+  <MSMedicalMatUltra.description>解锁制造闪耀世界医疗毯。</MSMedicalMatUltra.description>
+  <MSMedicalMatEarly.label>初级医疗毯</MSMedicalMatEarly.label>
+  <MSMedicalMatEarly.description>解锁制造初级医疗毯。</MSMedicalMatEarly.description>
+</LanguageData>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ====== Attach Clarity mechanics to mental conditions ==================== -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Diseases Overhauled</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationTest">
+          <xpath>Defs/HediffDef[defName="Unease"]/comps/li[@Class='HediffCompProperties_Dissapears']</xpath>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/HediffDef[defName="Unease"]/comps/li[@Class='HediffCompProperties_Dissapears']</xpath>
+          <value>
+            <li Class="MSClarity.MSHDCompProperties_AntiPsychotic">
+              <disappearsAfterTicks>
+                <min>120000</min>
+                <!-- 2 days -->
+                <max>840000</max>
+                <!-- 14 days -->
+              </disappearsAfterTicks>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Diseases Overhauled</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationTest">
+          <xpath>Defs/HediffDef[defName="SuicidePreparation"]/comps/li[@Class='HediffCompProperties_Dissapears']</xpath>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/HediffDef[defName="SuicidePreparation"]/comps/li[@Class='HediffCompProperties_Dissapears']</xpath>
+          <value>
+            <li Class="MSClarity.MSHDCompProperties_AntiPsychotic">
+              <disappearsAfterTicks>
+                <min>60000</min>
+                <!-- 1 day -->
+                <max>300000</max>
+                <!-- 5 day -->
+              </disappearsAfterTicks>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- MSRimCodamol -->
+  <MSRimCodamol.label>RimCodamol</MSRimCodamol.label>
+  <MSRimCodamol.description>A mild opiate pain medication that lasts about a day. Can be potentially addictive (mostly if taken too much in a short space of time).</MSRimCodamol.description>
+  <MSRimCodamol.ingestible.ingestCommandString>Take {0}</MSRimCodamol.ingestible.ingestCommandString>
+  <MSRimCodamol.ingestible.ingestReportString>Taking {0}.</MSRimCodamol.ingestible.ingestReportString>
+  <!-- MSMorphine -->
+  <MSMorphine.label>Morphine</MSMorphine.label>
+  <MSMorphine.description>A potent opiate pain medication that lasts about a half a day. Can be addictive.</MSMorphine.description>
+  <MSMorphine.ingestible.ingestCommandString>Inject {0}</MSMorphine.ingestible.ingestCommandString>
+  <MSMorphine.ingestible.ingestReportString>Injecting {0}.</MSMorphine.ingestible.ingestReportString>
+  <!-- MSOpiumPipe -->
+  <MSOpiumPipe.label>Opium pipe</MSOpiumPipe.label>
+  <MSOpiumPipe.description>An early and crude, if still potent opiate pain medication that lasts about a half a day. Can be quite addictive.</MSOpiumPipe.description>
+  <MSOpiumPipe.ingestible.ingestCommandString>Smoke {0}</MSOpiumPipe.ingestible.ingestCommandString>
+  <MSOpiumPipe.ingestible.ingestReportString>Smoking {0}.</MSOpiumPipe.ingestible.ingestReportString>
+</LanguageData>

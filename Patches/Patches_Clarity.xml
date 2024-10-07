@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ====== Attach Clarity mechanics to mental conditions ==================== -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>Defs/HediffDef[defName="CatatonicBreakdown"]/comps/li[@Class='HediffCompProperties_Dissapears']</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/HediffDef[defName="CatatonicBreakdown"]/comps/li[@Class='HediffCompProperties_Dissapears']</xpath>
+        <value>
+          <li Class="MSClarity.MSHDCompProperties_AntiPsychotic">
+            <disappearsAfterTicks>
+              <min>100000</min>
+              <max>300000</max>
+            </disappearsAfterTicks>
+          </li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>Defs/HediffDef[defName="PsychicShock"]/comps/li[@Class='HediffCompProperties_Dissapears']</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/HediffDef[defName="PsychicShock"]/comps/li[@Class='HediffCompProperties_Dissapears']</xpath>
+        <value>
+          <li Class="MSClarity.MSHDCompProperties_AntiPsychotic">
+            <disappearsAfterTicks>
+              <min>7500</min>
+              <max>7500</max>
+            </disappearsAfterTicks>
+          </li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!--
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/MentalStateDef[defName="Wander_Psychotic"]/stateClass</xpath>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/MentalStateDef[defName="Wander_Psychotic"]/stateClass</xpath>
+	  			<value>
+						<stateClass>MSClarity.MSMentalState_WanderPsychotic</stateClass>
+	  			</value>
+			</li>
+		</operations>
+	</Operation>
+	-->
+</Patch>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Transcendence Vial -->
+  <MakeMSTranscendenceVial.label>Make Transcendence Vial</MakeMSTranscendenceVial.label>
+  <MakeMSTranscendenceVial.description>Make 1 Transcendence Vial.</MakeMSTranscendenceVial.description>
+  <MakeMSTranscendenceVial.jobString>Making a Transcendence Vial.</MakeMSTranscendenceVial.jobString>
+  <MakeBulkMSTranscendenceVial.label>Make Transcendence Vials in bulk</MakeBulkMSTranscendenceVial.label>
+  <MakeBulkMSTranscendenceVial.description>Make 5 Transcendence Vials.</MakeBulkMSTranscendenceVial.description>
+  <MakeBulkMSTranscendenceVial.jobString>Making Transcendence Vials.</MakeBulkMSTranscendenceVial.jobString>
+  <!-- Receptive -->
+  <MakeMSTranscendence_Receptive.label>Make Transcendence (Receptive)</MakeMSTranscendence_Receptive.label>
+  <MakeMSTranscendence_Receptive.description>Make 1 Transcendence (Receptive)</MakeMSTranscendence_Receptive.description>
+  <MakeMSTranscendence_Receptive.jobString>Making Transcendence</MakeMSTranscendence_Receptive.jobString>
+  <!-- Inventive -->
+  <MakeMSTranscendence_Inventive.label>Make Transcendence (Inventive)</MakeMSTranscendence_Inventive.label>
+  <MakeMSTranscendence_Inventive.description>Make 1 Transcendence (Inventive)</MakeMSTranscendence_Inventive.description>
+  <MakeMSTranscendence_Inventive.jobString>Making Transcendence</MakeMSTranscendence_Inventive.jobString>
+  <!-- Tactical -->
+  <MakeMSTranscendence_Tactical.label>Make Transcendence (Tactical)</MakeMSTranscendence_Tactical.label>
+  <MakeMSTranscendence_Tactical.description>Make 1 Transcendence (Tactical)</MakeMSTranscendence_Tactical.description>
+  <MakeMSTranscendence_Tactical.jobString>Making Transcendence</MakeMSTranscendence_Tactical.jobString>
+  <!-- Practical -->
+  <MakeMSTranscendence_Practical.label>Make Transcendence (Practical)</MakeMSTranscendence_Practical.label>
+  <MakeMSTranscendence_Practical.description>Make 1 Transcendence (Practical)</MakeMSTranscendence_Practical.description>
+  <MakeMSTranscendence_Practical.jobString>Making Transcendence</MakeMSTranscendence_Practical.jobString>
+  <!-- Analytical -->
+  <MakeMSTranscendence_Analytical.label>Make Transcendence (Analytical)</MakeMSTranscendence_Analytical.label>
+  <MakeMSTranscendence_Analytical.description>Make 1 Transcendence (Analytical)</MakeMSTranscendence_Analytical.description>
+  <MakeMSTranscendence_Analytical.jobString>Making Transcendence</MakeMSTranscendence_Analytical.jobString>
+</LanguageData>

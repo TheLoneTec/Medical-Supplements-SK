@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeRimtarol.label>制作酒石醇凝胶</MakeRimtarol.label>
+  <MakeRimtarol.description>制作一份酒石醇凝胶。</MakeRimtarol.description>
+  <MakeRimtarol.jobString>正在制作酒石醇凝胶。</MakeRimtarol.jobString>
+  <MakeBulkRimtarol.label>批量制作酒石醇凝胶</MakeBulkRimtarol.label>
+  <MakeBulkRimtarol.description>制作五份酒石醇凝胶。</MakeBulkRimtarol.description>
+  <MakeBulkRimtarol.jobString>正在批量制作酒石醇凝胶。</MakeBulkRimtarol.jobString>
+</LanguageData>

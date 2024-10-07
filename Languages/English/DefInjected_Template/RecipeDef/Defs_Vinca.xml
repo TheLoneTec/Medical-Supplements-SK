@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Plant -->
+  <MakeVincaAlkaloid.label>Make Vinca alkaloid</MakeVincaAlkaloid.label>
+  <MakeVincaAlkaloid.description>Chemically synthesise 5 Vinca alkaloids</MakeVincaAlkaloid.description>
+  <MakeVincaAlkaloid.jobString>Synthesising Vinca alkaloids.</MakeVincaAlkaloid.jobString>
+</LanguageData>

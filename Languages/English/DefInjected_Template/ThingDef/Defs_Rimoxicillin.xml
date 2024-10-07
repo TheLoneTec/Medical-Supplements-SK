@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Rimoxicillin -->
+  <MSRimoxicillin.label>Rimoxicillin</MSRimoxicillin.label>
+  <MSRimoxicillin.description>A semi-synthetic broad spectrum antibiotic that last for about half a day.</MSRimoxicillin.description>
+  <MSRimoxicillin.ingestible.ingestCommandString>Take {0}</MSRimoxicillin.ingestible.ingestCommandString>
+  <MSRimoxicillin.ingestible.ingestReportString>Taking {0}.</MSRimoxicillin.ingestible.ingestReportString>
+</LanguageData>

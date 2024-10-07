@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeMSRimBurnEaze.label>制作烫伤乳膏</MakeMSRimBurnEaze.label>
+  <MakeMSRimBurnEaze.description>制作一支烫伤膏.</MakeMSRimBurnEaze.description>
+  <MakeMSRimBurnEaze.jobString>正在制作烫伤乳膏</MakeMSRimBurnEaze.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkMSRimBurnEaze.label>批量制作烫伤乳膏</MakeBulkMSRimBurnEaze.label>
+  <MakeBulkMSRimBurnEaze.description>制作5支烫伤乳膏.</MakeBulkMSRimBurnEaze.description>
+  <MakeBulkMSRimBurnEaze.jobString>正在制作烫伤乳膏</MakeBulkMSRimBurnEaze.jobString>
+</LanguageData>

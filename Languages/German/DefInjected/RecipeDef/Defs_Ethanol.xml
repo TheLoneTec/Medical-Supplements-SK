@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeMSEthanol.label>Stelle Ethanol her.</MakeMSEthanol.label>
+  <MakeMSEthanol.description>Stelle 5 Ethanol her.</MakeMSEthanol.description>
+  <MakeMSEthanol.jobString>Ethanol herstellen.</MakeMSEthanol.jobString>
+  <!-- Bulk -->
+  <MakeBulkMSEthanol.label>Stelle Ethanol in Massen her</MakeBulkMSEthanol.label>
+  <MakeBulkMSEthanol.description>Stelle 25 Ethanol her.</MakeBulkMSEthanol.description>
+  <MakeBulkMSEthanol.jobString>Ethanol herstellen.</MakeBulkMSEthanol.jobString>
+</LanguageData>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeBulkAspirin.label>批量制作阿司匹林</MakeBulkAspirin.label>
+  <MakeBulkAspirin.description>制作五份阿司匹林。</MakeBulkAspirin.description>
+  <MakeBulkAspirin.jobString>正在批量制作阿司匹林。</MakeBulkAspirin.jobString>
+</LanguageData>

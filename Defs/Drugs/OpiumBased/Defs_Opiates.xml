@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- =========== MSRimCodamol ==================== -->
+  <ThingDef ParentName="MSDrugPillBase">
+    <defName>MSRimCodamol</defName>
+    <label>RimCodamol</label>
+    <description>A mild opiate pain medication that lasts about a day. Can be potentially addictive (mostly if taken too much in a short space of time).</description>
+    <graphicData>
+      <texPath>Things/Item/MSRimCodamol</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <thingCategories Inherit="false">
+      <li>MSDrugs</li>
+    </thingCategories>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MarketValue>10</MarketValue>
+      <Mass>0.03</Mass>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>MSRimCodamol_High</hediffDef>
+          <severity>1.0</severity>
+          <toleranceChemical>MSOpium</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>MSOpium_Tolerance</hediffDef>
+          <severity>0.1</severity>
+          <divideByBodySize>true</divideByBodySize>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>2555</listOrder>
+        <chemical>MSOpium</chemical>
+        <addictiveness>0.01</addictiveness>
+        <minToleranceToAddict>0.10</minToleranceToAddict>
+        <existingAddictionSeverityOffset>0.15</existingAddictionSeverityOffset>
+        <needLevelOffset>1</needLevelOffset>
+        <overdoseSeverityOffset>
+          <min>0.01</min>
+          <max>0.03</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>MSRimCodamol_High</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>RimCodamol</label>
+    <description>RimCodamol effect</description>
+    <defaultLabelColor>(0.35, 0.58, 0.93)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <lethalSeverity>-1.0</lethalSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.95</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <painFactor>0.25</painFactor>
+      </li>
+    </stages>
+  </HediffDef>
+  <!-- =====  Recipes ========= -->
+  <RecipeDef>
+    <defName>MakeMSRimCodamol</defName>
+    <label>Make RimCodamol</label>
+    <description>Make 1 RimCodamol</description>
+    <jobString>Making RimCodamol.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>200</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Neutroamine</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSOpiumLatex</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Neutroamine</li>
+        <li>MSOpiumLatex</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSRimCodamol>1</MSRimCodamol>
+    </products>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>5</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>MSRimCodamol</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>MakeBulkMSRimCodamol</defName>
+    <label>Make RimCodamol in bulk</label>
+    <description>Make 5 RimCodamol</description>
+    <jobString>Making RimCodamol.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>950</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Neutroamine</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSOpiumLatex</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Neutroamine</li>
+        <li>MSOpiumLatex</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSRimCodamol>5</MSRimCodamol>
+    </products>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>6</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>MSRimCodamol</researchPrerequisite>
+  </RecipeDef>
+  <!-- MSMorphine -->
+  <ThingDef ParentName="MSDrugInjectBase">
+    <defName>MSMorphine</defName>
+    <label>Morphine</label>
+    <description>A potent opiate pain medication that lasts about a half a day. Can be addictive.</description>
+    <graphicData>
+      <texPath>Things/Item/MSMorphine/MSMorphine</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>20</stackLimit>
+    <thingCategories Inherit="false">
+      <li>MSInjectStim</li>
+    </thingCategories>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MarketValue>32</MarketValue>
+      <Mass>0.2</Mass>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+      <joyKind>Chemical</joyKind>
+      <joy>0.3</joy>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>MSMorphine_High</hediffDef>
+          <severity>0.5</severity>
+          <toleranceChemical>MSOpium</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>MSOpium_Tolerance</hediffDef>
+          <severity>0.45</severity>
+          <divideByBodySize>true</divideByBodySize>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>2556</listOrder>
+        <chemical>MSOpium</chemical>
+        <addictiveness>0.06</addictiveness>
+        <minToleranceToAddict>0.10</minToleranceToAddict>
+        <existingAddictionSeverityOffset>0.15</existingAddictionSeverityOffset>
+        <needLevelOffset>1</needLevelOffset>
+        <overdoseSeverityOffset>
+          <min>0.01</min>
+          <max>0.03</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>MSMorphine_High</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>Morphine</label>
+    <description>Morphine effect</description>
+    <defaultLabelColor>(0.35, 0.58, 0.93)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>0.5</maxSeverity>
+    <lethalSeverity>-1.0</lethalSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.95</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <painFactor>0.05</painFactor>
+      </li>
+    </stages>
+  </HediffDef>
+  <ThoughtDef>
+    <defName>MSMorphine_Thought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>MSMorphine_High</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>Morphine</label>
+        <description>Feeling really groovy</description>
+        <baseMoodEffect>15</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- =====  Recipes ========= -->
+  <RecipeDef>
+    <defName>MakeMSMorphine</defName>
+    <label>Make Morphine</label>
+    <description>Make 1 morphine injection</description>
+    <jobString>Making morphine.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>500</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSOpiumLatex</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MSOpiumLatex</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSMorphine>1</MSMorphine>
+    </products>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>9</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>MSMorphine</researchPrerequisite>
+  </RecipeDef>
+  <!-- MSOpiumPipe -->
+  <ThingDef ParentName="MSDrugInjectBase">
+    <defName>MSOpiumPipe</defName>
+    <label>Opium pipe</label>
+    <description>An early and crude, if still potent opiate pain medication that lasts about a half a day. Can be quite addictive.</description>
+    <graphicData>
+      <texPath>Things/Item/MSOpiumPipe/MSOpiumPipe</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <stackLimit>20</stackLimit>
+    <thingCategories Inherit="false">
+      <li>MSDrugs</li>
+    </thingCategories>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MarketValue>22</MarketValue>
+      <Mass>0.25</Mass>
+    </statBases>
+    <techLevel>Neolithic</techLevel>
+    <ingestible>
+      <joyKind>Chemical</joyKind>
+      <joy>0.9</joy>
+      <baseIngestTicks>720</baseIngestTicks>
+      <nurseable>true</nurseable>
+      <drugCategory>Medical</drugCategory>
+      <ingestSound>Ingest_Smoke</ingestSound>
+      <ingestEffect>Smoke_Joint</ingestEffect>
+      <ingestEffectEat>EatVegetarian</ingestEffectEat>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.27,0,0.08)</offset>
+          <behind>true</behind>
+        </northDefault>
+        <east>
+          <offset>(0.45,0,0.08)</offset>
+        </east>
+        <south>
+          <offset>(0.27,0,0.08)</offset>
+        </south>
+        <west>
+          <offset>(-0.50,0,0.08)</offset>
+          <flip>true</flip>
+        </west>
+      </ingestHoldOffsetStanding>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+      <ingestCommandString>Smoke {0}</ingestCommandString>
+      <ingestReportString>Smoking {0}.</ingestReportString>
+      <ingestReportStringEat>Smoking {0}.</ingestReportStringEat>
+      <useEatingSpeedStat>false</useEatingSpeedStat>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>MSOpiumPipe_High</hediffDef>
+          <severity>0.5</severity>
+          <toleranceChemical>MSOpium</toleranceChemical>
+        </li>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>MSOpium_Tolerance</hediffDef>
+          <severity>0.7</severity>
+          <divideByBodySize>true</divideByBodySize>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>2557</listOrder>
+        <chemical>MSOpium</chemical>
+        <addictiveness>0.12</addictiveness>
+        <minToleranceToAddict>0.10</minToleranceToAddict>
+        <existingAddictionSeverityOffset>0.15</existingAddictionSeverityOffset>
+        <needLevelOffset>1</needLevelOffset>
+        <overdoseSeverityOffset>
+          <min>0.01</min>
+          <max>0.03</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>MSOpiumPipe_High</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>Opium Pipe</label>
+    <description>Opium pipe effect</description>
+    <defaultLabelColor>(0.35, 0.58, 0.93)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>0.5</maxSeverity>
+    <lethalSeverity>-1.0</lethalSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.95</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <painFactor>0.15</painFactor>
+      </li>
+    </stages>
+  </HediffDef>
+  <ThoughtDef>
+    <defName>MSOpiumPipe_Thought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>MSOpiumPipe_High</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>Opium Pipe</label>
+        <description>Feeling extremely soothed by the opium</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- =====  Recipes ========= -->
+  <RecipeDef>
+    <defName>MakeMSOpiumPipe</defName>
+    <label>Make Opium pipe</label>
+    <description>Make 1 opium pipe</description>
+    <jobString>Making opium pipes.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>500</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSOpiumLatex</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+            <li>Steel</li>
+            <li>BlocksLimestone</li>
+            <li>BlocksMarble</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MSOpiumLatex</li>
+        <li>WoodLog</li>
+        <li>Steel</li>
+        <li>BlocksLimestone</li>
+        <li>BlocksMarble</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSOpiumPipe>1</MSOpiumPipe>
+    </products>
+    <recipeUsers>
+      <li>CraftingSpot</li>
+      <li>DrugLab</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>5</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>MSOpium</researchPrerequisite>
+  </RecipeDef>
+</Defs>

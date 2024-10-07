@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeMSSulphuricAcid.label>Stelle Schwefelsäure her</MakeMSSulphuricAcid.label>
+  <MakeMSSulphuricAcid.description>Stelle 5 Schwefelsäure her.</MakeMSSulphuricAcid.description>
+  <MakeMSSulphuricAcid.jobString>Stelle Schwefelsäure her.</MakeMSSulphuricAcid.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkMSSulphuricAcid.label>Stelle Schwefelsäure in Massen her</MakeBulkMSSulphuricAcid.label>
+  <MakeBulkMSSulphuricAcid.description>Stelle 25 Schwefelsäure her.</MakeBulkMSSulphuricAcid.description>
+  <MakeBulkMSSulphuricAcid.jobString>Stelle Schwefelsäure her.</MakeBulkMSSulphuricAcid.jobString>
+</LanguageData>

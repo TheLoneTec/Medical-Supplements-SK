@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeMsMedicalMat.label>缝制中级医疗毯</MakeMsMedicalMat.label>
+  <MakeMsMedicalMat.description>缝制一条中级医疗毯。</MakeMsMedicalMat.description>
+  <MakeMsMedicalMat.jobString>正在缝制中级医疗毯。</MakeMsMedicalMat.jobString>
+  <MakeMsMedicalMatSpacer.label>缝制高级医疗毯</MakeMsMedicalMatSpacer.label>
+  <MakeMsMedicalMatSpacer.description>缝制一条高级医疗毯。</MakeMsMedicalMatSpacer.description>
+  <MakeMsMedicalMatSpacer.jobString>正在缝制高级医疗毯。</MakeMsMedicalMatSpacer.jobString>
+  <MakeMsMedicalMatUltra.label>缝制闪耀世界医疗毯</MakeMsMedicalMatUltra.label>
+  <MakeMsMedicalMatUltra.description>缝制一条闪耀世界医疗毯。</MakeMsMedicalMatUltra.description>
+  <MakeMsMedicalMatUltra.jobString>正在缝制闪耀世界医疗毯。</MakeMsMedicalMatUltra.jobString>
+  <MakeMsMedicalMatEarly.label>缝制初级医疗毯</MakeMsMedicalMatEarly.label>
+  <MakeMsMedicalMatEarly.description>缝制一条初级医疗毯。</MakeMsMedicalMatEarly.description>
+  <MakeMsMedicalMatEarly.jobString>正在缝制初级医疗毯。</MakeMsMedicalMatEarly.jobString>
+  <MakeMSMedicalMatPackup.label>打包中级医疗毯</MakeMSMedicalMatPackup.label>
+  <MakeMSMedicalMatPackup.description>将一张铺开使用的中级医疗毯卷起打包。</MakeMSMedicalMatPackup.description>
+  <MakeMSMedicalMatPackup.jobString>正在打包中级医疗毯。</MakeMSMedicalMatPackup.jobString>
+  <MakeMSMedicalMatSpacerPackup.label>打包高级医疗毯</MakeMSMedicalMatSpacerPackup.label>
+  <MakeMSMedicalMatSpacerPackup.description>将一张铺开使用的高级医疗毯卷起打包。</MakeMSMedicalMatSpacerPackup.description>
+  <MakeMSMedicalMatSpacerPackup.jobString>正在打包高级医疗毯。</MakeMSMedicalMatSpacerPackup.jobString>
+  <MakeMSMedicalMatEarlyPackup.label>打包闪耀世界医疗毯</MakeMSMedicalMatEarlyPackup.label>
+  <MakeMSMedicalMatEarlyPackup.description>将一张铺开使用的闪耀世界医疗毯卷起打包。</MakeMSMedicalMatEarlyPackup.description>
+  <MakeMSMedicalMatEarlyPackup.jobString>正在打包闪耀世界医疗毯</MakeMSMedicalMatEarlyPackup.jobString>
+  <MakeMSMedicalMatEarlyPackup.label>打包初级医疗毯</MakeMSMedicalMatEarlyPackup.label>
+  <MakeMSMedicalMatEarlyPackup.description>将一张铺开使用的初级医疗毯卷起打包。</MakeMSMedicalMatEarlyPackup.description>
+  <MakeMSMedicalMatEarlyPackup.jobString>正在打包初级医疗毯。</MakeMSMedicalMatEarlyPackup.jobString>
+</LanguageData>

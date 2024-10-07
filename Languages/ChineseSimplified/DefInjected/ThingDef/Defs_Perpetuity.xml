@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Perpetuity Vial -->
+  <MSPerpetuity_Vial.label>永恒注射液</MSPerpetuity_Vial.label>
+  <MSPerpetuity_Vial.description>由复杂物质组成的药液，被称为“永恒”. 在刺激剂研究台上制备.</MSPerpetuity_Vial.description>
+  <!-- Perpetuity -->
+  <MSPerpetuity.label>永恒针剂</MSPerpetuity.label>
+  <MSPerpetuity.description>一剂自注射的纳米机械液，能够让使用者如获新生，传说中的灵丹妙药.</MSPerpetuity.description>
+  <MSPerpetuity.comps.3.useLabel>注射永恒针剂</MSPerpetuity.comps.3.useLabel>
+</LanguageData>

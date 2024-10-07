@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- RimProPlus -->
+  <MSRimProPlus.label>RimProPlus</MSRimProPlus.label>
+  <MSRimProPlus.description>Eine hochsüße Pille, die einen Tag lang hält, die Ruhebedürfnisse reduziert und Schlafkrankheiten vorbeugt.</MSRimProPlus.description>
+  <MSRimProPlus.ingestible.ingestCommandString>Nimm {0}</MSRimProPlus.ingestible.ingestCommandString>
+  <MSRimProPlus.ingestible.ingestReportString>Nimmt {0}.</MSRimProPlus.ingestible.ingestReportString>
+</LanguageData>

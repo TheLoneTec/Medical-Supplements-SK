@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Projects -->
+  <MSMedicineUltra.label>Ultratech Medizin</MSMedicineUltra.label>
+  <MSMedicineUltra.description>Gewährt die Fähigkeit, Ultratech-Medizin herzustellen. Ein Set an hochmodernen medizinischen Geräten, die wahrscheinlich in einer fernen Glitzerwelt hergestellt wurden. Es enthält fortschrittliche polymorphe Medikamente, Nanit-Diagnostik- und Heilungsassistenten, einen Mini-Imager und verschiedene Mehrzweckwerkzeuge.</MSMedicineUltra.description>
+  <MSHealerMechSerum.label>Healer Mech Serum</MSHealerMechSerum.label>
+  <MSHealerMechSerum.description>Gewährt die Fähigkeit, Heiler-Mech-Serum herzustellen. Eine einmalige Super-Dosis von Mechaniten, die auf die Heilung von Gesundheitszuständen abgestimmt sind. Die Mechaniten zielen auf den schlimmsten Gesundheitszustand ab und heilen ihn. Funktioniert auch unter gesundheitlichen Bedingungen, die sonst unheilbar wären. Die Mechaniten können sich sogar in organische Materie verwandeln und bei Bedarf neue Gliedmaßen oder Organe bilden.</MSHealerMechSerum.description>
+  <MSRessurectMechSerum.label>Ressurector Mech Serum</MSRessurectMechSerum.label>
+  <MSRessurectMechSerum.description>Gewährt die Fähigkeit, Ressurector-Mech-Serum herzustellen. Eine einmalige Super-Dosis von Mechaniten, die darauf abgestimmt sind, die Toten wiederzubeleben. Einem Leichnam verabreicht, reparieren Mechaniten zersetztes Gewebe und erwecken den Körper wieder zum Leben. Leider kommen die Auferstandenen manchmal mit Hirnschäden, Blindheit oder fortschreitender Psychose zurück. Die Ergebnisse sind besser, wenn die Mechaniten einem frischeren Körper verabreicht werden. Wenn ein Körper erhalten bleibt, kann er sogar lange nach dem Tod wieder auferstehen.</MSRessurectMechSerum.description>
+  <MSNeuroMechSerum.label>Neurotrainer Mech Serum</MSNeuroMechSerum.label>
+  <MSNeuroMechSerum.description>Gewährt die Fähigkeit, Neurotrainer-Mech-Serum herzustellen. Eine einmalige Super-Dosis von Mechaniten, die darauf abgestimmt sind, eine bestimmte Fähigkeit zu trainieren. Die Dosis wird über die Augenhöhle verabreicht. Einmal im Gehirn freigesetzt, verbessern die Mechaniten schnell die Fähigkeiten des Subjekts in einem bestimmten Bereich und wandeln sich bei Bedarf in Nervengewebe um.</MSNeuroMechSerum.description>
+</LanguageData>

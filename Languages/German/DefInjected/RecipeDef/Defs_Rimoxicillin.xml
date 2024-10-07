@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeRimoxicillin.label>Stelle Rimoxicillin her</MakeRimoxicillin.label>
+  <MakeRimoxicillin.description>Stelle Rimoxicillin her.</MakeRimoxicillin.description>
+  <MakeRimoxicillin.jobString>Stelle Rimoxicillin her.</MakeRimoxicillin.jobString>
+  <MakeBulkRimoxicillin.label>Stelle Rimoxicillin in Massen her</MakeBulkRimoxicillin.label>
+  <MakeBulkRimoxicillin.description>Stelle 5 Rimoxicillin her.</MakeBulkRimoxicillin.description>
+  <MakeBulkRimoxicillin.jobString>Stelle Rimoxicillin her.</MakeBulkRimoxicillin.jobString>
+</LanguageData>

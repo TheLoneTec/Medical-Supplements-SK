@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- RimBurnEaze -->
+  <MSRimBurnEaze.label>烫伤膏</MSRimBurnEaze.label>
+  <MSRimBurnEaze.description>烫伤膏是一种外用抗菌剂，可用来帮助烧伤的恢复，还能够治疗烧伤引起的永久性疤痕. 两天涂抹一次.</MSRimBurnEaze.description>
+  <MSRimBurnEaze.ingestible.ingestCommandString>涂抹{0}</MSRimBurnEaze.ingestible.ingestCommandString>
+  <MSRimBurnEaze.ingestible.ingestReportString>正在涂抹{0}.</MSRimBurnEaze.ingestible.ingestReportString>
+</LanguageData>

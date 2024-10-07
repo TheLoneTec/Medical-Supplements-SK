@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeMSClarity.label>Make Clarity</MakeMSClarity.label>
+  <MakeMSClarity.description>Make 1 Clarity</MakeMSClarity.description>
+  <MakeMSClarity.jobString>Making Clarity</MakeMSClarity.jobString>
+  <MakeBulkMSClarity.label>Make Clarity in bulk</MakeBulkMSClarity.label>
+  <MakeBulkMSClarity.description>Make 5 Clarity</MakeBulkMSClarity.description>
+  <MakeBulkMSClarity.jobString>Making Clarity</MakeBulkMSClarity.jobString>
+</LanguageData>

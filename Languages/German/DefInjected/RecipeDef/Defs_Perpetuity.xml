@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Perpetuity Vial -->
+  <MakeMSPerpetuityVial.label>Stelle Perpetuityfläschchen her</MakeMSPerpetuityVial.label>
+  <MakeMSPerpetuityVial.description>Stelle ein Perpetuityfläschchen her.</MakeMSPerpetuityVial.description>
+  <MakeMSPerpetuityVial.jobString>Stelle Perpetuityfläschchen her.</MakeMSPerpetuityVial.jobString>
+  <!-- Recipe -->
+  <MakeMSPerpetuity.label>Stelle Perpetuity her</MakeMSPerpetuity.label>
+  <MakeMSPerpetuity.description>Stelle ein Perpetuity her.</MakeMSPerpetuity.description>
+  <MakeMSPerpetuity.jobString>Stelle Perpetuity her.</MakeMSPerpetuity.jobString>
+</LanguageData>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ====== Compatability Patch ==================== -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Minerals</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationReplace">
+			<xpath>Defs/ThingDef[defName="SulfurCrystal"]/randomlyDropResources</xpath>
+            <value>
+				<randomlyDropResources>
+				  <li>
+					<ResourceDefName>MSSulphur</ResourceDefName>
+					<DropProbability>1</DropProbability>
+					<CountPerDrop>5</CountPerDrop>
+				  </li>
+				</randomlyDropResources>
+            </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

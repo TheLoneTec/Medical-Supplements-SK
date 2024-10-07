@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSMercury.label>Mercury Compounds</MSMercury.label>
+  <MSMercury.description>Grants the ability to make mercury compounds.</MSMercury.description>
+  <MSImmunisation.label>Immunisation</MSImmunisation.label>
+  <MSImmunisation.description>Grants the ability to make immunisations. Drugs that are capable of boosting immune systems.</MSImmunisation.description>
+  <MSCerebrax.label>Cerebrax</MSCerebrax.label>
+  <MSCerebrax.description>Grants the ability to make Cerebrax. Drug capable of removing psychic susceptability.</MSCerebrax.description>
+</LanguageData>

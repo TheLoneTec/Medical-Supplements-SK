@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- BattleStim Vial -->
+  <MSBattleStim_Vial.label>战意激发药液</MSBattleStim_Vial.label>
+  <MSBattleStim_Vial.description>战意激发药剂的原液.在刺激剂研究台制备使用.</MSBattleStim_Vial.description>
+  <!-- BattleStim -->
+  <MSBattleStim.label>战役激发剂</MSBattleStim.label>
+  <MSBattleStim.description>它是利用梅达西尔助剂和其他药物在放射性环境下制成的一种药物，能够提高士兵们在战场上的表现和机体的再生能力. 但是这种合剂也有一些令人厌恶的副作用，比如对肝脏和肾脏造成化学损伤，同时，药剂的作用也存在一个刺激峰值后的衰落期.药效持续约12小时.</MSBattleStim.description>
+  <MSBattleStim.comps.3.useLabel>注射战意激发剂</MSBattleStim.comps.3.useLabel>
+  <!-- Utility Belt -->
+  <MSBattleStimBelt.label>Battle Stim Utility</MSBattleStimBelt.label>
+  <MSBattleStimBelt.description>一个可连接的战意激发设备，能够连接在腰带或者任何腰部部件上，更加实用.</MSBattleStimBelt.description>
+</LanguageData>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- BattleStim Vial -->
+  <MSBattleStim_Vial.label>Kampfstimfläschchen</MSBattleStim_Vial.label>
+  <MSBattleStim_Vial.description>Fläschchen mit Kampfstimulationschemikalien. Im Stimlabor zuzubereiten.</MSBattleStim_Vial.description>
+  <!-- BattleStim -->
+  <MSBattleStim.label>Kampfstim</MSBattleStim.label>
+  <MSBattleStim.description>Eine Dosis selbst injizierter Mechaniten, die das Schlachtfeldpotential und die Heilung steigern sollen. Nutzt die Metasis mit anderen Medikamenten unter radioaktiven Bedingungen, die regenerative Eigenschaften und Kampfbereitschaft ermöglichen. Es besteht die Möglichkeit von Nebenwirkungen, die zu einer Schädigung der Leber oder Niere führen, sowie einer möglichen Regressionszeit für deren Anwendung. Effekte dauern einen halben Tag.</MSBattleStim.description>
+  <MSBattleStim.comps.3.useLabel>Benutze Kampfstim</MSBattleStim.comps.3.useLabel>
+  <!-- Utility Belt -->
+  <MSBattleStimBelt.label>Kampfstimhalter</MSBattleStimBelt.label>
+  <MSBattleStimBelt.description>Ein Kampfstimhalter, der als Gebrauchsgegenstand an jedem Gürtel oder im Taillenbereich angebracht werden kann</MSBattleStimBelt.description>
+</LanguageData>

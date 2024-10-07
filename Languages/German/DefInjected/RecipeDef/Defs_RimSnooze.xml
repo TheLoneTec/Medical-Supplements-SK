@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakeMSRimSnooze.label>Stelle RimSnooze her</MakeMSRimSnooze.label>
+  <MakeMSRimSnooze.description>Stelle ein RimSnooze her.</MakeMSRimSnooze.description>
+  <MakeMSRimSnooze.jobString>Stelle RimSnooze her.</MakeMSRimSnooze.jobString>
+  <MakeBulkMSRimSnooze.label>Stelle RimSnooze in Massen her</MakeBulkMSRimSnooze.label>
+  <MakeBulkMSRimSnooze.description>Stelle 5 RimSnooze her.</MakeBulkMSRimSnooze.description>
+  <MakeBulkMSRimSnooze.jobString>Stelle RimSnooze her.</MakeBulkMSRimSnooze.jobString>
+</LanguageData>

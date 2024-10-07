@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSStimLab.label>Stimlabor</MSStimLab.label>
+  <MSStimLab.description>Eine Werkbank mit Behältern, Heizungen, Messgeräten und einer kleinen Bestrahlungskammer zur Herstellung von Stims und fortschrittlichen Medikamenten.</MSStimLab.description>
+  <MSStimLab_Blueprint.label>Stimlabor (Entwurf)</MSStimLab_Blueprint.label>
+  <MSStimLab_Blueprint_Install.label>Stimlabor (Entwurf)</MSStimLab_Blueprint_Install.label>
+  <MSStimLab_Frame.label>Stimlabor (im Bau)</MSStimLab_Frame.label>
+  <MSStimLab_Frame.description>Eine Werkbank mit Behältern, Heizungen, Messgeräten und einer kleinen Bestrahlungskammer zur Herstellung von Stims und fortschrittlichen Medikamenten.</MSStimLab_Frame.description>
+</LanguageData>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Rimzac -->
+  <MSRimzac.label>Rimzac</MSRimzac.label>
+  <MSRimzac.description>Ein Antidepressivum. Verfeinert aus Ambrosia, um die süchtig machenden Nebenwirkungen zu beseitigen. Hält 2 Tage an.</MSRimzac.description>
+  <MSRimzac.ingestible.ingestCommandString>Nimm {0}</MSRimzac.ingestible.ingestCommandString>
+  <MSRimzac.ingestible.ingestReportString>Nimmt {0}.</MSRimzac.ingestible.ingestReportString>
+</LanguageData>

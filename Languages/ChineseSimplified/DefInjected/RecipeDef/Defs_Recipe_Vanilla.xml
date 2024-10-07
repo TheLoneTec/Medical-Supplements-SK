@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSBulkMedicine.label>批量制作医药</MSBulkMedicine.label>
+  <MSBulkMedicine.description>制作五份医药。</MSBulkMedicine.description>
+  <MSBulkMedicine.jobString>正在批量制作医药。</MSBulkMedicine.jobString>
+  <MakeMSUltraMedicine.label>制作闪耀世界医药</MakeMSUltraMedicine.label>
+  <MakeMSUltraMedicine.description>制作一份闪耀世界医药。</MakeMSUltraMedicine.description>
+  <MakeMSUltraMedicine.jobString>正在制作闪耀世界医药。</MakeMSUltraMedicine.jobString>
+  <MakeMSHealerMechSerum.label>制作治愈者机械液</MakeMSHealerMechSerum.label>
+  <MakeMSHealerMechSerum.description>制作一份治愈者机械液。</MakeMSHealerMechSerum.description>
+  <MakeMSHealerMechSerum.jobString>正在制作治愈者机械液。</MakeMSHealerMechSerum.jobString>
+  <MakeMSRessurectorMechSerum.label>制作再生者机械液</MakeMSRessurectorMechSerum.label>
+  <MakeMSRessurectorMechSerum.description>制作一份再生者机械液。</MakeMSRessurectorMechSerum.description>
+  <MakeMSRessurectorMechSerum.jobString>正在制作再生者机械液。</MakeMSRessurectorMechSerum.jobString>
+  <MakeMSNeuroTrainerMechSerum.label>制作训练者神经机械液</MakeMSNeuroTrainerMechSerum.label>
+  <MakeMSNeuroTrainerMechSerum.description>制作1剂训练者神经机械液</MakeMSNeuroTrainerMechSerum.description>
+  <MakeMSNeuroTrainerMechSerum.jobString>正在制作训练者神经机械液.</MakeMSNeuroTrainerMechSerum.jobString>
+</LanguageData>

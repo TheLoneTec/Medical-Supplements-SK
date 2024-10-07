@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSAntinites_Vial.label>抗 纳米机械 液</MSAntinites_Vial.label>
+  <MSAntinites_Vial.description>一种对抗纳米机械的化学物质，和注射器配合使用。</MSAntinites_Vial.description>
+  <MSAntinites.label>抗 纳米机械 针剂</MSAntinites.label>
+  <MSAntinites.description>这种从路西法合剂中提炼出的改良制剂能够准确攻击身体中那些不请自来的小机械，加入的苯酚和大麻提取物也能够毒杀纳米粒子。会引发持续12小时的剧烈疼痛，最好配合一点止痛药使用。</MSAntinites.description>
+  <MSAntinites.ingestible.ingestCommandString>注射 {0}</MSAntinites.ingestible.ingestCommandString>
+  <MSAntinites.ingestible.ingestReportString>正在注射 {0}.</MSAntinites.ingestible.ingestReportString>
+</LanguageData>

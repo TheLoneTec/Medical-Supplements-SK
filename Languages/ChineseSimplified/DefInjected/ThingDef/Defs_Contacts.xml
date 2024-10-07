@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSContacts.label>隐形眼镜</MSContacts.label>
+  <MSContacts.description>软性碳聚合物隐形眼镜,一次性使用.能在十天内提高你的视觉能力。</MSContacts.description>
+  <MSContacts.ingestible.ingestCommandString>戴{0}</MSContacts.ingestible.ingestCommandString>
+  <MSContacts.ingestible.ingestReportString>正在戴{0}.</MSContacts.ingestible.ingestReportString>
+</LanguageData>

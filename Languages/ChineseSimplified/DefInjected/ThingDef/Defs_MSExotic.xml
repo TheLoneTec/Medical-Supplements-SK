@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Immunisation -->
+  <MSImmunisation.label>免疫刺激剂</MSImmunisation.label>
+  <MSImmunisation.description>一针自注射用的化学物质，能够永久性地刺激免疫系统，进而提高你的免疫力.</MSImmunisation.description>
+  <MSImmunisation.comps.3.useLabel>注射免疫刺激剂</MSImmunisation.comps.3.useLabel>
+  <!-- Cerebrax -->
+  <MSCerebrax.label>脑阻断剂</MSCerebrax.label>
+  <MSCerebrax.description>一针自注射用的化学物质，能够永久性地解决你的多愁善感.</MSCerebrax.description>
+  <MSCerebrax.comps.3.useLabel>注射脑阻断剂</MSCerebrax.comps.3.useLabel>
+  <!-- Condom -->
+  <MSCondom.label>避孕套</MSCondom.label>
+  <MSCondom.description>避孕套是一种鞘型的阻断用品, 在性交时正确使用能极大降低意外受孕和感染性传播疾病 (STI)的几率. 男女通用.</MSCondom.description>
+  <MSCondom.comps.3.useLabel>戴避孕套</MSCondom.comps.3.useLabel>
+</LanguageData>

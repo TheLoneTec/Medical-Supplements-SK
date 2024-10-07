@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ExtractMSOpiumLatex.label>提取鸦片膏</ExtractMSOpiumLatex.label>
+  <ExtractMSOpiumLatex.description>割开罂粟果表皮以获取鸦片膏。</ExtractMSOpiumLatex.description>
+  <ExtractMSOpiumLatex.jobString>正在提取鸦片膏。</ExtractMSOpiumLatex.jobString>
+  <ExtractMSPoppySeeds.label>提取罂粟籽</ExtractMSPoppySeeds.label>
+  <ExtractMSPoppySeeds.description>从罂粟果荚中取出籽粒。</ExtractMSPoppySeeds.description>
+  <ExtractMSPoppySeeds.jobString>正在提取罂粟籽。</ExtractMSPoppySeeds.jobString>
+</LanguageData>

@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Antitox -->
+  <MSAntitox.label>Antitox</MSAntitox.label>
+  <MSAntitox.description>Antitoxin Tabletten für die Minderung von Vergiftungserscheinungen. Wird alle 3 Tage eingenommen.</MSAntitox.description>
+  <MSAntitox.ingestible.ingestCommandString>Nimm {0}</MSAntitox.ingestible.ingestCommandString>
+  <MSAntitox.ingestible.ingestReportString>Nimmt {0}.</MSAntitox.ingestible.ingestReportString>
+</LanguageData>

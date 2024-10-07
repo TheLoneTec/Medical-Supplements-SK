@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Projects -->
+  <MSBattleStims.label>Kampfstimulisation</MSBattleStims.label>
+  <MSBattleStims.description>Gewährt die Möglichkeit,BattleStims herzustellen. Nutzt die Metasis mit anderen Medikamenten unter radioaktiven Bedingungen, um Kampfstimulanzien herzustellen, die auch regenerative Eigenschaften haben. Es kann einige böse Nebenwirkungen von chemischen Schädigungen der Leber oder Niere sowie eine Regressionszeit für ihre Verwendung geben.</MSBattleStims.description>
+  <MSTranscendence.label>Transzendenz</MSTranscendence.label>
+  <MSTranscendence.description>Gewährt die Fähigkeit, Transzendenzen herzustellen. Mechanite Neuraltrainer mit ausgeprägteren Fähigkeiten.</MSTranscendence.description>
+</LanguageData>

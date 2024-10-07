@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Recipes -->
+  <MakePhenol.label>Make Phenol</MakePhenol.label>
+  <MakePhenol.description>Make 5 Phenol.</MakePhenol.description>
+  <MakePhenol.jobString>Preparing Phenol.</MakePhenol.jobString>
+  <!-- Bulk Recipe -->
+  <MakeBulkPhenol.label>Make Phenol in bulk</MakeBulkPhenol.label>
+  <MakeBulkPhenol.description>Make 25 Phenol.</MakeBulkPhenol.description>
+  <MakeBulkPhenol.jobString>Preparing Phenol.</MakeBulkPhenol.jobString>
+</LanguageData>
