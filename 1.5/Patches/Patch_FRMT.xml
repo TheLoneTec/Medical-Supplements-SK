@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Fermenter (Continued)</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeRimpeptic" or defName="MakeBulkRimpeptic"]/ingredients/li[4]/filter/thingDefs</xpath>
+          <value>
+            <li>FRMT_PastMilk</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeRimpeptic" or defName="MakeBulkRimpeptic"]/fixedIngredientFilter/thingDefs</xpath>
+          <value>
+            <li>FRMT_PastMilk</li>
+          </value>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_VinegarPrecursor"]/ingredients/li[1]/filter/thingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VinegarPrecursor"]/ingredients/li[1]/filter/thingDefs</xpath>
+            <value>
+              <li>MSEthanol</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VinegarPrecursor"]/ingredients/li[1]/filter</xpath>
+            <value>
+              <thingDefs>
+                <li>MSEthanol</li>
+              </thingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_VinegarPrecursor"]/fixedIngredientFilter/thingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VinegarPrecursor"]/fixedIngredientFilter/thingDefs</xpath>
+            <value>
+              <li>MSEthanol</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VinegarPrecursor"]/fixedIngredientFilter</xpath>
+            <value>
+              <thingDefs>
+                <li>MSEthanol</li>
+              </thingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/ingredients/li[1]/filter/disallowedThingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/ingredients/li[1]/filter/disallowedThingDefs</xpath>
+            <value>
+              <li>MSGlycerol</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/ingredients/li[1]/filter</xpath>
+            <value>
+              <disallowedThingDefs>
+                <li>MSGlycerol</li>
+              </disallowedThingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/fixedIngredientFilter/disallowedThingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/fixedIngredientFilter/disallowedThingDefs</xpath>
+            <value>
+              <li>MSGlycerol</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="Make_FRMT_VegPickled"]/fixedIngredientFilter</xpath>
+            <value>
+              <disallowedThingDefs>
+                <li>MSGlycerol</li>
+              </disallowedThingDefs>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

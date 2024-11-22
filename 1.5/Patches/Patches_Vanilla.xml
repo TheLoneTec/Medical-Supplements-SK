@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== Default take times for drugs ================= -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[@Name="DrugPillBase"]/ingestible/baseIngestTicks</xpath>
+        <value>
+          <baseIngestTicks>80</baseIngestTicks>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName="Neutroamine"]/description</xpath>
+        <value>
+          <description>A synthetic precursor chemical. While it is useless on its own, many drugs require neutroamine as an ingredient. (Can be synthesised from Glycerol and Chemfuel).</description>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/TraderKindDef[defName="Caravan_Outlander_Exotic"]/stockGenerators</xpath>
+        <value>
+          <li Class="StockGenerator_Category">
+            <categoryDef>MSManufactured</categoryDef>
+            <thingDefCountRange>
+              <min>1</min>
+              <max>5</max>
+            </thingDefCountRange>
+            <totalPriceRange>
+              <min>200</min>
+              <max>400</max>
+            </totalPriceRange>
+          </li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/TraderKindDef[defName="Orbital_Exotic"]/stockGenerators</xpath>
+        <value>
+          <li Class="StockGenerator_Category">
+            <categoryDef>MSManufactured</categoryDef>
+            <thingDefCountRange>
+              <min>1</min>
+              <max>5</max>
+            </thingDefCountRange>
+            <totalPriceRange>
+              <min>400</min>
+              <max>800</max>
+            </totalPriceRange>
+          </li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

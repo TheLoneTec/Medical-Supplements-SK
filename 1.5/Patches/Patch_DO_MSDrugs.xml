@@ -1,0 +1,619 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Diseases Overhauled</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/HediffDef[defName="Migraine"]/comps</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="Migraine"]/comps</xpath>
+            <value>
+              <li Class="MSRegen.HediffCompProperties_MSCure">
+                <CureHoursMin>2</CureHoursMin>
+                <CureHoursMax>4</CureHoursMax>
+              </li>
+            </value>
+          </match>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/HediffDef[defName="CommonCold"]/comps</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="CommonCold"]/comps</xpath>
+            <value>
+              <li Class="MSRegen.HediffCompProperties_MSCure">
+                <CureHoursMin>2</CureHoursMin>
+                <CureHoursMax>4</CureHoursMax>
+              </li>
+            </value>
+          </match>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/HediffDef[defName="Stupor"]/comps</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="Stupor"]/comps</xpath>
+            <value>
+              <li Class="MSRegen.HediffCompProperties_MSCure">
+                <CureHoursMin>6</CureHoursMin>
+                <CureHoursMax>12</CureHoursMax>
+              </li>
+            </value>
+          </match>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/HediffDef[defName="PTSD"]/comps</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="PTSD"]/comps</xpath>
+            <value>
+              <li Class="MSRegen.HediffCompProperties_MSCure">
+                <CureHoursMin>24</CureHoursMin>
+                <CureHoursMax>30</CureHoursMax>
+              </li>
+            </value>
+          </match>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/HediffDef[defName="MSClarity_High"]/stages//makeImmuneTo</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="MSClarity_High"]/stages//makeImmuneTo</xpath>
+            <value>
+              <li>Stupor</li>
+              <li>Unease</li>
+              <li>CampbellsDisease</li>
+              <li>PTSD</li>
+              <li>SuicidePreparation</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="MSClarity_High"]/stages/li</xpath>
+            <value>
+              <makeImmuneTo>
+                <li>Stupor</li>
+                <li>Unease</li>
+                <li>CampbellsDisease</li>
+                <li>PTSD</li>
+                <li>SuicidePreparation</li>
+              </makeImmuneTo>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/HediffDef[defName="MSRimzac_High"]/stages//makeImmuneTo</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="MSRimzac_High"]/stages//makeImmuneTo</xpath>
+            <value>
+              <li>Unease</li>
+              <li>PTSD</li>
+              <li>SuicidePreparation</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="MSRimzac_High"]/stages/li</xpath>
+            <value>
+              <makeImmuneTo>
+                <li>Unease</li>
+                <li>PTSD</li>
+                <li>SuicidePreparation</li>
+              </makeImmuneTo>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/HediffDef[defName="MSRimoxicillin_High"]/stages//makeImmuneTo</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="MSRimoxicillin_High"]/stages//makeImmuneTo</xpath>
+            <value>
+              <li>Tuberculosis</li>
+              <li>KindredDickVirus</li>
+              <li>Sepsis</li>
+              <li>Toothache</li>
+              <li>VoightBernsteinDisease</li>
+              <li>HansenKampffDisease</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="MSRimoxicillin_High"]/stages/li</xpath>
+            <value>
+              <makeImmuneTo>
+                <li>Tuberculosis</li>
+                <li>KindredDickVirus</li>
+                <li>Sepsis</li>
+                <li>Toothache</li>
+                <li>VoightBernsteinDisease</li>
+                <li>HansenKampffDisease</li>
+              </makeImmuneTo>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/HediffDef[defName="MSMetasisHigh"]/stages//makeImmuneTo</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="MSMetasisHigh"]/stages//makeImmuneTo</xpath>
+            <value>
+              <li>CommonCold</li>
+              <li>HansenKampffDisease</li>
+              <li>HepatitisK</li>
+              <li>Migraine</li>
+              <li>Necrosis</li>
+              <li>Sepsis</li>
+              <li>StomachUlcer</li>
+              <li>Toothache</li>
+              <li>Tuberculosis</li>
+              <li>KindredDickVirus</li>
+              <li>VoightBernsteinDisease</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="MSMetasisHigh"]/stages/li</xpath>
+            <value>
+              <makeImmuneTo>
+                <li>CommonCold</li>
+                <li>HansenKampffDisease</li>
+                <li>HepatitisK</li>
+                <li>Migraine</li>
+                <li>Necrosis</li>
+                <li>Sepsis</li>
+                <li>StomachUlcer</li>
+                <li>Toothache</li>
+                <li>Tuberculosis</li>
+                <li>KindredDickVirus</li>
+                <li>VoightBernsteinDisease</li>
+              </makeImmuneTo>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/HediffDef[defName="MSBattleStim_High"]/stages//makeImmuneTo</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="MSBattleStim_High"]/stages//makeImmuneTo</xpath>
+            <value>
+              <li>CommonCold</li>
+              <li>HansenKampffDisease</li>
+              <li>HepatitisK</li>
+              <li>Migraine</li>
+              <li>Necrosis</li>
+              <li>Sepsis</li>
+              <li>StomachUlcer</li>
+              <li>Toothache</li>
+              <li>Tuberculosis</li>
+              <li>KindredDickVirus</li>
+              <li>VoightBernsteinDisease</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="MSBattleStim_High"]/stages/li</xpath>
+            <value>
+              <makeImmuneTo>
+                <li>CommonCold</li>
+                <li>HansenKampffDisease</li>
+                <li>HepatitisK</li>
+                <li>Migraine</li>
+                <li>Necrosis</li>
+                <li>Sepsis</li>
+                <li>StomachUlcer</li>
+                <li>Toothache</li>
+                <li>Tuberculosis</li>
+                <li>KindredDickVirus</li>
+                <li>VoightBernsteinDisease</li>
+              </makeImmuneTo>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/HediffDef[defName="MSAntinitesHigh"]/stages//makeImmuneTo</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="MSAntinitesHigh"]/stages//makeImmuneTo</xpath>
+            <value>
+              <li>LymphaticMechanites</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="MSAntinitesHigh"]/stages/li</xpath>
+            <value>
+              <makeImmuneTo>
+                <li>LymphaticMechanites</li>
+              </makeImmuneTo>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/HediffDef[defName="MSRimpepticHigh"]/stages//makeImmuneTo</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="MSRimpepticHigh"]/stages//makeImmuneTo</xpath>
+            <value>
+              <li>StomachUlcer</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="MSRimpepticHigh"]/stages/li</xpath>
+            <value>
+              <makeImmuneTo>
+                <li>StomachUlcer</li>
+              </makeImmuneTo>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/HediffDef[defName="MSRimCodamol_High"]/stages//makeImmuneTo</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="MSRimCodamol_High"]/stages//makeImmuneTo</xpath>
+            <value>
+              <li>Migraine</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="MSRimCodamol_High"]/stages/li</xpath>
+            <value>
+              <makeImmuneTo>
+                <li>Migraine</li>
+              </makeImmuneTo>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/HediffDef[defName="MSMorphine_High"]/stages//makeImmuneTo</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="MSMorphine_High"]/stages//makeImmuneTo</xpath>
+            <value>
+              <li>Migraine</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="MSMorphine_High"]/stages/li</xpath>
+            <value>
+              <makeImmuneTo>
+                <li>Migraine</li>
+              </makeImmuneTo>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/HediffDef[defName="MSOpiumPipe_High"]/stages//makeImmuneTo</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="MSOpiumPipe_High"]/stages//makeImmuneTo</xpath>
+            <value>
+              <li>Migraine</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="MSOpiumPipe_High"]/stages/li</xpath>
+            <value>
+              <makeImmuneTo>
+                <li>Migraine</li>
+              </makeImmuneTo>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/HediffDef[defName="MSMultiVitamins_High"]/stages//makeImmuneTo</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="MSMultiVitamins_High"]/stages//makeImmuneTo</xpath>
+            <value>
+              <li>CommonCold</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="MSMultiVitamins_High"]/stages/li</xpath>
+            <value>
+              <makeImmuneTo>
+                <li>CommonCold</li>
+              </makeImmuneTo>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/HediffDef[defName="MSRimcetamol_High"]/stages//makeImmuneTo</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="MSRimcetamol_High"]/stages//makeImmuneTo</xpath>
+            <value>
+              <li>CommonCold</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="MSRimcetamol_High"]/stages/li</xpath>
+            <value>
+              <makeImmuneTo>
+                <li>CommonCold</li>
+              </makeImmuneTo>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/HediffDef[defName="MSFireThroat_High"]/stages//makeImmuneTo</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="MSFireThroat_High"]/stages//makeImmuneTo</xpath>
+            <value>
+              <li>CommonCold</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="MSFireThroat_High"]/stages/li</xpath>
+            <value>
+              <makeImmuneTo>
+                <li>CommonCold</li>
+              </makeImmuneTo>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <RecipeDef ParentName="SurgeryFlesh">
+              <defName>MSCerebralStentDO</defName>
+              <label>install cerebral Stent</label>
+              <description>Install a cerebral stent to remove an arterial blockage.</description>
+              <workerClass>Recipe_RemoveHediff</workerClass>
+              <jobString>Installing Stent.</jobString>
+              <workAmount>2500</workAmount>
+              <removesHediff>CerebralArteryStenosis</removesHediff>
+              <successfullyRemovedHediffMessage>{0} has successfully installed a stent to remove {1}'s cerebral arterial blockage.</successfullyRemovedHediffMessage>
+              <deathOnFailedSurgeryChance>0.25</deathOnFailedSurgeryChance>
+              <skillRequirements>
+                <Medicine>11</Medicine>
+              </skillRequirements>
+              <ingredients>
+                <li>
+                  <filter>
+                    <categories>
+                      <li>Medicine</li>
+                    </categories>
+                  </filter>
+                  <count>3</count>
+                </li>
+                <li>
+                  <filter>
+                    <thingDefs>
+                      <li>MSStent</li>
+                    </thingDefs>
+                  </filter>
+                  <count>1</count>
+                </li>
+              </ingredients>
+              <fixedIngredientFilter>
+                <categories>
+                  <li>Medicine</li>
+                </categories>
+                <thingDefs>
+                  <li>MSStent</li>
+                </thingDefs>
+                <disallowedThingDefs>
+                  <li>MedicineHerbal</li>
+                </disallowedThingDefs>
+              </fixedIngredientFilter>
+              <researchPrerequisite>MSSurgeryItemsIndustrial</researchPrerequisite>
+              <recipeUsers>
+                <li>Human</li>
+              </recipeUsers>
+            </RecipeDef>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Diseases Overhauled</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationTest">
+          <xpath>/Defs/HediffDef[defName="BloodCancer"]/comps/li[@Class='HediffCompProperties_TendDuration']</xpath>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/HediffDef[defName="BloodCancer"]/comps/li[@Class='HediffCompProperties_TendDuration']</xpath>
+          <value>
+            <li Class="MSTend.MSHediffCompProperties_TendDuration">
+              <baseTendDurationHours>240</baseTendDurationHours>
+              <severityPerDayTended>-0.03</severityPerDayTended>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Diseases Overhauled</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationTest">
+          <xpath>/Defs/HediffDef[defName="HepatitisK"]/comps/li[@Class='HediffCompProperties_TendDuration']</xpath>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/HediffDef[defName="HepatitisK"]/comps/li[@Class='HediffCompProperties_TendDuration']</xpath>
+          <value>
+            <li Class="MSTend.MSHediffCompProperties_TendDuration">
+              <baseTendDurationHours>120</baseTendDurationHours>
+              <tendAllAtOnce>true</tendAllAtOnce>
+              <severityPerDayTended>-0.25</severityPerDayTended>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Diseases Overhauled</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationTest">
+          <xpath>/Defs/HediffDef[defName="StomachUlcer"]/comps/li[@Class='HediffCompProperties_TendDuration']</xpath>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/HediffDef[defName="StomachUlcer"]/comps/li[@Class='HediffCompProperties_TendDuration']</xpath>
+          <value>
+            <li Class="MSTend.MSHediffCompProperties_TendDuration">
+              <baseTendDurationHours>96</baseTendDurationHours>
+              <tendAllAtOnce>true</tendAllAtOnce>
+              <severityPerDayTended>-0.35</severityPerDayTended>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Diseases Overhauled</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationTest">
+          <xpath>/Defs/HediffDef[defName="Tuberculosis"]/comps/li[@Class='HediffCompProperties_TendDuration']</xpath>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/HediffDef[defName="Tuberculosis"]/comps/li[@Class='HediffCompProperties_TendDuration']</xpath>
+          <value>
+            <li Class="MSTend.MSHediffCompProperties_TendDuration">
+              <baseTendDurationHours>120</baseTendDurationHours>
+              <severityPerDayTended>-0.20</severityPerDayTended>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Diseases Overhauled</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationTest">
+          <xpath>/Defs/HediffDef[defName="KindredDickVirus"]/comps/li[@Class='HediffCompProperties_TendDuration']</xpath>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/HediffDef[defName="KindredDickVirus"]/comps/li[@Class='HediffCompProperties_TendDuration']</xpath>
+          <value>
+            <li Class="MSTend.MSHediffCompProperties_TendDuration">
+              <baseTendDurationHours>36</baseTendDurationHours>
+              <severityPerDayTended>-0.38</severityPerDayTended>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Diseases Overhauled</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationTest">
+          <xpath>/Defs/HediffDef[defName="Sepsis"]/comps/li[@Class='HediffCompProperties_TendDuration']</xpath>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/HediffDef[defName="Sepsis"]/comps/li[@Class='HediffCompProperties_TendDuration']</xpath>
+          <value>
+            <li Class="MSTend.MSHediffCompProperties_TendDuration">
+              <baseTendDurationHours>36</baseTendDurationHours>
+              <severityPerDayTended>-0.425</severityPerDayTended>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Diseases Overhauled</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationTest">
+          <xpath>/Defs/HediffDef[defName="Toothache"]/comps/li[@Class='HediffCompProperties_TendDuration']</xpath>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/HediffDef[defName="Toothache"]/comps/li[@Class='HediffCompProperties_TendDuration']</xpath>
+          <value>
+            <li Class="MSTend.MSHediffCompProperties_TendDuration">
+              <baseTendDurationHours>36</baseTendDurationHours>
+              <severityPerDayTended>-0.45</severityPerDayTended>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Diseases Overhauled</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationTest">
+          <xpath>/Defs/HediffDef[defName="VoightBernsteinDisease"]/comps/li[@Class='HediffCompProperties_TendDuration']</xpath>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/HediffDef[defName="VoightBernsteinDisease"]/comps/li[@Class='HediffCompProperties_TendDuration']</xpath>
+          <value>
+            <li Class="MSTend.MSHediffCompProperties_TendDuration">
+              <baseTendDurationHours>120</baseTendDurationHours>
+              <severityPerDayTended>-0.125</severityPerDayTended>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Diseases Overhauled</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationTest">
+          <xpath>/Defs/HediffDef[defName="NewReschianFever"]/comps/li[@Class='HediffCompProperties_TendDuration']</xpath>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/HediffDef[defName="NewReschianFever"]/comps/li[@Class='HediffCompProperties_TendDuration']</xpath>
+          <value>
+            <li Class="MSTend.MSHediffCompProperties_TendDuration">
+              <baseTendDurationHours>36</baseTendDurationHours>
+              <severityPerDayTended>-0.34</severityPerDayTended>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Diseases Overhauled</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationTest">
+          <xpath>/Defs/HediffDef[defName="Migraine"]/comps/li[@Class='HediffCompProperties_TendDuration']</xpath>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/HediffDef[defName="Migraine"]/comps/li[@Class='HediffCompProperties_TendDuration']</xpath>
+          <value>
+            <li Class="MSTend.MSHediffCompProperties_TendDuration">
+              <baseTendDurationHours>72</baseTendDurationHours>
+              <tendAllAtOnce>true</tendAllAtOnce>
+              <severityPerDayTended>-2</severityPerDayTended>
+            </li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

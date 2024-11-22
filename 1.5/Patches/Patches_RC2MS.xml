@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ====== Compatability Patch ==================== -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>[1.0, 1.1] RimCuisine 2 Core</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="MakeMSMultiVitamins"]/ingredients/li[2]/filter/categories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeMSMultiVitamins"]/ingredients/li[2]/filter/categories</xpath>
+            <value>
+              <li>RC2_FruitsRaw</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeMSMultiVitamins"]/ingredients/li[2]/filter</xpath>
+            <value>
+              <categories>
+                <li>RC2_FruitsRaw</li>
+              </categories>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="MakeMSMultiVitamins"]/fixedIngredientFilter/categories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeMSMultiVitamins"]/fixedIngredientFilter/categories</xpath>
+            <value>
+              <li>RC2_FruitsRaw</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeMSMultiVitamins"]/fixedIngredientFilter</xpath>
+            <value>
+              <categories>
+                <li>RC2_FruitsRaw</li>
+              </categories>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="MakeBulkMSMultiVitamins"]/ingredients/li[2]/filter/categories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeBulkMSMultiVitamins"]/ingredients/li[2]/filter/categories</xpath>
+            <value>
+              <li>RC2_FruitsRaw</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeBulkMSMultiVitamins"]/ingredients/li[2]/filter</xpath>
+            <value>
+              <categories>
+                <li>RC2_FruitsRaw</li>
+              </categories>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="MakeBulkMSMultiVitamins"]/fixedIngredientFilter/categories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeBulkMSMultiVitamins"]/fixedIngredientFilter/categories</xpath>
+            <value>
+              <li>RC2_FruitsRaw</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeBulkMSMultiVitamins"]/fixedIngredientFilter</xpath>
+            <value>
+              <categories>
+                <li>RC2_FruitsRaw</li>
+              </categories>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="MakeAntitoxin"]/ingredients/li[2]/filter/thingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeAntitoxin"]/ingredients/li[2]/filter/thingDefs</xpath>
+            <value>
+              <li>RC2_RawTruffles</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeAntitoxin"]/ingredients/li[2]/filter</xpath>
+            <value>
+              <thingDefs>
+                <li>RC2_RawTruffles</li>
+              </thingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="MakeAntitoxin"]/fixedIngredientFilter/thingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeAntitoxin"]/fixedIngredientFilter/thingDefs</xpath>
+            <value>
+              <li>RC2_RawTruffles</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeAntitoxin"]/fixedIngredientFilter</xpath>
+            <value>
+              <thingDefs>
+                <li>RC2_RawTruffles</li>
+              </thingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="MakeBulkAntitoxin"]/ingredients/li[2]/filter/thingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeBulkAntitoxin"]/ingredients/li[2]/filter/thingDefs</xpath>
+            <value>
+              <li>RC2_RawTruffles</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeBulkAntitoxin"]/ingredients/li[2]/filter</xpath>
+            <value>
+              <thingDefs>
+                <li>RC2_RawTruffles</li>
+              </thingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="MakeBulkAntitoxin"]/fixedIngredientFilter/thingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeBulkAntitoxin"]/fixedIngredientFilter/thingDefs</xpath>
+            <value>
+              <li>RC2_RawTruffles</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeBulkAntitoxin"]/fixedIngredientFilter</xpath>
+            <value>
+              <thingDefs>
+                <li>RC2_RawTruffles</li>
+              </thingDefs>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  <!-- Add to Vanilla -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Bed" or defName="DoubleBed" or defName="RoyalBed" or defName="HospitalBed" 
+			or defName="SleepingSpot" or defName="Bedroll" or defName="BedrollDouble"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities</xpath>
+        <value>
+          <li>MS_DStand</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="MSMedicalMat" or defName="MSMedicalMatSpacer" or defName="MSMedicalMatUltra"
+				or defName="MSMedicalMatEarly"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities</xpath>
+        <value>
+          <li>MS_DStand</li>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="AnimalSleepingSpot" or defName="AnimalSleepingBox" or defName="AnimalBed"]/comps</xpath>
+        <value>
+          <li Class="CompProperties_AffectedByFacilities">
+            <linkableFacilities>
+              <li>MS_DStand</li>
+            </linkableFacilities>
+          </li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- Nano Repair Tech -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Nano Repair Tech</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="Ogre_NanoTech_HospitalBed" or defName="Ogre_NanoTech_DoubleBed"
+				   or defName="Ogre_NanoTech_RoyalBed" or defName="Ogre_NanoTech_Bed"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities</xpath>
+          <value>
+            <li>MS_DStand</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <!--  Fast Regen -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Fast regen 1.1</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="HerbBede" or defName="MedBed" or defName="IIMed"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities</xpath>
+          <value>
+            <li>MS_DStand</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

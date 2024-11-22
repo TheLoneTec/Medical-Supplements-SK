@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- =========== Androgen ==================== -->
+  <ThingDef ParentName="MSDrugPillBase">
+    <defName>MSAndrogen</defName>
+    <label>Androgen</label>
+    <description>Synthetic androgen used as a mild steroid hormone. Can make a person more temperamental and also potential unwanted hair growth for women as a more uncommon side effect. Effects last for 3 days.</description>
+    <graphicData>
+      <texPath>Things/Item/MSAndrogen</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>300</WorkToMake>
+      <MarketValue>24</MarketValue>
+      <Mass>0.02</Mass>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>HedMSAndrogen</hediffDef>
+          <severity>3</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1611</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.01</min>
+          <max>0.03</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>HedMSAndrogen</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>Androgen effect</label>
+    <description>Androgen Effect</description>
+    <defaultLabelColor>(0.35, 0.58, 0.93)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>3.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.95</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <socialFightChanceFactor>1.5</socialFightChanceFactor>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>+0.07</offset>
+          </li>
+          <li>
+            <capacity>Breathing</capacity>
+            <offset>0.05</offset>
+          </li>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>0.03</offset>
+          </li>
+          <li>
+            <capacity>BloodPumping</capacity>
+            <offset>0.03</offset>
+          </li>
+          <li>
+            <capacity>Metabolism</capacity>
+            <offset>0.02</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <ThoughtDef>
+    <defName>ThoughtMSAndrogen</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>HedMSAndrogen</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>Androgen</label>
+        <description>Androgen makes me feel slightly cranky</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- ===== Recipes ========= -->
+  <RecipeDef>
+    <defName>MakeMSAndrogen</defName>
+    <label>Make Androgen</label>
+    <description>Make Androgen tablets.</description>
+    <jobString>Making Androgen</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>300</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSGlycerol</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSPhenol</li>
+            <li>MSSulphuricAcid</li>
+            <li>MSHydrochloricAcid</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MSGlycerol</li>
+        <li>MSPhenol</li>
+        <li>MSSulphuricAcid</li>
+        <li>MSHydrochloricAcid</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSAndrogen>1</MSAndrogen>
+    </products>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>8</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>MSAndrogen</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>MakeBulkMSAndrogen</defName>
+    <label>Make Androgen in bulk</label>
+    <description>Make 5 Androgen tablets.</description>
+    <jobString>Making Androgen</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1450</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSGlycerol</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSPhenol</li>
+            <li>MSSulphuricAcid</li>
+            <li>MSHydrochloricAcid</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MSGlycerol</li>
+        <li>MSPhenol</li>
+        <li>MSSulphuricAcid</li>
+        <li>MSHydrochloricAcid</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSAndrogen>5</MSAndrogen>
+    </products>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>9</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>MSAndrogen</researchPrerequisite>
+  </RecipeDef>
+</Defs>

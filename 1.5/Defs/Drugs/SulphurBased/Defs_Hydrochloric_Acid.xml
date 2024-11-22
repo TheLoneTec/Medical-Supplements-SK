@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>MSHydrochloricAcid</defName>
+    <label>Hydrochloric Acid</label>
+    <description>Hydrochloric acid (or muriatic acid) is a colorless inorganic chemical with the formula H2O:HCl. Hydrochloric acid has a distinctive pungent smell. It is classified as strongly acidic and can attack the skin, since the hydrogen chloride completely dissociates in aqueous solution. Hydrochloric acid is the simplest chlorine-based acid system containing water.</description>
+    <graphicData>
+      <texPath>Things/Item/MSHydrochloricAcid</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <!-- <drawSize>0.90</drawSize> -->
+    </graphicData>
+    <stackLimit>75</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>7.7</MarketValue>
+      <Mass>0.03</Mass>
+      <Flammability>0.2</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <thingCategories>
+      <li>MSManufactured</li>
+    </thingCategories>
+  </ThingDef>
+  <!-- ============= Recipes ===================== -->
+  <RecipeDef>
+    <defName>MakeMSHydrochloricAcid</defName>
+    <label>Make Hydrochloric Acid</label>
+    <description>Make 10 Hydrochloric Acid.</description>
+    <jobString>Preparing Hydrochloric Acid.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1000</workAmount>
+    <targetCountAdjustment>10</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>StoneChunks</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSSulphuricAcid</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MSSulphuricAcid</li>
+      </thingDefs>
+      <categories>
+        <li>StoneChunks</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <MSHydrochloricAcid>10</MSHydrochloricAcid>
+    </products>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>5</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>DrugProduction</researchPrerequisite>
+  </RecipeDef>
+</Defs>

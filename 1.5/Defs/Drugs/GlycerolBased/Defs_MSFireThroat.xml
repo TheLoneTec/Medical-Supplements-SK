@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- =========== FireThroat ==================== -->
+  <ThingDef ParentName="MakeableDrugBase">
+    <defName>MSFireThroat</defName>
+    <label>Firethroat</label>
+    <description>A rather strong and unpalatable flu prevention tincture. Taken every 3 days.</description>
+    <graphicData>
+      <texPath>Things/Item/MSFireThroat</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <thingCategories Inherit="false">
+      <li>MSDrugs</li>
+    </thingCategories>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>150</WorkToMake>
+      <MarketValue>32</MarketValue>
+      <Mass>0.03</Mass>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <foodType>Processed, Fluid</foodType>
+      <baseIngestTicks>70</baseIngestTicks>
+      <ingestSound>Ingest_Drink</ingestSound>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+      <ingestReportString>Drinking {0}.</ingestReportString>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.18,0,0)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>MSFireThroat_High</hediffDef>
+          <severity>3</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <recipeMaker>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+      <researchPrerequisite>MSFireThroat</researchPrerequisite>
+      <skillRequirements>
+        <Intellectual>3</Intellectual>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+      <Neutroamine>2</Neutroamine>
+      <MSGlycerol>1</MSGlycerol>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1503</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.01</min>
+          <max>0.03</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>MSFireThroat_High</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>Firethroat glow</label>
+    <description>Firethroat effect</description>
+    <defaultLabelColor>(0.35, 0.58, 0.93)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>3.0</maxSeverity>
+    <lethalSeverity>-1.0</lethalSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.95</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <lifeThreatening>false</lifeThreatening>
+        <makeImmuneTo>
+          <li>Flu</li>
+        </makeImmuneTo>
+        <capMods>
+          <li>
+            <capacity>Breathing</capacity>
+            <offset>+0.08</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <lifeThreatening>false</lifeThreatening>
+        <minSeverity>2.7</minSeverity>
+        <makeImmuneTo>
+          <li>Flu</li>
+        </makeImmuneTo>
+        <capMods>
+          <li>
+            <capacity>Breathing</capacity>
+            <offset>+0.15</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <ThoughtDef>
+    <defName>MSFireThroat_Thought</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>MSFireThroat_High</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>Firethroat</label>
+        <description>Soothing effect</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>Imbalmed Firethroat</label>
+        <description>Disliking the aftertaste</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- ===== Bulk Recipe ========= -->
+  <RecipeDef>
+    <defName>MakeBulkFireThroat</defName>
+    <label>Make Firethroat in bulk</label>
+    <description>Make 5 Firethroat.</description>
+    <jobString>Making Firethroat.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>750</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Neutroamine</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSGlycerol</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Neutroamine</li>
+        <li>MSGlycerol</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSFireThroat>5</MSFireThroat>
+    </products>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>4</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>MSFireThroat</researchPrerequisite>
+  </RecipeDef>
+</Defs>

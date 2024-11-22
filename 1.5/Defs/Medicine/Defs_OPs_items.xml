@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Artery Blockage - Stent -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>MSStent</defName>
+    <label>Medical Stent</label>
+    <description>A medical stent used to widen artieries and remove arterial blockages.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Resource/MSStent</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>20</stackLimit>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <MarketValue>61.5</MarketValue>
+      <Mass>0.05</Mass>
+      <Flammability>0.5</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>MSManufactured</li>
+    </thingCategories>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeMSStent</defName>
+    <label>Make medical stent</label>
+    <description>Make a medical stent.</description>
+    <jobString>Making a medical stent.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>350</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plastic</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Synthread</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Plastic</li>
+        <li>Synthread</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSStent>1</MSStent>
+    </products>
+    <recipeUsers>
+      <li>FabricationBench</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Crafting>8</Crafting>
+    </skillRequirements>
+    <researchPrerequisite>MSSurgeryItemsIndustrial</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>MSArterialStent</defName>
+    <label>install arterial Stent</label>
+    <description>Install and aterial stent to remove an arterial blockage.</description>
+    <workerClass>Recipe_RemoveHediff</workerClass>
+    <jobString>Installing Stent.</jobString>
+    <workAmount>2000</workAmount>
+    <removesHediff>HeartArteryBlockage</removesHediff>
+    <successfullyRemovedHediffMessage>{0} has successfully installed a stent to remove {1}'s arterial blockage.</successfullyRemovedHediffMessage>
+    <deathOnFailedSurgeryChance>0.15</deathOnFailedSurgeryChance>
+    <skillRequirements>
+      <Medicine>9</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSStent</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>MSStent</li>
+      </thingDefs>
+      <disallowedThingDefs>
+        <li>MedicineHerbal</li>
+      </disallowedThingDefs>
+    </fixedIngredientFilter>
+    <researchPrerequisite>MSSurgeryItemsIndustrial</researchPrerequisite>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+  </RecipeDef>
+  <!-- Bad Back -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>MSBackDisc</defName>
+    <label>Artificial back disc</label>
+    <description>An artificial intervertebral disc used to help with back conditions</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Resource/MSBackDisc</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>20</stackLimit>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <MarketValue>41</MarketValue>
+      <Mass>0.2</Mass>
+      <Flammability>0.5</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>MSManufactured</li>
+    </thingCategories>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeMSBackDisc</defName>
+    <label>Make artifical back disc</label>
+    <description>Make an artificial intervertebral disc.</description>
+    <jobString>Making a back disc.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>250</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Synthread</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plastic</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Chemfuel</li>
+        <li>Synthread</li>
+        <li>Plastic</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSBackDisc>1</MSBackDisc>
+    </products>
+    <recipeUsers>
+      <li>FabricationBench</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Crafting>7</Crafting>
+    </skillRequirements>
+    <researchPrerequisite>MSSurgeryItemsIndustrial</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>MSBadBackDiscs</defName>
+    <label>add artificial back discs</label>
+    <description>add artificial back discs.</description>
+    <workerClass>Recipe_RemoveHediff</workerClass>
+    <jobString>installing back discs.</jobString>
+    <workAmount>2500</workAmount>
+    <removesHediff>BadBack</removesHediff>
+    <successfullyRemovedHediffMessage>{0} has successfully installed new back discs for {1}.</successfullyRemovedHediffMessage>
+    <deathOnFailedSurgeryChance>0.10</deathOnFailedSurgeryChance>
+    <skillRequirements>
+      <Medicine>9</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSBackDisc</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>MSBackDisc</li>
+      </thingDefs>
+      <disallowedThingDefs>
+        <li>MedicineHerbal</li>
+      </disallowedThingDefs>
+    </fixedIngredientFilter>
+    <researchPrerequisite>MSSurgeryItemsIndustrial</researchPrerequisite>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+  </RecipeDef>
+  <!-- ============== Spacer ================== -->
+  <!-- Cataract Removal -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>MSAdvSurgeryTools</defName>
+    <label>Advanced Surgery Tools</label>
+    <description>A collection of precision tools and materials used for obscure and complex surgery</description>
+    <techLevel>Spacer</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Resource/MSAdvSurgeryTools</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>20</stackLimit>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <MarketValue>140</MarketValue>
+      <Mass>0.8</Mass>
+      <Flammability>0.5</Flammability>
+      <DeteriorationRate>0.2</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>MSManufactured</li>
+    </thingCategories>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeMSAdvSurgeryTools</defName>
+    <label>Make advanced surgery tools</label>
+    <description>Make an advanced surgery toolset.</description>
+    <jobString>Making an advanced surgery toolset.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>700</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MedicineUltratech</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Hyperweave</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MedicineUltratech</li>
+        <li>Plasteel</li>
+        <li>Hyperweave</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSAdvSurgeryTools>1</MSAdvSurgeryTools>
+    </products>
+    <recipeUsers>
+      <li>FabricationBench</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Crafting>10</Crafting>
+    </skillRequirements>
+    <researchPrerequisite>MSSurgeryItemsSpacer</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>MSCataractRemoval</defName>
+    <label>remove cataract</label>
+    <description>remove cataract.</description>
+    <workerClass>Recipe_RemoveHediff</workerClass>
+    <jobString>Removing cataract.</jobString>
+    <workAmount>1500</workAmount>
+    <removesHediff>Cataract</removesHediff>
+    <successfullyRemovedHediffMessage>{0} has successfully removed a cataract for {1}.</successfullyRemovedHediffMessage>
+    <deathOnFailedSurgeryChance>0.03</deathOnFailedSurgeryChance>
+    <skillRequirements>
+      <Medicine>12</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MedicineUltratech</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSAdvSurgeryTools</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSContacts</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MedicineUltratech</li>
+        <li>MSAdvSurgeryTools</li>
+        <li>MSContacts</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <researchPrerequisite>MSSurgeryItemsSpacer</researchPrerequisite>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+  </RecipeDef>
+</Defs>

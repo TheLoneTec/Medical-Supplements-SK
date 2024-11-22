@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>GhostGear (Continued)</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeRPNerveToxin_Vial"]/ingredients/li[2]/filter/thingDefs</xpath>
+          <value>
+            <li>MSEthylMercury</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/RecipeDef[defName="MakeRPNerveToxin_Vial"]/fixedIngredientFilter/thingDefs</xpath>
+          <value>
+            <li>MSEthylMercury</li>
+          </value>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/HediffDef[defName="GGNerveToxin"]/comps</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="GGNerveToxin"]/comps</xpath>
+            <value>
+              <li Class="MSRegen.HediffCompProperties_MSCure">
+                <CureHoursMin>6</CureHoursMin>
+                <CureHoursMax>12</CureHoursMax>
+              </li>
+            </value>
+          </match>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/HediffDef[defName="MSAntinitesHigh"]/stages//makeImmuneTo</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="MSAntinitesHigh"]/stages//makeImmuneTo</xpath>
+            <value>
+              <li>GGNerveToxin</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="MSAntinitesHigh"]/stages/li</xpath>
+            <value>
+              <makeImmuneTo>
+                <li>GGNerveToxin</li>
+              </makeImmuneTo>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/HediffDef[defName="MSBattleStim_High"]/stages//makeImmuneTo</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="MSBattleStim_High"]/stages//makeImmuneTo</xpath>
+            <value>
+              <li>GGNerveToxin</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="MSBattleStim_High"]/stages/li</xpath>
+            <value>
+              <makeImmuneTo>
+                <li>GGNerveToxin</li>
+              </makeImmuneTo>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

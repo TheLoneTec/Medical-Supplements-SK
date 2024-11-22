@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ====== Allows MS tend mechanics to certain illnesses ==================== -->
+  <!-- Asthma -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/HediffDef[defName="Asthma"]/comps/li[@Class='HediffCompProperties_TendDuration']</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/HediffDef[defName="Asthma"]/comps/li[@Class='HediffCompProperties_TendDuration']</xpath>
+        <value>
+          <li Class="MSTend.MSHediffCompProperties_TendDuration">
+            <baseTendDurationHours>168</baseTendDurationHours>
+            <tendAllAtOnce>true</tendAllAtOnce>
+            <severityPerDayTended>-0.8</severityPerDayTended>
+          </li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- Flu -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/HediffDef[defName="Flu"]/comps/li[@Class='HediffCompProperties_TendDuration']</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/HediffDef[defName="Flu"]/comps/li[@Class='HediffCompProperties_TendDuration']</xpath>
+        <value>
+          <li Class="MSTend.MSHediffCompProperties_TendDuration">
+            <baseTendDurationHours>12</baseTendDurationHours>
+            <severityPerDayTended>-0.0773</severityPerDayTended>
+          </li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- Mechanites -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/HediffDef[@Name="MechanitesBase"]/comps/li[@Class='HediffCompProperties_TendDuration']</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/HediffDef[@Name="MechanitesBase"]/comps/li[@Class='HediffCompProperties_TendDuration']</xpath>
+        <value>
+          <li Class="MSTend.MSHediffCompProperties_TendDuration">
+            <baseTendDurationHours>48</baseTendDurationHours>
+            <severityPerDayTended>-1.0</severityPerDayTended>
+          </li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- Rimpeptic -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/HediffDef[defName="GutWorms"]/comps/li[@Class='HediffCompProperties_TendDuration']</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/HediffDef[defName="GutWorms"]/comps/li[@Class='HediffCompProperties_TendDuration']</xpath>
+        <value>
+          <li Class="MSTend.MSHediffCompProperties_TendDuration">
+            <baseTendDurationHours>48</baseTendDurationHours>
+            <disappearsAtTotalTendQuality>3</disappearsAtTotalTendQuality>
+          </li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- Rimtarol -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/HediffDef[defName="MuscleParasites"]/comps/li[@Class='HediffCompProperties_TendDuration']</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/HediffDef[defName="MuscleParasites"]/comps/li[@Class='HediffCompProperties_TendDuration']</xpath>
+        <value>
+          <li Class="MSTend.MSHediffCompProperties_TendDuration">
+            <baseTendDurationHours>48</baseTendDurationHours>
+            <disappearsAtTotalTendQuality>3</disappearsAtTotalTendQuality>
+          </li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!-- Rimedicrem -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/HediffDef[defName="WoundInfection"]/comps/li[@Class='HediffCompProperties_TendDuration']</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/HediffDef[defName="WoundInfection"]/comps/li[@Class='HediffCompProperties_TendDuration']</xpath>
+        <value>
+          <li Class="MSTend.MSHediffCompProperties_TendDuration">
+            <baseTendDurationHours>12</baseTendDurationHours>
+            <severityPerDayTended>-0.53</severityPerDayTended>
+          </li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <!--  Carcinoma -->
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/HediffDef[defName="Carcinoma"]/comps/li[@Class='HediffCompProperties_TendDuration']</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/HediffDef[defName="Carcinoma"]/comps/li[@Class='HediffCompProperties_TendDuration']</xpath>
+        <value>
+          <li Class="MSTend.MSHediffCompProperties_TendDuration">
+            <baseTendDurationHours>96</baseTendDurationHours>
+            <severityPerDayTended>-0.0027</severityPerDayTended>
+          </li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/HediffDef[defName="Carcinoma"]/comps/li[@Class='HediffCompProperties_GrowthMode']</xpath>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/HediffDef[defName="Carcinoma"]/comps/li[@Class='HediffCompProperties_GrowthMode']</xpath>
+        <value>
+          <li Class="MSTend.MSHediffCompProperties_GrowthMode">
+            <severityPerDayGrowing>0.003</severityPerDayGrowing>
+            <severityPerDayRemission>-0.002</severityPerDayRemission>
+            <severityPerDayGrowingRandomFactor>
+              <min>0.45</min>
+              <max>1.65</max>
+            </severityPerDayGrowingRandomFactor>
+            <severityPerDayRemissionRandomFactor>
+              <min>0.7</min>
+              <max>1.5</max>
+            </severityPerDayRemissionRandomFactor>
+          </li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

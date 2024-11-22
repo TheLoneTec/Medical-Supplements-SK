@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Perpetuity -->
+  <!-- Perpetuity Vial -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>MSPerpetuity_Vial</defName>
+    <label>Perpetuity Vial</label>
+    <description>Vial of Perpetuity chemicals. To be prepared in the Stimlab.</description>
+    <techLevel>Ultra</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Resource/MSPerpetuity_Vial</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <stackLimit>150</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>1537.5</MarketValue>
+      <!-- M 254 x 5, A 15 x 5, HP 5 x 5, EM 33.5 x 5 -->
+      <Mass>0.1</Mass>
+      <Flammability>0.7</Flammability>
+      <DeteriorationRate>3.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>MSManufactured</li>
+    </thingCategories>
+    <tradeability>None</tradeability>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeMSPerpetuityVial</defName>
+    <label>Make Perpetuity Vial</label>
+    <description>Make 1 Perpetuity Vial.</description>
+    <jobString>Making a Perpetuity Vial.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <workAmount>1500</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSMetasis_Vial</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Ambrosia</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSHydrogenPeroxide</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSEthylMercury</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MSMetasis_Vial</li>
+        <li>Ambrosia</li>
+        <li>MSHydrogenPeroxide</li>
+        <li>MSEthylMercury</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSPerpetuity_Vial>1</MSPerpetuity_Vial>
+    </products>
+    <recipeUsers>
+      <li>MSStimLab</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>15</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>MSTranscendence</researchPrerequisite>
+  </RecipeDef>
+  <!-- Perpetuity -->
+  <ThingDef ParentName="MSExoticBase">
+    <defName>MSPerpetuity</defName>
+    <label>Perpetuity</label>
+    <description>A dose of self injected mechanites designed to rejuvinate the user. The Elixir of Life from legend.</description>
+    <graphicData>
+      <texPath>Things/Item/MSExotic/MSPerpetuity/MSPerpetuity</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <techLevel>Ultra</techLevel>
+    <statBases>
+      <WorkToMake>750</WorkToMake>
+      <MarketValue>1907.5</MarketValue>
+      <!-- 1537.5, 30, 340 =  -->
+    </statBases>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <generateCommonality>0.00003</generateCommonality>
+    <category>Item</category>
+    <altitudeLayer>Item</altitudeLayer>
+    <alwaysHaulable>True</alwaysHaulable>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Use Perpetuity</useLabel>
+        <useDuration>300</useDuration>
+      </li>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+    <thingCategories Inherit="false">
+      <li>MSInjectStim</li>
+    </thingCategories>
+    <tradeability>None</tradeability>
+  </ThingDef>
+  <!-- Recipe -->
+  <RecipeDef>
+    <defName>MakeMSPerpetuity</defName>
+    <label>Make Perpetuity</label>
+    <description>Make 1 Perpetuity</description>
+    <jobString>Making Perpetuity</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workSkill>Intellectual</workSkill>
+    <workAmount>500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSPerpetuity_Vial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Uranium</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSInjector_Unit</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MSPerpetuity_Vial</li>
+        <li>Uranium</li>
+        <li>MSInjector_Unit</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSPerpetuity>1</MSPerpetuity>
+    </products>
+    <skillRequirements>
+      <Crafting>8</Crafting>
+      <Intellectual>15</Intellectual>
+    </skillRequirements>
+    <recipeUsers>
+      <li>MSStimLab</li>
+    </recipeUsers>
+    <researchPrerequisite>MSTranscendence</researchPrerequisite>
+  </RecipeDef>
+</Defs>

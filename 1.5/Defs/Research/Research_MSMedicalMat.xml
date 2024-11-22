@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>MSMedicalMat</defName>
+    <label>Medical Mats</label>
+    <description>Grants the ability to make Medical Mats. A rolled up portable mat that can be used for medical purposes in the field or as a useful caravan item.</description>
+    <baseCost>250</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>HospitalBed</li>
+      <li>SterileMaterials</li>
+    </prerequisites>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>0.20</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MSMedicalMatSpacer</defName>
+    <label>Advanced Medical Mats</label>
+    <description>Grants the ability to make Advanced Medical Mats. A rolled up advanced portable mat that can be used for medical purposes in the field or as a useful caravan item.</description>
+    <baseCost>300</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>MSMedicalMat</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>0.30</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MSMedicalMatUltra</defName>
+    <label>Ultra Medical Mats</label>
+    <description>Grants the ability to make Ultratech Medical Mats. A rolled up high-tech portable mat that can be used for medical purposes in the field or as a useful caravan item.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Ultra</techLevel>
+    <prerequisites>
+      <li>MSMedicalMatSpacer</li>
+      <li>MSMetasis</li>
+    </prerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>2.30</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MSMedicalMatEarly</defName>
+    <label>Early Medical Mats</label>
+    <description>Grants the ability to make early Medical Mats. A rolled up portable mat made from herbal medicine impregnated rope that can be used for medical purposes in the field or as a useful caravan item.</description>
+    <baseCost>200</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>CarpetMaking</li>
+    </prerequisites>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>2.80</researchViewY>
+  </ResearchProjectDef>
+</Defs>

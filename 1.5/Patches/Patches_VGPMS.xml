@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ====== Compatability Patch ==================== -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>VGP Vegetable Garden</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="MakeMSMultiVitamins"]/ingredients/li[2]/filter/categories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeMSMultiVitamins"]/ingredients/li[2]/filter/categories</xpath>
+            <value>
+              <li>FruitFoodRaw</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeMSMultiVitamins"]/ingredients/li[2]/filter</xpath>
+            <value>
+              <categories>
+                <li>FruitFoodRaw</li>
+              </categories>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="MakeMSMultiVitamins"]/fixedIngredientFilter/categories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeMSMultiVitamins"]/fixedIngredientFilter/categories</xpath>
+            <value>
+              <li>FruitFoodRaw</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeMSMultiVitamins"]/fixedIngredientFilter</xpath>
+            <value>
+              <categories>
+                <li>FruitFoodRaw</li>
+              </categories>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="MakeBulkMSMultiVitamins"]/ingredients/li[2]/filter/categories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeBulkMSMultiVitamins"]/ingredients/li[2]/filter/categories</xpath>
+            <value>
+              <li>FruitFoodRaw</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeBulkMSMultiVitamins"]/ingredients/li[2]/filter</xpath>
+            <value>
+              <categories>
+                <li>FruitFoodRaw</li>
+              </categories>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="MakeBulkMSMultiVitamins"]/fixedIngredientFilter/categories</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeBulkMSMultiVitamins"]/fixedIngredientFilter/categories</xpath>
+            <value>
+              <li>FruitFoodRaw</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeBulkMSMultiVitamins"]/fixedIngredientFilter</xpath>
+            <value>
+              <categories>
+                <li>FruitFoodRaw</li>
+              </categories>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="MakeAntitoxin"]/ingredients/li[2]/filter/thingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeAntitoxin"]/ingredients/li[2]/filter/thingDefs</xpath>
+            <value>
+              <li>Rawmushroom</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeAntitoxin"]/ingredients/li[2]/filter</xpath>
+            <value>
+              <thingDefs>
+                <li>Rawmushroom</li>
+              </thingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="MakeAntitoxin"]/fixedIngredientFilter/thingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeAntitoxin"]/fixedIngredientFilter/thingDefs</xpath>
+            <value>
+              <li>Rawmushroom</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeAntitoxin"]/fixedIngredientFilter</xpath>
+            <value>
+              <thingDefs>
+                <li>Rawmushroom</li>
+              </thingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="MakeBulkAntitoxin"]/ingredients/li[2]/filter/thingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeBulkAntitoxin"]/ingredients/li[2]/filter/thingDefs</xpath>
+            <value>
+              <li>Rawmushroom</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeBulkAntitoxin"]/ingredients/li[2]/filter</xpath>
+            <value>
+              <thingDefs>
+                <li>Rawmushroom</li>
+              </thingDefs>
+            </value>
+          </nomatch>
+        </li>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/RecipeDef[defName="MakeBulkAntitoxin"]/fixedIngredientFilter/thingDefs</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeBulkAntitoxin"]/fixedIngredientFilter/thingDefs</xpath>
+            <value>
+              <li>Rawmushroom</li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/RecipeDef[defName="MakeBulkAntitoxin"]/fixedIngredientFilter</xpath>
+            <value>
+              <thingDefs>
+                <li>Rawmushroom</li>
+              </thingDefs>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <!-- Example patch for other mods to apply MSVitamins Food poisoning mechanics -->
+  <!--
+	
+	<Operation Class="PatchOperationFindMod">
+		<mods>Medical Supplements</mods>
+			<match Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name="VG_MealBase"]/comps/li[@Class='CompProperties_FoodPoisonable']</xpath>
+	  				<value>
+		  				<li Class="MSVitamins.MSCompProperties_FoodPoisonable" />
+	  				</value>
+			</match>
+	</Operation>
+	
+	-->
+  <!-- Bulk Penoxy -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>VGP Garden Medicine</li>
+    </mods>
+    <nomatch Class="PatchOperationAdd">
+      <xpath>Defs</xpath>
+      <value>
+        <RecipeDef>
+          <defName>MSBulkPenoxycyline</defName>
+          <label>Make penoxycyline in bulk</label>
+          <description>Make 5 penoxycyline.</description>
+          <jobString>Crafting penoxycyline.</jobString>
+          <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+          <effectWorking>Cook</effectWorking>
+          <soundWorking>Recipe_CookMeal</soundWorking>
+          <allowMixingIngredients>true</allowMixingIngredients>
+          <workSkill>Intellectual</workSkill>
+          <workAmount>2500</workAmount>
+          <ingredients>
+            <li>
+              <filter>
+                <thingDefs>
+                  <li>Neutroamine</li>
+                </thingDefs>
+              </filter>
+              <count>10</count>
+            </li>
+          </ingredients>
+          <fixedIngredientFilter>
+            <thingDefs>
+              <li>Neutroamine</li>
+            </thingDefs>
+          </fixedIngredientFilter>
+          <products>
+            <Penoxycyline>5</Penoxycyline>
+          </products>
+          <skillRequirements>
+            <Intellectual>5</Intellectual>
+          </skillRequirements>
+          <recipeUsers>
+            <li>DrugLab</li>
+          </recipeUsers>
+          <researchPrerequisite>PenoxycylineProduction</researchPrerequisite>
+        </RecipeDef>
+      </value>
+    </nomatch>
+  </Operation>
+</Patch>

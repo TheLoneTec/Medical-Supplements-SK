@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ========== Metasis Vial ================ -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>MSMetasis_Vial</defName>
+    <label>Metasis Vial</label>
+    <description>Metasis Chemical. Combine with an injector unit to make Metasis Injection</description>
+    <techLevel>Ultra</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Resource/MSMetasis_Vial</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <!-- <drawSize>0.90</drawSize> -->
+    </graphicData>
+    <stackLimit>150</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>254</MarketValue>
+      <Mass>0.02</Mass>
+      <Flammability>0.7</Flammability>
+      <DeteriorationRate>3.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>MSManufactured</li>
+    </thingCategories>
+    <tradeability>None</tradeability>
+  </ThingDef>
+  <!-- ============= Recipes Metasis Vial ============ -->
+  <RecipeDef>
+    <defName>MakeMetasisVial</defName>
+    <label>Make Metasis Vial</label>
+    <description>Make a Metasis Vial.</description>
+    <jobString>Making a Metais Vial.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <workAmount>500</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Luciferium</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSGlycerol</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MedicineHerbal</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Luciferium</li>
+        <li>MSGlycerol</li>
+        <li>MedicineHerbal</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSMetasis_Vial>1</MSMetasis_Vial>
+    </products>
+    <recipeUsers>
+      <li>DrugLab</li>
+      <li>MSStimLab</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>9</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>MSMetasis</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>MakeBulkMetasisVial</defName>
+    <label>Make Metasis Vials in bulk</label>
+    <description>Make 5 Metasis Vials.</description>
+    <jobString>Making Metais Vials.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <workAmount>2450</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Luciferium</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSGlycerol</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MedicineHerbal</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Luciferium</li>
+        <li>MSGlycerol</li>
+        <li>MedicineHerbal</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSMetasis_Vial>5</MSMetasis_Vial>
+    </products>
+    <recipeUsers>
+      <li>DrugLab</li>
+      <li>MSStimLab</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>10</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>MSMetasis</researchPrerequisite>
+  </RecipeDef>
+  <!-- ========== Injector Unit ================ -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>MSInjector_Unit</defName>
+    <label>Injector Unit</label>
+    <description>A base mechanite ready injector unit. Combine with mechanite chemicals for use.</description>
+    <techLevel>Ultra</techLevel>
+    <graphicData>
+      <texPath>Things/Item/Resource/MSInjector_Unit</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <!-- <drawSize>0.90</drawSize> -->
+    </graphicData>
+    <stackLimit>20</stackLimit>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <MarketValue>340</MarketValue>
+      <Mass>0.3</Mass>
+      <Flammability>0.5</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>MSManufactured</li>
+    </thingCategories>
+    <tradeability>None</tradeability>
+  </ThingDef>
+  <!-- ====== Recipes Injector Unit =================== -->
+  <RecipeDef>
+    <defName>MakeMSInjectorUnit</defName>
+    <label>Make Injector Unit</label>
+    <description>Make an injector unit.</description>
+    <jobString>Making an Injector unit.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>300</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MedicineUltratech</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Plasteel</li>
+        <li>ComponentSpacer</li>
+        <li>MedicineUltratech</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSInjector_Unit>1</MSInjector_Unit>
+    </products>
+    <recipeUsers>
+      <li>FabricationBench</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Crafting>8</Crafting>
+    </skillRequirements>
+    <researchPrerequisite>MSMetasis</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>MakeBulkMSInjectorUnit</defName>
+    <label>Make Injector Units in bulk</label>
+    <description>Make 5 injector units.</description>
+    <jobString>Making Injector units.</jobString>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <effectWorking>Smith</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <workAmount>1450</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MedicineUltratech</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Plasteel</li>
+        <li>ComponentSpacer</li>
+        <li>MedicineUltratech</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSInjector_Unit>5</MSInjector_Unit>
+    </products>
+    <recipeUsers>
+      <li>FabricationBench</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Crafting>9</Crafting>
+    </skillRequirements>
+    <researchPrerequisite>MSMetasis</researchPrerequisite>
+  </RecipeDef>
+  <!-- ========== Metasis ==================== -->
+  <ThingDef ParentName="MSDrugInjectBase">
+    <defName>MSMetasis</defName>
+    <label>Metasis Injection</label>
+    <description>Refined from Luciferium this modified concoction of mechanites improve the body's functioning in all respects. Removes the addiction properties of Luciferium as part of the refining process but also removes some of the other benefits. Taken every 7 days.</description>
+    <graphicData>
+      <texPath>Things/Item/MSMetasis/MSMetasis</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <stackLimit>20</stackLimit>
+    <statBases>
+      <MarketValue>594</MarketValue>
+      <Mass>0.32</Mass>
+      <WorkToMake>100</WorkToMake>
+    </statBases>
+    <techLevel>Ultra</techLevel>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>MSMetasisHigh</hediffDef>
+          <severity>7.00</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1510</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.01</min>
+          <max>0.03</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+    <recipeMaker>
+      <recipeUsers>
+        <li>DrugLab</li>
+        <li>MSStimLab</li>
+      </recipeUsers>
+      <researchPrerequisite>MSMetasis</researchPrerequisite>
+      <skillRequirements>
+        <Intellectual>9</Intellectual>
+      </skillRequirements>
+    </recipeMaker>
+    <costList>
+      <MSMetasis_Vial>1</MSMetasis_Vial>
+      <MSInjector_Unit>1</MSInjector_Unit>
+    </costList>
+    <tradeability>None</tradeability>
+  </ThingDef>
+  <HediffDef>
+    <defName>MSMetasisHigh</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>Metasis</label>
+    <description>Metasis Effect</description>
+    <defaultLabelColor>(1,1,0.5)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>7.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="MSLHM.HediffCompProperties_HealPermanentWounds" />
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.95</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <painFactor>0.85</painFactor>
+        <capMods>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <offset>0.2</offset>
+          </li>
+          <li>
+            <capacity>BloodPumping</capacity>
+            <offset>0.05</offset>
+          </li>
+          <li>
+            <capacity>Metabolism</capacity>
+            <offset>0.05</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <ThoughtDef>
+    <defName>MSMetasisTHigh</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>MSMetasisHigh</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>Metasis</label>
+        <description>Feeling rejuvinated.</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <!-- ===== Bulk Recipe ========= -->
+  <RecipeDef>
+    <defName>MakeBulkMetasis</defName>
+    <label>Make Metasis in bulk</label>
+    <description>Make 5 Metasis Injections.</description>
+    <jobString>Making Metais injections.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>450</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSMetasis_Vial</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSInjector_Unit</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MSMetasis_Vial</li>
+        <li>MSInjector_Unit</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSMetasis>5</MSMetasis>
+    </products>
+    <recipeUsers>
+      <li>DrugLab</li>
+      <li>MSStimLab</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>10</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>MSMetasis</researchPrerequisite>
+  </RecipeDef>
+</Defs>

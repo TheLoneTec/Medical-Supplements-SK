@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Base -->
+  <ThingDef ParentName="ResourceBase" Name="MSExoticBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <useHitPoints>true</useHitPoints>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Mass>0.1</Mass>
+      <DeteriorationRate>1.0</DeteriorationRate>
+      <Flammability>0.2</Flammability>
+      <SellPriceFactor>0.5</SellPriceFactor>
+    </statBases>
+    <stackLimit>10</stackLimit>
+    <thingCategories>
+      <li>MSManufactured</li>
+    </thingCategories>
+    <techLevel>Industrial</techLevel>
+    <tradeability>Sellable</tradeability>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_UseEffect">
+        <compClass>MSExotic.CompUseEffect_MSExotic</compClass>
+      </li>
+      <li Class="CompProperties_UseEffectDestroySelf" />
+    </comps>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  <!-- Immunisation -->
+  <ThingDef ParentName="MSExoticBase">
+    <defName>MSImmunisation</defName>
+    <label>Immunisation Injection</label>
+    <description>A dose of self injected chemicals designed to permanently stimulate the immunity system.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Item/MSExotic/MSImmunisation/MSImmunisation</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>1000</WorkToMake>
+      <MarketValue>376.5</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Use immunisation injection</useLabel>
+        <useDuration>300</useDuration>
+      </li>
+    </comps>
+    <thingCategories Inherit="false">
+      <li>MSInjectStim</li>
+    </thingCategories>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeMSImmunisation</defName>
+    <label>Make Immunisation Injection</label>
+    <description>Make 1 Immunisation Injection</description>
+    <jobString>Making Immunisation Injection.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workSkill>Intellectual</workSkill>
+    <workAmount>1000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MedicineIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Neutroamine</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSEthylMercury</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSRimoxicillin</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MedicineIndustrial</li>
+        <li>Neutroamine</li>
+        <li>MSEthylMercury</li>
+        <li>MSRimoxicillin</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSImmunisation>1</MSImmunisation>
+    </products>
+    <skillRequirements>
+      <Crafting>8</Crafting>
+      <Intellectual>10</Intellectual>
+    </skillRequirements>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+    <researchPrerequisite>MSImmunisation</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>Inject_MSImmunisation</defName>
+    <label>Inject Immunisation</label>
+    <description>Administer immunisation injection to patient.</description>
+    <workerClass>MSExotic.Recipe_MSAdministerInject</workerClass>
+    <jobString>Injecting patient</jobString>
+    <targetsBodyPart>false</targetsBodyPart>
+    <anesthetize>false</anesthetize>
+    <workAmount>300</workAmount>
+    <dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
+    <surgerySuccessChanceFactor>99999</surgerySuccessChanceFactor>
+    <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+    <skillRequirements>
+      <Medicine>4</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSImmunisation</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSWipes</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MSImmunisation</li>
+        <li>MSWipes</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <researchPrerequisite>MSImmunisation</researchPrerequisite>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+  </RecipeDef>
+  <!-- Cerebrax -->
+  <ThingDef ParentName="MSExoticBase">
+    <defName>MSCerebrax</defName>
+    <label>Cerebrax Injection</label>
+    <description>A dose of self injected chemicals designed to permanently remove psychic susceptability.</description>
+    <techLevel>Spacer</techLevel>
+    <graphicData>
+      <texPath>Things/Item/MSExotic/MSCerebrax/MSCerebrax</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <WorkToMake>1200</WorkToMake>
+      <MarketValue>445.72</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Use Cerebrax injection</useLabel>
+        <useDuration>300</useDuration>
+      </li>
+    </comps>
+    <thingCategories Inherit="false">
+      <li>MSInjectStim</li>
+    </thingCategories>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeMSCerebrax</defName>
+    <label>Make Cerebrax Injection</label>
+    <description>Make 1 Cerebrax Injection</description>
+    <jobString>Making Cerebrax Injection.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workSkill>Intellectual</workSkill>
+    <workAmount>1200</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MedicineUltratech</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Neutroamine</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSLithiumSalts</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSClarity</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MedicineUltratech</li>
+        <li>Neutroamine</li>
+        <li>MSLithiumSalts</li>
+        <li>MSClarity</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSCerebrax>1</MSCerebrax>
+    </products>
+    <skillRequirements>
+      <Crafting>8</Crafting>
+      <Intellectual>12</Intellectual>
+    </skillRequirements>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+    <researchPrerequisite>MSCerebrax</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef ParentName="SurgeryFlesh">
+    <defName>Inject_MSCerebrax</defName>
+    <label>Inject Cerebrax</label>
+    <description>Administer Cerebrax injection to patient.</description>
+    <workerClass>MSExotic.Recipe_MSAdministerInject</workerClass>
+    <jobString>Injecting patient</jobString>
+    <targetsBodyPart>false</targetsBodyPart>
+    <anesthetize>false</anesthetize>
+    <workAmount>300</workAmount>
+    <dontShowIfAnyIngredientMissing>true</dontShowIfAnyIngredientMissing>
+    <surgerySuccessChanceFactor>99999</surgerySuccessChanceFactor>
+    <deathOnFailedSurgeryChance>0.01</deathOnFailedSurgeryChance>
+    <skillRequirements>
+      <Medicine>4</Medicine>
+    </skillRequirements>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSCerebrax</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSWipes</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MSCerebrax</li>
+        <li>MSWipes</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <researchPrerequisite>MSCerebrax</researchPrerequisite>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+  </RecipeDef>
+  <!-- Condom -->
+  <ThingDef ParentName="MSExoticBase">
+    <defName>MSCondom</defName>
+    <label>Condom</label>
+    <description>A condom is a sheath-shaped barrier device, used during sexual intercourse to reduce the probability of pregnancy or a sexually transmitted infection (STI). This version is a unisex version.</description>
+    <techLevel>Industrial</techLevel>
+    <graphicData>
+      <texPath>Things/Item/MSExotic/MSCondom/MSCondom</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToMake>240</WorkToMake>
+      <MarketValue>5</MarketValue>
+      <Mass>0.05</Mass>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Use Condom</useLabel>
+        <useDuration>250</useDuration>
+      </li>
+    </comps>
+    <thingCategories Inherit="false">
+      <li>MSDrugs</li>
+    </thingCategories>
+    <tradeability>All</tradeability>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeMSCondom</defName>
+    <label>Make Condoms</label>
+    <description>Make 5 Condoms</description>
+    <jobString>Making Condoms.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <workAmount>1200</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSGlycerol</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSPhenol</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MSGlycerol</li>
+        <li>MSPhenol</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSCondom>5</MSCondom>
+    </products>
+    <skillRequirements>
+      <Crafting>5</Crafting>
+      <Intellectual>8</Intellectual>
+    </skillRequirements>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+    <researchPrerequisite>MSProphylactics</researchPrerequisite>
+  </RecipeDef>
+  <!-- Condom Hediff -->
+  <HediffDef>
+    <defName>MSCondom_High</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>Condom Use</label>
+    <description>Condom effect</description>
+    <defaultLabelColor>(0.35, 0.58, 0.93)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>0.5</maxSeverity>
+    <initialSeverity>0.5</initialSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.95</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ToxicResistance>0.05</ToxicResistance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+</Defs>

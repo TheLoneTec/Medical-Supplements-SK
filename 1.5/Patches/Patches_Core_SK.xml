@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- ========== Default take times for drugs ================= -->
+  <Operation Class="PatchOperationSequence">
+    <success>Normal</success>
+    <operations>
+
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/TraderKindDef[defName="Caravan_Outlander_Exotic"]/stockGenerators</xpath>
+        <value>
+          <li Class="StockGenerator_Category">
+            <categoryDef>MSManufactured</categoryDef>
+            <thingDefCountRange>
+              <min>1</min>
+              <max>5</max>
+            </thingDefCountRange>
+            <totalPriceRange>
+              <min>200</min>
+              <max>400</max>
+            </totalPriceRange>
+          </li>
+        </value>
+      </li>
+
+		<li Class="PatchOperationFindMod">
+		<mods>
+			<li>Vile's Materials Science</li>
+		</mods>
+			<match Class="PatchOperationSequence">
+				<operations>
+
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[defName="makeadvmedicine_Rimoxicillin"]/ingredients</xpath>
+					<value>
+						<ingredients>
+						   <li>
+								<filter>
+									<thingDefs>
+										<li>Microchips</li>
+									</thingDefs>
+								</filter>
+								<count>2</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>MSRimoxicillin</li>
+									</thingDefs>
+								</filter>
+								<count>2</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>BiosyntheticMaterial</li>
+									</thingDefs>
+								</filter>
+								<count>4</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>IsopropylAlcohol</li>
+									</thingDefs>
+								</filter>
+								<count>5</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>Neutroamine</li>
+									</thingDefs>
+								</filter>
+								<count>3</count>
+							</li>
+							<li>
+								<filter>
+									<thingDefs>
+										<li>Micropel</li>
+									</thingDefs>
+								</filter>
+								<count>6</count>
+							</li>   
+						</ingredients>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/RecipeDef[defName="makeadvmedicine_Rimoxicillin"]/fixedIngredientFilter</xpath>
+					<value>
+						<fixedIngredientFilter>
+							<thingDefs>
+								<li>Microchips</li>
+								<li>MedicalDrink</li>
+								<li>BiosyntheticMaterial</li>
+								<li>IsopropylAlcohol</li>
+								<li>Neutroamine</li>
+								<li>Micropel</li>
+							</thingDefs>
+						</fixedIngredientFilter>
+					</value>
+				</li>
+			
+				</operations>
+			</match>
+		</li>
+		
+    </operations>
+  </Operation>
+</Patch>

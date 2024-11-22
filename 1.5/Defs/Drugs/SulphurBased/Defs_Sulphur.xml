@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ResourceBase">
+    <defName>MSSulphur</defName>
+    <label>Crystalline Sulphur</label>
+    <description>A bright yellow crystalline salt more colloquially know as brimstone. An inorganic precursor chemical. (Sourced from stone chunks).</description>
+    <graphicData>
+      <texPath>Things/Item/MSSulphur</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <!-- <drawSize>0.90</drawSize> -->
+    </graphicData>
+    <stackLimit>150</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>2.5</MarketValue>
+      <Mass>0.02</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
+    </statBases>
+    <techLevel>Medieval</techLevel>
+    <thingCategories>
+      <li>MSManufactured</li>
+    </thingCategories>
+  </ThingDef>
+  <!-- ============= Recipes ===================== -->
+  <RecipeDef>
+    <defName>MakeMSSulphur</defName>
+    <label>Grind Crystalline Sulphur</label>
+    <description>Grind 15 Sulphur.</description>
+    <jobString>Grind Sulphur.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>CutStone</effectWorking>
+    <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1200</workAmount>
+    <targetCountAdjustment>50</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSSulphur</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MSSulphur</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Sulfur>15</Sulfur>
+    </products>
+    <recipeUsers>
+      <li>TableStonecutter</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>4</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>Stonecutting</researchPrerequisite>
+  </RecipeDef>
+  <RecipeDef>
+    <defName>MakeMSSulphurBulk</defName>
+    <label>Grind Sulphur (Bulk)</label>
+    <description>Grind 30 Sulphur from blocks</description>
+    <jobString>Grind Sulphur</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>CutStone</effectWorking>
+    <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1200</workAmount>
+    <targetCountAdjustment>50</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSSulphur</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MSSulphur</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Sulfur>30</Sulfur>
+    </products>
+    <recipeUsers>
+      <li>TableStonecutter</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>5</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>Stonecutting</researchPrerequisite>
+  </RecipeDef>
+</Defs>

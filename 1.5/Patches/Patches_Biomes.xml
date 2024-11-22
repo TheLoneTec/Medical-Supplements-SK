@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Opium Poppy -->
+  
+	<Operation Class="PatchOperationSequence">
+		<operations>
+
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/BiomeDef/wildPlants[Plant_HealrootWild or Plant_Psychoid]</xpath>
+				<value>
+					<Plant_MSOpiumPoppy>0.05</Plant_MSOpiumPoppy>
+				</value>
+			</li>
+			
+		</operations>
+	</Operation>
+	
+</Patch>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="FurnitureWithQualityBase">
+    <defName>MS_DStand</defName>
+    <label>Disinfectant Stand</label>
+    <graphicData>
+      <texPath>Things/Building/Furniture/MS_DStand/MS_DStand</texPath>
+      <drawSize>(1,1)</drawSize>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shadowData>
+        <volume>(0.3, 0.6, 0.3)</volume>
+      </shadowData>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.20</fillPercent>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>495</WorkToBuild>
+      <Mass>2</Mass>
+      <Flammability>1.0</Flammability>
+      <Cleanliness>20</Cleanliness>
+      <Beauty>4</Beauty>
+    </statBases>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>100</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <ImmunityGainSpeedFactor>0.03</ImmunityGainSpeedFactor>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+      </li>
+    </comps>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>40</costStuffCount>
+    <costList>
+      <ComponentIndustrial>1</ComponentIndustrial>
+			<ElectronicComponents>3</ElectronicComponents>
+			<Mechanism>3</Mechanism>
+      <MedicineIndustrial>4</MedicineIndustrial>
+      <Uranium>2</Uranium>
+    </costList>
+    <size>(1,1)</size>
+    <description>Sterilise surrounding.</description>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <rotatable>true</rotatable>
+    <researchPrerequisites>
+      <li>MedicineProduction</li>
+      <li>SterileMaterials</li>
+    </researchPrerequisites>
+    <thingCategories Inherit="false">
+      <li>BuildingsMisc</li>
+    </thingCategories>
+    <designationCategory>Misc</designationCategory>
+  </ThingDef>
+</Defs>

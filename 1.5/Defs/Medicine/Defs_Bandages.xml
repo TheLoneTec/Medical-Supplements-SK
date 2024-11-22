@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Cotton Bandages -->
+  <ThingDef ParentName="MedicineBase">
+    <defName>MSBandage</defName>
+    <label>Sterile cotton bandages</label>
+    <description>A gauze made from sterile cotton. It can be used to tend similar to medicine but is less effective.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Medicine/MSBandage</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.95</drawSize>
+    </graphicData>
+    <techLevel>Medieval</techLevel>
+    <statBases>
+      <MarketValue>4.5</MarketValue>
+      <Mass>0.02</Mass>
+      <Flammability>1.0</Flammability>
+      <MedicalPotency>0.5</MedicalPotency>
+      <MedicalQualityMax>0.75</MedicalQualityMax>
+      <DeteriorationRate>1.5</DeteriorationRate>
+      <WorkToMake>100</WorkToMake>
+    </statBases>
+    <stackLimit>150</stackLimit>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeMSBandage</defName>
+    <label>Make bandages (cotton)</label>
+    <description>Make 10 bandages (cotton).</description>
+    <jobString>Crafting bandages.</jobString>
+    <effectWorking>Tailor</effectWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <workAmount>500</workAmount>
+    <targetCountAdjustment>10</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cloth</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSBandage>10</MSBandage>
+    </products>
+    <skillRequirements>
+      <Crafting>2</Crafting>
+      <Intellectual>3</Intellectual>
+    </skillRequirements>
+    <recipeUsers>
+      <li>DrugLab</li>
+      <li>CraftingSpot</li>
+      <li>HandTailoringBench</li>
+      <li>ElectricTailoringBench</li>
+    </recipeUsers>
+  </RecipeDef>
+  <!-- Antisceptic Bandages -->
+  <ThingDef ParentName="MedicineBase">
+    <defName>MSASBandage</defName>
+    <label>Antisceptic bandages</label>
+    <description>An antisceptic gauze made from synthread impregnated with a silver solution. It can be used to tend similar to medicine but is slightly less effective.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Medicine/MSASBandage</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.95</drawSize>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <statBases>
+      <MarketValue>9</MarketValue>
+      <Mass>0.03</Mass>
+      <Flammability>1.0</Flammability>
+      <MedicalPotency>0.85</MedicalPotency>
+      <MedicalQualityMax>0.9</MedicalQualityMax>
+      <DeteriorationRate>1.0</DeteriorationRate>
+      <WorkToMake>150</WorkToMake>
+    </statBases>
+    <stackLimit>150</stackLimit>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeMSASBandage</defName>
+    <label>Make bandages (antisceptic)</label>
+    <description>Make 10 bandages (antisceptic).</description>
+    <jobString>Crafting bandages.</jobString>
+    <effectWorking>Tailor</effectWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <workAmount>750</workAmount>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <targetCountAdjustment>10</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Synthread</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Synthread</li>
+        <li>Silver</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSASBandage>10</MSASBandage>
+    </products>
+    <skillRequirements>
+      <Crafting>3</Crafting>
+      <Intellectual>7</Intellectual>
+    </skillRequirements>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+    <researchPrerequisite>MedicineProduction</researchPrerequisite>
+  </RecipeDef>
+  <!-- Metasis Bandages -->
+  <ThingDef ParentName="MedicineBase">
+    <defName>MSNanoBandage</defName>
+    <label>Nanotech bandages</label>
+    <description>Hyperweave gauze impregnated with refined Metasis. It can be used to tend similar to medicine but is more effective.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/Medicine/MSNanoBandage</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.95</drawSize>
+    </graphicData>
+    <techLevel>Ultra</techLevel>
+    <statBases>
+      <MarketValue>39</MarketValue>
+      <Mass>0.03</Mass>
+      <Flammability>0.3</Flammability>
+      <MedicalPotency>1.5</MedicalPotency>
+      <MedicalQualityMax>1.5</MedicalQualityMax>
+      <DeteriorationRate>0.5</DeteriorationRate>
+      <WorkToMake>250</WorkToMake>
+    </statBases>
+    <stackLimit>150</stackLimit>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeMSNanoBandage</defName>
+    <label>Make bandages (Nanotech)</label>
+    <description>Make 10 bandages (Nanotech).</description>
+    <jobString>Crafting bandages.</jobString>
+    <effectWorking>Tailor</effectWorking>
+    <soundWorking>Recipe_Tailor</soundWorking>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <workAmount>1250</workAmount>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <targetCountAdjustment>10</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Hyperweave</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSMetasis_Vial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Hyperweave</li>
+        <li>MSMetasis_Vial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSNanoBandage>10</MSNanoBandage>
+    </products>
+    <skillRequirements>
+      <Crafting>7</Crafting>
+      <Intellectual>11</Intellectual>
+    </skillRequirements>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+    <researchPrerequisite>MSMetasis</researchPrerequisite>
+  </RecipeDef>
+</Defs>

@@ -11,7 +11,8 @@
     <graphicData>
       <texPath>Things/Building/Misc/MSDrugMixer/MSDrugMixer</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(4,2)</drawSize>
+	  <shaderType>CutoutComplex</shaderType>
+      <drawSize>(5,3)</drawSize>
       <damageData>
         <cornerTL>Damage/Corner</cornerTL>
         <cornerTR>Damage/Corner</cornerTR>
@@ -71,6 +72,8 @@
     <graphicData>
       <texPath>Things/Building/Misc/MSDrugMixer/MSDrugMixInput/MSDrugMixInput</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(2,2)</drawSize>
+	  <shaderType>CutoutComplex</shaderType>
       <damageData>
         <rect>(0.05,0.1,0.9,0.9)</rect>
         <cornerTL>Damage/Corner</cornerTL>
@@ -212,6 +215,8 @@
     <graphicData>
       <texPath>Things/Building/Misc/MSDrugMixer/MSDrugMixOutput/MSDrugMixOutput</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
+	  <drawSize>(2,2)</drawSize>
+	  <shaderType>CutoutComplex</shaderType>
       <damageData>
         <rect>(0.05,0.1,0.9,0.9)</rect>
         <cornerTL>Damage/Corner</cornerTL>

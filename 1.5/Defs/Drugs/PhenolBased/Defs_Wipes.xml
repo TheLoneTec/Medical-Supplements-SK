@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- =========== Antibacterial Wipes ==================== -->
+  <ThingDef ParentName="MSDrugCreamBase">
+    <defName>MSWipes</defName>
+    <label>Antibacterial Wipes</label>
+    <description>Wipes can be used for general hygiene and more specifically for helping surgeons with their procedures. Effects only last for half a day.</description>
+    <graphicData>
+      <texPath>Things/Item/MSWipes</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <thingCategories Inherit="false">
+      <li>MSDrugs</li>
+    </thingCategories>
+    <socialPropernessMatters>false</socialPropernessMatters>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>200</WorkToMake>
+      <MarketValue>2</MarketValue>
+      <Mass>0.01</Mass>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>HedMSWipes</hediffDef>
+          <severity>0.5</severity>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <listOrder>1613</listOrder>
+        <overdoseSeverityOffset>
+          <min>0.01</min>
+          <max>0.03</max>
+        </overdoseSeverityOffset>
+      </li>
+    </comps>
+  </ThingDef>
+  <HediffDef>
+    <defName>HedMSWipes</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <label>Antibacterial Wipes</label>
+    <description>Antinacterial Wipes effect</description>
+    <defaultLabelColor>(0.35, 0.58, 0.93)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>0.5</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.95</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ToxicResistance>0.05</ToxicResistance>
+          <FoodPoisonChance>-0.07</FoodPoisonChance>
+          <MedicalTendQualityOffset>+0.07</MedicalTendQualityOffset>
+          <MedicalSurgerySuccessChance>+0.05</MedicalSurgerySuccessChance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  <!-- Recipes -->
+  <RecipeDef>
+    <defName>MakeMSWipes</defName>
+    <label>Make Antibacterial Wipes</label>
+    <description>Make 5 Antibacterial wipes.</description>
+    <jobString>Making Antibacterial wipes.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>200</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSPhenol</li>
+            <li>MSHydrogenPeroxide</li>
+            <li>MSEthanol</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cloth</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MSPhenol</li>
+        <li>MSHydrogenPeroxide</li>
+        <li>MSEthanol</li>
+        <li>Cloth</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSWipes>5</MSWipes>
+    </products>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>5</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>MSWipes</researchPrerequisite>
+  </RecipeDef>
+  <!-- ===== Bulk Recipe ========= -->
+  <RecipeDef>
+    <defName>MakeBulkMSWipes</defName>
+    <label>Make Antibacterial Wipes in bulk</label>
+    <description>Make 25 Antibacterial wipes.</description>
+    <jobString>Making Antibacterial wipes.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>950</workAmount>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSPhenol</li>
+            <li>MSHydrogenPeroxide</li>
+            <li>MSEthanol</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cloth</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MSPhenol</li>
+        <li>MSHydrogenPeroxide</li>
+        <li>MSEthanol</li>
+        <li>Cloth</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSWipes>25</MSWipes>
+    </products>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>6</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>MSWipes</researchPrerequisite>
+  </RecipeDef>
+</Defs>

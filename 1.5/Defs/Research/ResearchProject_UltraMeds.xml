@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Projects -->
+  <ResearchProjectDef>
+    <defName>MSMedicineUltra</defName>
+    <label>Ultratech Medicine</label>
+    <description>Grants the ability to make Ultratech Medicine. A kit of advanced ultra-tech medical supplies, probably manufactured on a distant glitterworld. It contains advanced polymorphic drugs, nanite diagnostic and healing assisters, a mini-imager, and various multi-use tools.</description>
+    <baseCost>2500</baseCost>
+    <techLevel>Ultra</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>MedicineProduction</li>
+      <li>AdvancedFabrication</li>
+    </prerequisites>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>0.50</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MSHealerMechSerum</defName>
+    <label>Healer Mech Serum</label>
+    <description>Grants the ability to make healer mech serum. A one-use super-dose of mechanites tuned to heal health conditions. The mechanites will target and heal the single worst health condition affecting someone at any given time. Works even on health conditions that would otherwise be incurable. The mechanites can even transmute themselves into organic matter, forming new limbs or organs as needed.</description>
+    <baseCost>3000</baseCost>
+    <techLevel>Ultra</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>MSMedicineUltra</li>
+      <li>MSMetasis</li>
+    </prerequisites>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>0.90</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MSRessurectMechSerum</defName>
+    <label>Ressurector Mech Serum</label>
+    <description>Grants the ability to make ressurector mech serum. A one-use super-dose of mechanites tuned to resurrect the dead. Administered to a corpse, mechanites repair broken-down tissues and kickstart the body back to life. Unfortunately, the resurrected sometimes come back with brain damage, blindness, or progressive psychosis. Outcomes are better when the mechanites are administered to a fresher body. If a body is preserved, it can even be resurrected long after death.</description>
+    <baseCost>5000</baseCost>
+    <techLevel>Ultra</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>MSHealerMechSerum</li>
+    </prerequisites>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>5.00</researchViewX>
+    <researchViewY>1.05</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MSNeuroMechSerum</defName>
+    <label>Neurotrainer Mech Serum</label>
+    <description>Grants the ability to make neurotrainer mech serum. A one-use super-dose of mechanites tuned to train a specific skill. The dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Ultra</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>MSBattleStims</li>
+      <li>MSHealerMechSerum</li>
+    </prerequisites>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>5.00</researchViewX>
+    <researchViewY>1.90</researchViewY>
+  </ResearchProjectDef>
+</Defs>

@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Perrywinkle -->
+  <!-- Plant -->
+  <ThingDef Name="MSWildShrub" Abstract="True">
+    <graphicData>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shaderType>CutoutPlant</shaderType>
+    </graphicData>
+    <category>Plant</category>
+    <thingClass>Plant</thingClass>
+    <altitudeLayer>LowPlant</altitudeLayer>
+    <useHitPoints>True</useHitPoints>
+    <tickerType>Long</tickerType>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <Beauty>1</Beauty>
+      <Nutrition>0.1</Nutrition>
+      <Flammability>1</Flammability>
+    </statBases>
+    <neverMultiSelect>True</neverMultiSelect>
+    <drawerType>MapMeshOnly</drawerType>
+    <pathCostIgnoreRepeat>false</pathCostIgnoreRepeat>
+    <selectable>true</selectable>
+    <pathCost>20</pathCost>
+    <ingestible>
+      <foodType>Plant</foodType>
+      <preferability>RawBad</preferability>
+    </ingestible>
+    <plant>
+      <lifespanDaysPerGrowDays>8</lifespanDaysPerGrowDays>
+      <dieIfLeafless>false</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <fertilityMin>0.65</fertilityMin>
+      <fertilitySensitivity>0.8</fertilitySensitivity>
+      <soundHarvesting>Harvest_Standard</soundHarvesting>
+      <soundHarvestFinish>Harvest_Standard_Finish</soundHarvestFinish>
+      <harvestMinGrowth>0.80</harvestMinGrowth>
+      <sowWork>370</sowWork>
+      <harvestWork>230</harvestWork>
+      <harvestAfterGrowth>0.35</harvestAfterGrowth>
+      <visualSizeRange>
+        <min>0.4</min>
+        <max>1.10</max>
+      </visualSizeRange>
+      <topWindExposure>0.1</topWindExposure>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="MSWildShrub">
+    <defName>Plant_MSPerrywinkle</defName>
+    <label>Perrywinkle</label>
+    <description>Catharanthus roseus, commonly known as bright eyes, Cape periwinkle, graveyard plant, old maid, pink periwinkle, rose periwinkle, is a species of flowering plant in the dogbane family Apocynaceae. It is grown as an ornamental and medicinal plant, used to treat cancer.</description>
+    <graphicData>
+      <texPath>Things/Plant/MSPerrywinkle</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <statBases>
+      <Beauty>5</Beauty>
+      <Nutrition>0.05</Nutrition>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <ingestible />
+    <plant>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestedThingDef>MSPerrywinkleLeaves</harvestedThingDef>
+      <harvestYield>8</harvestYield>
+      <sowMinSkill>6</sowMinSkill>
+      <topWindExposure>0.2</topWindExposure>
+      <growDays>8</growDays>
+      <fertilitySensitivity>0.5</fertilitySensitivity>
+      <fertilityMin>0.5</fertilityMin>
+      <wildBiomes>
+        <TemperateForest>0.03</TemperateForest>
+        <TemperateSwamp>0.03</TemperateSwamp>
+        <TropicalRainforest>0.04</TropicalRainforest>
+        <TropicalSwamp>0.04</TropicalSwamp>
+        <BorealForest>0.02</BorealForest>
+        <ColdBog>0.02</ColdBog>
+        <AridShrubland>0.03</AridShrubland>
+        <Desert>0.01</Desert>
+      </wildBiomes>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <sowWork>350</sowWork>
+      <harvestWork>250</harvestWork>
+      <purpose>Health</purpose>
+      <sowResearchPrerequisites>
+        <li>MSPerrywinkle</li>
+      </sowResearchPrerequisites>
+    </plant>
+  </ThingDef>
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>MSPerrywinkleLeaves</defName>
+    <label>Perrywinkle Leaves</label>
+    <description>The perrywinkle leaves can be used to extract vinca alkaloids, a precursor to some chemotherapy treatments</description>
+    <graphicData>
+      <texPath>Things/Item/MSPerrywinkleLeaves/MSPerrywinkleLeaves</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.2</MarketValue>
+      <Mass>0.02</Mass>
+      <Nutrition>0.02</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.2</FoodPoisonChanceFixedHuman>
+    </statBases>
+    <thingCategories Inherit="false">
+      <li>PlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnlyForHumanlikes</preferability>
+      <foodType>Plant</foodType>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>RawVegetable_Eat</ingestSound>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>31</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <ThingDef ParentName="ResourceBase">
+    <defName>MSVincaAlkaloid</defName>
+    <label>Vinka Alkaloid</label>
+    <description>Vinca alkaloids are a set of anti-mitotic and anti-microtubule alkaloid agents originally derived from the periwinkle plant: Catharanthus roseus (basionym Vinca rosea) and other vinca plants. They block beta-tubulin polymerization in a dividing cell. This is a precursor chemical used in chemotherapy drugs.</description>
+    <graphicData>
+      <texPath>Things/Item/MSVincaAlkaloid</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <techLevel>Industrial</techLevel>
+    <stackLimit>75</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>7.4</MarketValue>
+      <Mass>0.03</Mass>
+      <Flammability>0.7</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>MSManufactured</li>
+    </thingCategories>
+  </ThingDef>
+  <RecipeDef>
+    <defName>MakeVincaAlkaloid</defName>
+    <label>Make Vinca alkaloid</label>
+    <description>Chemically synthesise 5 Vinca alkaloids</description>
+    <jobString>Synthesising Vinca alkaloids.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1200</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSPerrywinkleLeaves</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSPhenol</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MSPerrywinkleLeaves</li>
+        <li>MSPhenol</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSVincaAlkaloid>5</MSVincaAlkaloid>
+    </products>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>7</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>MSVinca</researchPrerequisite>
+  </RecipeDef>
+</Defs>

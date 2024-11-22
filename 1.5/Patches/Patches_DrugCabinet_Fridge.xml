@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  <!-- KV RimFridge -->
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="RimFridge_SingleRefrigerator"]</xpath>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/ThingDef[defName="DrugCabinetFridge"]/comps</xpath>
+          <match Class="PatchOperationConditional">
+            <xpath>/Defs/ThingDef[defName="DrugCabinetFridge"]/comps/li[@Class='RimFridge.CompProperties_Refrigerator']</xpath>
+            <match Class="PatchOperationReplace">
+              <xpath>/Defs/ThingDef[defName="DrugCabinetFridge"]/comps/li[@Class='RimFridge.CompProperties_Refrigerator']</xpath>
+              <value>
+                <li Class="RimFridge.CompProperties_Refrigerator">
+                  <drinksBestCold>
+                    <li>Beer</li>
+                    <li>RC2_Ale</li>
+                    <li>RC2_Cider</li>
+                    <li>RC2_Grog</li>
+                    <li>RC2_Stout</li>
+                  </drinksBestCold>
+                  <findAllRottableForFilters>false</findAllRottableForFilters>
+                </li>
+              </value>
+            </match>
+            <nomatch Class="PatchOperationAdd">
+              <xpath>/Defs/ThingDef[defName="DrugCabinetFridge"]/comps</xpath>
+              <value>
+                <li Class="RimFridge.CompProperties_Refrigerator">
+                  <drinksBestCold>
+                    <li>Beer</li>
+                    <li>RC2_Ale</li>
+                    <li>RC2_Cider</li>
+                    <li>RC2_Grog</li>
+                    <li>RC2_Stout</li>
+                  </drinksBestCold>
+                  <findAllRottableForFilters>false</findAllRottableForFilters>
+                </li>
+              </value>
+            </nomatch>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="DrugCabinetFridge"]</xpath>
+            <value>
+              <comps>
+                <li Class="CompProperties_Power">
+                  <compClass>CompPowerTrader</compClass>
+                  <basePowerConsumption>75</basePowerConsumption>
+                </li>
+                <li Class="CompProperties_Flickable" />
+                <li Class="CompProperties_Breakdownable" />
+                <li Class="CompProperties_Glower">
+                  <glowRadius>2.5</glowRadius>
+                  <glowColor>(89,188,255,0)</glowColor>
+                </li>
+                <li Class="RimFridge.CompProperties_Refrigerator">
+                  <drinksBestCold>
+                    <li>Beer</li>
+                    <li>RC2_Ale</li>
+                    <li>RC2_Cider</li>
+                    <li>RC2_Grog</li>
+                    <li>RC2_Stout</li>
+                  </drinksBestCold>
+                  <findAllRottableForFilters>false</findAllRottableForFilters>
+                </li>
+              </comps>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+    <nomatch Class="PatchOperationRemove">
+      <xpath>/Defs/ThingDef[defName="DrugCabinetFridge"]</xpath>
+    </nomatch>
+  </Operation>
+  <!-- ========== Drug Lab ================= -->
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="RimFridge_SingleRefrigerator"]</xpath>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationTest">
+          <xpath>/Defs/ThingDef[defName="DrugLab"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities[li = 'DrugCabinetFridge']</xpath>
+          <success>Invert</success>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="DrugLab"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities</xpath>
+          <value>
+            <li>DrugCabinetFridge</li>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <!--  GhostGear -->
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="RimFridge_SingleRefrigerator"]</xpath>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Ghost Gear (Continued)</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationTest">
+            <xpath>/Defs/ThingDef[defName="GhostGearFab"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities[li = 'DrugCabinetFridge']</xpath>
+            <success>Invert</success>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="GhostGearFab"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities</xpath>
+            <value>
+              <li>DrugCabinetFridge</li>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <!--  VFE - PRD -->
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="RimFridge_SingleRefrigerator"]</xpath>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Vanilla Furniture Expanded - Production</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationTest">
+            <xpath>/Defs/ThingDef[defName="VFE_TableDrugLabElectric"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities[li = 'DrugCabinetFridge']</xpath>
+            <success>Invert</success>
+          </li>
+          <li Class="PatchOperationAdd">
+            <xpath>/Defs/ThingDef[defName="VFE_TableDrugLabElectric"]/comps/li[@Class='CompProperties_AffectedByFacilities']/linkableFacilities</xpath>
+            <value>
+              <li>DrugCabinetFridge</li>
+            </value>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+  <!--  Deep Storage -->
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="RimFridge_SingleRefrigerator"]</xpath>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>LWM's Deep Storage</li>
+      </mods>
+      <match Class="PatchOperationSequence">
+        <success>Always</success>
+        <operations>
+          <li Class="PatchOperationConditional">
+            <xpath>/Defs/ThingDef[defName="DrugCabinetFridge"]/inspectorTabs</xpath>
+            <match Class="PatchOperationAdd">
+              <xpath>/Defs/ThingDef[defName="DrugCabinetFridge"]/inspectorTabs</xpath>
+              <value>
+                <li>LWM.DeepStorage.ITab_DeepStorage_Inventory</li>
+              </value>
+            </match>
+            <nomatch Class="PatchOperationAdd">
+              <xpath>/Defs/ThingDef[defName="DrugCabinetFridge"]</xpath>
+              <value>
+                <inspectorTabs Inherit="false">
+                  <li>ITab_Storage</li>
+                  <li>LWM.DeepStorage.ITab_DeepStorage_Inventory</li>
+                </inspectorTabs>
+              </value>
+            </nomatch>
+          </li>
+          <li Class="PatchOperationConditional">
+            <xpath>/Defs/ThingDef[defName="DrugCabinetFridge"]/comps</xpath>
+            <match Class="PatchOperationAdd">
+              <xpath>/Defs/ThingDef[defName="DrugCabinetFridge"]/comps</xpath>
+              <value>
+                <li Class="LWM.DeepStorage.Properties">
+                  <maxNumberStacks>5</maxNumberStacks>
+                  <minTimeStoringTakes>200</minTimeStoringTakes>
+                  <additionalTimeEachStack>20</additionalTimeEachStack>
+                  <additionalTimeEachDef>20</additionalTimeEachDef>
+                  <overlayType>SumOfAllItems</overlayType>
+                  <!--TODO: SumOfItemsPerCell?-->
+                </li>
+              </value>
+            </match>
+            <nomatch Class="PatchOperationAdd">
+              <xpath>/Defs/ThingDef[defName="DrugCabinetFridge"]</xpath>
+              <value>
+                <comps>
+                  <li Class="LWM.DeepStorage.Properties">
+                    <maxNumberStacks>5</maxNumberStacks>
+                    <minTimeStoringTakes>200</minTimeStoringTakes>
+                    <additionalTimeEachStack>20</additionalTimeEachStack>
+                    <additionalTimeEachDef>20</additionalTimeEachDef>
+                    <overlayType>SumOfAllItems</overlayType>
+                    <!--TODO: SumOfItemsPerCell?-->
+                  </li>
+                </comps>
+              </value>
+            </nomatch>
+          </li>
+        </operations>
+      </match>
+    </match>
+  </Operation>
+</Patch>

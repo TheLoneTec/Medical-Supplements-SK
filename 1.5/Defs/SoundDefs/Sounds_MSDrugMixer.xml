@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Sustainer Sound -->
+  <SoundDef>
+    <defName>MSDrugMixer</defName>
+    <sustain>True</sustain>
+    <context>MapOnly</context>
+    <eventNames />
+    <priorityMode>PrioritizeNearest</priorityMode>
+    <sustainStartSound>
+    </sustainStartSound>
+    <sustainStopSound>
+    </sustainStopSound>
+    <subSounds>
+      <li>
+        <muteWhenPaused>True</muteWhenPaused>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>MSDrugMixer/Mixing</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>85</min>
+          <max>85</max>
+        </volumeRange>
+        <pitchRange>
+          <min>1</min>
+          <max>1.015</max>
+        </pitchRange>
+        <distRange>
+          <min>0</min>
+          <max>20</max>
+        </distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>

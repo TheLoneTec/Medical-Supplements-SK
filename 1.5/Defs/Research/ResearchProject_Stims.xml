@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Projects -->
+  <ResearchProjectDef>
+    <defName>MSBattleStims</defName>
+    <label>Battle Stims</label>
+    <description>Grants the ability to make battle stims. Harnesses Metasis with other drugs under radioactive conditions to make battle stimulents that also have regenerative properties. There can be some nasty side effects of chemical damage to the liver or kidney aswell as a regression period to their use.</description>
+    <baseCost>4000</baseCost>
+    <techLevel>Ultra</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>MSMedicineUltra</li>
+      <li>MSMetasis</li>
+    </prerequisites>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>1.60</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>MSTranscendence</defName>
+    <label>Transcendence</label>
+    <description>Grants the ability to make Transcendence; mechanite neural trainers with more characterised skill sets.</description>
+    <baseCost>5000</baseCost>
+    <techLevel>Ultra</techLevel>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <prerequisites>
+      <li>MSNeuroMechSerum</li>
+    </prerequisites>
+    <tab>MedicalSuppTab</tab>
+    <researchViewX>6.00</researchViewX>
+    <researchViewY>1.60</researchViewY>
+  </ResearchProjectDef>
+</Defs>

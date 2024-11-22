@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--  Beacon Component -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>MSGPSBeaconMeds</defName>
+    <label>GPS Beacon (Medical)</label>
+    <description>A GPS beacon for medical supplies. A one time use component, that sends a radio burst signal to request supplies to a specific location.</description>
+    <graphicData>
+      <texPath>Things/Item/Resource/MSGPSBeaconMeds</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>50</stackLimit>
+    <techLevel>Industrial</techLevel>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <MarketValue>1600</MarketValue>
+      <Mass>0.1</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
+    </statBases>
+    <thingCategories Inherit="false">
+      <li>Items</li>
+    </thingCategories>
+    <tradeTags>
+      <li>Exotic</li>
+    </tradeTags>
+  </ThingDef>
+  <!--  Flares -->
+  <ThingDef Name="BaseMSMakeableFlare" ParentName="BaseWeapon" Abstract="True">
+    <recipeMaker>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Smith</soundWorking>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+    </recipeMaker>
+  </ThingDef>
+  <!-- Medical Supply Flare -->
+  <ThingDef ParentName="BaseMSMakeableFlare">
+    <defName>MSMedSupplyFlare</defName>
+    <label>Medical Supply Flare</label>
+    <description>Single use launcher that applies marker gas to call in medical supplies.</description>
+    <graphicData>
+      <texPath>Things/Item/MSExotic/MSMedSupplyFlare/MSMedSupplyFlare</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Grenade</soundInteract>
+    <tickerType>Normal</tickerType>
+    <recipeMaker>
+      <researchPrerequisite>MedicineProduction</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+      <recipeUsers>
+        <li>TableMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <techLevel>Industrial</techLevel>
+    <weaponTags Inherit="false">
+      <li>MSNotUsed</li>
+    </weaponTags>
+    <thingCategories Inherit="false">
+      <li>MSManufactured</li>
+    </thingCategories>
+    <generateCommonality>0.0001</generateCommonality>
+    <statBases>
+      <WorkToMake>5000</WorkToMake>
+      <Mass>1.0</Mass>
+      <RangedWeapon_Cooldown>2.66</RangedWeapon_Cooldown>
+      <Flammability>1.0</Flammability>
+      <SellPriceFactor>0.5</SellPriceFactor>
+      <MarketValue>1674</MarketValue>
+    </statBases>
+    <costList>
+      <Chemfuel>20</Chemfuel>
+      <Mechanism>1</Mechanism>
+      <ComponentIndustrial>1</ComponentIndustrial>
+      <MSGPSBeaconMeds>1</MSGPSBeaconMeds>
+    </costList>
+    <tradeTags>
+      <li>Exotic</li>
+    </tradeTags>
+    <verbs>
+      <li>
+        <label>Medical supply marker flare</label>
+        <forcedMissRadius>1.9</forcedMissRadius>
+        <verbClass>Verb_ShootOneUse</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Grenade_MSMedSupplyFlare</defaultProjectile>
+        <warmupTime>1.5</warmupTime>
+        <range>20</range>
+        <noiseRadius>4</noiseRadius>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+        <onlyManualCast>true</onlyManualCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <soundCast>ThrowGrenade</soundCast>
+        <!-- <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack> -->
+        <minRange>5</minRange>
+        <muzzleFlashScale>5</muzzleFlashScale>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef Name="BaseMSFlareProjectile" Abstract="True">
+    <category>Projectile</category>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <thingClass>Projectile_Explosive</thingClass>
+    <label>projectile</label>
+    <tickerType>Normal</tickerType>
+    <useHitPoints>False</useHitPoints>
+    <neverMultiSelect>True</neverMultiSelect>
+    <graphicData>
+      <shaderType>Transparent</shaderType>
+    </graphicData>
+    <projectile>
+      <speed>12</speed>
+      <flyOverhead>false</flyOverhead>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseMSFlareProjectile">
+    <defName>Grenade_MSMedSupplyFlare</defName>
+    <label>Medical supply flare marker</label>
+    <graphicData>
+      <texPath>Things/Item/MSExotic/MSMedSupplyFlare/MSMedSupplyFlare</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingClass>Projectile_Explosive</thingClass>
+    <projectile>
+      <damageDef>Smoke</damageDef>
+      <!-- damage amount is the damage def default -->
+      <speed>40</speed>
+      <explosionRadius>0.1</explosionRadius>
+      <flyOverhead>false</flyOverhead>
+      <soundExplode>DispensePaste</soundExplode>
+      <postExplosionSpawnThingDef>Gas_MSFlareMark</postExplosionSpawnThingDef>
+      <postExplosionSpawnChance>1</postExplosionSpawnChance>
+      <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+      <applyDamageToExplosionCellsNeighbors>false</applyDamageToExplosionCellsNeighbors>
+      <explosionDelay>50</explosionDelay>
+    </projectile>
+  </ThingDef>
+  <!-- Gas : Thing -->
+  <ThingDef>
+    <defName>Gas_MSFlareMark</defName>
+    <label>Medical Supply Marker Gas</label>
+    <category>Gas</category>
+    <altitudeLayer>Gas</altitudeLayer>
+    <useHitPoints>false</useHitPoints>
+    <tickerType>Normal</tickerType>
+    <graphicData>
+      <shaderType>Transparent</shaderType>
+      <texPath>Things/FlareGreen</texPath>
+      <drawSize>0.05</drawSize>
+      <!-- <color>(0.87,0.4,0.06,0.5)</color> -->
+      <graphicClass>Graphic_Flicker</graphicClass>
+    </graphicData>
+    <gas>
+      <expireSeconds>
+        <min>25</min>
+        <max>30</max>
+      </expireSeconds>
+      <rotationSpeed>10</rotationSpeed>
+    </gas>
+    <thingClass>MSExotic.MSMedSupplyFlare</thingClass>
+  </ThingDef>
+</Defs>

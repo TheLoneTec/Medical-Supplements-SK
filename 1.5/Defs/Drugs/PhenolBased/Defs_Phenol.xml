@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- =========== Phenol ==================== -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>MSPhenol</defName>
+    <label>Phenol</label>
+    <description>Phenol is an aromatic organic compound that is mildly acidic and requires careful handling due to its propensity to cause chemical burns. Used as a precursor chemical to form other items. (Made with Chemfuel).</description>
+    <graphicData>
+      <texPath>Things/Item/MSPhenol</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <!-- <drawSize>0.90</drawSize> -->
+    </graphicData>
+    <stackLimit>75</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>7</MarketValue>
+      <Mass>0.03</Mass>
+      <Flammability>0.7</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <thingCategories>
+      <li>MSManufactured</li>
+    </thingCategories>
+  </ThingDef>
+  <!-- ============= Recipes ===================== -->
+  <RecipeDef>
+    <defName>MakePhenol</defName>
+    <label>Make Phenol</label>
+    <description>Make 5 Phenol.</description>
+    <jobString>Preparing Phenol.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>500</workAmount>
+    <targetCountAdjustment>5</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Salt</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Chemfuel</li>
+		<li>Salt</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSPhenol>5</MSPhenol>
+    </products>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>4</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>MSPhenol</researchPrerequisite>
+  </RecipeDef>
+  <!-- ===== Bulk Recipe ===== -->
+  <RecipeDef>
+    <defName>MakeBulkPhenol</defName>
+    <label>Make Phenol in bulk</label>
+    <description>Make 25 Phenol.</description>
+    <jobString>Preparing Phenol.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>2450</workAmount>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Salt</li>
+          </thingDefs>
+        </filter>
+        <count>35</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Chemfuel</li>
+		<li>Salt</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSPhenol>25</MSPhenol>
+    </products>
+    <recipeUsers>
+      <li>DrugLab</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>5</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>MSPhenol</researchPrerequisite>
+  </RecipeDef>
+</Defs>

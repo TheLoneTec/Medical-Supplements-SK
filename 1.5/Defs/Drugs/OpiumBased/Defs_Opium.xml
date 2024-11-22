@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ======================== Opium  ==================================== -->
+  <!-- === Opium Poppy === -->
+  <ThingDef ParentName="PlantBase">
+    <defName>Plant_MSOpiumPoppy</defName>
+    <label>Opium Poppy</label>
+    <description>A species of flowering plant in the family Papaveraceae. It is the species of plant from which opium and poppy seeds are derived</description>
+    <statBases>
+      <MaxHitPoints>90</MaxHitPoints>
+      <Nutrition>0.05</Nutrition>
+      <Beauty>7</Beauty>
+    </statBases>
+    <selectable>true</selectable>
+    <pathCost>5</pathCost>
+    <graphicData>
+      <texPath>Things/Plant/MSOpiumPoppy</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <altitudeLayer>Item</altitudeLayer>
+    <hideAtSnowDepth>0.3</hideAtSnowDepth>
+    <ingestible />
+    <plant>
+      <fertilitySensitivity>0.65</fertilitySensitivity>
+      <growDays>5</growDays>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <harvestedThingDef>MSOPSeedPod</harvestedThingDef>
+      <harvestYield>4</harvestYield>
+      <sowMinSkill>9</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+        <li>Hydroponic</li>
+      </sowTags>
+      <harvestWork>150</harvestWork>
+      <visualSizeRange Inherit="false">
+        <min>0.4</min>
+        <max>0.85</max>
+      </visualSizeRange>
+      <topWindExposure>0.2</topWindExposure>
+      <wildOrder>2</wildOrder>
+      <purpose>Health</purpose>
+      <sowResearchPrerequisites>
+        <li>MSOpiumPoppy</li>
+      </sowResearchPrerequisites>
+    </plant>
+  </ThingDef>
+  <!-- === Seed Pods === -->
+  <ThingDef ParentName="RoughPlantBase">
+    <defName>MSOPSeedPod</defName>
+    <label>Opium Seed Pod</label>
+    <description>Seed pods from the opium poppy flower. These pods can be used to extract poppy seeds or opium latex.</description>
+    <graphicData>
+      <texPath>Things/Item/MSOPSeedPod/MSOPSeedPod</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>2.0</MarketValue>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>18</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>PlantMatter</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>DesperateOnly</preferability>
+    </ingestible>
+  </ThingDef>
+  <!-- Opiates -->
+  <!-- Latex -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>MSOpiumLatex</defName>
+    <label>Opium Latex</label>
+    <description>Latex produced by opium poppy seed pods, it contains a class of naturally occurring alkaloids known as opiates.</description>
+    <graphicData>
+      <texPath>Things/Item/MSOpiumLatex</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <!-- <drawSize>0.90</drawSize> -->
+    </graphicData>
+    <techLevel>Neolithic</techLevel>
+    <stackLimit>75</stackLimit>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>4.0</MarketValue>
+      <Mass>0.03</Mass>
+      <Flammability>0.7</Flammability>
+      <DeteriorationRate>1.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>MSManufactured</li>
+    </thingCategories>
+  </ThingDef>
+  <RecipeDef>
+    <defName>ExtractMSOpiumLatex</defName>
+    <label>Extract opium latex</label>
+    <description>Process opium poppy seed pods into latex.</description>
+    <jobString>processing opium poppy seed pods.</jobString>
+    <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1500</workAmount>
+    <targetCountAdjustment>10</targetCountAdjustment>
+    <workSkill>Intellectual</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSOPSeedPod</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MSOPSeedPod</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSOpiumLatex>10</MSOpiumLatex>
+    </products>
+    <recipeUsers>
+      <li>CraftingSpot</li>
+      <li>DrugLab</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Intellectual>4</Intellectual>
+    </skillRequirements>
+    <researchPrerequisite>MSOpium</researchPrerequisite>
+  </RecipeDef>
+  <!-- Seeds -->
+  <ThingDef ParentName="PlantFoodRawBase">
+    <defName>MSPoppySeeds</defName>
+    <label>Poppy Seeds</label>
+    <description>These tiny kidney-shaped seeds have been harvested from the dried seed pods of the opium poppy. The seeds can be used whole or ground into meal as an ingredient in many foods.</description>
+    <techLevel>Neolithic</techLevel>
+    <graphicData>
+      <texPath>Things/Item/MSPoppySeeds/MSPoppySeeds</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>0.8</MarketValue>
+      <Nutrition>0.04</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>2</DeteriorationRate>
+      <Mass>0.05</Mass>
+    </statBases>
+    <ingestible>
+      <foodType>VegetableOrFruit</foodType>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>80</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  <RecipeDef>
+    <defName>ExtractMSPoppySeeds</defName>
+    <label>Extract poppy seeds</label>
+    <description>Extract poppy seeds from opium poppy seed pods.</description>
+    <jobString>processing opium poppy seed pods.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1000</workAmount>
+    <targetCountAdjustment>25</targetCountAdjustment>
+    <workSkill>Cooking</workSkill>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MSOPSeedPod</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>MSOPSeedPod</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <MSPoppySeeds>25</MSPoppySeeds>
+    </products>
+    <recipeUsers>
+      <li>Campfire</li>
+      <li>FueledStove</li>
+      <li>ElectricStove</li>
+    </recipeUsers>
+    <skillRequirements>
+      <Cooking>3</Cooking>
+    </skillRequirements>
+    <researchPrerequisite>MSOpiumPoppy</researchPrerequisite>
+  </RecipeDef>
+  <!-- Opium Chemical and effects -->
+  <ChemicalDef>
+    <defName>MSOpium</defName>
+    <label>Opium dependancy</label>
+    <addictionHediff>MSOpium_Addiction</addictionHediff>
+    <toleranceHediff>MSOpium_Tolerance</toleranceHediff>
+    <canBinge>true</canBinge>
+    <onGeneratedAddictedToleranceChance>0.0</onGeneratedAddictedToleranceChance>
+  </ChemicalDef>
+  <NeedDef ParentName="DrugAddictionNeedBase">
+    <defName>Chemical_MSOpium</defName>
+    <needClass>Need_Chemical</needClass>
+    <label>Opium dependancy</label>
+    <description>Because of a opium dependancy, this person needs to regularly consume the drug to avoid withdrawal symptoms.</description>
+    <listPriority>1703</listPriority>
+	<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+  </NeedDef>
+  <HediffDef ParentName="DrugToleranceBase">
+    <defName>MSOpium_Tolerance</defName>
+    <label>opium dependency tolerance</label>
+    <description>opium dependancy tolerance effect</description>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.75</severityPerDay>
+      </li>
+      <li Class="HediffCompProperties_DrugEffectFactor">
+        <chemical>MSOpium</chemical>
+      </li>
+    </comps>
+  </HediffDef>
+  <HediffDef ParentName="AddictionBase">
+    <defName>MSOpium_Addiction</defName>
+    <hediffClass>Hediff_Addiction</hediffClass>
+    <label>opium dependency</label>
+    <description>opium dependancy effect</description>
+    <causesNeed>Chemical_MSOpium</causesNeed>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-0.1</severityPerDay>
+      </li>
+    </comps>
+    <stages>
+      <li>
+      </li>
+      <li>
+        <label>withdrawal</label>
+        <restFallFactorOffset>+0.1</restFallFactorOffset>
+        <socialFightChanceFactor>1.5</socialFightChanceFactor>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.05</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.02</offset>
+          </li>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>-0.05</offset>
+          </li>
+          <li>
+            <capacity>BloodPumping</capacity>
+            <offset>+0.05</offset>
+          </li>
+        </capMods>
+        <mentalStateGivers>
+          <li>
+            <mentalState>Binging_DrugMajor</mentalState>
+            <mtbDays>50</mtbDays>
+          </li>
+        </mentalStateGivers>
+      </li>
+    </stages>
+  </HediffDef>
+  <ThoughtDef>
+    <defName>MSOpiumWithdrawal</defName>
+    <workerClass>ThoughtWorker_Hediff</workerClass>
+    <hediff>MSOpium_Addiction</hediff>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <visible>false</visible>
+      </li>
+      <li>
+        <label>opium dependency withdrawal</label>
+        <description>I really need a pain fix, I don't function well without it.</description>
+        <baseMoodEffect>-7</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

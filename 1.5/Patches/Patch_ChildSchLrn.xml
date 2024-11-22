@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Children, school and learning</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationConditional">
+          <xpath>/Defs/HediffDef[defName="MSCondom_High"]/stages/li/capmods</xpath>
+          <match Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="MSCondom_High"]/stages/li/capmods</xpath>
+            <value>
+              <li>
+                <capacity>Fertility</capacity>
+                <offset>-1.0</offset>
+                <setMax>0.0</setMax>
+              </li>
+            </value>
+          </match>
+          <nomatch Class="PatchOperationAdd">
+            <xpath>/Defs/HediffDef[defName="MSCondom_High"]/stages/li</xpath>
+            <value>
+              <capMods>
+                <li>
+                  <capacity>Fertility</capacity>
+                  <offset>-1.0</offset>
+                  <setMax>0.0</setMax>
+                </li>
+              </capMods>
+            </value>
+          </nomatch>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <!-- KISS Version -->
+  <!--
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Children, school and learning</li>
+		</mods>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/HediffDef[defName="MSCondom_High"]/stages/li</xpath>
+			<value>
+			  <capMods>
+				<li>
+				  <capacity>Fertility</capacity>
+				  <offset>-1.0</offset>
+				  <setMax>0.0</setMax>
+				</li>
+			  </capMods>
+			</value>
+		</match>
+	</Operation>
+	-->
+</Patch>
