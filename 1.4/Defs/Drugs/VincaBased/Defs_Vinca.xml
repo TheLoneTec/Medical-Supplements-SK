@@ -89,6 +89,7 @@
       <sowResearchPrerequisites>
         <li>MSPerrywinkle</li>
       </sowResearchPrerequisites>
+      <immatureGraphicPath>Things/Plant/MSPerrywinkle_Immature</immatureGraphicPath>
     </plant>
   </ThingDef>
   <ThingDef ParentName="PlantFoodRawBase">
