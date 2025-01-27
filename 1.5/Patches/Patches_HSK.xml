@@ -224,14 +224,14 @@
 					<uiIconPath>Things/Item/MSOpiumLatex/MSOpiumLatex_c</uiIconPath>
 				</value>
 			</li>
-	
+	<!--
 			<li Class="PatchOperationFindMod">
 			<mods>
 				<li>Flora reskin [Reupload]</li>
 			</mods>
 				<match Class="PatchOperationSequence">
 					<operations>
-			
+			-->
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Plant_MSOpiumPoppy"]/graphicData/texPath</xpath>
 						<value>
@@ -245,11 +245,11 @@
 							<immatureGraphicPath>Things/Plant/MSOpiumPoppy/MSOpiumPoppy_Immature</immatureGraphicPath>
 						</value>
 					</li>
-					
+					<!--
 					</operations>
 				</match>
 			</li>
-		
+		-->
 			</operations>
 		</match>
     </Operation>
