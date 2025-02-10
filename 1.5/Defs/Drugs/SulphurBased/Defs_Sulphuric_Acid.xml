@@ -59,7 +59,7 @@
     <skillRequirements>
       <Intellectual>3</Intellectual>
     </skillRequirements>
-    <researchPrerequisite>DrugProduction</researchPrerequisite>
+    <researchPrerequisite>BiofuelRefining</researchPrerequisite>
   </RecipeDef>
   <!-- ===== Bulk Recipe ===== -->
   <RecipeDef>
@@ -98,6 +98,6 @@
     <skillRequirements>
       <Intellectual>4</Intellectual>
     </skillRequirements>
-    <researchPrerequisite>DrugProduction</researchPrerequisite>
+    <researchPrerequisite>BiofuelRefining</researchPrerequisite>
   </RecipeDef>
 </Defs>
