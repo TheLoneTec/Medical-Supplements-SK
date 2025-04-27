@@ -235,14 +235,14 @@
 					<li Class="PatchOperationReplace">
 						<xpath>Defs/ThingDef[defName="Plant_MSOpiumPoppy"]/graphicData/texPath</xpath>
 						<value>
-							<texPath>Things/Plant/MSOpiumPoppy/MSOpiumPoppy</texPath>
+							<texPath>Things/Plant/MSOpiumPoppy_FloraReskin</texPath>
 						</value>
 					</li>
 			
 					<li Class="PatchOperationAdd">
 						<xpath>Defs/ThingDef[defName="Plant_MSOpiumPoppy"]/plant</xpath>
 						<value>
-							<immatureGraphicPath>Things/Plant/MSOpiumPoppy/MSOpiumPoppy_Immature</immatureGraphicPath>
+							<immatureGraphicPath>Things/Plant/MSOpiumPoppy_Immature</immatureGraphicPath>
 						</value>
 					</li>
 					
