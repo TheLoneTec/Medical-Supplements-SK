@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSMedicalMat.label>Медицинский коврик</MSMedicalMat.label>
+  <MSMedicalMat.description>Портативный коврик, который можно использовать для медицинских целей в полевых условиях.</MSMedicalMat.description>
+  <MSMedicalMatSpacer.label>Медицинский коврик (Космический ур.)</MSMedicalMatSpacer.label>
+  <MSMedicalMatSpacer.description>Усовершенствованный портативный коврик, который можно использовать для медицинских целей в полевых условиях.</MSMedicalMatSpacer.description>
+  <MSMedicalMatUltra.label>Медицинский коврик (Ультратехнологичный ур.)</MSMedicalMatUltra.label>
+  <MSMedicalMatUltra.description>Крайне продвинутый портативный коврик, который можно использовать в медицинских целях в полевых условиях.</MSMedicalMatUltra.description>
+  <MSMedicalMatEarly.label>Медицинский коврик (Примитивный)</MSMedicalMatEarly.label>
+  <MSMedicalMatEarly.description>Портативный коврик, который можно использовать для медицинских целей в полевых условиях.</MSMedicalMatEarly.description>
+</LanguageData>

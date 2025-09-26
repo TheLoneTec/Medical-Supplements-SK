@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeMSTranscendenceVial.label>Изготовить флакон с Трансценденцией</MakeMSTranscendenceVial.label>
+  <MakeMSTranscendenceVial.description>Изготовить 1 флакон с Трансценденцией.</MakeMSTranscendenceVial.description>
+  <MakeMSTranscendenceVial.jobString>Изготавливает флакон с Трансценденцией.</MakeMSTranscendenceVial.jobString>
+  <MakeBulkMSTranscendenceVial.label>Изготовить флакон с Трансценденцией оптом</MakeBulkMSTranscendenceVial.label>
+  <MakeBulkMSTranscendenceVial.description>Изготовить 5 флаконов с Трансценденцией.</MakeBulkMSTranscendenceVial.description>
+  <MakeBulkMSTranscendenceVial.jobString>Изготавливает флаконы с Трансценденцией.</MakeBulkMSTranscendenceVial.jobString>
+  <MakeMSTranscendence_Receptive.label>Изготовить Трансценденцию (Восприимчивость)</MakeMSTranscendence_Receptive.label>
+  <MakeMSTranscendence_Receptive.description>Изготовить 1 Трансценденцию (Восприимчивость)</MakeMSTranscendence_Receptive.description>
+  <MakeMSTranscendence_Receptive.jobString>Изготавливает Трансценденцию</MakeMSTranscendence_Receptive.jobString>
+  <MakeMSTranscendence_Inventive.label>Изготовить Трансценденцию (Изобретательность)</MakeMSTranscendence_Inventive.label>
+  <MakeMSTranscendence_Inventive.description>Изготовить 1 Трансценденцию (Изобретательность)</MakeMSTranscendence_Inventive.description>
+  <MakeMSTranscendence_Inventive.jobString>Изготавливает Трансценденцию</MakeMSTranscendence_Inventive.jobString>
+  <MakeMSTranscendence_Tactical.label>Изготовить Трансценденцию (Тактичность)</MakeMSTranscendence_Tactical.label>
+  <MakeMSTranscendence_Tactical.description>Изготовить 1 Трансценденцию (Тактичность)</MakeMSTranscendence_Tactical.description>
+  <MakeMSTranscendence_Tactical.jobString>Изготавливает Трансценденцию</MakeMSTranscendence_Tactical.jobString>
+  <MakeMSTranscendence_Practical.label>Изготовить Трансценденцию (Практичность)</MakeMSTranscendence_Practical.label>
+  <MakeMSTranscendence_Practical.description>Изготовить 1 Трансценденцию (Практичность)</MakeMSTranscendence_Practical.description>
+  <MakeMSTranscendence_Practical.jobString>Изготавливает Трансценденцию</MakeMSTranscendence_Practical.jobString>
+  <MakeMSTranscendence_Analytical.label>Изготовить Трансценденцию (Аналитичность)</MakeMSTranscendence_Analytical.label>
+  <MakeMSTranscendence_Analytical.description>Изготовить 1 Трансценденцию (Аналитичность)</MakeMSTranscendence_Analytical.description>
+  <MakeMSTranscendence_Analytical.jobString>Изготавливает Трансценденцию</MakeMSTranscendence_Analytical.jobString>
+</LanguageData>

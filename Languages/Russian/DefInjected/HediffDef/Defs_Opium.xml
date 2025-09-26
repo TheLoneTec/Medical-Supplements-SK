@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSOpium_Tolerance.label>устойчивость к опиумной зависимости</MSOpium_Tolerance.label>
+  <MSOpium_Tolerance.description>действие устойчивости к опиумной зависимости</MSOpium_Tolerance.description>
+  <MSOpium_Addiction.label>опиумная зависимость</MSOpium_Addiction.label>
+  <MSOpium_Addiction.description>абстиненция при опиумной зависимости</MSOpium_Addiction.description>
+  <MSOpium_Addiction.stages.1.label>синдром отмены</MSOpium_Addiction.stages.1.label>
+  <MSOpiumWithdrawal.stages.1.label>абстиненция при опиумной зависимости</MSOpiumWithdrawal.stages.1.label>
+  <MSOpiumWithdrawal.stages.1.description>Мне очень нужно обезболивание, без него я плохо справляюсь.</MSOpiumWithdrawal.stages.1.description>
+</LanguageData>

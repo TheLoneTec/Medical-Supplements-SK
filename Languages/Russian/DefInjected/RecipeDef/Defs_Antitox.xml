@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAntitoxin.label>Изготовить антитоксин</MakeAntitoxin.label>
+  <MakeAntitoxin.description>Изготовить антитоксиновые таблетки.</MakeAntitoxin.description>
+  <MakeAntitoxin.jobString>Изготавливает антитоксин.</MakeAntitoxin.jobString>
+  <MakeBulkAntitoxin.label>Изготовить антитоксин оптом</MakeBulkAntitoxin.label>
+  <MakeBulkAntitoxin.description>Изготовить 5 антитоксиновых таблеток.</MakeBulkAntitoxin.description>
+  <MakeBulkAntitoxin.jobString>Изготавливает антитоксин.</MakeBulkAntitoxin.jobString>
+</LanguageData>

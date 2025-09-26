@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakePhenol.label>Изготовить фенол</MakePhenol.label>
+  <MakePhenol.description>Изготовить 5 молей фенола.</MakePhenol.description>
+  <MakePhenol.jobString>Получает фенол.</MakePhenol.jobString>
+  <MakeBulkPhenol.label>Изготовить фенол оптом</MakeBulkPhenol.label>
+  <MakeBulkPhenol.description>Изготовить 25 молей фенола.</MakeBulkPhenol.description>
+  <MakeBulkPhenol.jobString>Получает фенол.</MakeBulkPhenol.jobString>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeRimedicrem.label>Изготовить «Римедикрем»</MakeRimedicrem.label>
+  <MakeRimedicrem.description>Изготовить «Римедикрем».</MakeRimedicrem.description>
+  <MakeRimedicrem.jobString>Изготавливает «Римедикрем».</MakeRimedicrem.jobString>
+  <MakeBulkRimedicrem.label>Изготовить «Римедикрем» оптом</MakeBulkRimedicrem.label>
+  <MakeBulkRimedicrem.description>Изготовить 5 «Римедикремов».</MakeBulkRimedicrem.description>
+  <MakeBulkRimedicrem.jobString>Изготавливает «Римедикрем».</MakeBulkRimedicrem.jobString>
+</LanguageData>

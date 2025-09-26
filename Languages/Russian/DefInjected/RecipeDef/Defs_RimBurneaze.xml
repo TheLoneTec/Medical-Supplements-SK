@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeMSRimBurnEaze.label>Изготовить «РимБурнИз»</MakeMSRimBurnEaze.label>
+  <MakeMSRimBurnEaze.description>Изготовить «РимБурнИз».</MakeMSRimBurnEaze.description>
+  <MakeMSRimBurnEaze.jobString>Изготавливает «РимБурнИз».</MakeMSRimBurnEaze.jobString>
+  <MakeBulkMSRimBurnEaze.label>Изготовить «РимБурнИз» оптом</MakeBulkMSRimBurnEaze.label>
+  <MakeBulkMSRimBurnEaze.description>Изготовить 5 штук «РимБурнИза».</MakeBulkMSRimBurnEaze.description>
+  <MakeBulkMSRimBurnEaze.jobString>Изготавливает «РимБурнИз».</MakeBulkMSRimBurnEaze.jobString>
+</LanguageData>

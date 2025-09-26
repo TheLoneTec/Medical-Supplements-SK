@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeMSSulphur.label>Изготовить серу</MakeMSSulphur.label>
+  <MakeMSSulphur.description>Изготовить 50 серы.</MakeMSSulphur.description>
+  <MakeMSSulphur.jobString>Изготавливает серу.</MakeMSSulphur.jobString>
+  <MakeMSSulphurBlocks.label>Изготовить серу из блоков</MakeMSSulphurBlocks.label>
+  <MakeMSSulphurBlocks.description>Изготовить 50 серы из блоков.</MakeMSSulphurBlocks.description>
+  <MakeMSSulphurBlocks.jobString>Изготавливает серу.</MakeMSSulphurBlocks.jobString>
+</LanguageData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Plant_MSOpiumPoppy.label>Снотворный мак</Plant_MSOpiumPoppy.label>
+  <Plant_MSOpiumPoppy.description>Вид цветковых растений семейства маковых (Papaveraceae). Это вид растения, из которого получают опиум и семена мака.</Plant_MSOpiumPoppy.description>
+  <MSOPSeedPod.label>Стручок семян опиума</MSOPSeedPod.label>
+  <MSOPSeedPod.description>Семенные стручки из цветка снотворного мака. Эти стручки можно использовать для извлечения семян мака или опиумного латекса.</MSOPSeedPod.description>
+  <MSOpiumLatex.label>Опиумный латекс</MSOpiumLatex.label>
+  <MSOpiumLatex.description>Латекс, получаемый из стручков семян снотворного мака, содержит класс встречающихся в природе алкалоидов, известных как опиаты.</MSOpiumLatex.description>
+  <MSPoppySeeds.label>Семена мака</MSPoppySeeds.label>
+  <MSPoppySeeds.description>Эти крошечные почкообразные семена были собраны из высушенных стручков снотворного мака. Семена можно использовать целиком или перемолоть в муку в качестве ингредиента для многих блюд.</MSPoppySeeds.description>
+</LanguageData>

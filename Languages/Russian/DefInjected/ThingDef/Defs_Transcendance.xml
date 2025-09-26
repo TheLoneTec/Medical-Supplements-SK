@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSTranscendence_Vial.label>Флакон с Трансценденцией</MSTranscendence_Vial.label>
+  <MSTranscendence_Vial.description>Флакон с химикатами Трансценденции. Подготавливается в лаборатории стимуляторов.</MSTranscendence_Vial.description>
+  <MSTranscendenceBase.description>Доза самостоятельно вводимых механитов, предназначенная для повышения боевого потенциала и исцеления. Использует метазис вместе с другими препаратами в радиоактивных условиях, что обеспечивает регенеративные свойства и боевую готовность. Существует вероятность побочных эффектов, связанных с повреждением печени или почек, а также потенциальный период регрессии при их использовании. Эффект длится полдня.</MSTranscendenceBase.description>
+  <MSTranscendence_Receptive.label>Трансценденция (Восприимчивость)</MSTranscendence_Receptive.label>
+  <MSTranscendence_Receptive.description>Доза самостоятельно вводимых механитов, предназначенных для усиления способностей определенного качества. Восприимчивость может усилить навыки Животноводства и Общения.</MSTranscendence_Receptive.description>
+  <MSTranscendence_Inventive.label>Трансценденция (Изобретательность)</MSTranscendence_Inventive.label>
+  <MSTranscendence_Inventive.description>Доза самостоятельно вводимых механитов, предназначенных для усиления способностей определенного качества. Изобретательность может усилить навыки Искусства, Кулинарии и Растениеводства.</MSTranscendence_Inventive.description>
+  <MSTranscendence_Tactical.label>Трансценденция (Тактичность)</MSTranscendence_Tactical.label>
+  <MSTranscendence_Tactical.description>Доза самостоятельно вводимых механитов, предназначенных для усиления способностей определенного качества. Тактичность может усилить навыки Дальнего боя и Ближнего боя.</MSTranscendence_Tactical.description>
+  <MSTranscendence_Practical.label>Трансценденция (Практичность)</MSTranscendence_Practical.label>
+  <MSTranscendence_Practical.description>Доза самостоятельно вводимых механитов, предназначенных для усиления способностей определенного качества. Практичность может усилить навыки Строительства, Ремесла и Горного дела.</MSTranscendence_Practical.description>
+  <MSTranscendence_Analytical.label>Трансценденция (Аналитичность)</MSTranscendence_Analytical.label>
+  <MSTranscendence_Analytical.description>Доза самостоятельно вводимых механитов, предназначенных для усиления способностей определенного качества. Аналитичность может усилить навыки Умственного труда и Медицины.</MSTranscendence_Analytical.description>
+</LanguageData>

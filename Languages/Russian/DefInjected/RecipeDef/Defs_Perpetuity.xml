@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeMSPerpetuityVial.label>Изготовить флакон Вечности</MakeMSPerpetuityVial.label>
+  <MakeMSPerpetuityVial.description>Изготовить 1 флакон Вечности.</MakeMSPerpetuityVial.description>
+  <MakeMSPerpetuityVial.jobString>Изготавливает флакон Вечности.</MakeMSPerpetuityVial.jobString>
+  <MakeMSPerpetuity.label>Изготовить Вечность</MakeMSPerpetuity.label>
+  <MakeMSPerpetuity.description>Изготовить 1 Вечность.</MakeMSPerpetuity.description>
+  <MakeMSPerpetuity.jobString>Изготавливает Вечность.</MakeMSPerpetuity.jobString>
+</LanguageData>

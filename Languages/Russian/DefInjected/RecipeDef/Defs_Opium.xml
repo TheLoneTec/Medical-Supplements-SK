@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ExtractMSOpiumLatex.label>Извлечь опиумный латекс</ExtractMSOpiumLatex.label>
+  <ExtractMSOpiumLatex.description>Переработать стручки семян снотворного мака в латекс.</ExtractMSOpiumLatex.description>
+  <ExtractMSOpiumLatex.jobString>Перерабатывает стручки семян снотворного мака.</ExtractMSOpiumLatex.jobString>
+  <ExtractMSPoppySeeds.label>Извлечь семена мака</ExtractMSPoppySeeds.label>
+  <ExtractMSPoppySeeds.description>Извлечь семена мака из стручков снотворного мака.</ExtractMSPoppySeeds.description>
+  <ExtractMSPoppySeeds.jobString>Перерабатывает стручки семян снотворного мака.</ExtractMSPoppySeeds.jobString>
+</LanguageData>

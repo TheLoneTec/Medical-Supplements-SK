@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeMSBandage.label>Изготовить бинты (хлопок)</MakeMSBandage.label>
+  <MakeMSBandage.description>Изготовить 10 бинтов (хлопок).</MakeMSBandage.description>
+  <MakeMSBandage.jobString>Изготавливает бинты.</MakeMSBandage.jobString>
+  <MakeMSASBandage.label>Изготовить бинты (антисептич.)</MakeMSASBandage.label>
+  <MakeMSASBandage.description>Изготовить 10 бинтов (антисептич.)</MakeMSASBandage.description>
+  <MakeMSASBandage.jobString>Изготавливает бинты.</MakeMSASBandage.jobString>
+  <MakeMSNanoBandage.label>Изготовить бинты (нанотех.)</MakeMSNanoBandage.label>
+  <MakeMSNanoBandage.description>Изготовить 10 бинтов.</MakeMSNanoBandage.description>
+  <MakeMSNanoBandage.jobString>Изготавливает бинты.</MakeMSNanoBandage.jobString>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeMSRimSnooze.label>Изготовить снотворное</MakeMSRimSnooze.label>
+  <MakeMSRimSnooze.description>Изготовить 1 снотворное.</MakeMSRimSnooze.description>
+  <MakeMSRimSnooze.jobString>Изготавливает снотворное.</MakeMSRimSnooze.jobString>
+  <MakeBulkMSRimSnooze.label>Изготовить снотворное оптом</MakeBulkMSRimSnooze.label>
+  <MakeBulkMSRimSnooze.description>Изготовить 5 снотворных.</MakeBulkMSRimSnooze.description>
+  <MakeBulkMSRimSnooze.jobString>Изготавливает снотворное.</MakeBulkMSRimSnooze.jobString>
+</LanguageData>

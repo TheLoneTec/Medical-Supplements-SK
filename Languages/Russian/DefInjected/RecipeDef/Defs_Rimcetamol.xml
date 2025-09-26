@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeRimcetamol.label>Изготовить «Римцетамол»</MakeRimcetamol.label>
+  <MakeRimcetamol.description>Изготовить 2 таблетки «Римцетамола».</MakeRimcetamol.description>
+  <MakeRimcetamol.jobString>Изготавливает «Римцетамол».</MakeRimcetamol.jobString>
+  <MakeBulkRimcetamol.label>Изготовить «Римцетамол» оптом</MakeBulkRimcetamol.label>
+  <MakeBulkRimcetamol.description>Изготовить 10 таблеток «Римцетамола».</MakeBulkRimcetamol.description>
+  <MakeBulkRimcetamol.jobString>Изготавливает «Римцетамол».</MakeBulkRimcetamol.jobString>
+</LanguageData>

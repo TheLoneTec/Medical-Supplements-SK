@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSMedicalMat.label>Медицинские коврики</MSMedicalMat.label>
+  <MSMedicalMat.description>Позволяет изготавливать медицинские коврики. Свернутый портативный коврик, который можно использовать для медицинских целей в полевых условиях или как полезный предмет для каравана.</MSMedicalMat.description>
+  <MSMedicalMatSpacer.label>Продвинутые медицинские коврики</MSMedicalMatSpacer.label>
+  <MSMedicalMatSpacer.description>Позволяет изготавливать усовершенствованные медицинские коврики. Свернутый усовершенствованный портативный коврик, который можно использовать для медицинских целей в полевых условиях или как полезный предмет для каравана.</MSMedicalMatSpacer.description>
+  <MSMedicalMatUltra.label>Высокотехнические медицинские коврики</MSMedicalMatUltra.label>
+  <MSMedicalMatUltra.description>Позволяет изготавливать ультратехнологичные медицинские коврики. Свернутый высокотехнологичный портативный коврик, который можно использовать для медицинских целей в полевых условиях или как полезный предмет для каравана.</MSMedicalMatUltra.description>
+  <MSMedicalMatEarly.label>Примитивные медицинские коврики</MSMedicalMatEarly.label>
+  <MSMedicalMatEarly.description>Позволяет изготавливать примитивные медицинские коврики. Свернутый переносной коврик из пропитанной лекарственными травами веревки, который можно использовать для медицинских целей в полевых условиях или как полезный предмет для каравана.</MSMedicalMatEarly.description>
+</LanguageData>

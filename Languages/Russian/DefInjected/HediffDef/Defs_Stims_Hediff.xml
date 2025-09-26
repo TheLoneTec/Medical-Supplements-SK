@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSBattleStim_High.label>Боевой стимулятор</MSBattleStim_High.label>
+  <MSBattleStim_High.description>Действие боевого стимулятора</MSBattleStim_High.description>
+  <MSBattleStim_Low.label>Регрессия боевого стимулятора</MSBattleStim_Low.label>
+  <MSBattleStim_Low.description>Регрессивный эффект боевого стимулятора</MSBattleStim_Low.description>
+</LanguageData>

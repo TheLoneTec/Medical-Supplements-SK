@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSBandage.label>Стерильные хлопчатобумажные бинты</MSBandage.label>
+  <MSBandage.description>Марлевая повязка из стерильного хлопка. Она может использоваться для лечения, аналогично медикаментам, но менее эффективна.</MSBandage.description>
+  <MSASBandage.label>Антисептические бинты</MSASBandage.label>
+  <MSASBandage.description>Антисептическая марля, изготовленная из синтетической нити, пропитанной серебросодержащим раствором. Может применяться для лечения, аналогично медикаментам, но несколько менее эффективна.</MSASBandage.description>
+  <MSNanoBandage.label>Бинты (нанотех.)</MSNanoBandage.label>
+  <MSNanoBandage.description>Марля из гиперткани, пропитанная очищенным метазисом. Может применяться для лечения, аналогично медикаментам, но более эффективна.</MSNanoBandage.description>
+</LanguageData>

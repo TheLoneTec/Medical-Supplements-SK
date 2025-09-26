@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeMsMedicalMat.label>Изготовить медицинский коврик</MakeMsMedicalMat.label>
+  <MakeMsMedicalMat.description>Изготовить медицинский коврик.</MakeMsMedicalMat.description>
+  <MakeMsMedicalMat.jobString>Изготавливает медицинский коврик.</MakeMsMedicalMat.jobString>
+  <MakeMsMedicalMatSpacer.label>Изготовить медицинский коврик (Космический ур.)</MakeMsMedicalMatSpacer.label>
+  <MakeMsMedicalMatSpacer.description>Изготовить продвинутый медицинский коврик.</MakeMsMedicalMatSpacer.description>
+  <MakeMsMedicalMatSpacer.jobString>Изготавливает продвинутый медицинский коврик.</MakeMsMedicalMatSpacer.jobString>
+  <MakeMsMedicalMatUltra.label>Изготовить медицинский коврик (Ультратехнологичный ур.)</MakeMsMedicalMatUltra.label>
+  <MakeMsMedicalMatUltra.description>Изготовить высокотехнический медицинский коврик.</MakeMsMedicalMatUltra.description>
+  <MakeMsMedicalMatUltra.jobString>Изготавливает высокотехнический медицинский коврик.</MakeMsMedicalMatUltra.jobString>
+  <MakeMsMedicalMatEarly.label>Изготовить медицинский коврик (Примитивный)</MakeMsMedicalMatEarly.label>
+  <MakeMsMedicalMatEarly.description>Изготовить примитивный медицинский коврик.</MakeMsMedicalMatEarly.description>
+  <MakeMsMedicalMatEarly.jobString>Изготавливает примитивный медициский коврик.</MakeMsMedicalMatEarly.jobString>
+  <MakeMSMedicalMatPackup.label>Упаковать медицинский коврик</MakeMSMedicalMatPackup.label>
+  <MakeMSMedicalMatPackup.description>Уложить использованный медицинский коврик в мешок.</MakeMSMedicalMatPackup.description>
+  <MakeMSMedicalMatPackup.jobString>Складывает медицинский коврик.</MakeMSMedicalMatPackup.jobString>
+  <MakeMSMedicalMatSpacerPackup.label>Упаковать медицинский коврик (Космический ур.)</MakeMSMedicalMatSpacerPackup.label>
+  <MakeMSMedicalMatSpacerPackup.description>Уложить использованный продвинутый медицинский коврик в мешок.</MakeMSMedicalMatSpacerPackup.description>
+  <MakeMSMedicalMatSpacerPackup.jobString>Складывает медицинский коврик.</MakeMSMedicalMatSpacerPackup.jobString>
+  <MakeMSMedicalMatUltraPackup.label>Упаковать медицинский коврик (Ультратехнологичный ур.)</MakeMSMedicalMatUltraPackup.label>
+  <MakeMSMedicalMatUltraPackup.description>Уложить использованный высокотехнический медицинский коврик в мешок.</MakeMSMedicalMatUltraPackup.description>
+  <MakeMSMedicalMatUltraPackup.jobString>Складывает медицинский коврик.</MakeMSMedicalMatUltraPackup.jobString>
+  <MakeMSMedicalMatEarlyPackup.label>Свернуть медицинский коврик (Примитивный)</MakeMSMedicalMatEarlyPackup.label>
+  <MakeMSMedicalMatEarlyPackup.description>Свернуть использованный медицинский коврик.</MakeMSMedicalMatEarlyPackup.description>
+  <MakeMSMedicalMatEarlyPackup.jobString>Сворачивает медицинский коврик.</MakeMSMedicalMatEarlyPackup.jobString>
+</LanguageData>

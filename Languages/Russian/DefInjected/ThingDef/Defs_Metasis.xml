@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSMetasis_Vial.label>Флакон метазиса</MSMetasis_Vial.label>
+  <MSMetasis_Vial.description>Химикат метазиса. Соедините с инжектором, чтобы изготовить инъекцию метазиса.</MSMetasis_Vial.description>
+  <MSInjector_Unit.label>Инжектор</MSInjector_Unit.label>
+  <MSInjector_Unit.description>Базовая инжекторная установка, готовая к работе с механитами. Для применения соедините с химикатами механита.</MSInjector_Unit.description>
+  <MSMetasis.label>Инъекция метазиса</MSMetasis.label>
+  <MSMetasis.description>Очищенный от люцифериума, этот модифицированный состав механитов улучшает функционирование организма во всех отношениях. В процессе очистки у люцифериума исчезают наркотические свойства, но при этом пропадают некоторые преимущества. Принимать каждые 7 дней.</MSMetasis.description>
+</LanguageData>

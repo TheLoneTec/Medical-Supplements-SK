@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeMSRimCodamol.label>Изготовить «РимКодамол»</MakeMSRimCodamol.label>
+  <MakeMSRimCodamol.description>Изготовить 1 «РимКодамол»</MakeMSRimCodamol.description>
+  <MakeMSRimCodamol.jobString>Изготавливает «РимКодамол».</MakeMSRimCodamol.jobString>
+  <MakeBulkMSRimCodamol.label>Изготовить «РимКодамол» оптом</MakeBulkMSRimCodamol.label>
+  <MakeBulkMSRimCodamol.description>Изготовить 5 таблеток «РимКодамола»</MakeBulkMSRimCodamol.description>
+  <MakeBulkMSRimCodamol.jobString>Изготавливает «РимКодамол».</MakeBulkMSRimCodamol.jobString>
+  <MakeMSMorphine.label>Изготовить морфин</MakeMSMorphine.label>
+  <MakeMSMorphine.description>Изготовить 1 инъекцию морфина.</MakeMSMorphine.description>
+  <MakeMSMorphine.jobString>Изготавливает морфин.</MakeMSMorphine.jobString>
+  <MakeMSOpiumPipe.label>Изготовить опиумную трубку</MakeMSOpiumPipe.label>
+  <MakeMSOpiumPipe.description>Изготовить 1 опиумную трубку</MakeMSOpiumPipe.description>
+  <MakeMSOpiumPipe.jobString>Изготавливает опиумные трубки.</MakeMSOpiumPipe.jobString>
+</LanguageData>

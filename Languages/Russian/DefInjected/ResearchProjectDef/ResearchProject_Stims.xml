@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSBattleStims.label>Боевные стимуляторы</MSBattleStims.label>
+  <MSBattleStims.description>Позволяет изготавливать боевые стимуляторы. Использует метазис с другими препаратами в радиоактивных условиях для создания боевых стимуляторов, которые также обладают регенеративными свойствами. Могут быть неприятные побочные эффекты в виде химического воздействия на печень или почки, а также регрессивный период после их использования.</MSBattleStims.description>
+  <MSTranscendence.label>Трансценденция</MSTranscendence.label>
+  <MSTranscendence.description>Позволяет изготавливать Трансценденцию - механитный нейротренер с более характерным набором навыков.</MSTranscendence.description>
+</LanguageData>

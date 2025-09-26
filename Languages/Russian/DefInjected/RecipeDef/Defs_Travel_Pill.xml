@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeMSTravelPills.label>Изготовить дорожные пилюли</MakeMSTravelPills.label>
+  <MakeMSTravelPills.description>Изготовить 5 дорожных пилюль.</MakeMSTravelPills.description>
+  <MakeMSTravelPills.jobString>Изготавливает дорожные пилюли.</MakeMSTravelPills.jobString>
+  <MakeBulkMSTravelPills.label>Изготовить дорожные пилюли оптом</MakeBulkMSTravelPills.label>
+  <MakeBulkMSTravelPills.description>Изготовить 10 дорожных пилюль.</MakeBulkMSTravelPills.description>
+  <MakeBulkMSTravelPills.jobString>Изготавливает дорожные пилюли.</MakeBulkMSTravelPills.jobString>
+</LanguageData>

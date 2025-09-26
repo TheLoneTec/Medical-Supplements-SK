@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSGPSBeaconMeds.label>GPS-маячок (медицинский)</MSGPSBeaconMeds.label>
+  <MSGPSBeaconMeds.description>GPS-маячок для вызова медикаментов. Компонент одноразового использования, посылающий радиосигнал для запроса поставок в определенное место.</MSGPSBeaconMeds.description>
+  <MSMedSupplyFlare.label>Сигнальная ракетница для вызова медикаментов</MSMedSupplyFlare.label>
+  <MSMedSupplyFlare.description>Одноразовая пусковая установка, применяющая газ для вызова медицинского снабжения.</MSMedSupplyFlare.description>
+  <MSMedSupplyFlare.verbs.0.label>Ракета вызова медикаментов</MSMedSupplyFlare.verbs.0.label>
+  <Grenade_MSMedSupplyFlare.label>Ракета вызова медикаментов</Grenade_MSMedSupplyFlare.label>
+  <Gas_MSFlareMark.label>Газ от ракеты вызова медикаментов</Gas_MSFlareMark.label>
+</LanguageData>

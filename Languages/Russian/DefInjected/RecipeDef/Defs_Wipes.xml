@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeMSWipes.label>Изготовить антибактериальные салфетки</MakeMSWipes.label>
+  <MakeMSWipes.description>Изготовить 5 антибактериальных салфеток.</MakeMSWipes.description>
+  <MakeMSWipes.jobString>Изготавливает антибактериальные салфетки.</MakeMSWipes.jobString>
+  <MakeBulkMSWipes.label>Изготовить антибактериальные салфетки оптом</MakeBulkMSWipes.label>
+  <MakeBulkMSWipes.description>Изготовить 25 антибактериальных салфеток.</MakeBulkMSWipes.description>
+  <MakeBulkMSWipes.jobString>Изготавливает антибактериальные салфетки.</MakeBulkMSWipes.jobString>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeMSVinacol.label>Изготовить «Винакол»</MakeMSVinacol.label>
+  <MakeMSVinacol.description>Изготовить 1 таблетку «Винакола».</MakeMSVinacol.description>
+  <MakeMSVinacol.jobString>Изготавливает «Винакол».</MakeMSVinacol.jobString>
+  <MakeBulkMSVinacol.label>Изготовить «Винакол» оптом.</MakeBulkMSVinacol.label>
+  <MakeBulkMSVinacol.description>Изготовить 5 таблеток «Винакола».</MakeBulkMSVinacol.description>
+  <MakeBulkMSVinacol.jobString>Изготавливает «Винакол».</MakeBulkMSVinacol.jobString>
+</LanguageData>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeBulkInhalers.label>Изготовить ингаляторы оптом</MakeBulkInhalers.label>
+  <MakeBulkInhalers.description>Изготовить 5 ингаляторов от астмы.</MakeBulkInhalers.description>
+  <MakeBulkInhalers.jobString>Изготавливает ингаляторы.</MakeBulkInhalers.jobString>
+</LanguageData>

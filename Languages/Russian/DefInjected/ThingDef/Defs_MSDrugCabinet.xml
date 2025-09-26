@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DrugCabinet.label>Шкаф для лекарств</DrugCabinet.label>
+  <DrugCabinet.description>Небольшой шкаф для хранения лекарств. Обеспечивает небольшое повышение чистоты и увеличение производительности химических лабораторий.</DrugCabinet.description>
+  <DrugCabinetFridge.label>Шкаф для лекарств (с холодильником)</DrugCabinetFridge.label>
+  <DrugCabinetFridge.description>Небольшой шкаф для хранения лекарств. Обеспечивает небольшое повышение чистоты и увеличение производительности химических лабораторий. Эта модель холодильника также включает в себя функции охлаждения.</DrugCabinetFridge.description>
+</LanguageData>

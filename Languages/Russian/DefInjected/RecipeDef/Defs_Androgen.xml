@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeMSAndrogen.label>Изготовить андроген</MakeMSAndrogen.label>
+  <MakeMSAndrogen.description>Изготовить таблетки андрогена</MakeMSAndrogen.description>
+  <MakeMSAndrogen.jobString>Изготавливает андроген</MakeMSAndrogen.jobString>
+  <MakeBulkMSAndrogen.label>Изготовить андроген оптом</MakeBulkMSAndrogen.label>
+  <MakeBulkMSAndrogen.description>Изготовить 5 таблеток андрогена.</MakeBulkMSAndrogen.description>
+  <MakeBulkMSAndrogen.jobString>Изготавливает андроген</MakeBulkMSAndrogen.jobString>
+</LanguageData>

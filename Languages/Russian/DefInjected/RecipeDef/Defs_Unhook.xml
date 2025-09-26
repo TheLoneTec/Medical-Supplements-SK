@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeMSUnhook.label>Изготовить «Детокс»</MakeMSUnhook.label>
+  <MakeMSUnhook.description>Изготовить 1 «Детокс».</MakeMSUnhook.description>
+  <MakeMSUnhook.jobString>Изготавливает «Детокс».</MakeMSUnhook.jobString>
+  <MakeBulkMSUnhook.label>Изготовить «Детокс» оптом</MakeBulkMSUnhook.label>
+  <MakeBulkMSUnhook.description>Изготовить 5 «Детоксов».</MakeBulkMSUnhook.description>
+  <MakeBulkMSUnhook.jobString>Изготавливает «Детокс».</MakeBulkMSUnhook.jobString>
+</LanguageData>

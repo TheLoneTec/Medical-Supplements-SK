@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeRimoxicillin.label>Изготовить римоксициллин</MakeRimoxicillin.label>
+  <MakeRimoxicillin.description>Изготовить римоксициллин.</MakeRimoxicillin.description>
+  <MakeRimoxicillin.jobString>Изготавливает римоксициллин.</MakeRimoxicillin.jobString>
+  <MakeBulkRimoxicillin.label>Изготовить римоксициллин оптом</MakeBulkRimoxicillin.label>
+  <MakeBulkRimoxicillin.description>Изготовить 5 римоксициллинов.</MakeBulkRimoxicillin.description>
+  <MakeBulkRimoxicillin.jobString>Изготавливает римоксициллин.</MakeBulkRimoxicillin.jobString>
+</LanguageData>

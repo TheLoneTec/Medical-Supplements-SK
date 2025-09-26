@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSSurgeryItemsIndustrial.label>Хирургические предметы</MSSurgeryItemsIndustrial.label>
+  <MSSurgeryItemsIndustrial.description>Позволяет изготавливать предметы хирургической медицины.</MSSurgeryItemsIndustrial.description>
+  <MSSurgeryItemsSpacer.label>Продвинутые хирургические предметы</MSSurgeryItemsSpacer.label>
+  <MSSurgeryItemsSpacer.description>Позволяет изготавливать продвинутые предметы хирургической медицины.</MSSurgeryItemsSpacer.description>
+</LanguageData>

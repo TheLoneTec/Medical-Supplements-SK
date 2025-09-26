@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeMSBattleStimVial.label>Изготовить флакон с боевым стимулятором</MakeMSBattleStimVial.label>
+  <MakeMSBattleStimVial.description>Изготовить 1 флакон с боевым стимулятором.</MakeMSBattleStimVial.description>
+  <MakeMSBattleStimVial.jobString>Изготавливает флакон с боевым стимулятором.</MakeMSBattleStimVial.jobString>
+  <MakeBulkMSBattleStimVial.label>Изготовить флакон с боевым стимулятором оптом</MakeBulkMSBattleStimVial.label>
+  <MakeBulkMSBattleStimVial.description>Изготовить 5 флаконов с боевым стимулятором.</MakeBulkMSBattleStimVial.description>
+  <MakeBulkMSBattleStimVial.jobString>Изготавливает флакон с боевым стимулятором.</MakeBulkMSBattleStimVial.jobString>
+  <MakeMSBattleStim.label>Изготовить боевой стимулятор</MakeMSBattleStim.label>
+  <MakeMSBattleStim.description>Изготовить 1 боевой стимулятор.</MakeMSBattleStim.description>
+  <MakeMSBattleStim.jobString>Изготавливает боевые стимуляторы.</MakeMSBattleStim.jobString>
+  <MakeBulkMSBattleStim.label>Изготовить боевые стимуляторы оптом</MakeBulkMSBattleStim.label>
+  <MakeBulkMSBattleStim.description>Изготовить 5 боевых стимуляторов.</MakeBulkMSBattleStim.description>
+  <MakeBulkMSBattleStim.jobString>Изготавливает боевые стимуляторы.</MakeBulkMSBattleStim.jobString>
+</LanguageData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeGlycerol.label>Изготовить глицерин</MakeGlycerol.label>
+  <MakeGlycerol.description>Изготовить 5 глицерина.</MakeGlycerol.description>
+  <MakeGlycerol.jobString>Переэтерифицирует глицерин.</MakeGlycerol.jobString>
+  <MakeBulkGlycerol.label>Изготовить глицерин оптом</MakeBulkGlycerol.label>
+  <MakeBulkGlycerol.description>Изготовить 25 глицерина.</MakeBulkGlycerol.description>
+  <MakeBulkGlycerol.jobString>Переэтерифицирует глицерин.</MakeBulkGlycerol.jobString>
+</LanguageData>

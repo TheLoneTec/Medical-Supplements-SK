@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSDrugMixInput.label>Вход смесителя химических препаратов</MSDrugMixInput.label>
+  <MSDrugMixInput.description>Хранит входные ресурсы для использования смесителем химических препаратов.</MSDrugMixInput.description>
+  <MSDrugMixOutput.label>Выход смесителя химических препаратов</MSDrugMixOutput.label>
+  <MSDrugMixOutput.description>Хранит продукты, выходящие из химического смесителя для лекарств.</MSDrugMixOutput.description>
+</LanguageData>

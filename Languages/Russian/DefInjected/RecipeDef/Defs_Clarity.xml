@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeMSClarity.label>Изготовить «Кларити»</MakeMSClarity.label>
+  <MakeMSClarity.description>Изготовить 1 «Кларити»</MakeMSClarity.description>
+  <MakeMSClarity.jobString>Изготавливает «Кларити»</MakeMSClarity.jobString>
+  <MakeBulkMSClarity.label>Изготовить «Кларити» оптом</MakeBulkMSClarity.label>
+  <MakeBulkMSClarity.description>Изготовить 5 «Кларити»</MakeBulkMSClarity.description>
+  <MakeBulkMSClarity.jobString>Изготавливает «Кларити»</MakeBulkMSClarity.jobString>
+</LanguageData>

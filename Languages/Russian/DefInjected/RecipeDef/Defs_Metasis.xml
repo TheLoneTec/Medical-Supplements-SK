@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeMetasisVial.label>Изготовить флакон метазиса</MakeMetasisVial.label>
+  <MakeMetasisVial.description>Изготовить флакон метазиса.</MakeMetasisVial.description>
+  <MakeMetasisVial.jobString>Изготавливает флакон метазиса.</MakeMetasisVial.jobString>
+  <MakeBulkMetasisVial.label>Изготовить флакон метазиса оптом</MakeBulkMetasisVial.label>
+  <MakeBulkMetasisVial.description>Изготовить 5 флаконов метазиса.</MakeBulkMetasisVial.description>
+  <MakeBulkMetasisVial.jobString>Изготавливает флаконы метазиса.</MakeBulkMetasisVial.jobString>
+  <MakeMSInjectorUnit.label>Изготовить инжектор</MakeMSInjectorUnit.label>
+  <MakeMSInjectorUnit.description>Изготовить инжектор.</MakeMSInjectorUnit.description>
+  <MakeMSInjectorUnit.jobString>Изготавливает инжектор.</MakeMSInjectorUnit.jobString>
+  <MakeBulkMSInjectorUnit.label>Изготовить инжектор оптом</MakeBulkMSInjectorUnit.label>
+  <MakeBulkMSInjectorUnit.description>Изготовить 5 инжекторов.</MakeBulkMSInjectorUnit.description>
+  <MakeBulkMSInjectorUnit.jobString>Изготавливает инжекторы.</MakeBulkMSInjectorUnit.jobString>
+  <MakeBulkMetasis.label>Изготовить метазис оптом</MakeBulkMetasis.label>
+  <MakeBulkMetasis.description>Изготовить 5 инъекций метазиса.</MakeBulkMetasis.description>
+  <MakeBulkMetasis.jobString>Изготавливает инъекции метазиса.</MakeBulkMetasis.jobString>
+</LanguageData>

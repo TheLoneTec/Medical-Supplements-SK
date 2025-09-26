@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeRimtarol.label>Изготовить «Римтарол»</MakeRimtarol.label>
+  <MakeRimtarol.description>Изготовить «Римтарол».</MakeRimtarol.description>
+  <MakeRimtarol.jobString>Изготавливает «Римтарол».</MakeRimtarol.jobString>
+  <MakeBulkRimtarol.label>Изготовить «Римтарол» оптом</MakeBulkRimtarol.label>
+  <MakeBulkRimtarol.description>Изготовить 5 таблеток «Римтарола».</MakeBulkRimtarol.description>
+  <MakeBulkRimtarol.jobString>Изготавливает «Римтарол».</MakeBulkRimtarol.jobString>
+</LanguageData>

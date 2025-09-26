@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeBulkAspirin.label>Изготовить аспирин оптом</MakeBulkAspirin.label>
+  <MakeBulkAspirin.description>Изготовить 5 таблеток аспирина.</MakeBulkAspirin.description>
+  <MakeBulkAspirin.jobString>Изготавливает аспирин.</MakeBulkAspirin.jobString>
+</LanguageData>

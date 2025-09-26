@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSMedicalMatItem.label>Упакованный медицинский коврик</MSMedicalMatItem.label>
+  <MSMedicalMatItem.description>Упакованный портативный медицинский коврик, который можно использовать для медицинских целей в полевых условиях или как полезный предмет для каравана.</MSMedicalMatItem.description>
+  <MSMedicalMatSpacerItem.label>Упакованный медицинский коврик (Космический ур.)</MSMedicalMatSpacerItem.label>
+  <MSMedicalMatSpacerItem.description>Упакованный продвинутый портативный медицинский коврик, который можно использовать для медицинских целей в полевых условиях или как полезный предмет для каравана.</MSMedicalMatSpacerItem.description>
+  <MSMedicalMatUltraItem.label>Упакованный медицинский коврик (Ультратехнологичный ур.)</MSMedicalMatUltraItem.label>
+  <MSMedicalMatUltraItem.description>Упакованный высокотехнический портативный медицинский коврик, который можно использовать для медицинских целей в полевых условиях или как полезный предмет для каравана.</MSMedicalMatUltraItem.description>
+  <MSMedicalMatEarlyItem.label>Свернутый в рулон медицинский коврик (Примитивный)</MSMedicalMatEarlyItem.label>
+  <MSMedicalMatEarlyItem.description>Свернутый портативный коврик из пропитанной лекарственными травами веревки, который можно использовать для медицинских целей в полевых условиях или как полезный предмет для каравана.</MSMedicalMatEarlyItem.description>
+</LanguageData>

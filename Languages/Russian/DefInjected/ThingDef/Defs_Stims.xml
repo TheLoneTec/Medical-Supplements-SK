@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSBattleStim_Vial.label>Флакон с боевым стимулятором</MSBattleStim_Vial.label>
+  <MSBattleStim_Vial.description>Флакон с реагентом боевого стимулятора. Готовится в лаборатории стимуляторов.</MSBattleStim_Vial.description>
+  <MSBattleStim.label>Боевой стимулятор</MSBattleStim.label>
+  <MSBattleStim.description>Доза самостоятельно вводимых механитов, предназначенная для повышения боевого потенциала и исцеления. Использует метазис с другими препаратами в радиоактивных условиях для создания боевых стимуляторов, которые также обладают регенеративными свойствами. Могут быть неприятные побочные эффекты в виде химического воздействия на печень или почки, а также регрессивный период после их использования. Эффект длится половину дня.</MSBattleStim.description>
+  <MSBattleStimBelt.label>Боевой стимулятор (снаряжение)</MSBattleStimBelt.label>
+  <MSBattleStimBelt.description>Боевой стимулятор, прикрепляемый к любому поясу или к области талии в качестве дополнительного снаряжения.</MSBattleStimBelt.description>
+</LanguageData>

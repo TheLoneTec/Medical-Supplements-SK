@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeMSSulphuricAcid.label>Изготовить серную кислоту</MakeMSSulphuricAcid.label>
+  <MakeMSSulphuricAcid.description>Изготовить 5 серной кислоты.</MakeMSSulphuricAcid.description>
+  <MakeMSSulphuricAcid.jobString>Приготавливает серную кислоту.</MakeMSSulphuricAcid.jobString>
+  <MakeBulkMSSulphuricAcid.label>Изготовить серную кислоту оптом</MakeBulkMSSulphuricAcid.label>
+  <MakeBulkMSSulphuricAcid.description>Изготовить 25 серной кислоты.</MakeBulkMSSulphuricAcid.description>
+  <MakeBulkMSSulphuricAcid.jobString>Приготавливает серную кислоту.</MakeBulkMSSulphuricAcid.jobString>
+</LanguageData>

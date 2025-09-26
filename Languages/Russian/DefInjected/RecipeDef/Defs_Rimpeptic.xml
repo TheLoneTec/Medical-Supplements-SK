@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeRimpeptic.label>Изготовить римпептик</MakeRimpeptic.label>
+  <MakeRimpeptic.description>Изготовить 5 римпептиков.</MakeRimpeptic.description>
+  <MakeRimpeptic.jobString>Изготавливает римпептик.</MakeRimpeptic.jobString>
+  <MakeBulkRimpeptic.label>Изготовить римпептик оптом</MakeBulkRimpeptic.label>
+  <MakeBulkRimpeptic.description>Изготовить 25 римпептиков.</MakeBulkRimpeptic.description>
+  <MakeBulkRimpeptic.jobString>Изготавливает римпептик.</MakeBulkRimpeptic.jobString>
+</LanguageData>

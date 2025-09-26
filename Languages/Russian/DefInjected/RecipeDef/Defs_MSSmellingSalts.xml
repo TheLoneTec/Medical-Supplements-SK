@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeMSSmellSalts.label>Изготовить капсулы с нюхательной солью</MakeMSSmellSalts.label>
+  <MakeMSSmellSalts.description>Изготовить 3 капсулы с нюхательной солью.</MakeMSSmellSalts.description>
+  <MakeMSSmellSalts.jobString>Изготавливает капсулы с нюхательной солью.</MakeMSSmellSalts.jobString>
+  <MakeBulkMSSmellSalts.label>Изготовить капсулы с нюхательной солью оптом</MakeBulkMSSmellSalts.label>
+  <MakeBulkMSSmellSalts.description>Изготовить 15 капсул с нюхательной солью.</MakeBulkMSSmellSalts.description>
+  <MakeBulkMSSmellSalts.jobString>Изготавливает капсулы с нюхательной солью.</MakeBulkMSSmellSalts.jobString>
+</LanguageData>

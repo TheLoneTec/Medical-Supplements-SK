@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSBulkMedicine.label>Изготовить медикаменты оптом</MSBulkMedicine.label>
+  <MSBulkMedicine.description>Изготовить 5 медикаментов.</MSBulkMedicine.description>
+  <MSBulkMedicine.jobString>Изготавливает медикаменты.</MSBulkMedicine.jobString>
+  <MakeMSUltraMedicine.label>Изготовить ультрамедикаменты</MakeMSUltraMedicine.label>
+  <MakeMSUltraMedicine.description>Изготовить 1 ультрамедикамент</MakeMSUltraMedicine.description>
+  <MakeMSUltraMedicine.jobString>Изготавливает ультрамедикаменты.</MakeMSUltraMedicine.jobString>
+  <MakeMSHealerMechSerum.label>Изготовить сыворотку исцеления</MakeMSHealerMechSerum.label>
+  <MakeMSHealerMechSerum.description>Изготовить 1 сыворотку исцеления</MakeMSHealerMechSerum.description>
+  <MakeMSHealerMechSerum.jobString>Изготавливает сыворотку исцеления.</MakeMSHealerMechSerum.jobString>
+  <MakeMSRessurectorMechSerum.label>Изготовить сыворотку воскрешения</MakeMSRessurectorMechSerum.label>
+  <MakeMSRessurectorMechSerum.description>Изготовить 1 сыворотку воскрешения</MakeMSRessurectorMechSerum.description>
+  <MakeMSRessurectorMechSerum.jobString>Изготавливает сыворотку воскрешения.</MakeMSRessurectorMechSerum.jobString>
+  <MakeMSNTMechSerum.jobString>Изготавливает нейротренер.</MakeMSNTMechSerum.jobString>
+  <MakeMSNTMechSerumShooting.label>Изготовить нейротренер (Дальный бой)</MakeMSNTMechSerumShooting.label>
+  <MakeMSNTMechSerumShooting.description>Изготовить 1 нейротренер (Дальный бой)</MakeMSNTMechSerumShooting.description>
+  <MakeMSNTMechSerumMelee.label>Изготовить нейротренер (Ближний бой)</MakeMSNTMechSerumMelee.label>
+  <MakeMSNTMechSerumMelee.description>Изготовить 1 нейротренер (Ближний бой)</MakeMSNTMechSerumMelee.description>
+  <MakeMSNTMechSerumConstruction.label>Изготовить нейротренер (Строительство)</MakeMSNTMechSerumConstruction.label>
+  <MakeMSNTMechSerumConstruction.description>Изготовить 1 нейротренер (Строительство)</MakeMSNTMechSerumConstruction.description>
+  <MakeMSNTMechSerumPlants.label>Изготовить нейротренер (Растениеводство)</MakeMSNTMechSerumPlants.label>
+  <MakeMSNTMechSerumPlants.description>Изготовить 1 нейротренер (Растениеводство)</MakeMSNTMechSerumPlants.description>
+  <MakeMSNTMechSerumIntellectual.label>Изготовить нейротренер (Умственный труд)</MakeMSNTMechSerumIntellectual.label>
+  <MakeMSNTMechSerumIntellectual.description>Изготовить 1 нейротренер (Умственный труд)</MakeMSNTMechSerumIntellectual.description>
+  <MakeMSNTMechSerumMining.label>Изготовить нейротренер (Горное дело)</MakeMSNTMechSerumMining.label>
+  <MakeMSNTMechSerumMining.description>Изготовить 1 нейротренер (Горное дело)</MakeMSNTMechSerumMining.description>
+  <MakeMSNTMechSerumSocial.label>Изготовить нейротренер (Общение)</MakeMSNTMechSerumSocial.label>
+  <MakeMSNTMechSerumSocial.description>Изготовить 1 нейротренер (Общение)</MakeMSNTMechSerumSocial.description>
+  <MakeMSNTMechSerumAnimals.label>Изготовить нейротренер (Животноводство)</MakeMSNTMechSerumAnimals.label>
+  <MakeMSNTMechSerumAnimals.description>Изготовить 1 нейротренер (Животноводство)</MakeMSNTMechSerumAnimals.description>
+  <MakeMSNTMechSerumCooking.label>Изготовить нейротренер (Кулинария)</MakeMSNTMechSerumCooking.label>
+  <MakeMSNTMechSerumCooking.description>Изготовить 1 нейротренер (Кулинария)</MakeMSNTMechSerumCooking.description>
+  <MakeMSNTMechSerumMedicine.label>Изготовить нейротренер (Медицина)</MakeMSNTMechSerumMedicine.label>
+  <MakeMSNTMechSerumMedicine.description>Изготовить 1 нейротренер (Медицина)</MakeMSNTMechSerumMedicine.description>
+  <MakeMSNTMechSerumArtistic.label>Изготовить нейротренер (Искусство)</MakeMSNTMechSerumArtistic.label>
+  <MakeMSNTMechSerumArtistic.description>Изготовить 1 нейротренер (Искусство)</MakeMSNTMechSerumArtistic.description>
+  <MakeMSNTMechSerumCrafting.label>Изготовить нейротренер (Ремесло)</MakeMSNTMechSerumCrafting.label>
+  <MakeMSNTMechSerumCrafting.description>Изготовить 1 нейротренер (Ремесло)</MakeMSNTMechSerumCrafting.description>
+</LanguageData>

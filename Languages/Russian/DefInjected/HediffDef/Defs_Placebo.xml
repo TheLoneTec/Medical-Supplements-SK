@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MSPlacebo_High.label>Плацебо</MSPlacebo_High.label>
+  <MSPlacebo_High.description>Действие плацебо</MSPlacebo_High.description>
+  <MSMental_Tolerance.label>устойчивость к психической зависимости</MSMental_Tolerance.label>
+  <MSMental_Tolerance.description>устойчивость к психической зависимости</MSMental_Tolerance.description>
+  <MSMental_Addiction.label>психическая зависимость</MSMental_Addiction.label>
+  <MSMental_Addiction.description>действие психологической зависимости</MSMental_Addiction.description>
+  <MSMental_Addiction.stages.0.label>синдром отмены</MSMental_Addiction.stages.0.label>
+</LanguageData>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeNeutroFromGlycerol.label>Изготовить нейтроамин</MakeNeutroFromGlycerol.label>
+  <MakeNeutroFromGlycerol.description>Изготовить 5 нейтроаминов.</MakeNeutroFromGlycerol.description>
+  <MakeNeutroFromGlycerol.jobString>Очищает нейтроамин.</MakeNeutroFromGlycerol.jobString>
+  <MakeBulkNeutroFromGlycerol.label>Изготовить нейтроамин оптом</MakeBulkNeutroFromGlycerol.label>
+  <MakeBulkNeutroFromGlycerol.description>Изготовить 25 нейтроаминов.</MakeBulkNeutroFromGlycerol.description>
+  <MakeBulkNeutroFromGlycerol.jobString>Очищает нейтроамин.</MakeBulkNeutroFromGlycerol.jobString>
+  <MakeFineMealGlycerol.label>Улучшить простое блюдо</MakeFineMealGlycerol.label>
+  <MakeFineMealGlycerol.description>Улучшить простое блюдо с помощью глицерина.</MakeFineMealGlycerol.description>
+  <MakeFineMealGlycerol.jobString>Готовит вкусное блюдо из глицерина.</MakeFineMealGlycerol.jobString>
+  <MakeBulkFineMealGlycerol.label>Улучшить простое блюдо x5</MakeBulkFineMealGlycerol.label>
+  <MakeBulkFineMealGlycerol.description>Улучшить 5 простых блюд с помощью глицерина.</MakeBulkFineMealGlycerol.description>
+  <MakeBulkFineMealGlycerol.jobString>Готовит вкусное блюдо из глицерина.</MakeBulkFineMealGlycerol.jobString>
+</LanguageData>

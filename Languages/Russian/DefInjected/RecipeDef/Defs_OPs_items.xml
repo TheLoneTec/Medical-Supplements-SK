@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeMSStent.label>Изготовить стент</MakeMSStent.label>
+  <MakeMSStent.description>Изготовить стент.</MakeMSStent.description>
+  <MakeMSStent.jobString>Изготавливает стент.</MakeMSStent.jobString>
+  <MSArterialStent.label>установить артериальный стент</MSArterialStent.label>
+  <MSArterialStent.description>Установить артериальный стент для устранения закупорки артерии.</MSArterialStent.description>
+  <MSArterialStent.jobString>Устанавливает стент.</MSArterialStent.jobString>
+  <MakeMSBackDisc.label>Изготовить искуственный межпозвоночный диск</MakeMSBackDisc.label>
+  <MakeMSBackDisc.description>Изготовить искуственный межпозвоночный диск.</MakeMSBackDisc.description>
+  <MakeMSBackDisc.jobString>Изготавливает искуственный межпозвоночный диск.</MakeMSBackDisc.jobString>
+  <MSBadBackDiscs.label>вставить искуственные межпозвоночные диски</MSBadBackDiscs.label>
+  <MSBadBackDiscs.description>вставить искуственные межпозвоночные диски.</MSBadBackDiscs.description>
+  <MSBadBackDiscs.jobString>Устанавливает межпозвоночные диски.</MSBadBackDiscs.jobString>
+  <MakeMSAdvSurgeryTools.label>Изготовить продвинутые хирургические инструменты</MakeMSAdvSurgeryTools.label>
+  <MakeMSAdvSurgeryTools.description>Изготовить продвинутый набор инструментов для хирургии.</MakeMSAdvSurgeryTools.description>
+  <MakeMSAdvSurgeryTools.jobString>Изготавливает продвинутые хирургические инструменты.</MakeMSAdvSurgeryTools.jobString>
+  <MSCataractRemoval.label>удалить катаракту</MSCataractRemoval.label>
+  <MSCataractRemoval.description>удалить катаракту.</MSCataractRemoval.description>
+  <MSCataractRemoval.jobString>Удаляет катаракту.</MSCataractRemoval.jobString>
+</LanguageData>

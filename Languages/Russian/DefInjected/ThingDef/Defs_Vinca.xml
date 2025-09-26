@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Plant_MSPerrywinkle.label>Барвинок</Plant_MSPerrywinkle.label>
+  <Plant_MSPerrywinkle.description>Catharanthus roseus, - широко известный как катарантус, барвинок, лохнера, - является видом цветковых растений семейства Кутровых (Apocynaceae). Его выращивают как декоративное растение и как лечебное, применяемое против рака.</Plant_MSPerrywinkle.description>
+  <MSPerrywinkleLeaves.label>Листья барвинка</MSPerrywinkleLeaves.label>
+  <MSPerrywinkleLeaves.description>Листья барвинка можно использовать для извлечения алкалоидов барвинка - прекурсора некоторых химиотерапевтических препаратов.</MSPerrywinkleLeaves.description>
+  <MSVincaAlkaloid.label>Алкалоид барвинка</MSVincaAlkaloid.label>
+  <MSVincaAlkaloid.description>Алкалоиды барвинка - это комплекс антимитотических и антимикротрубочковых алкалоидных агентов, первоначально полученных из растения барвинок: Catharanthus roseus (базионим Vinca rosea) и других растений семейства Vinca. Они блокируют полимеризацию бета-тубулина в делящейся клетке. Этот химикат-предшественник используется в химиотерапевтических препаратах.</MSVincaAlkaloid.description>
+</LanguageData>

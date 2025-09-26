@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeMSMultiVitamins.label>Изготовить мультивитамины</MakeMSMultiVitamins.label>
+  <MakeMSMultiVitamins.description>Изготовить 5 мультивитаминов.</MakeMSMultiVitamins.description>
+  <MakeMSMultiVitamins.jobString>Изготавливает мультивитамины.</MakeMSMultiVitamins.jobString>
+  <MakeBulkMSMultiVitamins.label>Изготовить мультивитамины оптом</MakeBulkMSMultiVitamins.label>
+  <MakeBulkMSMultiVitamins.description>Изготовить 25 мультивитаминов</MakeBulkMSMultiVitamins.description>
+  <MakeBulkMSMultiVitamins.jobString>Изготавливает мультивитамины.</MakeBulkMSMultiVitamins.jobString>
+</LanguageData>

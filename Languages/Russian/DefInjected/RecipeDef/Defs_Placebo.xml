@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeMSPlacebo.label>Изготовить плацебо</MakeMSPlacebo.label>
+  <MakeMSPlacebo.description>Изготовить 1 плацебо</MakeMSPlacebo.description>
+  <MakeMSPlacebo.jobString>Изготавливает плацебо</MakeMSPlacebo.jobString>
+  <MakeBulkMSPlacebo.label>Изготовить плацебо оптом</MakeBulkMSPlacebo.label>
+  <MakeBulkMSPlacebo.description>Изготовить 5 плацебо</MakeBulkMSPlacebo.description>
+  <MakeBulkMSPlacebo.jobString>Изготавливает плацебо</MakeBulkMSPlacebo.jobString>
+</LanguageData>

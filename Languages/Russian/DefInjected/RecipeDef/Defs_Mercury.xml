@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeMSEthylMercury.label>Изготовить этилртуть</MakeMSEthylMercury.label>
+  <MakeMSEthylMercury.description>Изготовить 1 этилртуть.</MakeMSEthylMercury.description>
+  <MakeMSEthylMercury.jobString>Изготавливает этилртуть.</MakeMSEthylMercury.jobString>
+  <MakeMSMercurySalts.label>Изготовить соли ртути</MakeMSMercurySalts.label>
+  <MakeMSMercurySalts.description>Изготовить 5 солей ртути.</MakeMSMercurySalts.description>
+  <MakeMSMercurySalts.jobString>Изготавливает соли ртути.</MakeMSMercurySalts.jobString>
+  <MakeMSMercurySaltsBlocks.label>Изготовить соли ртути из блоков</MakeMSMercurySaltsBlocks.label>
+  <MakeMSMercurySaltsBlocks.description>Изготовить 5 солей ртути  из каменных блоков.</MakeMSMercurySaltsBlocks.description>
+  <MakeMSMercurySaltsBlocks.jobString>Изготавливает соли ртути.</MakeMSMercurySaltsBlocks.jobString>
+</LanguageData>

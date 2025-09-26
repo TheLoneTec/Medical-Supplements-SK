@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeMSHydrogenPeroxide.label>Изготовить перекись водорода</MakeMSHydrogenPeroxide.label>
+  <MakeMSHydrogenPeroxide.description>Изготовить 5 перекисей водорода.</MakeMSHydrogenPeroxide.description>
+  <MakeMSHydrogenPeroxide.jobString>Получает перекись водорода.</MakeMSHydrogenPeroxide.jobString>
+  <MakeBulkMSHydrogenPeroxide.label>Изготовить перекись водорода оптом</MakeBulkMSHydrogenPeroxide.label>
+  <MakeBulkMSHydrogenPeroxide.description>Изготовить 25 перекисей водорода.</MakeBulkMSHydrogenPeroxide.description>
+  <MakeBulkMSHydrogenPeroxide.jobString>Получает перекись водорода.</MakeBulkMSHydrogenPeroxide.jobString>
+</LanguageData>

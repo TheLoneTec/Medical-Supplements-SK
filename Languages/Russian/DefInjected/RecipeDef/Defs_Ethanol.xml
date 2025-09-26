@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeMSEthanol.label>Изготовить этиловый спирт</MakeMSEthanol.label>
+  <MakeMSEthanol.description>Изготовить 5 этилового спирта</MakeMSEthanol.description>
+  <MakeMSEthanol.jobString>Изготавливает этиловый спирт.</MakeMSEthanol.jobString>
+  <MakeBulkMSEthanol.label>Изготовить этиловый спирт оптом</MakeBulkMSEthanol.label>
+  <MakeBulkMSEthanol.description>Изготовить 25 этилового спирта.</MakeBulkMSEthanol.description>
+  <MakeBulkMSEthanol.jobString>Изготавливает этиловый спирт.</MakeBulkMSEthanol.jobString>
+</LanguageData>

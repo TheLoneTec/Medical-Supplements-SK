@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <MakeAntinitesVial.label>Изготовить флакон антинитов</MakeAntinitesVial.label>
+  <MakeAntinitesVial.description>Изготовить флакон антинитов.</MakeAntinitesVial.description>
+  <MakeAntinitesVial.jobString>Изготавливает флакон антинитов.</MakeAntinitesVial.jobString>
+  <MakeBulkAntinitesVial.label>Изготовить флакон антинитов оптом</MakeBulkAntinitesVial.label>
+  <MakeBulkAntinitesVial.description>Изготовить 5 флаконов антинитов.</MakeBulkAntinitesVial.description>
+  <MakeBulkAntinitesVial.jobString>Изготавливает флаконы антинитов.</MakeBulkAntinitesVial.jobString>
+  <MakeBulkAntinites.label>Изготовить антиниты оптом</MakeBulkAntinites.label>
+  <MakeBulkAntinites.description>Изготовить 5 инъекций антинитов.</MakeBulkAntinites.description>
+  <MakeBulkAntinites.jobString>Изготавливает инъекции антинитов.</MakeBulkAntinites.jobString>
+</LanguageData>
