@@ -98,6 +98,39 @@
     <skillRequirements>
       <Intellectual>4</Intellectual>
     </skillRequirements>
-    <researchPrerequisite>BiofuelRefining</researchPrerequisite>
+    <researchPrerequisite>Chemistry_C2</researchPrerequisite>
   </RecipeDef>
+  
+  	<RecipeDef ParentName="GlitterpediaModExtBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeBulkMSSulphuricAcid_UF</defName>
+		<label>Make Sulphuric Acid x5</label>
+		<description>Make 5 Sulphuric Acid. Takes 1 days to make</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Sulfur</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Sulfur</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<MSSulphuricAcid>5</MSSulphuricAcid>
+		</products>
+		<recipeUsers>
+			<li>BiofuelRefinery</li>
+		</recipeUsers>
+		<researchPrerequisite>BiofuelRefining</researchPrerequisite>
+
+		<!-- RecipeDef_UF fields -->
+		<ruinedPerDegreePerHour>0</ruinedPerDegreePerHour>
+		<usesTemperature>false</usesTemperature>
+		<processDays>1</processDays>
+	</RecipeDef>
 </Defs>
